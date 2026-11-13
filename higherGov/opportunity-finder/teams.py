@@ -10,16 +10,57 @@ import urllib.error
 import urllib.request
 
 import proposal
+import teams_graph
 
 ROWS_PER_CARD = 10  # Rich briefs need more room than the compact table did.
 BRIEFS_PER_CARD = 2
 MAX_TEXT = 420
 BRIEF_INTRO = "HI Team, kindly check if we can bid on this. Thank you~"
 BRIEF_FOOTER = "Let me know if this isn't applicable or already been suggested, thanks!"
+_last_send = {"destination": "", "sent_keys": [], "sent_solicitations": [],
+              "duplicates": [], "duplicate_solicitations": [], "unverified": [], "cards": 0}
 
 
-def webhook():
+def send_target():
+    return (proposal.env_value("TEAMS_SEND_TARGET") or "gov").strip().lower()
+
+
+def webhook(target=None):
+    target = (target or send_target()).strip().lower()
+    if target in {"test", "personal"}:
+        return proposal.env_value("TEAMS_TEST_WEBHOOK_URL")
     return proposal.env_value("TEAMS_WEBHOOK_URL")
+
+
+def duplicate_check_configured():
+    return teams_graph.enabled() and teams_graph.configured()
+
+
+def last_send_info():
+    return {k: list(v) if isinstance(v, list) else v for k, v in _last_send.items()}
+
+
+def _solicitation(row):
+    return " ".join(str(row.get("Solicitation #") or row.get("Solicitation") or row.get("source_id") or "").split())
+
+
+def _filter_duplicates(rows):
+    if not teams_graph.enabled():
+        return list(rows), [], []
+    send, duplicates, unverified = [], [], []
+    for row in rows:
+        solicitation = _solicitation(row)
+        if not solicitation:
+            unverified.append(row)
+        elif teams_graph.has_solicitation(solicitation):
+            duplicates.append(row)
+        else:
+            send.append(row)
+    strict = (proposal.env_value("TEAMS_DUPLICATE_CHECK_STRICT") or "on").lower() in {"1", "true", "on", "yes"}
+    if not strict:
+        send.extend(unverified)
+        unverified = []
+    return send, duplicates, unverified
 
 
 def _verdict(r):
@@ -243,14 +284,26 @@ def _card(title, subtitle, rows):
 
 
 def send_rows(rows, title, subtitle="", format="table"):
-    """Post rows as compact tables or detailed bid briefs."""
+    """Post rows as compact tables or detailed bid briefs after duplicate checks."""
     url = webhook()
     if not url:
-        raise RuntimeError("No TEAMS_WEBHOOK_URL in gov-con/.env.local.")
+        target = send_target()
+        expected = "TEAMS_TEST_WEBHOOK_URL" if target in {"test", "personal"} else "TEAMS_WEBHOOK_URL"
+        raise RuntimeError(f"No {expected} in gov-con/.env.local.")
     if not rows:
         return 0
+    send, duplicates, unverified = _filter_duplicates(rows)
+    _last_send.update(destination=send_target(),
+                      sent_keys=[r.get("opp_key") or _solicitation(r) for r in send],
+                      sent_solicitations=[_solicitation(r) for r in send if _solicitation(r)],
+                      duplicates=[r.get("opp_key") or _solicitation(r) for r in duplicates],
+                      duplicate_solicitations=[_solicitation(r) for r in duplicates if _solicitation(r)],
+                      unverified=[r.get("opp_key") or _solicitation(r) or r.get("Title") or "Untitled opportunity" for r in unverified],
+                      cards=0)
+    if not send:
+        return 0
     per_card = BRIEFS_PER_CARD if format == "brief" else ROWS_PER_CARD
-    chunks = [rows[i:i + per_card] for i in range(0, len(rows), per_card)]
+    chunks = [send[i:i + per_card] for i in range(0, len(send), per_card)]
     for n, chunk in enumerate(chunks, 1):
         part = f" (part {n} of {len(chunks)})" if len(chunks) > 1 else ""
         payload = _brief_card(title + part, subtitle or f"{len(rows)} contracts", chunk) if format == "brief" else _card(title + part, subtitle or f"{len(rows)} contracts", chunk)
@@ -264,4 +317,5 @@ def send_rows(rows, title, subtitle="", format="table"):
             raise RuntimeError(f"Teams returned HTTP {e.code}: {e.read().decode('utf-8', 'replace')[:300]}") from None
         except urllib.error.URLError as e:
             raise RuntimeError(f"Could not reach Teams: {e.reason}") from None
+    _last_send["cards"] = len(chunks)
     return len(chunks)

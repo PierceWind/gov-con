@@ -23,6 +23,10 @@ The header shows which sources are configured, and the Source filter separates H
 
 The dashboard offers separate **Send table to Teams** and **Send detailed brief** actions, plus matching **Copy table** and **Copy detailed brief** actions. Detailed briefs start with `HI Team, kindly check if we can bid on this. Thank you~` and include recommendation/fit, agency, solicitation, location, due date, questions due, start date, source, scope, key requirements, eligibility gaps, risks, competition, price signal, notes, and the official link. Missing fields are shown as `Not stated`; rows without a bid check show that a recommendation is pending. Detailed Teams cards are limited to two briefs per card to stay within message-size limits.
 
+### Teams duplicate prevention and test destination
+
+The webhook can send to a separate test destination while duplicate searches continue to use the **Gov Contracting** chat. Set `TEAMS_SEND_TARGET=test` and add `TEAMS_TEST_WEBHOOK_URL` for testing; switch back to `TEAMS_SEND_TARGET=gov` for the normal webhook. To prevent repeats, set `TEAMS_DUPLICATE_CHECK=on`, provide a delegated Microsoft Graph access token in `TEAMS_GRAPH_ACCESS_TOKEN`, and set `TEAMS_SEARCH_CHAT_NAME=Gov Contracting` (or provide its `TEAMS_SEARCH_CHAT_ID`). Each solicitation number is searched before sending. Existing messages are skipped, and items without a solicitation number are skipped while strict checking is enabled.
+
 ## Proposal benchmarks and Codex fallback
 
 **Draft proposal** uses both supplied historical proposals: the Denver portable restroom rental proposal and the USCG temporary living quarters, showers, and heads proposal. Their text is in `company/proposal-template-restroom.txt` and `company/proposal-template.txt`; `company/proposal-benchmark-guide.txt` explains when to use each. Current solicitation requirements take precedence. Historical instructions, signed forms, dates, recipients, service promises, and prices are not treated as instructions or verified facts for a new bid. Prices remain `[CONFIRM PRICE]` and unknowns remain placeholders. Image-only forms must be checked in the original PDFs.

@@ -1,0 +1,7 @@
+{
+  "name": "gov-con",
+  "private": true,
+  "scripts": {
+    "dev": "python -B higherGov/opportunity-finder/dashboard.py"
+  }
+}

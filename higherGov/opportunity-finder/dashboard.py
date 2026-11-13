@@ -75,8 +75,18 @@ def post_teams(rows, title, subtitle="", format="table"):
     """Send to Teams; record the outcome for the dashboard instead of raising."""
     try:
         n = teams.send_rows(rows, title, subtitle, format=format)
+        info = teams.last_send_info()
         label = "detailed briefs" if format == "brief" else "table"
-        teams_log.update(last=f"Sent {len(rows)} contracts to Teams as {label} ({n} card{'s' if n != 1 else ''}).", error=None)
+        parts = []
+        if info["sent_keys"]:
+            parts.append(f"sent {len(info['sent_keys'])}")
+        if info["duplicates"]:
+            parts.append(f"skipped {len(info['duplicates'])} already in Gov Contracting")
+        if info["unverified"]:
+            parts.append(f"skipped {len(info['unverified'])} without a solicitation number")
+        summary = ", ".join(parts) or "nothing eligible to send"
+        teams_log.update(last=f"Teams {label}: {summary} ({n} card{'s' if n != 1 else ''}; destination {info['destination']}).",
+                         duplicates=info["duplicate_solicitations"], unverified=info["unverified"], error=None)
         return True
     except Exception as e:
         teams_log.update(error=f"Teams: {e}")
@@ -291,7 +301,8 @@ class H(BaseHTTPRequestHandler):
             return self.send(json.dumps({"current": cur, "defaults": f.DEFAULTS, "sources": f.enabled_sources()}))
         if self.path == "/api/teams":
             return self.send(json.dumps({**teams_log, "configured": bool(teams.webhook()),
-                                         "auto": bool(teams_auto())}))
+                                         "auto": bool(teams_auto()), "destination": teams.send_target(),
+                                         "duplicate_check": teams.duplicate_check_configured()}))
         if self.path == "/api/ai/batch":
             return self.send(json.dumps({k: v for k, v in batch.items() if k != "stop"}))
         if self.path.startswith("/api/ai?"):
@@ -355,7 +366,9 @@ class H(BaseHTTPRequestHandler):
             format = body.get("format") if body.get("format") in ("table", "brief") else "table"
             ok = post_teams(rows, body.get("title") or "Contract opportunities", body.get("subtitle") or "", format=format)
             if ok:
-                set_status([r["opp_key"] for r in rows], "Sent", auto=True)
+                info = teams.last_send_info()
+                set_status(info["sent_keys"], "Sent", auto=True)
+                set_status(info["duplicates"], "Sent", auto=True)
             return self.send(json.dumps(teams_log), code=200 if ok else 502)
         if self.path == "/api/briefs":
             body = json.loads(self.rfile.read(int(self.headers.get("Content-Length") or 0)) or b"{}")
