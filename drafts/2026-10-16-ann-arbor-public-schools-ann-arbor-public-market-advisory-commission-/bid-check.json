@@ -1,0 +1,45 @@
+{
+ "verdict": "No bid",
+ "score": 8,
+ "one_line": "This is not a solicitation: it is unofficial YouTube captions of an Ann Arbor Public Market Advisory Commission meeting where staff said restroom options are still being sorted out, and \"No option, budget or acquisition date was approved,\" so there is nothing to bid on or respond to.",
+ "scope": "Ann Arbor Public Market staff are looking for a way to give people more restroom access on market days, which are Wednesdays and Saturdays. The options discussed were portable toilets brought in only on market days (which staff were told is \"probably too cost prohibitive\"), lockable portable toilets kept on site (the old setup, which ended when the lock was broken and never repaired), fixing the access mechanism on the existing restroom units, and a key card that would let vendors use the Dunbar Tower event-space restrooms. The bid pack says possible vendor work \"could involve portable restroom rental, servicing and secure access arrangements,\" but nothing has been decided.",
+ "fit": [
+  "Restrooms are a core line for us. The company profile lists shower and restroom facilities in the fleet and portable sanitation under Facility Support and Utilities.",
+  "We have closely matching municipal past performance: City and County of Denver, SC-00011558 (Aug 2026 \u2013 ongoing). We provide climate-controlled portable restroom trailers for shelter operations of up to 500 people, including mobilization, cleaning, pump-outs, waste disposal, supplies, maintenance, and demobilization.",
+  "Our standard operations include servicing (pump-outs, sanitizing, consumables), and our restroom/shower trailers have private locking stalls. That speaks to the 'portable toilets that could be locked' idea.",
+  "Place of performance is Michigan, which is inside our nationwide work area.",
+  "No set-aside is stated, so our SBE/MBE status is not a barrier."
+ ],
+ "red_flags": [
+  "The source is not a solicitation, RFI, or sources sought notice. HigherGov lists it as type 'Agendas / Minutes,' and the attachment says 'YouTube captions \u2014 not official meeting minutes.'",
+  "The bid pack states: 'No option, budget or acquisition date was approved.'",
+  "Staff were told that market-day-only portable toilets were 'probably too cost prohibitive.' In public comment, a vendor said the market 'were turned down for bird netting and portable toilets because it wasn't in the budget.'",
+  "The pack names Ann Arbor Public Schools as the agency, but the meeting is the Ann Arbor Public Market Advisory Commission, and the text mentions City Council, park operations, and the community services administrator. The real buyer is unclear.",
+  "There is no contact. The pack lists 'Contact: None, None, None.'",
+  "The 2027-01-16 'response deadline' does not appear anywhere in the source document. It looks like a HigherGov placeholder.",
+  "Timing is poor. The market water is being shut off 'ahead of the freeze,' and the season is winding down, with the Wednesday before Thanksgiving as the last big event. Restroom trailers that need water would face winter limits.",
+  "The NAICS is 562991 (Septic Tank and Related Services), which is not one of our listed NAICS codes. The likely product is standard portable toilets, and our price list has no standalone portable toilet line. It lists only shower-restroom combination trailers and shower containers.",
+  "The job would be small and occasional, two market days a week, and we would be mobilizing from California. Delivery, pick-up, mobilization, and demobilization costs would make our price look even higher against a need staff already think is too expensive."
+ ],
+ "competition": "None found. The bid pack shows 0 past awards by this agency under NAICS 562991 and 0 award benchmarks for NAICS 562991 with no PSC. The meeting mentions existing restroom units ('thrones') and an earlier lockable portable toilet arrangement, but it does not name the supplier of either.",
+ "price_signal": "The bid pack has no award data: 0 past agency awards and 0 benchmarks. Our only internal comparison is the Denver restroom-trailer contract SC-00011558, printed as '~$100,00.00' [CONFIRM: amount, likely $100,000], which is multi-year. Price list rows that might apply: 13ft Luxury Shower-Restroom Combination Trailer (3 Stalls) at 2,995.00 for 1-6 Days, 2,995.00 for 8 Days-14 days, 3,995.00 for 15days-1 month, and 2495-3995 for More than 3 Months. The price list does not state the billing basis or currency. The 3 Stalls + 1 ADA rows are blank.",
+ "must_have": [
+  "None stated. The source is meeting captions with no submission instructions, forms, evaluation criteria, insurance, bonding, license, or site visit requirements (source: bid pack, Description and attachment).",
+  "If a solicitation is issued later, the capabilities discussed would be portable restroom rental, servicing, and secure access arrangements, meaning units that can be locked (source: bid pack, Description)."
+ ],
+ "gaps": [
+  "[CONFIRM: buying entity] Is it the City of Ann Arbor (Parks / Community Services) or Ann Arbor Public Schools as HigherGov lists?",
+  "[CONFIRM: whether any solicitation, RFQ, or informal quote request will be issued, and when]",
+  "[CONFIRM: point of contact] The bid pack gives none.",
+  "[CONFIRM: budget] None was approved, and staff called market-day toilets cost prohibitive.",
+  "[CONFIRM: product wanted] Standard portable toilets or restroom trailers? We have no standalone portable toilet line on the price list.",
+  "[CONFIRM: water and power availability at the market in winter, after the seasonal water shutoff]",
+  "[CONFIRM: service schedule] Market days only (Wednesday and Saturday), or units kept on site full time?",
+  "[CONFIRM: Michigan / Washtenaw County licensing for portable sanitation or septic pumping (NAICS 562991)]",
+  "[CONFIRM: primary NAICS] The company profile flags 561210 vs. 532120. Neither is 562991.",
+  "[CONFIRM: whether the 2027 market visioning work by Market Ventures, which mentions needing new bathrooms, will create a temporary restroom need during construction] Worth watching as a possible future lead."
+ ],
+ "deadline": "The source document states no deadline. HigherGov lists 'Response deadline: 2027-01-16' with no time or time zone, and nothing in the meeting text supports that date.",
+ "checked": "2026-11-14T00:51",
+ "ai": "claude-code"
+}

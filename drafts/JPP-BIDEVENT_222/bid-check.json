@@ -1,0 +1,49 @@
+{
+ "verdict": "No bid",
+ "score": 18,
+ "one_line": "The bid pack lists this as an SDVOSBC set-aside, and we are not SDVOSB. The work is mainly portable toilets for parade season, billed under NAICS 562991 and PSC W065, and our profile covers neither code.",
+ "scope": "Jefferson Parish's Department of Citizen Affairs wants a two-year contract for parade season and other special events. The contractor would rent, service, maintain, place, and pick up portable toilets, toilet trailer units, and sewerage tanks across Jefferson Parish, Louisiana.",
+ "fit": [
+  "Our fleet includes restroom trailers. Toilet trailer units match our restroom/shower trailers (company profile: fleet; Mobile Infrastructure & Equipment Rentals).",
+  "'Portable sanitation' is one of our core competencies under Facility Support & Utilities (capability statement).",
+  "Relevant past performance: City and County of Denver SC-00011558 (Aug 2026 \u2013 ongoing), climate-controlled restroom trailers for up to 500 people, including pump-outs, waste disposal, cleaning, and supplies. Value [CONFIRM: ~$100,000].",
+  "Relevant past performance: USCG Station Lake Worth Inlet 70Z02826FMIAM0008 ($78,500), restroom/shower trailers with water and wastewater support.",
+  "Our servicing setup fits the work: RCRA-compliant gray/black water removal, sealed gray/black tanks, and a 24/7 emergency line with on-site response within 24 hours (company profile: Operations).",
+  "The Parish says it encourages bids from small and minority-owned businesses, and we are SBE and MBE."
+ ],
+ "red_flags": [
+  "The bid pack lists the set-aside as SDVOSBC. We have no SDVOSB certification, so we cannot bid as prime. The HigherGov summary only says the Parish 'encourages' veteran-owned participation, so the set-aside label may be wrong. That needs to be checked before anything changes.",
+  "NAICS 562991 and PSC W065 are not in our NAICS, PSC, or GSA SIN lists. GSA MAS is probably irrelevant anyway, since this is a parish (SLED) buy.",
+  "Our fleet list does not name standard portable toilets (porta-johns). For parade season, standard portable toilets are likely the bulk of the units, and we have no stated stock of them.",
+  "Parade season needs dense, high-frequency servicing at local event sites. We are based in Marina del Rey, CA, and the profile names no Louisiana depot or local service crew.",
+  "When specified, an electronic surety bid bond for 5% of the total bid is required, and scanned paper copies are not accepted. The profile names no surety or bonding capacity.",
+  "The bid pack has no attachments, no description, and no contact. The actual bid documents, quantities, and terms have not been reviewed.",
+  "The estimated value range ($120,000 to $650,000) is very wide, which makes it hard to size the work or price it."
+ ],
+ "competition": "The agency has no past awards under NAICS 562991 in the bid pack. No incumbent is named. Offers received are unknown.",
+ "price_signal": "The only benchmark is not comparable: on 2024-06-03, JNS Facility Solutions won $26,428 (1 offer, SDVOSB sole source) for portable toilets in Cabot, AR, over about 3 weeks. The Parish estimates $120,000 to $650,000 over two years. Our closest reference is the Denver restroom trailer contract at [CONFIRM: ~$100,000]. Our price list has no rate for standard portable toilets. Restroom/shower combo trailers are listed at $2,995 to $5,995 depending on size and duration, with the billing basis unspecified.",
+ "must_have": [
+  "Eligibility under the SDVOSBC set-aside (bid pack: Set-aside)",
+  "When specified, an electronic surety bid bond for 5% of the total bid amount or the stated amount. Scanned paper copies are not accepted (bid pack: HigherGov AI summary, Bidder Requirements).",
+  "Rental, servicing, maintenance, placement, and pickup of portable toilets, toilet trailer units, and sewerage tanks (bid pack: HigherGov AI summary, Work Details)",
+  "Two-year period of performance (bid pack: HigherGov AI summary)",
+  "Performance in Jefferson Parish, LA (bid pack: Place of performance)",
+  "Response by 2026-12-01 (bid pack: Response deadline)",
+  "[CONFIRM: submission method, forms, insurance, and any other requirements; the solicitation documents are not in the bid pack]"
+ ],
+ "gaps": [
+  "[CONFIRM: whether Bid Event #222 is actually restricted to SDVOSB, or whether HigherGov mislabeled it]",
+  "[CONFIRM: the full solicitation documents and any amendments from the Jefferson Parish Purchasing Department / LaPAC]",
+  "[CONFIRM: unit counts by type (portable toilets, toilet trailers, sewerage tanks), the event schedule, and servicing frequency]",
+  "[CONFIRM: whether trailer-only bids are allowed, or whether bidders must supply standard portable toilets]",
+  "[CONFIRM: whether a bid bond is specified for this bid, and whether we have a surety able to issue an electronic bond]",
+  "[CONFIRM: any performance or payment bond, insurance minimums, and Louisiana or Parish licenses or registrations]",
+  "[CONFIRM: whether a site visit or pre-bid conference is required]",
+  "[CONFIRM: a local servicing capability or subcontractor in the New Orleans / Jefferson Parish area]",
+  "[CONFIRM: the deadline time and time zone]",
+  "[CONFIRM: a contracting officer or buyer contact]"
+ ],
+ "deadline": "2026-12-01, which is 17 days from today. The bid pack gives no time or time zone [CONFIRM: time and time zone].",
+ "checked": "2026-11-14T00:46",
+ "ai": "claude-code"
+}

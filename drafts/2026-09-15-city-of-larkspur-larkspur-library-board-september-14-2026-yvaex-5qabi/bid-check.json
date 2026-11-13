@@ -1,0 +1,38 @@
+{
+ "verdict": "No bid",
+ "score": 12,
+ "one_line": "This is not a solicitation: it is the YouTube captions of a library board meeting where staff said the city \"decided not to buy\" a generator, and no rental decision, budget, specs, contact, or buy process exists yet.",
+ "scope": "The City of Larkspur is preparing for El Ni\u00f1o flooding. At the September 14, 2026 board meeting, staff discussed whether the Larkspur Library should stay open during a power outage. The library has solar panels that back up only some functions. A rented generator, with delivery and hookup, would let it run at full power, but the city decided not to buy one and set no rental plan, budget, equipment specs, or deadline.",
+ "fit": [
+  "NAICS 532490 (per the bid pack) is one of our NAICS codes and matches our GSA SIN 532490P.",
+  "Our 'Facility Support & Utilities' core competency names generators.",
+  "The library is in California, and our office is in Marina del Rey, CA. We work nationwide.",
+  "No set-aside is stated, so our SBE/MBE status does not bar us."
+ ],
+ "red_flags": [
+  "Notice type is 'Agendas / Minutes'. The source is YouTube captions marked 'not official meeting minutes', not an RFQ, RFP, or sources sought.",
+  "Staff said the city 'decided not to buy' a generator. No rental decision, supplier, budget, equipment specs, or acquisition deadline was set.",
+  "No agency contact is listed (Contact: None, None, None). There is no one to respond to.",
+  "The estimated value is blank, and there are no past awards or award benchmarks (0 found).",
+  "Generators are not in our fleet list and not on our price list. Our fleet and pricing are trailers and kitchens, so we have no generator rate to quote.",
+  "The work would include hooking a generator into the building ('put it in there and hook it up and run it'). Nothing in our profile says we hold an electrical license or have done this kind of work before.",
+  "This would be a small, one-time rental of a single generator, far from our core turnkey trailer and basecamp work."
+ ],
+ "competition": "No incumbent, past winners, or offer counts. The bid pack found 0 past awards by this agency under NAICS 532490 and 0 benchmarks for NAICS 532490 with PSC None. Staff expect other people to want generators in a long outage but think the city 'might have priority'.",
+ "price_signal": "None. The bid pack has no similar awards and no estimated value, and our price list has no generator rows. Our only reference pricing is for berthing and restroom/shower trailers (USCG, $8,995/unit), which does not apply here.",
+ "must_have": [
+  "No submission items or hard requirements are stated. There is no solicitation document (bid pack, Opportunity and Attachments).",
+  "No site visit, bonding, license, insurance, or registration requirements are stated (bid pack)."
+ ],
+ "gaps": [
+  "[CONFIRM: whether the City of Larkspur will ever issue a solicitation or request quotes for a library generator rental]",
+  "[CONFIRM: City of Larkspur purchasing contact; the bid pack lists none]",
+  "[CONFIRM: whether we can supply generators. They are named in our competencies but not in our fleet list or price list]",
+  "[CONFIRM: whether we hold the license needed for building hookup, or would need an electrical subcontractor]",
+  "[CONFIRM: generator size/kW, rental term, and the library address; none were stated]",
+  "[CONFIRM: what the 2026-12-15 'response deadline' means; the source document sets no deadline]"
+ ],
+ "deadline": "2026-12-15 according to the HigherGov listing, with no time or time zone given. The source meeting captions set no deadline or acquisition date.",
+ "checked": "2026-11-13T23:37",
+ "ai": "claude-code"
+}

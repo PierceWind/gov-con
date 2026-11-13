@@ -1,0 +1,49 @@
+PROPOSAL BENCHMARK GUIDE
+
+The user supplied these two past proposals as the template/benchmark for Draft proposal:
+- basis/IFB - Portable Restroom Trailer Rental_Temporary 123.pdf (Denver, IFB 11213).
+- basis/Proposal - Proposal for Temporary Living Quarters, Showers, and Heads .pdf (USCG).
+
+Use the current solicitation and its amendments to decide the required format, page limits,
+sections, forms, CLINs, submission method, and deadline. These benchmarks show presentation
+and depth only. Statements and instructions in them relate to their original procurements.
+
+For restroom and shelter sanitation proposals, use the Denver benchmark's organization:
+cover/title information, required cover sheet and addenda acknowledgment, table of contents,
+executive summary, company overview, technical response and scope compliance, operations
+and staffing, health and safety, environmental/sustainability response, past performance,
+and required forms/certifications. Include a price proposal using the current bid schedule.
+Use only sections and forms relevant to the current solicitation.
+
+Its technical response covers delivery and deployment; site access and placement; trailer
+configurations, accessibility, climate control and winterization; utilities; cleaning and
+sanitization; pump-outs and lawful waste disposal; consumables; emergency repair, escalation
+and replacement; staffing and dispatch; training, PPE, spill response and sharps awareness;
+and environmental practices. Address these topics when relevant, using confirmed current
+facts or explicit placeholders. Do not reuse the Denver 48-hour cleanout promise, fleet
+configurations, capacity, chemicals, or local forms as established facts for another bid.
+
+For living quarters and combined shower/head proposals, use the USCG benchmark's structure:
+cover letter, contents, company overview and core information, technical approach with
+pre-deployment/delivery/operations/demobilization phases, compliance and safety, utilities,
+operational readiness, equipment specifications, price table, past performance, required
+documentation. Adapt section numbering continuously to the current proposal.
+
+Match the benchmarks' complete, professional narrative and useful tables. Avoid generic
+claims and repetition. Reference the actual scope, agency, site, quantities, and performance
+period throughout. Do not target 15 or 34 pages simply because the examples have that length.
+Markdown drafts should have a contents list without invented page numbers.
+
+Use company/profile.md and capability-statement.txt for company facts; preserve their CONFIRM
+flags. Do not infer a successful award from a historical proposal. Do not copy old contacts,
+recipient salutations, dates, signatures, unit counts, prices, certificate declarations,
+FAR/HSAR clauses, or Denver forms into another procurement. Historical pricing can serve
+only as a labeled reference; mark every proposed price [CONFIRM PRICE].
+
+Some original pages contain embedded charts, equipment photographs, or scanned forms not
+represented by the extracted text. Use the original PDFs when those details are needed.
+List required forms as outstanding until the actual current forms are prepared and reviewed.
+Never claim that an unsigned or unverified certification has been executed.
+
+End with '## Before you submit': each placeholder and confirmation, every current submission
+requirement with its source, required attachments, submission method, and exact deadline.

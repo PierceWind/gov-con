@@ -1,0 +1,35 @@
+{
+ "verdict": "No bid",
+ "score": 3,
+ "one_line": "This is not a solicitation. It's a YouTube caption transcript of a town meeting about a Halloween parade that has already happened, and the commission planned to ask its usual local provider (possibly an in-kind donation) to \"please do what he's done in the past.\"",
+ "scope": "The Norton, MA Parks and Recreation Commission discussed placing a porta potty at Tricentennial Park for the crowd and another at the former Oasis lot for parade workers and participants. The aim was to keep people from using the Dunkin' Donuts restroom without buying anything. The service would be delivery, placement, servicing, and removal of portable restrooms for one parade day. No quantity, price, payment arrangement, or procurement was stated.",
+ "fit": [
+  "Portable sanitation is one of our stated core competencies (Facility Support and Utilities), and restrooms are part of our fleet.",
+  "We have relevant past performance: City and County of Denver contract SC-00011558, climate-controlled portable restroom trailers with mobilization, cleaning, pump-outs, and demobilization.",
+  "Our work area is nationwide, so Massachusetts is not excluded.",
+  "No set-aside is stated, so our SBE/MBE status doesn't block us."
+ ],
+ "red_flags": [
+  "The event is over. The meeting was 2026-10-07 for the upcoming Halloween parade. Today is 2026-11-14.",
+  "There is no procurement. The source is a YouTube caption transcript ('not official meeting minutes'), not an RFP, RFQ, or RFI. It has no scope document, no submission instructions, and no contact.",
+  "There is an incumbent with an informal arrangement. Officials said they would contact 'Alec and his waste disposal waste company' and 'ask him to please do what he's done in the past.' The bid pack notes it 'could involve an in-kind contribution.'",
+  "The job is too small and doesn't fit our fleet. It needs one or two basic porta potties, and our price list has no line for single portable toilets. Our smallest restroom unit is the 13ft Luxury Shower-Restroom Combination Trailer (3 Stalls).",
+  "NAICS 562991 (Septic Tank and Related Services) is not on our NAICS list, and no PSC is given.",
+  "The 2027-01-07 'response deadline' appears only in the HigherGov listing. Nothing in the transcript supports it.",
+  "The agency is mislabeled. The listing says 'Norton Public Schools,' but the meeting was the town's Parks and Recreation Commission."
+ ],
+ "competition": "The incumbent is the local waste disposal company run by 'Alec,' which usually places a porta potty at Tricentennial Park and one at the Oasis lot. The arrangement is informal and may be in-kind. HigherGov shows no past awards by this agency under NAICS 562991 and no offers received.",
+ "price_signal": "None. HigherGov found no past awards by this agency under NAICS 562991 and no award benchmarks for NAICS 562991 with no PSC. The transcript states no price. The arrangement may be unpaid or in-kind.",
+ "must_have": [
+  "None stated. The source (a Parks and Recreation Commission meeting transcript, 2026-10-07) has no submission requirements, forms, insurance, bonding, license, site visit, or evaluation criteria."
+ ],
+ "gaps": [
+  "[CONFIRM: whether the Town of Norton Parks and Recreation buys portable restroom service through any formal procurement for future events, such as next year's Halloween parade or the Festival of Lights (date not stated)]",
+  "[CONFIRM: whether we rent standard single portable toilets, which our price list does not show]",
+  "[CONFIRM: whether we have a regional depot or service partner within reach of Norton, MA]",
+  "[CONFIRM: where HigherGov's 2027-01-07 response deadline comes from, since the source document doesn't support it]"
+ ],
+ "deadline": "HigherGov lists 2027-01-07 with no time or time zone. The source transcript gives no deadline. The service was for the 2026 Halloween parade, which has already happened.",
+ "checked": "2026-11-14T00:50",
+ "ai": "claude-code"
+}

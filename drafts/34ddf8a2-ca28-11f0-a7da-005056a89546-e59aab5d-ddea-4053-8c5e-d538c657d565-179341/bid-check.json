@@ -1,0 +1,41 @@
+{
+ "verdict": "No bid",
+ "score": 12,
+ "one_line": "There is nothing to bid on yet: this is a committee agenda and minutes, not a solicitation, and the work is generators and light towers, which are outside our trailer fleet. We should watch for a rebid instead of responding now.",
+ "scope": "The Village of Schaumburg's Septemberfest Committee tabled the vote to extend its generators & light towers rental contract. Two things changed: permanent power was added onsite, so fewer generators will be rented, and the Village has a dispute over this year's invoice. The festival runs September 4\u20136, 2027, in Schaumburg, IL. No revised quantities, request for quotes, bid, or decision to rebid has been issued.",
+ "fit": [
+  "NAICS 532490 is listed on the bid pack and is one of our NAICS codes (capability statement).",
+  "Our Facility Support & Utilities core competency names generators (capability statement). That is the only overlap with the scope.",
+  "No set-aside is stated, so our SBE/MBE status does not block us.",
+  "Our work area is nationwide, so the Illinois place of performance is allowed."
+ ],
+ "red_flags": [
+  "This is not a solicitation. The notice type is 'Agendas / Minutes', and no RFQ, bid, or proposal has been released for generators & light towers.",
+  "The HigherGov 'response deadline' of 2027-09-06 is the last day of Septemberfest 2027, not a submission deadline.",
+  "The existing contract is 'valid through 2027 with extension approval' (October 5, 2026 minutes). The vote was only tabled, so the Village may still extend with the incumbent instead of rebidding.",
+  "The work is off-core. Light towers are not in our fleet list, and generators are not on our price list. Our fleet and price list cover kitchens, dishwashing, refrigeration, laundry, shower/restroom, accommodation, and handwashing units.",
+  "The requirement is shrinking: fewer generators will be rented because of permanent onsite power.",
+  "There is an open invoice dispute with the current vendor. The documents don't say what it is about.",
+  "We don't know what happened at the November 2, 2026 meeting. The bid pack has only the agenda, not those minutes.",
+  "No contact, estimated value, or quantities are given.",
+  "The related lines that overlap with what we do won't open soon. Sanitation was extended through 2027, and tent rental through 2028."
+ ],
+ "competition": "The incumbent holds the generators & light towers contract, valid through 2027 with extension approval, but is not named and has an invoice dispute over 2026. The bid pack shows no past awards by this agency under NAICS 532490, and no offers are listed.",
+ "price_signal": "There is no price signal. The bid pack found no past awards by this agency and no NAICS 532490 award benchmarks. Our price list has no generator or light tower lines.",
+ "must_have": [
+  "None stated. The documents contain no submission items, forms, bonding, licenses, insurance, or site visit requirements (bid pack, November 2, 2026 agenda and October 5, 2026 minutes)."
+ ],
+ "gaps": [
+  "[CONFIRM: outcome of the November 2, 2026 committee vote on the generators & light towers contract: extend, renegotiate, or rebid]",
+  "[CONFIRM: whether and when the Village will release an RFQ, bid, or proposal for generators & light towers, and through what portal]",
+  "[CONFIRM: revised generator and light tower quantities, sizes, and power requirements]",
+  "[CONFIRM: whether Temporary 123 owns or can source generators and light towers, and at what rates (not on our price list)]",
+  "[CONFIRM: Village of Schaumburg contact for Septemberfest procurement]",
+  "[CONFIRM: incumbent vendor name and prior contract value]",
+  "[CONFIRM: any Illinois or Village licensing, insurance, or bonding requirements]",
+  "[CONFIRM: whether other Septemberfest lines would fit us better, such as sanitation (extended through 2027) or the other contracts expected to be solicited starting in November]"
+ ],
+ "deadline": "None. The documents give no response deadline, and the HigherGov date of 2027-09-06 is the final festival day (Monday, September 6, 2027), not a submission due date. The next committee meeting is Monday, January 4, 2027, at 7:00 PM (time zone not stated) at the Al Larson Cultural Center, 201 Schaumburg Ct., Schaumburg, IL 60193.",
+ "checked": "2026-11-13T23:39",
+ "ai": "claude-code"
+}

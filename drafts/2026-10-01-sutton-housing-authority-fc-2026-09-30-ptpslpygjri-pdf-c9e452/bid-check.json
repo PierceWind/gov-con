@@ -1,0 +1,43 @@
+{
+ "verdict": "No bid",
+ "score": 5,
+ "one_line": "This is not a solicitation. It is a $2,000 line item in a town budget for basic portable restrooms at two Massachusetts parks, and that amount is less than a single delivery charge for our smallest restroom trailer.",
+ "scope": "The Town of Sutton, MA, added $2,000 to its culture and recreation budget for portable restrooms at American Legion Park and Unity Park during the spring and summer 2027 season. Portable restrooms are already at both parks this year, paid for by Sutton Recreational Resources. The town agreed to pay for them next year. No supplier, unit count, contract method, or contracting date was given.",
+ "fit": [
+  "Portable sanitation is one of our core competencies, listed under Facility Support & Utilities in the capability statement.",
+  "Our fleet includes restroom facilities, and we have relevant restroom-trailer past performance with the City and County of Denver (SC-00011558, restroom trailers for shelter operations).",
+  "No set-aside is stated, so our SBE/MBE status does not block us.",
+  "Our stated work area is nationwide, so Massachusetts is technically in range."
+ ],
+ "red_flags": [
+  "There is no solicitation. The source is YouTube auto-captions of a Finance and Warrant Advisory Committee meeting. The bid pack itself says 'YouTube captions \u2014 not official meeting minutes.' HigherGov lists it as a contract forecast of type 'Agendas / Minutes.'",
+  "The whole budget is $2,000 for two parks and a full season. Our smallest restroom trailer (13ft, 3 stalls) lists at $2,995 for 1-6 days. Our reference delivery charge is $4,000 per lot, and pick-up is another $4,000 per lot. One delivery alone costs twice the town's budget.",
+  "The town most likely wants standard portable toilets. Our price list has no line for standard portable toilets. It lists only restroom/shower trailers and containers.",
+  "NAICS 562991 is not one of our NAICS codes. No PSC is given.",
+  "A supplier is already serving these parks this season, so the town will likely just keep that vendor.",
+  "The agency is labeled 'Sutton Housing Authority,' but the transcript shows the Town of Sutton Finance and Warrant Advisory Committee and a culture and recreation expense. The labeling is unreliable.",
+  "There is no contact name, phone, or email.",
+  "Funding was not final. The committee voted to recommend Article 1, but it still needed a Town Meeting vote. The transcript calls that meeting 'the 19th' and does not name the month.",
+  "Massachusetts is across the country from our Marina del Rey, CA base. Mobilization costs would wipe out any margin on a $2,000 job."
+ ],
+ "competition": "The current supplier is unnamed. Portable restrooms are already at both parks this year, paid for by Sutton Recreational Resources, and the town plans to take over the cost for next season. The bid pack found no past awards by this agency under NAICS 562991 and no award benchmarks for NAICS 562991 at any agency. No offers or bidder counts are available.",
+ "price_signal": "The town budgeted $2,000 total for portable restrooms at two parks for the spring and summer 2027 season. No past awards or benchmarks were found. For comparison, our lowest restroom-trailer rate is $2,995 for 1-6 days (13ft Luxury Shower-Restroom Combination Trailer, 3 stalls). Our reference delivery is $4,000 per lot and pick-up is $4,000 per lot. Our related USCG award was $78,500. The town's budget is far below our cost to deliver.",
+ "must_have": [
+  "None stated. The source is a meeting recording (bid pack attachment, YouTube captions), not a solicitation, so it sets no submission items, forms, site visit, bonding, licensing, or insurance requirements.",
+  "The service period is the 'next spring and summer season.' The bid pack reads this as spring and summer 2027, and no specific delivery or contracting date was given (bid pack description).",
+  "The places of performance are American Legion Park and Unity Park, Sutton, MA (bid pack transcript at 00:05:09)."
+ ],
+ "gaps": [
+  "[CONFIRM: whether Sutton will issue any solicitation or request for quotes, or will simply renew the current local vendor]",
+  "[CONFIRM: whether Town Meeting approved Article 1, including the $2,000 portable restroom line]",
+  "[CONFIRM: unit count and unit type, standard portable toilets or restroom trailers]",
+  "[CONFIRM: whether we can supply standard portable toilets in Massachusetts and at what price; the price list has no such line]",
+  "[CONFIRM: town contact name, phone, and email]",
+  "[CONFIRM: service dates and servicing frequency for the 2027 season]",
+  "[CONFIRM: name of the current supplier]",
+  "[CONFIRM: correct agency, Town of Sutton (culture and recreation) vs. Sutton Housing Authority as HigherGov labels it]"
+ ],
+ "deadline": "HigherGov lists the response deadline as 2027-01-01, with no time or time zone stated. That date looks like a placeholder, because the source is a meeting recording and sets no deadline.",
+ "checked": "2026-11-14T00:49",
+ "ai": "claude-code"
+}

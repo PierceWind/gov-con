@@ -1,0 +1,57 @@
+{
+ "verdict": "Maybe",
+ "score": 30,
+ "one_line": "Our accessible restroom/shower trailers and fitness facilities match part of this, but the shoot house, site work, and $20M\u2013$50M size are far beyond our largest past contract ($408,482), so track it and go after a subcontract or team role instead of bidding as prime.",
+ "scope": "The Secret Service wants turnkey temporary facilities at the James J. Rowley Training Center in Laurel, MD. The contractor would furnish, install, maintain, and remove three things: a climate-controlled temporary fitness facility for strength, cardio, and functional conditioning; a temporary shoot house next to it; and accessible restroom and shower trailers. The contractor also handles site preparation, utilities, power generation and distribution, lighting, life-safety systems, equipment options, and site restoration after removal, all to Government-approved plans.",
+ "fit": [
+  "Accessible restroom and shower trailers are a core product. The proposal template lists ADA units on request, sealed gray/black tanks, independent HVAC, and on-demand hot water.",
+  "Our fleet list includes Recreation and Fitness Facilities, which matches the climate-controlled temporary fitness facility.",
+  "Facility Support & Utilities is a core competency: generators, water delivery, waste removal, and portable sanitation. That covers part of the power generation and utilities scope.",
+  "We have turnkey DHS past performance: USCG Station Lake Worth Inlet (70Z02826FMIAM0008, $78,500), which covered berthing, restroom/shower trailers, water/wastewater, maintenance, and demobilization.",
+  "We have turnkey basecamp experience at federal sites: Fort Lee, VA ($408,482, as a sub), Camp Lejeune ($239,760), and Portsmouth Naval Shipyard (~$130,000).",
+  "Our operations cover the full install-to-removal cycle: deployment in 24\u201372 hours, weekly servicing, 24/7 emergency line, weekly QC reports to the COR, and a personnel access roster.",
+  "No set-aside is stated, so not holding 8(a), WOSB, SDVOSB, or HUBZone status doesn't block us. SAM is active. Our work area is nationwide, which covers Laurel, MD."
+ ],
+ "red_flags": [
+  "This is a HigherGov contract forecast (source URL /contract-forecast/10000572), not a released solicitation. The pack has 0 attachments: no SOW, no instructions, no evaluation criteria.",
+  "Estimated value is $20M\u2013$50M. Our largest listed contract is $408,482 (Fort Lee, as a sub), so this is roughly 50\u2013120 times our largest past job. That is a serious risk for prime-level past performance and financial capacity.",
+  "The temporary shoot house is outside every core competency and fleet item in our profile.",
+  "Site preparation, power distribution, life-safety systems, and work to Government-approved plans point to engineering or construction-type work our profile doesn't list.",
+  "NAICS 532289 and PSC R429 are not among our listed NAICS codes (721310, 532490, 722310, 624230, 624221, 561210, 423740; 532120 per the template) or PSC codes (W023, W099, W045).",
+  "Unrestricted competition (no set-aside stated) for a $20M\u2013$50M requirement will probably draw large, established firms.",
+  "The price list has no prices for either ADA shower-restroom combination row (3 Stalls + 1 ADA; 8 Stalls + 1 ADA), and this requirement specifically calls for accessible units.",
+  "The profile shows no bonding capacity, construction licenses, or Maryland licenses, and a requirement this size may call for them.",
+  "The response date (2027-01-29) is a forecast date with no time or time zone and may change."
+ ],
+ "competition": "This is listed as a new requirement, and the pack names no incumbent. This agency's past NAICS 532289 awards were small rentals: tents, furniture, golf carts, and dignitary-visit support. They ran from $4,515 (Grimes Events & Party Tents) to $329,778 (DJ Doctor, Tents and Generators, Bedminster NJ, 14 offers). Other awardees were Cort Business Services ($72,430, 1 offer), Checkmate Global (3 awards, $4,765\u2013$81,008), IN Tents Party Rentals ($89,776), Jads Productions ($46,715), Ranco Tent Rental ($17,116), Maddox Joines ($87,167), and Horizon Distributors ($78,300). Most drew 1\u20133 offers. In the any-agency benchmarks, Asset Group won 7 FEMA mobile DRC call orders ($276,806\u2013$2,047,173, 3\u20135 offers) and Rapid Deployment won $6,954,827 (5 offers). None of them won anything near this size, and none of these awards had a shoot-house or fitness-facility scope.",
+ "price_signal": "The forecast estimates $20M\u2013$50M. No similar award in the pack comes close. The largest NAICS 532289 + PSC R429 benchmark is $6,954,827 (Rapid Deployment, FEMA), and this agency's largest 532289 award is $329,778. For our share of the work: the USCG template prices restroom/shower trailer rental at $8,995/unit for a 30-day job (quoted total $51,990; related award $78,500). The price list shows Luxury Shower-Restroom Combination Trailers at 3,995\u20135,995 for 15 days\u20131 month and 2,495\u20135,995 for more than 3 months, with no billing basis stated. The ADA rows have no prices.",
+ "must_have": [
+  "Furnish, install, maintain, and remove a climate-controlled temporary fitness facility supporting strength, cardiovascular, and functional conditioning (source: bid pack Description).",
+  "Furnish, install, maintain, and remove an adjacent temporary shoot house facility (source: bid pack Description).",
+  "Furnish, install, maintain, and remove accessible restroom and shower trailers (source: bid pack Description).",
+  "All required site preparation, utilities, power generation and distribution, lighting, life-safety systems, and equipment options (source: bid pack Description).",
+  "Post-removal site restoration (source: bid pack Description).",
+  "Deliver in accordance with Government-approved plans (source: bid pack Description).",
+  "Place of performance: James J. Rowley Training Center, Laurel, MD (source: bid pack Opportunity and Description).",
+  "Submission items, format, and evaluation factors: [CONFIRM: not stated; the pack has 0 attachments]."
+ ],
+ "gaps": [
+  "[CONFIRM: release date of the actual solicitation and whether 2027-01-29 is the real response date, plus its time and time zone]",
+  "[CONFIRM: solicitation documents (SOW/PWS, instructions, evaluation criteria)]",
+  "[CONFIRM: contract type, period of performance, and whether the work is split into lots or line items that allow a partial or restroom/shower-only award]",
+  "[CONFIRM: number and type of accessible restroom and shower trailers, and fitness facility size and specs]",
+  "[CONFIRM: shoot house specifications, such as ballistic rating and design responsibility]",
+  "[CONFIRM: bonding requirements and our bonding capacity]",
+  "[CONFIRM: required licenses, such as Maryland contractor or electrical licenses for power distribution and life-safety systems]",
+  "[CONFIRM: mandatory site visit or pre-proposal conference]",
+  "[CONFIRM: security, clearance, or access requirements for the Rowley Training Center]",
+  "[CONFIRM: size standard for NAICS 532289 and whether we qualify as small under it]",
+  "[CONFIRM: whether the agency will use our GSA MAS #47QSMS25D00AM or another vehicle; our SINs are not mapped to NAICS 532289 or PSC R429]",
+  "[CONFIRM: pricing for ADA shower-restroom combination units; the price list rows are blank]",
+  "[CONFIRM: possible prime partners (tent, structure, or construction firms) to team with for the shoot house and site work]",
+  "[CONFIRM: depot or fleet availability serving Laurel, MD]"
+ ],
+ "deadline": "2027-01-29 (HigherGov forecast response deadline; no time or time zone stated). That is 77 days from 2026-11-13.",
+ "checked": "2026-11-13T23:38",
+ "ai": "claude-code"
+}

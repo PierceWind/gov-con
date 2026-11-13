@@ -1,0 +1,41 @@
+{
+ "verdict": "No bid",
+ "score": 3,
+ "one_line": "This is not a solicitation: it's one offhand remark in auto-generated YouTube captions of a town meeting about maybe getting a single porta-potty for a construction contractor, the work was due to end by late November 2026, and no buyer, contact, or procurement process is named.",
+ "scope": "At its September 21, 2026 meeting, the Kingston, MA Recreation Commission said the bathrooms at the beach park (Grace Beach Park in the captions) would close around mid-October for winterization. Staff added, \"we'll probably have to get a porta ... for the ... contractor,\" meaning the company renovating the tennis and basketball courts. At most, that means one portable toilet delivered, serviced, and removed from about mid-October to the end of November 2026, when the project is supposed to finish.",
+ "fit": [
+  "Facility Support & Utilities, one of our core competencies, covers portable sanitation, and we run a restroom fleet.",
+  "We have serviced restroom units for local governments before. Example: City and County of Denver, SC-00011558, climate-controlled portable restroom trailers with pump-outs and servicing.",
+  "Our work area is nationwide, so Massachusetts is inside it.",
+  "No set-aside is stated, so our SBE/MBE status doesn't block us."
+ ],
+ "red_flags": [
+  "The notice type is 'Agendas / Minutes', and the source is YouTube captions that are 'not official meeting minutes.' There is no RFQ, RFP, scope of work, or bid form.",
+  "The timing has almost certainly passed. The bathrooms closed around mid-October 2026, and the project was due to finish by the end of November 2026. Today is 2026-11-14, so at most about two weeks of need remain, and someone has probably filled it already.",
+  "It may not be the Town's purchase at all. The toilet is for the court contractor, whose contract was signed 2026-09-21, so the contractor may rent it directly.",
+  "It's tiny: one standard portable toilet. That is not a restroom trailer. Our price list has no single porta-potty line, and our smallest restroom item is a 13ft 3-stall luxury shower-restroom combination trailer.",
+  "NAICS 562991 (septic tank and related services) isn't one of our NAICS codes, and no PSC is given.",
+  "No contact is listed: name, email, and phone are all 'None'.",
+  "No estimated value is given. Mobilizing from our California home office for one unit over a few weeks in Massachusetts is unlikely to pay for itself."
+ ],
+ "competition": "The bid pack shows no incumbent. It lists no past awards by the Town of Kingston under NAICS 562991 and no award benchmarks for NAICS 562991 from any agency. The captions don't name a supplier, and there's no record of offers received. Local portable toilet vendors near Kingston, MA would likely have a large edge on cost and response time [CONFIRM: local vendors, not in the bid pack].",
+ "price_signal": "None. The bid pack has no past awards and no benchmarks, and the meeting gave no cost. The closest line on our own price list is the 13ft Luxury Shower-Restroom Combination Trailer (3 stalls): $2,995.00 for 1-6 days and 8-14 days, $3,995.00 for 15 days to 1 month. The list doesn't say whether those are daily, weekly, or full-period rates, and that unit is far bigger than the single porta-potty described.",
+ "must_have": [
+  "No submission requirements are stated. The bid pack has no solicitation document, forms, certifications, bonding, insurance, site visit, or license requirements (source: bid pack, attachment 2026-09-22 Kingston Recreation Commission captions).",
+  "Implied service, not formal requirements: deliver one portable toilet, service it during construction, and remove it at the end (source: bid pack Description; captions at 00:46:58).",
+  "Implied period: about mid-October 2026 to the end of November 2026 (source: captions at 00:42:18 and 00:46:28-00:47:07)."
+ ],
+ "gaps": [
+  "[CONFIRM: whether the Town of Kingston ever issued a quote request or other procurement for this, or bought it informally]",
+  "[CONFIRM: whether the Town or the court renovation contractor is buying the portable toilet]",
+  "[CONFIRM: whether the need is already filled, and by whom]",
+  "[CONFIRM: buyer contact name, email, and phone; none listed]",
+  "[CONFIRM: rental period, unit count, ADA requirement, and servicing frequency]",
+  "[CONFIRM: whether we can source and service a standard single portable toilet in Massachusetts; our fleet lists restroom trailers, not single units]",
+  "[CONFIRM: any Massachusetts or Town of Kingston permit or license needed to service portable toilets and haul waste]",
+  "[CONFIRM: what the 2026-12-22 'response deadline' means; it appears to be a HigherGov forecast date, not one set by the Town]"
+ ],
+ "deadline": "HigherGov lists the response deadline as 2026-12-22, with no time or time zone given. The source document states no deadline, and the actual need was about mid-October through the end of November 2026.",
+ "checked": "2026-11-14T00:48",
+ "ai": "claude-code"
+}

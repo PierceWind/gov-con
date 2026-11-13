@@ -1,0 +1,61 @@
+{
+ "verdict": "No bid",
+ "score": 18,
+ "one_line": "This is a low-value, LPTA, year-round route contract for standard portable toilets at Zion. It is outside our fleet, price list, and NAICS/PSC codes, and it needs a local yard and pump truck to compete with the local incumbent, Wayne A. Levitz.",
+ "scope": "NPS wants a contractor to rent, deliver, pump, clean, restock, repair or replace, and remove standard portable toilets at Zion National Park (Springdale, UT) from Jan 1, 2027 through Dec 31, 2031: a base year plus four one-year options. That is about 5\u20137 units across sites such as Nature Center, Big Bend, and Canyon Junction, serviced 1\u20133 times a week. Each unit must hold at least 60 gallons, have dual toilet paper dispensers and a wall-mounted waterless soap dispenser, and display our name. All waste is hauled off-site. Firm-fixed-price, NTE emergency CLINs (0011\u20130051) cover emergency placements, delivered within 24 hours of written notice, and emergency services, performed within 24 hours of a written Notice to Proceed.",
+ "fit": [
+  "Set-aside fits our status: it is a 100% Total Small Business Set-Aside (Sol. p.3; Amd 0002), with no 8(a), WOSB, SDVOSB, or HUBZone requirement. Our SAM is active, UEI REVFD44JLMV5, CAGE 57C31. Size under NAICS 562991 ($9M) still needs confirming.",
+  "Portable sanitation is one of our stated core competencies (Facility Support & Utilities: water delivery, waste removal, generators, portable sanitation).",
+  "Closest past performance: City and County of Denver SC-00011558 (restroom trailers with cleaning, pump-outs, waste disposal, supplies, maintenance) and USCG Station Lake Worth Inlet 70Z02826FMIAM0008 (restroom/shower trailers with wastewater support, $78,500).",
+  "Our operating model already covers weekly servicing, RCRA-compliant gray/black water removal, sanitizing, consumables, a 24/7 line, 24-hour on-site response for critical failures, and weekly QC reports.",
+  "No bonding, mandatory site visit, or specific license is stated in the solicitation. The certificate of insurance is due after award and is not an evaluation factor (Q&A #43)."
+ ],
+ "red_flags": [
+  "Off-core product: the SOW calls for standard portable toilets of at least 60 gallons. Our fleet and price list have restroom/shower trailers but no standard portable toilet item, and Technical Factor 2 requires a product, manufacturer, and part number.",
+  "NAICS 562991 and PSC W085 are not among our codes (our NAICS: 721310, 532490, 722310, 624230, 624221, 561210, 423740; our PSC: W023, W099, W045).",
+  "Location: Zion is far from our Marina del Rey, CA base. The work is 1\u20133 services a week, year-round, with 24-hour repair or replacement, 24-hour emergency placement, no park dump station, and no water (Q&A #7, #28, #37). We would need a local yard and pump truck.",
+  "LPTA with quotes ranked lowest price first (Amd 0002). The local incumbent, Wayne A. Levitz (140P1222P0018), already has units in place, and the scope is 'generally the same' (Q&A #9, #38).",
+  "Limitations on Subcontracting (FAR 52.219-14, 50% for services) is now a checklist item. We would have to self-perform or use a similarly situated small-business sub, and a sub's markup would hurt us under LPTA.",
+  "Insurance must be carried by the prime, with the United States as named insured: $100K each person, $500K each occurrence, $500K property damage. The CO's view is that sub coverage does not satisfy it (Q&A #43).",
+  "The emergency figures (300 services/yr in FY27, 320 after; 15 placements in FY27, 30 after) are estimated quantities that count in the Total Evaluated Price at per-unit prices (Q&A #4, #35). The HigherGov summary misreads them as dollar prices.",
+  "The site visit (11/12/2026) has already passed. It was not stated as mandatory, and its time is inconsistent: 10AM MT in Amd 0002 versus 1PM in Q&A #8.",
+  "Funds are not currently available, and the solicitation may be cancelled (Subject to Availability of Funds addendum).",
+  "Service Contract Act applies, with two wage determinations attached (2015-5487 Washington County; 2015-5495 Beaver/Garfield/Iron/Kane). The revised SOW still reads 'ADD COUNTIES HERE'.",
+  "Errors in the solicitation documents: CLINs 0021\u20130051 all show a 2027 period of performance (Amd 0002). Several revised schedule tabs still say 'Temple* Septic Cleaning' even though septic was removed (Q&A #3, SOW \u00a74). Amd 0001 said more SOW and pricing changes would follow.",
+  "Value is small: the estimate is $50,000\u2013$180,000 over 5 years. Our past performance is restroom trailers, not standard portable toilet route service."
+ ],
+ "competition": "Incumbent: Wayne A. Levitz, Contract 140P1222P0018. It owns and services the units now on site, and the new scope is 'generally the same' (Q&A #9, #38). Similar DOI awards under NAICS 562991 drew 1\u201313 offers. Examples: A & G Pumping, PINN portable toilets, 13 offers. EL Dorado Septic, 5 offers. Short Septic, 5. Kevin's Pro Clean, 5. River Septic, 3. D&M Pumping, 2. All winners are regional pumping and sanitation firms. None of the listed past awards was in Utah, and the incumbent's award value is not given.",
+ "price_signal": "HigherGov puts the estimated value at $50,000\u2013$180,000 total for 5 years. Comparable awards: A & G Pumping, PINN Portable Toilet Rental & Servicing, $51,350 (about 1 year, 13 offers). Brown & Jackson, Yakima Canyon porta potty rental, $11,270 (2 years). D&M Pumping, portable and vault toilet services, $277,330 (5 years). EL Dorado Septic, restroom pumping and portable rentals, $380,677 (3 years). Suntiff, portable toilets, $407,352 (2 years). Our price list has no standard portable toilet line. The nearest item, a 13ft Luxury Shower-Restroom Combination Trailer, is priced at 2,995\u20133,995 with no stated billing basis, so we cannot price this job from our list.",
+ "must_have": [
+  "Quotes go by email to Cole_Johnson@ios.doi.gov by 12/10/2026, 12:00 PM MT (Amd 0002, Sections II and 52.212-1 Addendum).",
+  "Checklist for Quote Submittal, completed as the first page (52.212-1 Addendum (a), Amd 0002).",
+  "Signed SF 1449 with blocks 12, 17, 23, 24, and 30 completed (SF 1449; Addendum item 2).",
+  "Signed SF 30 acknowledgments for Amendments 0001 and 0002, plus any later amendment (Amd 0001/0002 Item 11; Addendum item 2).",
+  "SF 1449 price schedule for CLINs 0010/0011, 0020/0021, 0030/0031, 0040/0041, and 0050/0051, unedited. No alternate quotes (Addendum item 3, Amd 0002).",
+  "Monthly Price Schedule, revised version 0002, with per-unit prices for the base and all option years, including per-unit Emergency Service and Emergency Placement prices and removal fees where a unit goes to zero (Addendum item 4; Q&A #2, #4, #35).",
+  "Completed provisions, including 52.209-7 and 52.209-11 representations (Sol. Section VIII).",
+  "Technical Factor 1, Draft Schedule, with delivery starting 1 Jan 2027 and milestones for the base and option periods (Award Selection Process).",
+  "Technical Factor 2, Product Data: portable toilet product, manufacturer, and part number (if available), meeting the 60-gallon minimum, dual toilet paper dispensers, wall-mounted waterless soap, and supplier name on each unit (Award Selection Process; Revised SOW \u00a73\u20134).",
+  "Technical Factor 3, Operations Plan: adding toilets with notice, prep, and delivery times; relocation; maintenance frequency; and replacement timing (Award Selection Process).",
+  "Limitations on Subcontracting worksheet (Attachment 5) or an equivalent showing compliance with the 50% limit (Amd 0002 checklist; FAR 52.219-14).",
+  "Active SAM registration, UEI, and small business size under NAICS 562991 ($9M) at quote, award, and throughout performance (Sol. Section I; Q&A #6).",
+  "Post-award: DOI 1452.228-70 insurance certificate naming the US ($100K/person, $500K/occurrence, $500K property damage); Safety Plan and Spill Plan; quarterly usage reports; IPP invoicing (Sol. clauses; Revised SOW \u00a73).",
+  "Performance: graffiti removed within 24 hours; damaged units repaired or replaced within 24 hours; emergency placement within 24 hours of written notice; emergency service within 24 hours of a written Notice to Proceed; serious incidents reported within 3 hours; SCA wage determination compliance; no ATVs (Revised SOW \u00a73, \u00a75, \u00a79; Sol. clauses)."
+ ],
+ "gaps": [
+  "[CONFIRM: average annual receipts are under the $9M size standard for NAICS 562991]",
+  "[CONFIRM: NAICS 562991 can be added to our SAM registration and reps before the 12/10/2026 deadline]",
+  "[CONFIRM: nearest Temporary 123 depot or yard to Springdale, UT, and drive time]",
+  "[CONFIRM: whether we own or can source standard portable toilets of at least 60 gallons with dual toilet paper and wall-mounted waterless soap dispensers, with manufacturer and part number]",
+  "[CONFIRM: pump truck availability and any Utah waste-hauling permits; approved off-site dump locations near Zion]",
+  "[CONFIRM: a local, similarly situated small-business subcontractor and its pricing, if we pursue a teaming approach]",
+  "[CONFIRM: our liability insurance meets DOI 1452.228-70 amounts and can name the United States as insured]",
+  "[CONFIRM: which wage determination applies (2015-5487 Washington County vs 2015-5495 Kane, etc.) and our SCA labor cost]",
+  "[CONFIRM: whether an Amendment 0003 has been posted, including fixes to the CLIN 0021\u20130051 periods of performance and the leftover 'Septic Cleaning' notes]",
+  "[CONFIRM: whether to submit questions by 11/18/2026 COB, e.g., on the missed site visit and whether the emergency quantities of 300/320 and 15/30 are realistic estimates]",
+  "[CONFIRM: which email to use on the quote: sales@temporarykitchens123.com or contract@temporary123.com]"
+ ],
+ "deadline": "December 10, 2026, 12:00 PM Mountain Time, by email to Cole_Johnson@ios.doi.gov (Amendment 0002; the original date was Dec 3, 2026). Questions are due November 18, 2026 by close of business, with the CO accepting them until 11:59 PM that day.",
+ "checked": "2026-11-14T00:48",
+ "ai": "claude-code"
+}

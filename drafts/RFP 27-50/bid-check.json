@@ -1,0 +1,50 @@
+{
+ "verdict": "No bid",
+ "score": 12,
+ "one_line": "This is marked as an SDVOSB set-aside, and we are not SDVOSB. On top of that, the work is local, as-needed portable toilet rental and pumping in Charlottesville, VA, which falls outside our trailer fleet, our price list, and our NAICS/PSC codes.",
+ "scope": "The City of Charlottesville Parks & Recreation Department wants a contract to rent portable toilets of various sizes, including ADA units, plus related items such as foot pedal handwashing stations. The contractor would also maintain the units as needed: pumping, cleaning and disinfecting, adding fresh chemicals, and replacing urinal cakes. The term is one year from ratification with up to four one-year renewals, and all work is inside the City of Charlottesville.",
+ "fit": [
+  "Portable sanitation is one of our stated core competencies (Facility Support & Utilities: water delivery, waste removal, generators, and portable sanitation).",
+  "Relevant past performance: City and County of Denver, SC-00011558 (Aug 2026 \u2013 ongoing, multi-year). We provide climate-controlled portable restroom trailers there, with cleaning, pump-outs, waste disposal, supplies, maintenance, and demobilization, for up to 500 people.",
+  "The price list includes a Handwashing Sink Trailer and Luxury Shower-Restroom Combination Trailers, which overlap partly with the associated rental items they ask for.",
+  "We have SBE and MBE status. The RFP encourages small and minority-owned businesses but does not give them any preference."
+ ],
+ "red_flags": [
+  "HigherGov lists the set-aside as SDVOSBC. We have no SDVOSB certification, so we cannot bid as prime. However, the HigherGov summary only says offerors are 'encouraged to include' small, women-, minority-, or veteran-owned businesses, and that reads like an open competition. The actual RFP has to settle this.",
+  "The work is standard portable toilets (porta-johns), not restroom trailers. Our price list has no portable toilet units, and our fleet as described is trailer-based.",
+  "NAICS 562991 and PSC S214 are not among our codes (our NAICS: 721310, 532490, 722310, 624230, 624221, 561210, 423740; our PSC: W023, W099, W045).",
+  "The service is recurring, as-needed pumping and cleaning in Charlottesville, VA. That takes local pumper trucks and crews. Our documents name no Virginia depot or local service partner, and we are based in Marina del Rey, CA.",
+  "The value is small ($25,000\u2013$180,000 estimated, apparently across up to five years), and it will be split across low-margin service calls. That favors local septic and portable toilet vendors.",
+  "No RFP documents came with the bid pack (0 attachments), so we cannot see the instructions, evaluation criteria, insurance, bonding, or site visit terms.",
+  "The deadline is 2026-11-23, nine days from today, with no time stated.",
+  "They ask for a Virginia State Corporation Commission ID 'if applicable'. Nothing in our documents shows a Virginia SCC registration."
+ ],
+ "competition": "The bid pack lists no incumbent and no past awards by the City of Charlottesville under NAICS 562991. No offers received are reported. Likely competitors are local portable toilet and septic service companies, but none are named in the bid pack.",
+ "price_signal": "There are no awards from this agency to compare. The only benchmarks for NAICS 562991 + PSC S214 are old, small federal awards: Sani-Can, Eielson AFB, AK, 2019, $1,432 (1 offer); Energica Spurghi Srl, Italy, 2009, $4,934 (2 offers); Energica Spurghi Srl, 2008, $11,769 (2 offers). None of them is a good comparison for a multi-year city contract. The city estimates $25,000\u2013$180,000. Our price list has no portable toilet rates, so we would need a rate for every toilet type: [CONFIRM: portable toilet unit rates], [CONFIRM: handwashing station rate], [CONFIRM: pumping/service rate].",
+ "must_have": [
+  "Sealed proposal submitted through the City's OpenGov portal, project 315481 (source: bid pack Description and Source link)",
+  "List of portable toilet types for rent, with costs, sizes, ADA accessibility, and extra amenities (source: HigherGov AI summary, Work Details)",
+  "Written confirmation that every portable toilet has working locks and hinges, no damage affecting user privacy, and no graffiti (source: HigherGov AI summary, Work Details)",
+  "List of associated rental items, such as foot pedal handwashing stations, with their costs (source: HigherGov AI summary, Work Details)",
+  "Maintenance plan covering pumping frequency, cleaning and disinfecting schedules, and schedules for fresh chemicals and urinal cake replacement (source: HigherGov AI summary, Work Details)",
+  "Virginia State Corporation Commission identification number, if applicable (source: HigherGov AI summary, Bidder Requirements)",
+  "Compliance with all applicable federal, state, and local laws (source: HigherGov AI summary, Bidder Requirements)",
+  "Eligibility under the stated SDVOSBC set-aside (source: bid pack Opportunity header). We do not meet this unless the RFP shows there is no set-aside."
+ ],
+ "gaps": [
+  "[CONFIRM: set-aside] Does the RFP on OpenGov actually restrict this to SDVOSBs, or is HigherGov's SDVOSBC tag wrong for a city RFP?",
+  "[CONFIRM: full RFP documents] We need the instructions, evaluation criteria, forms, and any amendments. The bid pack has no attachments.",
+  "[CONFIRM: product acceptability] Would the City accept restroom trailers alongside or instead of standard portable toilets?",
+  "[CONFIRM: portable toilet inventory] Do we own standard portable toilets and ADA units, or would we have to subcontract or buy them?",
+  "[CONFIRM: local service capacity] Do we have pumper trucks, crews, or a subcontractor within reach of Charlottesville, VA?",
+  "[CONFIRM: Virginia SCC registration] Is Temporary 123, Inc. registered in Virginia, and what is its SCC ID?",
+  "[CONFIRM: deadline time and time zone] Only the date (2026-11-23) is given.",
+  "[CONFIRM: site visit / pre-proposal conference] The bid pack says nothing either way.",
+  "[CONFIRM: bonding and insurance requirements] The bid pack says nothing either way.",
+  "[CONFIRM: local business license] Is a City of Charlottesville or Virginia license required?",
+  "[CONFIRM: pricing] Rates for each toilet type, handwashing stations, and per-service pumping. None are on our price list."
+ ],
+ "deadline": "2026-11-23. The bid pack gives no time or time zone.",
+ "checked": "2026-11-14T00:44",
+ "ai": "claude-code"
+}

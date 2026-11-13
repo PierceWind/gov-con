@@ -1,0 +1,460 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Opportunity Finder</title>
+<style>
+:root{--bg:#f6f7f9;--card:#fff;--ink:#1b1f24;--muted:#5f6b7a;--line:#e3e7ec;--accent:#1f6feb;--new:#e8f1ff;--hi:#1a7f37;--mid:#9a6700;--lo:#6e7781}
+@media (prefers-color-scheme:dark){:root{--bg:#0d1117;--card:#161b22;--ink:#e6edf3;--muted:#8b949e;--line:#30363d;--accent:#4493f8;--new:#132540;--hi:#3fb950;--mid:#d29922;--lo:#8b949e}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:14px/1.45 system-ui,-apple-system,Segoe UI,sans-serif}
+header{padding:16px 20px;display:flex;flex-wrap:wrap;gap:12px;align-items:center;border-bottom:1px solid var(--line);background:var(--card)}
+h1{font-size:18px;margin:0 auto 0 0}
+.muted{color:var(--muted);font-size:13px}
+button,select,input{font:inherit;border:1px solid var(--line);background:var(--card);color:var(--ink);border-radius:6px;padding:6px 10px}
+button.primary{background:var(--accent);border-color:var(--accent);color:#fff;cursor:pointer}button:disabled{opacity:.6;cursor:wait}
+.bar{display:flex;flex-wrap:wrap;gap:8px;align-items:center;padding:12px 20px}
+.chip{cursor:pointer;border-radius:999px;padding:5px 12px}.chip.on{background:var(--accent);border-color:var(--accent);color:#fff}
+input[type=search]{flex:1;min-width:200px}
+.wrap{padding:0 20px 24px;overflow-x:auto}
+table{width:100%;border-collapse:collapse;background:var(--card);border:1px solid var(--line);border-radius:8px;overflow:hidden}
+th,td{padding:8px 10px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}
+th{font-size:12px;text-transform:uppercase;letter-spacing:.03em;color:var(--muted);cursor:pointer;white-space:nowrap;position:sticky;top:0;background:var(--card)}
+tr.new td{background:var(--new)}
+td.t{min-width:260px;font-weight:500}td.nw{white-space:nowrap}
+.pct{font-weight:700}.p100{color:var(--hi)}.p50{color:var(--mid)}.p0{color:var(--lo)}
+a{color:var(--accent)}
+.soon{color:#cf222e;font-weight:600}
+pre{margin:0 20px 12px;padding:10px;background:var(--card);border:1px solid var(--line);border-radius:6px;max-height:140px;overflow:auto;font-size:12px;display:none}
+.empty{padding:40px;text-align:center;color:var(--muted)}
+.sel{display:flex;flex-wrap:wrap;gap:6px;align-items:center;padding:0 20px 12px}
+.sel button{padding:4px 10px;font-size:13px;cursor:pointer}
+.sel .sep{width:1px;height:20px;background:var(--line);margin:0 6px}
+.sel .exp{border-color:var(--accent);color:var(--accent)}
+tr.picked td{background:color-mix(in srgb,var(--accent) 12%,transparent)}
+td.cb,th.cb{width:28px;text-align:center}
+select.st{padding:2px 4px;font-size:12px;border-radius:999px;font-weight:600}
+.st-New{color:var(--muted)}.st-In-review{color:#9a6700}.st-Copied{color:#8250df}.st-Sent{color:#1f6feb}
+.st-Bid-submitted{color:#bf3989}.st-Won{color:#1a7f37}.st-Lost,.st-No-bid{color:#cf222e}
+#toast{position:fixed;bottom:20px;left:50%;transform:translateX(-50%);background:var(--ink);color:var(--bg);padding:8px 14px;border-radius:6px;font-size:13px;opacity:0;transition:opacity .3s;pointer-events:none}
+#docs{position:fixed;inset:0;background:rgba(0,0,0,.45);display:none;align-items:flex-start;justify-content:center;padding:40px 16px;z-index:10;overflow:auto}
+#docs .panel{background:var(--card);border:1px solid var(--line);border-radius:10px;max-width:860px;width:100%;padding:18px 20px}
+#docs h2{font-size:16px;margin:0 0 4px}
+.doc{border-top:1px solid var(--line);padding:10px 0}
+.doc .n{font-weight:600}
+.doc p{margin:6px 0 0;font-size:13px}
+button.docbtn{padding:2px 8px;font-size:12px;cursor:pointer}
+.ai{border-top:2px solid var(--line);margin-top:12px;padding-top:12px}
+.verdict{display:inline-block;padding:3px 10px;border-radius:999px;font-weight:700;color:#fff}
+.v-bid{background:#1a7f37}.v-maybe{background:#9a6700}.v-no{background:#cf222e}
+.ai ul{margin:4px 0 8px 18px;padding:0}.ai h3{font-size:14px;margin:10px 0 4px}
+#d_draft{max-height:60vh;overflow:auto;border:1px solid var(--line);border-radius:8px;padding:10px 16px;margin-top:8px;display:none}
+#d_draft table{border:0}#d_draft td,#d_draft th{border:1px solid var(--line)}
+</style>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/marked/12.0.2/marked.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf-autotable/3.8.2/jspdf.plugin.autotable.min.js"></script>
+</head>
+<body>
+<header>
+  <h1>Opportunity Finder</h1>
+  <span class="muted" id="last">Last run: –</span>
+  <span class="muted" id="sources">Sources: –</span>
+  <select id="days" title="Scan window">
+    <option value="">Since last run</option><option value="3">Last 3 days</option>
+    <option value="7">Last 7 days</option><option value="14">Last 14 days</option>
+  </select>
+  <button class="primary" id="run">Search now</button>
+  <button id="stop" hidden>Stop</button>
+</header>
+<details id="cfg" style="margin:12px 20px 0;background:var(--card);border:1px solid var(--line);border-radius:8px;padding:10px 14px">
+  <summary style="cursor:pointer;font-weight:600">Search settings <span class="muted" id="cfgsum"></span></summary>
+  <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px;margin-top:10px">
+    <label>Service keywords (one per line)<textarea id="c_phrases" rows="10" style="width:100%"></textarea></label>
+    <label>NAICS codes (one per line)<textarea id="c_naics" rows="10" style="width:100%"></textarea></label>
+    <label>Must include one of (rental terms)<textarea id="c_rental_terms" rows="10" style="width:100%"></textarea></label>
+    <label>Exclude if title has<textarea id="c_exclude_terms" rows="10" style="width:100%"></textarea></label>
+    <label>Never match (e.g. Solar) &mdash; rejects if in title or right before a keyword<textarea id="c_negative_terms" rows="10" style="width:100%"></textarea></label>
+  </div>
+  <div style="margin-top:8px;display:flex;gap:8px;align-items:center">
+    <button class="primary" id="c_save">Save settings</button><button id="c_reset">Reset to defaults</button>
+    <button id="c_rescore" title="Remove saved contracts that fail the current settings">Re-check saved contracts</button>
+    <span class="muted" id="c_msg"></span>
+  </div>
+</details>
+<div id="err" hidden style="margin:12px 20px 0;padding:10px 14px;border-radius:8px;background:#ffebe9;color:#82071e;border:1px solid #ff8182;font-weight:600"></div>
+<div id="prog" hidden style="margin:12px 20px 0">
+  <div style="display:flex;justify-content:space-between;font-size:13px;margin-bottom:4px"><span id="proglabel"></span><span id="progpct" class="muted"></span></div>
+  <div style="height:10px;background:var(--line);border-radius:999px;overflow:hidden"><div id="progbar" style="height:100%;width:0;background:var(--accent);transition:width .4s"></div></div>
+</div>
+<pre id="log"></pre>
+<div class="bar">
+  <span class="muted">Match:</span>
+  <button class="chip on" data-m="0">&gt;0%</button>
+  <button class="chip" data-m="25">≥25%</button>
+  <button class="chip" data-m="50">≥50%</button>
+  <button class="chip" data-m="100">≥100%</button>
+  <label class="muted"><input type="checkbox" id="newonly"> New today only</label>
+  <label class="muted"><input type="checkbox" id="expired"> Show past deadline</label>
+  <select id="stfilter" title="Filter by lead status"><option value="">All statuses</option></select>
+  <select id="source" title="Filter by source"><option value="">All sources</option><option>HigherGov</option><option>SAM.gov</option></select>
+  <input type="search" id="q" placeholder="Filter title, agency, place…">
+  <span class="muted" id="count"></span>
+</div>
+<div class="sel">
+  <span class="muted">Select:</span>
+  <button data-q="all">All shown</button>
+  <button data-q="none">None</button>
+  <button data-q="invert">Invert</button>
+  <button data-q="m50">&ge;50%</button>
+  <button data-q="m100">&ge;100%</button>
+  <button data-q="new">New today</button>
+  <button data-q="week">Due in 7 days</button>
+  <button data-q="setaside">Has set-aside</button>
+  <button data-q="nocheck">Not bid-checked</button>
+  <button data-q="bid">Verdict: Bid</button>
+  <span class="sep"></span>
+  <select id="bulkst" title="Set status of selected leads"><option value="">Set status…</option></select>
+  <span class="sep"></span>
+  <span class="muted" id="selcount">Export: all shown</span>
+  <button class="exp" id="b_run" style="border-color:#1a7f37;color:#1a7f37">Bid check selected</button>
+  <button class="exp" id="x_teams" style="border-color:#5b5fc7;color:#5b5fc7" hidden>Send table to Teams</button>
+  <button class="exp" id="x_teams_brief" style="border-color:#5b5fc7;color:#5b5fc7" hidden>Send detailed brief</button>
+  <button class="exp" id="x_copy">Copy table</button>
+  <button class="exp" id="x_copybrief">Copy detailed brief</button>
+  <select class="exp" id="x_export" aria-label="Export opportunities" title="Export opportunities">
+    <option value="">Export…</option>
+    <option value="csv">CSV</option>
+    <option value="xlsx">Excel (.xlsx)</option>
+    <option value="pdf">PDF</option>
+  </select>
+</div>
+<div id="bprog" hidden style="margin:0 20px 12px">
+  <div style="display:flex;justify-content:space-between;font-size:13px;margin-bottom:4px;gap:8px">
+    <span id="blabel"></span><span><span id="bpct" class="muted"></span> <button id="b_stop" style="padding:2px 8px;font-size:12px">Stop</button></span></div>
+  <div style="height:8px;background:var(--line);border-radius:999px;overflow:hidden"><div id="bbar" style="height:100%;width:0;background:#1a7f37;transition:width .4s"></div></div>
+</div>
+<div id="toast"></div>
+<div id="docs"><div class="panel">
+  <div style="display:flex;gap:8px;align-items:flex-start">
+    <div style="flex:1"><h2 id="d_title"></h2><div class="muted" id="d_meta"></div></div>
+    <button class="primary" id="d_save">Save all to folder</button>
+    <button id="d_close">Close</button>
+  </div>
+  <div class="muted" id="d_msg" style="margin-top:8px"></div>
+  <div id="d_list"></div>
+  <div class="ai">
+    <div style="display:flex;gap:8px;align-items:center;flex-wrap:wrap">
+      <strong>Bid decision &amp; proposal</strong>
+      <button id="d_check">Run bid check</button>
+      <button id="d_draftbtn" class="primary">Draft proposal</button>
+      <button id="d_copydraft" hidden>Copy draft</button>
+      <button id="d_dldraft" hidden>Download .md</button>
+      <a id="d_cap" href="/api/capability.pdf" target="_blank" rel="noopener" style="font-size:13px">Capability statement (PDF)</a>
+      <span class="muted" id="d_aimsg"></span>
+    </div>
+    <div id="d_check_out"></div>
+    <div id="d_draft"></div>
+  </div>
+</div></div>
+<div class="wrap"><table><thead><tr id="head"></tr></thead><tbody id="body"></tbody></table><div class="empty" id="empty" hidden>No opportunities match these filters.</div></div>
+<script>
+const STATUSES=["New","In review","Copied","Sent","Bid submitted","Won","Lost","No bid"];
+const stc=s=>"st-"+String(s).replace(/ /g,"-");
+const COLS=[["Status","Status"],["Match %","Match"],["bid","Bid"],["Source","Source"],["Title","Title"],["Agency","Agency"],["NAICS","NAICS"],["PSC","PSC"],["Set-aside","Set-aside"],["Type","Type"],["Posted","Posted"],["Response Deadline","Deadline"],["Place of Performance","Place"],["Contact","Contact"],["Solicitation #","Solicitation #"]];
+let rows=[],minM=0,sortKey="Response Deadline",sortDir=1;
+const today=new Date().toISOString().slice(0,10),$=id=>document.getElementById(id);
+const esc=s=>String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+let picked=new Set(),shown=[];
+$("head").innerHTML=`<th class="cb"><input type="checkbox" id="pickall" title="Select all shown"></th>`+COLS.map(([k,l])=>`<th data-k="${k}">${l}</th>`).join("");
+document.querySelectorAll("th[data-k]").forEach(th=>th.onclick=()=>{const k=th.dataset.k;sortDir=sortKey===k?-sortDir:(k==="Match %"?-1:1);sortKey=k;render()});
+document.querySelectorAll(".chip").forEach(c=>c.onclick=()=>{document.querySelectorAll(".chip").forEach(x=>x.classList.remove("on"));c.classList.add("on");minM=+c.dataset.m;render()});
+["q","newonly","expired","source","stfilter"].forEach(id=>$(id).oninput=render);
+function daysLeft(d){return d?Math.round((new Date(d)-new Date(today))/864e5):null}
+function render(){
+  const q=$("q").value.toLowerCase();
+  const list=rows.filter(r=>r["Match %"]>0&&r["Match %"]>=minM
+    &&($("expired").checked||!r["Response Deadline"]||r["Response Deadline"]>=today)
+    &&(!$("newonly").checked||r.first_seen===today)
+    &&(!$("source").value||r.Source===$("source").value)
+    &&(!$("stfilter").value||r.Status===$("stfilter").value)
+    &&(!q||[r.Title,r.Agency,r["Place of Performance"],r["Solicitation #"]].join(" ").toLowerCase().includes(q)))
+   .sort((a,b)=>{const val=r=>sortKey==="bid"?(r.bid?r.bid.score:-1):r[sortKey];const x=val(a)??"",y=val(b)??"";return (x>y?1:x<y?-1:0)*sortDir});
+  shown=list;
+  $("count").textContent=`${list.length} of ${rows.length}`;
+  $("empty").hidden=list.length>0;
+  $("body").innerHTML=list.map(r=>{
+    const p=r["Match %"],cls=p>=100?"p100":p>=50?"p50":"p0",dl=daysLeft(r["Response Deadline"]);
+    const on=picked.has(r.opp_key);
+    return `<tr class="${r.first_seen===today?"new":""} ${on?"picked":""}" data-k="${esc(r.opp_key)}">
+<td class="cb"><input type="checkbox" class="pick" ${on?"checked":""}></td>
+<td class="nw"><select class="st ${stc(r.Status)}" title="${r["Status updated"]?"Updated "+esc(r["Status updated"]):"Not updated yet"}">${STATUSES.map(s=>`<option ${s===r.Status?"selected":""}>${s}</option>`).join("")}</select></td>
+<td class="pct ${cls}">${p}%</td>
+<td class="nw">${r.bid?`<span class="verdict ${r.bid.verdict==="Bid"?"v-bid":r.bid.verdict==="Maybe"?"v-maybe":"v-no"}" title="${esc(r.bid.one_line||"")}" style="font-size:11px;padding:2px 8px">${esc(r.bid.verdict)} ${r.bid.score??""}</span>`:'<span class="muted">-</span>'}</td>
+<td class="muted">${esc(r.Source)}</td>
+<td class="t"><a href="${esc(r.Link)}" target="_blank" rel="noopener">${esc(r.Title)}</a>${r.HigherGov?` · <a href="${esc(r.HigherGov)}" target="_blank" rel="noopener" class="muted">HigherGov</a>`:""}</td>
+<td>${esc(r.Agency)}</td><td>${esc(r.NAICS)}</td><td>${esc(r.PSC)}</td><td>${esc(r["Set-aside"])}</td><td>${esc(r.Type)}</td>
+<td class="nw">${esc(r.Posted)}</td>
+<td class="nw ${dl!==null&&dl<=3?"soon":""}">${esc(r["Response Deadline"])}${dl!==null&&dl>=0?` <span class="muted">(${dl}d)</span>`:""}</td>
+<td>${esc(r["Place of Performance"])}</td>
+<td>${r.Contact?`<a href="mailto:${esc(r.Contact)}">${esc(r.Contact)}</a>`:""}</td>
+<td class="muted">${esc(r["Solicitation #"])}<br><button class="docbtn" data-docs="${esc(r.opp_key)}">Docs</button></td></tr>`}).join("");
+  updSel();
+}
+function updSel(){
+  const n=shown.filter(r=>picked.has(r.opp_key)).length;
+  $("selcount").textContent=n?`Export: ${n} selected`:`Export: all ${shown.length} shown`;
+  $("pickall").checked=n>0&&n===shown.length;$("pickall").indeterminate=n>0&&n<shown.length;
+}
+// ---- lead status ----
+const stOpts=STATUSES.map(s=>`<option>${s}</option>`).join("");
+$("stfilter").insertAdjacentHTML("beforeend",stOpts);$("bulkst").insertAdjacentHTML("beforeend",stOpts);
+async function setStatus(keys,status,auto=false){
+  const r=await fetch("/api/lead-status",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({keys,status,auto})});
+  if(!r.ok){toast("⚠ Status not saved");return}
+  await load();
+}
+$("body").addEventListener("change",e=>{
+  if(e.target.classList.contains("st")){setStatus([e.target.closest("tr").dataset.k],e.target.value).then(()=>toast("Status: "+e.target.value));return}
+  if(!e.target.classList.contains("pick"))return;
+  const tr=e.target.closest("tr"),k=tr.dataset.k;
+  e.target.checked?picked.add(k):picked.delete(k);tr.classList.toggle("picked",e.target.checked);updSel();
+});
+$("pickall").onchange=e=>{shown.forEach(r=>e.target.checked?picked.add(r.opp_key):picked.delete(r.opp_key));render()};
+const QUICK={
+  all:()=>shown.forEach(r=>picked.add(r.opp_key)),
+  none:()=>picked.clear(),
+  invert:()=>shown.forEach(r=>picked.has(r.opp_key)?picked.delete(r.opp_key):picked.add(r.opp_key)),
+  m50:()=>shown.forEach(r=>r["Match %"]>=50&&picked.add(r.opp_key)),
+  m100:()=>shown.forEach(r=>r["Match %"]>=100&&picked.add(r.opp_key)),
+  new:()=>shown.forEach(r=>r.first_seen===today&&picked.add(r.opp_key)),
+  week:()=>shown.forEach(r=>{const d=daysLeft(r["Response Deadline"]);d!==null&&d>=0&&d<=7&&picked.add(r.opp_key)}),
+  nocheck:()=>shown.forEach(r=>!r.bid&&picked.add(r.opp_key)),
+  bid:()=>shown.forEach(r=>r.bid&&r.bid.verdict==="Bid"&&picked.add(r.opp_key)),
+  setaside:()=>shown.forEach(r=>r["Set-aside"]&&r["Set-aside"]!=="NONE"&&picked.add(r.opp_key)),
+};
+$("bulkst").onchange=async e=>{
+  const s=e.target.value;e.target.value="";if(!s)return;
+  const keys=shown.filter(r=>picked.has(r.opp_key)).map(r=>r.opp_key);
+  if(!keys.length)return toast("Select leads first");
+  await setStatus(keys,s);toast(`${keys.length} lead${keys.length>1?"s":""} set to ${s}`);
+};
+document.querySelectorAll(".sel [data-q]").forEach(b=>b.onclick=()=>{QUICK[b.dataset.q]();render()});
+// ---- documents ----
+let docKey=null;
+const kb=n=>n?(n>1e6?(n/1e6).toFixed(1)+" MB":Math.round(n/1e3)+" KB"):"";
+$("body").addEventListener("click",e=>{const b=e.target.closest("[data-docs]");if(b)openDocs(b.dataset.docs)});
+$("d_close").onclick=()=>$("docs").style.display="none";
+$("docs").onclick=e=>{if(e.target.id==="docs")$("docs").style.display="none"};
+async function openDocs(k){
+  docKey=k;const r=rows.find(x=>x.opp_key===k)||{};
+  $("d_title").textContent=r.Title||"";$("d_meta").textContent=`${r["Solicitation #"]||""} · ${r.Agency||""} · due ${r["Response Deadline"]||"?"}`;
+  $("d_list").innerHTML="";$("d_msg").textContent=`Loading documents from ${r.Source||"source"}...`;$("d_save").disabled=true;
+  $("docs").style.display="flex";
+  $("d_check_out").innerHTML="";$("d_draft").style.display="none";$("d_aimsg").textContent="";
+  loadAI().then(running=>{if(running)pollAI()});
+  const res=await fetch("/api/docs?k="+encodeURIComponent(k)),j=await res.json();
+  if(!res.ok){$("d_msg").textContent="⚠ "+j.error;return}
+  $("d_save").disabled=!j.docs.length;
+  $("d_msg").textContent=j.docs.length?`${j.docs.length} documents. Save folder: ${j.folder}${j.saved_already?" (some already saved)":""}`:(j.source_note||"No documents attached to this opportunity.");
+  $("d_list").innerHTML=j.docs.map(x=>`<div class="doc"><div><span class="n">${esc(x.file_name)}</span> <span class="muted">${esc(kb(+x.file_size))} · posted ${esc(x.posted_date)}</span>
+   · <a href="${esc(x.download_url)}" target="_blank" rel="noopener">Download</a></div><p>${esc(x.summary||"No summary.")}</p></div>`).join("");
+}
+let aiPoll=null,lastDraft="";
+const L=a=>(a||[]).length?"<ul>"+a.map(x=>`<li>${esc(x)}</li>`).join("")+"</ul>":"<p class='muted'>none</p>";
+const aiName=a=>({"gemini":"Gemini (free)","claude-code":"Claude subscription","claude":"Claude API","codex":"Codex"}[a]||a);
+function showAI(j){
+  const job=j.job||{};
+  $("d_check").disabled=$("d_draftbtn").disabled=!!job.running;
+  $("d_draftbtn").textContent=j.market_research?"Draft sources-sought response":"Draft proposal";
+  $("d_aimsg").textContent=job.running?(job.kind==="draft"?"Drafting… (a few minutes)":"Running bid check… (about a minute)")
+    :job.error?"⚠ "+job.error:j.has_pack?`Files in ${j.folder}`:"";
+  const b=j.bidcheck;
+  $("d_check_out").innerHTML=b?`<h3><span class="verdict ${b.verdict==="Bid"?"v-bid":b.verdict==="Maybe"?"v-maybe":"v-no"}">${esc(b.verdict)} · ${b.score}/100</span> ${esc(b.one_line)}</h3>
+   <p>${esc(b.scope)}</p><p><strong>Deadline:</strong> ${esc(b.deadline)}</p>
+   <h3>Why we fit</h3>${L(b.fit)}<h3>Red flags</h3>${L(b.red_flags)}
+   <h3>Competition</h3><p>${esc(b.competition)}</p><h3>Price signal</h3><p>${esc(b.price_signal)}</p>
+   <h3>Must submit / must meet</h3>${L(b.must_have)}<h3>Confirm before bidding</h3>${L(b.gaps)}
+   <p class="muted">Checked ${esc(b.checked||"")}${b.ai?" with "+esc(aiName(b.ai)):""}${b.fallback?" (fallback from "+esc(aiName(b.requested_ai))+")":""}</p>`:"";
+  lastDraft=j.draft||"";lastDraftName=j.draft_name||"proposal-draft.md";
+  $("d_draft").style.display=lastDraft?"block":"none";
+  const dm=j.draft_meta;
+  $("d_draft").innerHTML=lastDraft?((dm?`<p class="muted">Drafted with ${esc(aiName(dm.ai))}${dm.fallback?" (fallback from "+esc(aiName(dm.requested_ai))+")":""}</p>`:"")+(window.marked?marked.parse(lastDraft):"<pre>"+esc(lastDraft)+"</pre>")):"";
+  $("d_copydraft").hidden=$("d_dldraft").hidden=!lastDraft;
+  return job.running;
+}
+async function loadAI(){
+  const r=await fetch("/api/ai?k="+encodeURIComponent(docKey)),j=await r.json();
+  if(!r.ok){$("d_aimsg").textContent="⚠ "+j.error;return false}
+  return showAI(j);
+}
+function pollAI(){clearInterval(aiPoll);aiPoll=setInterval(async()=>{if(!await loadAI())clearInterval(aiPoll)},3000)}
+async function startAI(kind){
+  const r=await fetch(`/api/ai?k=${encodeURIComponent(docKey)}&kind=${kind}`,{method:"POST"});
+  if(!r.ok){$("d_aimsg").textContent="⚠ "+(await r.json()).error;return}
+  await loadAI();pollAI();
+}
+$("d_check").onclick=()=>startAI("bidcheck");
+$("d_draftbtn").onclick=()=>startAI("draft");
+$("d_copydraft").onclick=async()=>{await navigator.clipboard.writeText(lastDraft);toast("Draft copied")};
+let lastDraftName="proposal-draft.md";
+$("d_dldraft").onclick=()=>download(new Blob([lastDraft],{type:"text/markdown"}),lastDraftName);
+$("d_save").onclick=async()=>{
+  $("d_save").disabled=true;$("d_msg").textContent="Downloading...";
+  const res=await fetch("/api/docs/save?k="+encodeURIComponent(docKey),{method:"POST"}),j=await res.json();
+  $("d_save").disabled=false;
+  $("d_msg").textContent=res.ok?`Saved ${j.saved} new, ${j.skipped} already there (${j.total} total) → ${j.folder}  (includes _summaries.md and text extracts)`:"⚠ "+j.error;
+};
+// ---- batch bid check ----
+let bPoll=null;
+async function batchStatus(){
+  const b=await (await fetch("/api/ai/batch")).json();
+  const show=b.running||b.error||b.total;
+  $("bprog").hidden=!show;$("b_run").disabled=b.running;$("b_stop").hidden=!b.running;
+  if(show){
+    const pct=b.total?Math.round(100*b.done/b.total):0;
+    $("bbar").style.width=pct+"%";$("bbar").style.background=b.error?"#cf222e":"#1a7f37";
+    $("blabel").textContent=b.error?"⚠ Bid check halted: "+b.error
+      :b.running?"Bid checking: "+(b.current.join(" · ")||"starting…")
+      :`Bid check finished: ${Object.values(b.results).filter(x=>x.verdict==="Bid").length} Bid, ${Object.values(b.results).filter(x=>x.verdict==="Maybe").length} Maybe, ${Object.values(b.results).filter(x=>x.verdict==="No bid").length} No bid`;
+    $("bpct").textContent=`${b.done} / ${b.total}`;
+  }
+  return b;
+}
+function pollBatch(){clearInterval(bPoll);let last=-1;bPoll=setInterval(async()=>{const b=await batchStatus();if(b.done!==last){last=b.done;load()}if(!b.running)clearInterval(bPoll)},3000)}
+$("b_run").onclick=async()=>{
+  const keys=shown.filter(r=>picked.has(r.opp_key)).map(r=>r.opp_key);
+  if(!keys.length)return toast("Select contracts first (checkboxes or quick-select buttons)");
+  if(!confirm(`Run an AI bid check on ${keys.length} contract${keys.length>1?"s":""}? Each takes a minute or two. On your Claude subscription they run 2 at a time and count toward your plan's usage limits.`))return;
+  const r=await fetch("/api/ai/batch",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({keys})});
+  if(!r.ok)return toast((await r.json()).error);
+  batchStatus();pollBatch();
+};
+$("b_stop").onclick=async()=>{await fetch("/api/ai/batch/stop",{method:"POST"});toast("Stopping after the checks in progress finish")};
+batchStatus().then(b=>{if(b.running)pollBatch()});
+// ---- Teams ----
+fetch("/api/teams").then(r=>r.json()).then(t=>{$("x_teams").hidden=!t.configured;$("x_teams_brief").hidden=!t.configured;if(t.error)toast(t.error)});
+async function sendTeams(format){
+  const sel=shown.filter(r=>picked.has(r.opp_key)),rs=sel.length?sel:shown;
+  if(!rs.length)return toast("Nothing to send");
+  const label=format==="brief"?"detailed briefs":"a table";
+  if(!confirm(`Send ${rs.length} contract${rs.length>1?"s":""} as ${label} to Teams?`))return;
+  $("x_teams").disabled=$("x_teams_brief").disabled=true;
+  const r=await fetch("/api/teams",{method:"POST",headers:{"Content-Type":"application/json"},
+    body:JSON.stringify({keys:rs.map(x=>x.opp_key),title:sel.length?"Selected contract opportunities":"Contract opportunities",
+      subtitle:`${rs.length} contracts · sent ${new Date().toLocaleString()}`,format})});
+  const j=await r.json();$("x_teams").disabled=$("x_teams_brief").disabled=false;
+  toast(r.ok?j.last:"⚠ "+(j.error||"Teams send failed"));
+  if(r.ok)load();
+}
+$("x_teams").onclick=()=>sendTeams("table");
+$("x_teams_brief").onclick=()=>sendTeams("brief");
+// ---- export: selected rows, or everything shown if none selected ----
+const XCOLS=["Status","Bid","Bid score","Match %","Source","Title","Solicitation #","Agency","NAICS","PSC","Set-aside","Type","Posted","Response Deadline","Place of Performance","Link","Contact"];
+function exportRows(){const s=shown.filter(r=>picked.has(r.opp_key));return (s.length?s:shown).map(r=>({...r,"Bid":r.bid?r.bid.verdict:"","Bid score":r.bid?r.bid.score:""}))}
+function toast(m){$("toast").textContent=m;$("toast").style.opacity=1;setTimeout(()=>$("toast").style.opacity=0,2200)}
+function fname(ext){return `contracts_${today}.${ext}`}
+function download(blob,name){const a=document.createElement("a");a.href=URL.createObjectURL(blob);a.download=name;a.click();setTimeout(()=>URL.revokeObjectURL(a.href),1000)}
+const cell=v=>String(v??"").replace(/[\t\r\n]+/g," ");
+$("x_copy").onclick=async()=>{
+  const rs=exportRows();
+  const tsv=[XCOLS.join("\t"),...rs.map(r=>XCOLS.map(c=>cell(r[c])).join("\t"))].join("\n");
+  const html="<table><tr>"+XCOLS.map(c=>`<th>${esc(c)}</th>`).join("")+"</tr>"+rs.map(r=>"<tr>"+XCOLS.map(c=>`<td>${esc(r[c])}</td>`).join("")+"</tr>").join("")+"</table>";
+  try{await navigator.clipboard.write([new ClipboardItem({"text/plain":new Blob([tsv],{type:"text/plain"}),"text/html":new Blob([html],{type:"text/html"})})])}
+  catch{await navigator.clipboard.writeText(tsv)}
+  toast(`Copied ${rs.length} contracts - paste into Excel, Sheets, email or chat`);
+  setStatus(rs.map(r=>r.opp_key),"Copied",true);
+};
+$("x_copybrief").onclick=async()=>{
+  const sel=shown.filter(r=>picked.has(r.opp_key)),rs=sel.length?sel:shown;
+  if(!rs.length)return toast("Nothing to copy");
+  const res=await fetch("/api/briefs",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({keys:rs.map(r=>r.opp_key)})});
+  const j=await res.json();if(!res.ok)return toast("⚠ "+(j.error||"Brief copy failed"));
+  const html=window.marked?marked.parse(j.text):"<pre>"+esc(j.text)+"</pre>";
+  try{await navigator.clipboard.write([new ClipboardItem({"text/plain":new Blob([j.text],{type:"text/plain"}),"text/html":new Blob([html],{type:"text/html"})})])}
+  catch{await navigator.clipboard.writeText(j.text)}
+  toast(`Copied ${rs.length} detailed brief${rs.length>1?"s":""}`);
+};
+function exportCsv(){
+  const rs=exportRows(),q=v=>`"${String(v??"").replace(/"/g,'""')}"`;
+  const csv="﻿"+[XCOLS.map(q).join(","),...rs.map(r=>XCOLS.map(c=>q(r[c])).join(","))].join("\r\n");
+  download(new Blob([csv],{type:"text/csv;charset=utf-8"}),fname("csv"));toast(`Exported ${rs.length} to CSV`);
+}
+function exportXlsx(){
+  if(!window.XLSX)return toast("Excel library didn't load (offline?) - use CSV");
+  const rs=exportRows();
+  const ws=XLSX.utils.json_to_sheet(rs.map(r=>Object.fromEntries(XCOLS.map(c=>[c,r[c]??""]))),{header:XCOLS});
+  ws["!cols"]=XCOLS.map(c=>({wch:{Title:60,Agency:35,Link:50,Contact:32,"Place of Performance":24}[c]||12}));
+  rs.forEach((r,i)=>{if(r.Link){const a=XLSX.utils.encode_cell({r:i+1,c:XCOLS.indexOf("Link")});ws[a].l={Target:r.Link}}});
+  ws["!autofilter"]={ref:ws["!ref"]};
+  const wb=XLSX.utils.book_new();XLSX.utils.book_append_sheet(wb,ws,"Contracts");
+  XLSX.writeFile(wb,fname("xlsx"));toast(`Exported ${rs.length} to Excel`);
+}
+function exportPdf(){
+  if(!window.jspdf)return toast("PDF library didn't load (offline?) - use CSV");
+  const rs=exportRows(),doc=new jspdf.jsPDF({orientation:"landscape",unit:"pt",format:"letter"});
+  const PC=["Status","Match %","Title","Solicitation #","Agency","NAICS","Set-aside","Type","Posted","Response Deadline","Place of Performance","Contact"];
+  doc.setFontSize(14);doc.text(`Contract opportunities - ${today} (${rs.length})`,30,30);
+  doc.autoTable({startY:42,head:[PC.map(c=>c==="Response Deadline"?"Deadline":c==="Place of Performance"?"Place":c)],
+    body:rs.map(r=>PC.map(c=>c==="Match %"?r[c]+"%":String(r[c]??""))),
+    styles:{fontSize:7,cellPadding:3,overflow:"linebreak"},headStyles:{fillColor:[31,111,235]},
+    columnStyles:{2:{cellWidth:160},4:{cellWidth:95},11:{cellWidth:105}},margin:{left:30,right:30},
+    didDrawCell:d=>{if(d.section==="body"&&d.column.index===2&&rs[d.row.index].Link)doc.link(d.cell.x,d.cell.y,d.cell.width,d.cell.height,{url:rs[d.row.index].Link})}});
+  doc.save(fname("pdf"));toast(`Exported ${rs.length} to PDF`);
+}
+$("x_export").onchange=()=>{
+  const kind=$("x_export").value;
+  $("x_export").value="";
+  if(kind==="csv")exportCsv();
+  else if(kind==="xlsx")exportXlsx();
+  else if(kind==="pdf")exportPdf();
+};
+async function load(){rows=await (await fetch("/api/opportunities")).json();render()}
+async function status(){
+  const s=await (await fetch("/api/status")).json();
+  $("last").textContent="Last run: "+(s.last_run||"never");
+  const enabled=Object.entries(s.sources||{}).filter(([,on])=>on).map(([name])=>name);
+  $("sources").textContent="Sources: "+(enabled.length?enabled.join(" + "):"none configured");
+  $("run").disabled=s.running;$("run").textContent=s.running?"Searching…":"Search now";
+  $("stop").hidden=!s.running;
+  const pr=s.progress;$("prog").hidden=!pr;
+  if(pr){const pct=pr.total?Math.round(100*pr.done/pr.total):100;
+    $("progbar").style.width=pct+"%";$("progbar").style.background=s.error?"#cf222e":"var(--accent)";
+    $("proglabel").textContent=(s.running?"Searching: ":s.error?"Halted at: ":"Done: ")+pr.label;
+    $("progpct").textContent=`${pr.done} / ${pr.total} steps · ${pct}%`;
+    if(s.running&&pr.done%3===0)load();}
+  $("err").hidden=!s.error;$("err").textContent=s.error?"⚠ "+s.error:"";
+  if(s.log){$("log").style.display="block";$("log").textContent=s.log;$("log").scrollTop=1e9}
+  return s;
+}
+$("stop").onclick=async()=>{await fetch("/api/stop",{method:"POST"});status()};
+$("run").onclick=async()=>{
+  await fetch("/api/run"+($("days").value?"?days="+$("days").value:""),{method:"POST"});
+  const t=setInterval(async()=>{const s=await status();if(!s.running){clearInterval(t);load()}},3000);
+  status();
+};
+const CK=["phrases","naics","rental_terms","exclude_terms","negative_terms"];
+async function loadCfg(){
+  const {current:c,defaults:d}=await (await fetch("/api/config")).json();
+  CK.forEach(k=>$("c_"+k).value=c[k].join("\n"));
+  const custom=JSON.stringify(c)!==JSON.stringify(d);
+  $("cfgsum").textContent=`— ${c.phrases.length} keywords, ${c.naics.length} NAICS${custom?" (customized)":" (defaults)"}`;
+}
+async function saveCfg(body){
+  const r=await fetch("/api/config",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify(body)});
+  $("c_msg").textContent=r.ok?"Saved. Applies to the next search.":"Not saved: "+(await r.json()).error;loadCfg();
+}
+$("c_save").onclick=()=>saveCfg(Object.fromEntries(CK.map(k=>[k,$("c_"+k).value.split("\n")])));
+$("c_reset").onclick=()=>saveCfg({reset:true});
+$("c_rescore").onclick=async()=>{
+  const r=await fetch("/api/rescore",{method:"POST"});
+  if(!r.ok){$("c_msg").textContent="A search is running; stop it first.";return}
+  $("c_msg").textContent="Re-checking saved contracts...";
+  const t=setInterval(async()=>{const s=await status();if(!s.running){clearInterval(t);load();$("c_msg").textContent=(s.log.match(/Re-checked.*$/m)||[s.error||"Done."])[0]}},2000);
+};
+loadCfg();
+load();status().then(s=>{if(s.running){const t=setInterval(async()=>{const s=await status();if(!s.running){clearInterval(t);load()}},3000)}});
+</script>
+</body>
+</html>

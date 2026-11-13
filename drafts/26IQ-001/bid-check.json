@@ -1,0 +1,49 @@
+{
+ "verdict": "Maybe",
+ "score": 32,
+ "one_line": "We have restroom trailers, handwashing trailers, and Denver shelter restroom work that match this, but we would have to quote by Monday 2026-11-16 (one business day away) without the solicitation documents, under a NAICS code we don't list, with no prices for standard portable toilets or handwashing stations, and from about 350 miles away. Bid only if the OpenGov documents, pulled today, show trailer-type units we can service in Santa Cruz.",
+ "scope": "The County of Santa Cruz Central Purchasing wants quotes for Portable Restroom and Handwashing Station Rentals, from \"fully licensed and insured vendors.\" The bid pack has no attachments. That means we don't know the unit types (standard portable toilets or restroom trailers), the quantities, the ADA needs, the servicing frequency, the delivery sites, or the term. The solicitation number (26IQ-001) and the $25,000\u2013$180,000 estimate may point to an indefinite-quantity or on-call arrangement [CONFIRM].",
+ "fit": [
+  "Portable sanitation and restroom rentals are listed core competencies ('Facility Support & Utilities'; 'Mobile Infrastructure & Equipment Rentals'), and our fleet includes Shower and Restroom Facilities (company profile).",
+  "The price list has a Handwashing Sink Trailer and Luxury Shower-Restroom Combination Trailers in 3, 6, and 8 stalls (price list).",
+  "Closest past performance is local government work: City and County of Denver SC-00011558 (Aug 2026 \u2013 ongoing). We deliver and service climate-controlled portable restroom trailers there, including cleaning, pump-outs, waste disposal, and supplies, for shelters of up to 500 people.",
+  "Other restroom work: USCG Station Lake Worth Inlet, 70Z02826FMIAM0008, $78,500 (restroom/shower trailers with wastewater support), and U.S. Navy Oregon via Vigor, $127,240 (restroom trailers, a kitchen trailer with handwashing sinks, and potable water).",
+  "There is no set-aside, so our SBE/MBE status is fine and nothing blocks us.",
+  "We are a California company (Marina del Rey). We offer weekly servicing, RCRA-compliant gray/black water removal, a 24/7 emergency line, and on-site response within 24 hours (proposal template operations)."
+ ],
+ "red_flags": [
+  "Deadline is 2026-11-16, two days away and only one business day. The time and time zone are not stated.",
+  "The bid pack has no attachments: no SOW, quantities, servicing frequency, term, pricing form, insurance limits, or submission instructions.",
+  "NAICS 562991 and PSC W061 are not among our NAICS or PSC codes. Our GSA schedule doesn't matter for a county buy.",
+  "'Fully licensed' is not defined. Our profile shows no waste-hauling or septic pumping license, and we can't claim one.",
+  "The price list has no rates for standard portable toilets or standalone handwashing stations. Both ADA restroom-combination rows are blank. 'County government' is not in the customer-to-tier table. The billing basis (daily, weekly, monthly, or full period) is unspecified.",
+  "Place of performance is Santa Cruz, CA, roughly 350 miles from our Marina del Rey office. No Northern California depot is documented. Recurring pump-outs and servicing from that distance could make us uncompetitive.",
+  "This may be commodity portable-toilet work priced for local haulers. That is a risk if the County is not asking for trailer-type units."
+ ],
+ "competition": "No incumbent was identified. The bid pack shows no past awards by this agency under NAICS 562991. The only two benchmarks are old federal awards with one offer each: Global Maritime Logistics Support (2014, port-a-john lease for Balikatan) and L&M Equipment (2013, generator rental and ice, a WOSB set-aside). Neither tells us who will compete here. Offers received on this solicitation: unknown.",
+ "price_signal": "The estimated value is $25,000\u2013$180,000 (bid pack). The benchmarks are weak: $39,432 for a 2014 port-a-john lease (Balikatan, PoP 2014-04-02 to 2014-05-16, 1 offer), and $17,484 for a 2013 generator rental and 3,000 bags of ice, which is not comparable. Our list prices for the closest units: Handwashing Sink Trailer $2,995 (1-6 days), $3,995 (8-14 days and 15 days-1 month), $2,995 (more than 3 months). 13ft Luxury Shower-Restroom 3-stall: $2,995 / $2,995 / $3,995 / $2,495-3,995. 22ft 6-stall: $4,995 / $4,995 / $5,995 / $4,995-5,995. The billing basis is unspecified. We have no price for standard portable toilets or handwashing stations. Use [CONFIRM: unit pricing for portable toilets and handwashing stations] until the manager supplies one.",
+ "must_have": [
+  "Quote submitted by 2026-11-16 (bid pack, Opportunity: Response deadline). [CONFIRM: time, time zone, and submission method on OpenGov]",
+  "Vendor must be fully licensed (bid pack, Description). [CONFIRM: which licenses or permits]",
+  "Vendor must be insured (bid pack, Description). [CONFIRM: coverage types and limits]",
+  "Quote for Portable Restroom and Handwashing Station Rentals for County of Santa Cruz Central Purchasing (bid pack, Description). [CONFIRM: quantities, unit types, ADA units, servicing, term]",
+  "Questions go to Shauna Soldate, shauna.soldate@santacruzcountyca.gov, 831-454-3471 (bid pack, Contact). Source portal: procurement.opengov.com/portal/santacruzcounty/projects/323437",
+  "Site visit and bonding: none stated in the bid pack. [CONFIRM on OpenGov]"
+ ],
+ "gaps": [
+  "[CONFIRM: download the full solicitation, pricing form, and any addenda from OpenGov project 323437. The bid pack lists 0 attachments]",
+  "[CONFIRM: unit type, either standard portable toilets and handwashing stations or restroom/handwashing trailers]",
+  "[CONFIRM: unit count, ADA units, delivery locations in Santa Cruz County, servicing frequency, and contract term or IQ structure]",
+  "[CONFIRM: response time and time zone on 2026-11-16, and the submission method]",
+  "[CONFIRM: what 'fully licensed' requires (for example, local permits for waste pumping or hauling) and whether we hold it]",
+  "[CONFIRM: insurance types and limits required, and whether our current coverage meets them]",
+  "[CONFIRM: whether we own or can source standard portable toilets and handwashing stations, and their prices]",
+  "[CONFIRM: Northern California depot or servicing partner for Santa Cruz pump-outs, and its cost]",
+  "[CONFIRM: which pricing tier applies to a county government customer, and the billing basis of the price list]",
+  "[CONFIRM: any mandatory pre-bid meeting, site visit, bonding, or County vendor registration]",
+  "[CONFIRM: proposal contact email, sales@temporarykitchens123.com or contract@temporary123.com]"
+ ],
+ "deadline": "2026-11-16. The time and time zone are not stated in the bid pack. [CONFIRM: time and time zone on OpenGov]",
+ "checked": "2026-11-14T00:41",
+ "ai": "claude-code"
+}

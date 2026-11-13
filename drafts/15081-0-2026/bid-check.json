@@ -1,0 +1,54 @@
+{
+ "verdict": "Maybe",
+ "score": 35,
+ "one_line": "Portable sanitation is one of our core competencies, the bid is open to any bidder, and the Denver restroom-trailer contract is directly relevant city work, but the bid pack has no solicitation documents, our codes don't cover NAICS 562991 or PSC S203, and a parks portable-restroom contract may need low-cost standard units serviced locally in Madison, WI, so get the specs from VendorNet before we commit.",
+ "scope": "The City of Madison Parks Division wants to rent portable restrooms in Madison, WI (solicitation 15081-0-2026). The bid pack gives only the title \"Portable Restroom Rentals for Parks Division\" and the City's estimated value of $25,000\u2013$250,000. It has no attachments, so the unit type (standard portable toilets or restroom trailers), quantities, park locations, servicing frequency, and contract term are all unknown.",
+ "fit": [
+  "Portable sanitation and restroom facilities are core competencies (Facility Support & Utilities; Mobile Infrastructure & Equipment Rentals), and our fleet includes shower and restroom facilities (company profile).",
+  "Directly relevant city past performance: City and County of Denver, SC-00011558, Aug 2026 \u2013 ongoing, multi-year. We deliver and service climate-controlled portable restroom trailers, including mobilization, cleaning, pump-outs, waste disposal, supplies, maintenance, and demobilization, for up to 500 people. The value still needs confirming.",
+  "More restroom past performance: USCG Station Lake Worth Inlet (70Z02826FMIAM0008, $78,500, restroom/shower trailers with wastewater support) and U.S. Navy Oregon via Vigor Marine Group ($127,240, restroom trailers).",
+  "The set-aside is NONE, so our SBE/MBE status raises no eligibility problem.",
+  "Our stated work area is nationwide. We service weekly (RCRA-compliant gray/black water removal, sanitizing, consumables), run a 24/7 emergency line, respond on site within 24 hours to a critical failure, and send weekly QC reports.",
+  "The City's $25,000\u2013$250,000 estimate is in line with our past contract sizes ($78,500 to $408,482)."
+ ],
+ "red_flags": [
+  "The bid pack has no solicitation documents (0 attachments) and no AI summary, so scope, quantities, terms, forms, and evaluation method are unknown.",
+  "NAICS 562991 and PSC S203 are not among our NAICS codes (721310, 532490, 722310, 624230, 624221, 561210, 423740, possibly 532120) or PSC codes (W023, W099, W045).",
+  "A parks portable-restroom contract is likely a recurring local-route service. Our profile lists no Wisconsin or Midwest depot or service crew, and we are based in Marina del Rey, CA.",
+  "Our price list has no line for standard portable toilets. Even the cheapest restroom trailer (13ft, 3 stalls, $2,995\u2013$3,995 depending on rental period; billing basis not stated) is priced well above most portable-toilet award benchmarks.",
+  "The deadline, 2026-11-27, is 13 days away and falls the day after Thanksgiving. The bid pack gives no closing time or time zone.",
+  "Wisconsin may require a license or certification to pump and haul septage, and the City may require vendor registration. Neither is addressed in the documents [CONFIRM].",
+  "The company profile has unresolved conflicts we must fix before submitting: which NAICS code is primary, which proposal email to use (sales@temporarykitchens123.com or contract@temporary123.com), and the Denver contract value (printed as \"~$100,00.00\")."
+ ],
+ "competition": "Incumbent unknown: the bid pack found no past awards by the City of Madison under NAICS 562991. The 11 benchmark awards are all federal and from other places. Most drew only 1 offer and went to small local sanitation or septic firms (e.g., Jersey Shore Septic And Sewer, TV Guy Orlando, Vantex Service Corporation, United Site Services Of Colorado). The only large competed award, Caribou Services ($437,580, Grayling, MI field-sanitation exercise), drew 4 offers. Expect local Madison-area portable toilet operators with existing service routes [CONFIRM: incumbent and current contract price through the City or VendorNet].",
+ "price_signal": "Comparable portable-toilet awards are small: $425 (Columbus, OH, 2018, 1 month), $4,680 (Crane, IN, 2024, portable toilets plus grease-trap pumping, ~9 months), $4,813 (Basalt, CO, 2016, 1 day), $5,486 (Gatesville, TX, 2023, latrines and hand wash stations, 2 weeks), $9,687 (Fort Riley, KS, 2024, ~5 weeks), $11,013 (Newton Falls, OH, FY18, toilets with pump-out, ~8 months), and $26,714 (Ravenna, OH, 2024, ECUs, dumpster, and toilets, 10 days, 3 offers). The outlier is $437,580 (Grayling, MI, 2024, 40-day exercise field sanitation, 4 offers). The grease-trap awards ($20,000 \u00d72 and $450) are not comparable. The City estimates $25,000\u2013$250,000. Our restroom-trailer list prices are $2,995\u2013$3,995 (13ft, 3 stalls), $4,995\u2013$5,995 (22ft, 6 stalls), and $3,995\u2013$5,995 (30ft, 8 stalls) by rental period. The billing basis is not stated, and the ADA rows have no price.",
+ "must_have": [
+  "Submit a response by 2026-11-27 (bid pack: Response deadline). Closing time and time zone: [CONFIRM].",
+  "Cite solicitation # 15081-0-2026, City of Madison (bid pack).",
+  "Submission method: [CONFIRM: portal or email and the format required]. The bid pack lists the source as https://vendornet.wi.gov/Bids.",
+  "Direct questions to Andika Hargianto, ahargianto@cityofmadison.com, 3474919598 (bid pack).",
+  "All other submission items (bid form, pricing sheet, insurance, bonding, licenses, references, signed amendments) are unknown because the bid pack has no attachments [CONFIRM from the solicitation documents]."
+ ],
+ "gaps": [
+  "[CONFIRM: download the full solicitation, specifications, and any amendments from VendorNet]",
+  "[CONFIRM: unit type: standard portable toilets, restroom trailers, ADA units, hand wash stations]",
+  "[CONFIRM: unit count and park locations]",
+  "[CONFIRM: servicing frequency and pump-out requirements]",
+  "[CONFIRM: contract term, season, and renewal options]",
+  "[CONFIRM: closing time and time zone for the 2026-11-27 deadline]",
+  "[CONFIRM: question deadline, pre-bid meeting, or mandatory site visit]",
+  "[CONFIRM: bid bond or performance bond requirement]",
+  "[CONFIRM: insurance requirements]",
+  "[CONFIRM: any Wisconsin or City license or certification for septage pumping and hauling]",
+  "[CONFIRM: City of Madison or VendorNet vendor registration requirement]",
+  "[CONFIRM: any local-vendor preference]",
+  "[CONFIRM: whether we have or can subcontract a Madison-area service partner or depot for recurring servicing]",
+  "[CONFIRM: pricing for standard portable toilets, which are not on our price list, and the billing basis for restroom-trailer rates]",
+  "[CONFIRM: incumbent vendor and current contract price]",
+  "[CONFIRM: Denver contract value, likely $100,000, before citing it as past performance]",
+  "[CONFIRM: which email to put on the proposal]"
+ ],
+ "deadline": "2026-11-27 (bid pack \"Response deadline\"). Time and time zone not stated: [CONFIRM: closing time and time zone on VendorNet].",
+ "checked": "2026-11-14T00:45",
+ "ai": "claude-code"
+}

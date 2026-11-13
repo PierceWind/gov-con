@@ -1,0 +1,62 @@
+{
+ "verdict": "No bid",
+ "score": 15,
+ "one_line": "Bids are due today (2026-11-12). The bidder must already hold a county environmental health permit, a disposal site discharge permit, and DIR registration by the bid due date, and our profile shows none of them. We also don't have the IFB, Addendum 1, or the Q&A.",
+ "scope": "CHP wants to rent two portable luxury restroom trailers for its Marin Area office in Corte Madera, CA: a three-stall unit with one ADA stall and a two-stall unit, each with one sink per stall. The contractor must clean and pump both units three times per week, Monday through Friday, 8:00 a.m. to 5:00 p.m., and dispose of waste at a county- or city-approved site. Bid rates must include delivery and pickup. The anticipated term is December 1, 2026 through November 30, 2028.",
+ "fit": [
+  "We rent restroom trailers as a core business: 'shower and restroom facilities' are in our fleet, and we offer 'ADA units on request' (company profile).",
+  "Our most recent past performance matches this scope. City and County of Denver SC-00011558 (Aug 2026 \u2013 ongoing) covers climate-controlled portable restroom trailers with cleaning, pump-outs, waste disposal, and supplies. USCG Station Lake Worth Inlet 70Z02826FMIAM0008 (May\u2013Jul 2026, $78,500) covers restroom/shower trailers with wastewater support.",
+  "We have at least three references for similar services within the last five years, as the solicitation requires: Denver, USCG Lake Worth Inlet, and Portsmouth Naval Shipyard (Nov 2022 \u2013 Nov 2023). Fort Lee (Aug\u2013Dec 2021) could be a fourth. ECC Camp Lejeune ended Oct 2021, so it falls just outside the five-year window.",
+  "We are headquartered in California (Marina del Rey). We are an SBE/MBE, which may help with the optional small/micro-business preference if we hold the state certification (see gaps).",
+  "Our price list has a 13ft Luxury Shower-Restroom Combination Trailer (3 Stalls) row and a 'Luxury Shower-Restroom Combination Trailer (3 Stalls + 1 ADA)' row. The ADA row has no prices."
+ ],
+ "red_flags": [
+  "The response deadline is today, 2026-11-12, and the bid pack does not give the time or time zone. We may already be past it, and there is no time to build a responsive bid.",
+  "We don't have the bid documents. The bid pack lists 0 attachments, so we lack the IFB 26C350009, Addendum 1 (posted 10/28/2026), the Q&A (posted 11/09/2026), Exhibit E insurance requirements, and the bid forms.",
+  "Several licenses and permits must be held 'by the bid due date', and the company profile lists none of them: a valid business license, a City/County-issued County Environmental Health Permit, a Disposal Site Discharge Permit, and a DMV Motor Carrier Permit for vehicles of 10,001 lbs GVWR or more.",
+  "The contractor and any listed subcontractors must be registered with DIR before bidding. This is public work subject to prevailing wage. The profile does not show DIR registration.",
+  "NAICS 562991 (septic tank and related services) and PSC S203 are not among our NAICS, PSC, or GSA SINs. Our GSA schedule doesn't apply because this is a state (SLED) procurement.",
+  "Servicing is three times per week for two years in Corte Madera, about 400 miles from our Marina del Rey office. Our standard is weekly servicing, so we would need a local crew or a pumping subcontractor. The profile names none, and any subcontractor would also need DIR registration.",
+  "The set-aside is listed as 'SBA'. The profile does not show California state small business certification, which may be needed for the SB preference or eligibility.",
+  "We have no listed price for a 2-stall luxury trailer, and the 3-stall + 1 ADA row on the price list is blank.",
+  "The solicitation requires a two-year workmanship and materials guarantee from acceptance. We must also repair or replace, at no cost to CHP, any damage we cause to state property or to the units.",
+  "Personnel face driver-license checks and possibly fingerprint checks. CHP can require personnel replacement or cancel the contract based on adverse findings."
+ ],
+ "competition": "No incumbent is named. The bid pack lists no past CHP awards under NAICS 562991, and the number of bids received is not stated. The NAICS 562991 / PSC S203 award benchmarks went mostly to local septic and portable-toilet firms (e.g., United Site Services of Colorado, Jersey Shore Septic And Sewer, TV Guy Orlando), usually with 1\u20134 offers. Local Bay Area pumping firms that already hold the required county permits are likely competitors. That is an inference; the bid pack does not name them.",
+ "price_signal": "CHP estimates the value at $25,000\u2013$90,000 for the two-year term. No past CHP awards are listed. The NAICS 562991 + PSC S203 benchmarks are mostly short-term portable toilets or grease-trap pumping, so they compare poorly: $4,680 at NSA Crane, $9,687 at Fort Riley, and $26,714 at Ravenna, OH (ECUs, dumpster, and toilets over 10 days). The outlier is $437,580 for Northern Strike field sanitation. Our nearest comparables are the Denver multi-year restroom trailer contract (printed '~$100,00.00' [CONFIRM: likely $100,000]) and the 30-day USCG job, which we quoted at $51,990 and which was awarded at $78,500. Our price list doesn't say whether its rates are daily, weekly, or monthly, so we have no defensible unit rate for this bid [CONFIRM: rental rate basis and 2-stall unit price].",
+ "must_have": [
+  "Bid submitted by the response deadline of 2026-11-12, time and time zone not stated (bid pack, Opportunity)",
+  "Compliance with all IFB 26C350009 instructions, including Addendum 1 (10/28/2026) and the Q&A (11/09/2026) (bid pack, Description)",
+  "Valid business license held by the bid due date (HigherGov summary, Bidder Requirements)",
+  "City/County-issued County Environmental Health Permit held by the bid due date (HigherGov summary)",
+  "Disposal Site Discharge Permit held by the bid due date (HigherGov summary)",
+  "DMV Motor Carrier Permit for vehicles with GVWR of 10,001 lbs or more (HigherGov summary)",
+  "DIR registration for the contractor and all listed subcontractors before bidding, maintained for the whole agreement; prevailing wage applies (HigherGov summary)",
+  "Certification that the corporation is in good standing and qualified to do business in California (HigherGov summary)",
+  "Three references for similar services performed in the past five years (HigherGov summary)",
+  "Liability insurance meeting Exhibit E, provided before agreement execution (HigherGov summary)",
+  "Two trailers: a 3-stall unit with 1 ADA stall and one sink per stall, and a 2-stall unit with one sink per stall; wheelchair-accessible unit compliant with UFAS and current ADA codes (HigherGov summary, Work Details)",
+  "Cleaning and pumping three times per week with EPA-approved disinfectants and bio-enzymatic drain cleaners; contractor supplies chemicals and deodorizer (HigherGov summary)",
+  "Waste disposed of at a county- or city-approved landfill; service debris removed (HigherGov summary)",
+  "Bid rates include delivery and pickup (HigherGov summary)",
+  "Two-year guarantee on workmanship and materials (HigherGov summary)",
+  "Driver-license checks for personnel, and possibly fingerprint checks (HigherGov summary)",
+  "DVBE participation waived; optional DVBE incentive and SB/MB preference (bid pack, Description and HigherGov summary)"
+ ],
+ "gaps": [
+  "[CONFIRM: bid due time and time zone on 2026-11-12, and whether it has already passed]",
+  "[CONFIRM: IFB 26C350009 full text, Addendum 1, Q&A, Exhibit E, and bid forms; none are in the bid pack]",
+  "[CONFIRM: whether we hold a County Environmental Health Permit (Marin or another county), a Disposal Site Discharge Permit, and a DMV Motor Carrier Permit]",
+  "[CONFIRM: DIR public works contractor registration number]",
+  "[CONFIRM: California state of incorporation / good standing status]",
+  "[CONFIRM: California DGS Small Business or Microbusiness certification, and what the 'SBA' set-aside label requires]",
+  "[CONFIRM: local Bay Area service crew or DIR-registered pumping subcontractor for 3x/week servicing in Corte Madera]",
+  "[CONFIRM: availability and price of a 2-stall luxury trailer and a 3-stall + 1 ADA luxury trailer; the ADA price row is blank]",
+  "[CONFIRM: rental rate basis on the price list (daily/weekly/monthly) and a prevailing-wage service cost]",
+  "[CONFIRM: Denver contract value, printed '~$100,00.00']",
+  "[CONFIRM: proposal contact email: sales@temporarykitchens123.com or contract@temporary123.com]"
+ ],
+ "deadline": "2026-11-12. The bid pack gives no time or time zone. The non-mandatory walk-through was November 4, 2026 at 9:00 A.M., and that date has passed.",
+ "checked": "2026-11-12T01:31",
+ "ai": "claude-code"
+}

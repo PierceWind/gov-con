@@ -1,0 +1,47 @@
+{
+ "verdict": "No bid",
+ "score": 8,
+ "one_line": "The bid is set aside for SDVOSBC firms, and we hold no SDVOSB certification, so we can't bid as prime; on top of that, the work is recurring statewide porta potty service in Wisconsin under NAICS 562991 and PSC S214, and neither code is one of ours.",
+ "scope": "The Wisconsin DNR wants standard and handicap-accessible porta potties at boat launches, parks, and other DNR-managed facilities across the state. The contractor delivers the units, pumps, services, and cleans them as needed, and gives the DNR a service schedule for each location. Delivery, removal, travel, and fuel are incidental and can't be billed separately. The initial term is 3 years, with two optional 1-year extensions by mutual agreement.",
+ "fit": [
+  "Portable sanitation is part of our 'Facility Support and Utilities' core competency.",
+  "We have related sanitation past performance: the City and County of Denver (SC-00011558, climate-controlled restroom trailers, pump-outs, waste disposal, supplies) and USCG Station Lake Worth Inlet (70Z02826FMIAM0008, restroom/shower trailers and wastewater support).",
+  "Our work area is nationwide, and we've been in business since 1998, which helps with Attachment C's years-of-experience check."
+ ],
+ "red_flags": [
+  "The set-aside is SDVOSBC. We are SBE/MBE only, with no SDVOSB certification, so we can't bid as prime.",
+  "NAICS 562991 isn't one of our NAICS codes, PSC S214 isn't one of our PSC codes (W023, W099, W045), and no GSA SIN of ours covers it.",
+  "The work is standard porta potties, a commodity product. Our sanitation fleet is trailer-based, and our price list has no porta potty line items.",
+  "The work requires recurring, as-needed pumping and cleaning at scattered sites across Wisconsin for up to 5 years. Our office is in Marina del Rey, CA, and no Wisconsin depot or service crew is documented.",
+  "Delivery, removal, travel, and fuel are incidental and unbillable, which raises our cost from a distant base.",
+  "The bid pack has 0 attachments. Every requirement here comes from HigherGov's AI summary, not the solicitation itself.",
+  "The estimated value is very wide ($150,000\u2013$1,200,000), and no unit counts or location counts are given."
+ ],
+ "competition": "There's no incumbent and no past awards by this agency under NAICS 562991. The only benchmarks are unrelated federal awards with 1\u20132 offers each: Sani-Can (2019, Eielson AFB, AK) and Energica Spurghi Srl (2008 and 2009, Italy). The set-aside limits the field to SDVOSB-certified firms.",
+ "price_signal": "There's no useful benchmark. The NAICS 562991 + PSC S214 awards in the pack were $1,432 (2019), $4,934 (2009), and $11,769 (2008), all short-term federal jobs, so they don't compare to a 3\u20135 year statewide contract with an estimated value of $150,000\u2013$1,200,000. Our price list has no porta potty rate. Its smallest restroom unit, the 13ft Luxury Shower-Restroom Combination Trailer (3 Stalls), is listed at $2,995.00 for 1-6 Days and $3,995.00 for 15days-1 month, but it's a different product and its billing basis is unspecified.",
+ "must_have": [
+  "SDVOSBC eligibility (bid pack: Set-aside field)",
+  "A completed Attachment C verifying years of experience in the industry (HigherGov AI summary, Bidder Requirements)",
+  "A completed Attachment B (HigherGov AI summary, Bidder Requirements)",
+  "A completed DOA-3832 form (HigherGov AI summary, Bidder Requirements)",
+  "Standard and handicap-accessible porta potties, each unit sized for up to 10 workers on a 40-hour week (HigherGov AI summary, Work Details)",
+  "Pumping, servicing, and cleaning as needed, in line with industry standards and local regulations (HigherGov AI summary, Work Details)",
+  "A service schedule given to the DNR for each location (HigherGov AI summary, Work Details)",
+  "Delivery, removal, travel, and fuel included in unit pricing, with no separate charges (HigherGov AI summary, Work Details)",
+  "Optional: MBE, VB, DVB, and WBE participation is encouraged (HigherGov AI summary, Bidder Requirements)"
+ ],
+ "gaps": [
+  "[CONFIRM: the actual set-aside on VendorNet, since HigherGov shows 'SDVOSBC'. Is it a hard set-aside or a Wisconsin DVB preference, and is any lot open to all bidders?]",
+  "[CONFIRM: the solicitation documents and Attachments B and C, plus the DOA-3832 form. None are in the bid pack.]",
+  "[CONFIRM: due time and time zone for the 2026-11-30 deadline]",
+  "[CONFIRM: unit counts, number and locations of sites, and service frequency]",
+  "[CONFIRM: any Wisconsin license or permit required for pumping/septage hauling]",
+  "[CONFIRM: bonding and insurance requirements]",
+  "[CONFIRM: whether there is a mandatory pre-bid meeting or site visit]",
+  "[CONFIRM: whether we have or could get porta potty inventory and Wisconsin service capacity, or a local partner]",
+  "[CONFIRM: whether an SDVOSB prime wants a subcontractor. That's the only route in.]"
+ ],
+ "deadline": "2026-11-30. The bid pack doesn't state the time or time zone. [CONFIRM: time and time zone on VendorNet]",
+ "checked": "2026-11-14T00:45",
+ "ai": "claude-code"
+}

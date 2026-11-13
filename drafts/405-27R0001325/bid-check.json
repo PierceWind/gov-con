@@ -1,0 +1,57 @@
+{
+ "verdict": "Maybe",
+ "score": 50,
+ "one_line": "The scope is a direct match for our restroom trailer line and our Denver and USCG work, but we can't commit until we confirm whether our MBE status qualifies for this Texas \"MBE\" set-aside, whether we have a two-stall unit that meets the specs, and whether we can afford bi-weekly servicing in Livingston, TX from California. The actual solicitation documents are not in the bid pack.",
+ "scope": "Texas DPS wants a contractor to supply, install, and maintain one two-stall non-ADA mobile restroom facility at DPS Livingston (3161 US-59, Livingston, TX 77351). The unit needs 110V/20A power, heating and cooling, a 125-gal onboard (or hose-fed) water supply, a 300-gal external tank with auxiliary pump, a 350-gal onboard wastewater tank, a female stall (sink and toilet), and a male stall (sink, toilet, and urinal). The contractor must service it bi-weekly: refill water, pump out waste per state regulations, disinfect, and clean floors. Service runs from award through August 31, 2027, with four optional one-year renewals.",
+ "fit": [
+  "Core competency: 'Man Camp & Temporary Housing' and 'Facility Support & Utilities' cover restrooms, portable sanitation, water delivery, and waste removal. Our fleet includes shower and restroom facilities.",
+  "Directly relevant past performance: City and County of Denver SC-00011558 (Aug 2026 \u2013 ongoing, multi-year), where we provide, deliver, and service climate-controlled restroom trailers with pump-outs, cleaning, supplies, and maintenance. Value printed as ~$100,00.00 [CONFIRM: amount].",
+  "USCG 70Z02826FMIAM0008 ($78,500, May\u2013Jul 2026): restroom/shower trailers with water and wastewater support, maintenance, and demobilization.",
+  "Our standard operation already includes recurring servicing (water resupply, RCRA-compliant gray/black water removal, sanitizing, consumables), a 24/7 emergency line, and weekly QC reports. Bi-weekly is less often than our standard weekly service.",
+  "Our restroom trailers come with independent HVAC, on-demand hot water, and sealed gray/black tanks, which line up with the HVAC, hot/cold water, and holding-tank requirements.",
+  "The set-aside is labeled MBE and our profile lists MBE status (subject to the eligibility check under gaps).",
+  "Work area is nationwide, and the estimated value ($100,000) is in line with our past contract sizes."
+ ],
+ "red_flags": [
+  "Set-aside eligibility is unclear. HigherGov tags this as MBE, but the solicitation refers to Texas HUBs (Historically Underutilized Businesses) and a HUB Subcontracting Plan. Our profile lists SBE and MBE but no Texas HUB certification, and it doesn't say who certified our MBE status.",
+  "No solicitation documents: the bid pack has 0 attachments. All requirements come from HigherGov's description and AI summary, not the Texas DPS solicitation itself.",
+  "Unit match is unproven. The price list has no two-stall restroom-only trailer. The closest rows are the 13ft 3-stall and 22ft 6-stall Luxury Shower-Restroom Combination Trailers. The spec calls for exactly two stalls (one with a urinal), a 350-gal onboard waste tank, and a 300-gal external tank with auxiliary pump.",
+  "Servicing logistics: the work is bi-weekly at one site in Livingston, TX, and we're based in Marina del Rey, CA. Unless we have a local service partner or depot, travel cost could wipe out the margin on a single-unit contract.",
+  "Waste must be pumped 'according to state regulations'. Our profile lists no Texas licenses or permits for hauling or disposing of wastewater.",
+  "NAICS 562991 and PSC S208 are not among our listed codes. This matters less on a state (SLED) bid, but it shows the agency sees this as septic/portable-toilet service work.",
+  "Evidence of financial stability must be provided on request.",
+  "The deadline (2026-11-27) is the day after Thanksgiving and leaves 13 days. The submission time and time zone aren't given."
+ ],
+ "competition": "No incumbent is identified. HigherGov found no past awards by Texas DPS under NAICS 562991. The NAICS 562991 + PSC S208 benchmarks are federal awards with 1\u20138 offers each, mostly from local portable-toilet, septic, and plumbing firms (for example Navo & Sons, Brave Eagle, A-1 Portajohns, Miller and Company). That suggests local Texas sanitation vendors are the likely competition. [CONFIRM: incumbent at DPS Livingston, if any]",
+ "price_signal": "The agency estimates $100,000. The pack doesn't say whether that covers only the initial period or includes the renewals. The benchmarks are weak comparisons (mostly porta-johns and septic pumping): Brave Eagle latrines $80,662 (about 3 months, 4 offers), Navo & Sons septic pumping $64,609 (multi-year), A-1 Portajohns $10,512 (about 13 months). Our own references: the Denver restroom trailer contract is printed as ~$100,00.00 [CONFIRM], and our USCG template priced a restroom/shower trailer at $8,995/unit for a 30-day job. On the price list, the 13ft 3-stall Luxury Shower-Restroom trailer is $3,995 (15 days\u20131 month) and $2,495\u20133,995 (more than 3 months), but the billing basis is unspecified and there's no two-stall row. [CONFIRM: monthly unit rate, bi-weekly service rate, delivery/setup/pickup for Livingston, TX]",
+ "must_have": [
+  "Submit the bid by 2026-11-27. Source: bid pack, Response deadline. [CONFIRM: time, time zone, and submission method on ESBD 405-27R0001325]",
+  "One two-stall non-ADA mobile restroom facility: 110V AC/20A power; heating and cooling AC; water via garden hose spigot or \u2265125-gal onboard tank; external tank \u2265300 gal with auxiliary pump; onboard wastewater tank \u2265350 gal; stall doors and platforms with stairs and handrails. Source: HigherGov AI summary, Work Details 1(a)\u2013(f).",
+  "Female stall with sink and flushing toilet; male stall with sink, flushing toilet, and wall-mounted urinal; hot and cold running water; vanity, mirror, interior lighting, paper towel dispenser, and soap dispenser in each stall. Source: HigherGov AI summary, Work Details 1(g)\u2013(j).",
+  "Bi-weekly service: refill water tanks, pump out waste per state regulations, disinfect all surfaces, clean floors. Source: HigherGov AI summary.",
+  "Furnish, install, and maintain the unit at 3161 US-59, Livingston, TX 77351. Source: bid pack Description and Place of Performance.",
+  "Period: date of award through August 31, 2027, plus four optional one-year renewals. Source: HigherGov AI summary, Period of Performance.",
+  "Completed Subcontracting Plan (SP), if applicable, and good-faith efforts to recruit certified HUBs. Source: HigherGov AI summary, Bidder Requirements.",
+  "Evidence of financial stability on request. Source: HigherGov AI summary, Bidder Requirements.",
+  "Comply with all requirements in the solicitation. Source: HigherGov AI summary. Documents not in the pack: [CONFIRM: download from https://www.txsmartbuy.gov/esbd/405-27R0001325]"
+ ],
+ "gaps": [
+  "[CONFIRM: full solicitation package and any amendments from ESBD 405-27R0001325]. The pack has 0 attachments.",
+  "[CONFIRM: whether the 'MBE' set-aside requires Texas HUB certification, and whether our MBE certification (certifying body unknown) qualifies]",
+  "[CONFIRM: whether the HUB Subcontracting Plan applies, and our plan if we subcontract servicing]",
+  "[CONFIRM: we have, or can get, a two-stall non-ADA restroom trailer with a urinal, a \u2265350-gal onboard waste tank, and a \u2265300-gal external tank with auxiliary pump]",
+  "[CONFIRM: who services the unit bi-weekly in Livingston, TX: our own crew from a regional depot, or a local subcontractor]",
+  "[CONFIRM: Texas licenses or permits needed to pump, haul, and dispose of wastewater]",
+  "[CONFIRM: mandatory or optional site visit or pre-bid conference]",
+  "[CONFIRM: bonding and insurance requirements]",
+  "[CONFIRM: submission time, time zone, and method (electronic or hard copy)]",
+  "[CONFIRM: whether the $100,000 estimate covers the initial period only or all renewals]",
+  "[CONFIRM: incumbent vendor and current pricing at DPS Livingston]",
+  "[CONFIRM: monthly rental rate for the unit, bi-weekly service rate, and delivery/install/pickup cost to Livingston, TX]",
+  "[CONFIRM: Denver contract SC-00011558 value, for use as past performance]",
+  "[CONFIRM: financial stability documents we can provide on request]"
+ ],
+ "deadline": "2026-11-27. The time and time zone are not stated in the bid pack. [CONFIRM: time and time zone on ESBD]",
+ "checked": "2026-11-14T00:45",
+ "ai": "claude-code"
+}

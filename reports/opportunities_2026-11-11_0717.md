@@ -1,0 +1,16 @@
+# New opportunities 2026-11-11 (scanned 55873 captured 2026-07-14..2026-11-11)
+
+## Match >=100% (1)
+
+| Match % | Source | Title | Solicitation # | Agency | NAICS | PSC | Set-aside | Type | Posted | Response Deadline | Place of Performance | Link | HigherGov | Contact |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| 100 | HigherGov | CHP Marin Area office - Portable Luxury Restroom Trailer Rental and Maintenance Services - IFB #26C350009 | 0000040754 | Department of the California Highway Patrol | 562991 | S208 | SDVOSBC | Solicitation | 2026-10-23 | 2026-11-12 | Corte Madera, CA | https://caleprocure.ca.gov/event/2720/0000040754 | https://www.highergov.com/sl/contract-opportunity/ca-chp-marin-area-office-portable-luxury-75970764 | cameron.macgregor@chp.ca.gov |
+
+## Match >=50% (0)
+
+
+## Match >=25% (0)
+
+
+## Match >0% (0)
+

@@ -1,0 +1,78 @@
+VENDOR QUESTIONS AND ANSWERS
+Solicitation No.: 69056727Q000005
+Project Name: Modular Buildings & Restroom Rental with Ancillary Services
+#	General Technical	Question	Answer	Date
+Section E (Addendum to 52.212-1) asks for submission
+through the GSA eBuy Portal, and 52.212-2 refers to an
+order under MAS SIN 532490P. The SAM.gov notice
+describes the acquisition as unrestricted full and open. YES. This is a typo in Section E and will be corrected in
+1	X	2-Nov-2026
+Will the Government accept quotations by email to Amendment 0001
+WFL.Purchasing@dot.gov from responsible vendors
+registered in SAM.gov who do not hold a GSA Schedule
+(MAS) contract?
+For Factor 2C (Relevant Past Experience), may an
+offeror meet the minimum of five years of relevant
+experience within the last seven years using the YES. Submission of subcontractor relevant experience
+2	X	2-Nov-2026
+experience of its proposed subcontractor(s) or major would be required for evaluation
+supplier(s), for example the firm supplying and servicing
+the modular units?
+Past Experience: YES (see the response to question 2)
+May an offeror rely on a proposed subcontractor's
+Past Performance: NO. You may not rely on
+experience and past performance for Factor 2C (Proof
+3	X	subcontractor performance only. Past performance 2-Nov-2026
+of Experience) and Factor 3 (Past Performance)? If so,
+information for the prime AND the subcontractor would
+what documentation is required?
+be required.
+Does title to the leased modular units and restroom
+YES. We are only leasing, not purchasing so no tital
+4	X	trailer remain with the contractor, notwithstanding FAR	2-Nov-2026
+transfer is required.
+52.212-4(n)?
+The questions deadline on the cover appears as "19-
+MOV-2026", and the Addendum and the Past
+This is a typo in both instances and will be corrected in
+5	X	Performance Questionnaire show different subject lines.	2-Nov-2026
+Amendment 0001
+Please confirm the questions due date/time and the
+correct PPQ subject line
+Is this requirement limited to GSA Multiple Award
+NO. Open Market Full and Open. See the response to
+6	X	Schedule (MAS) holders? If not, please confirm the	2-Nov-2026
+question 1
+submission method for offerors without a GSA schedule.
+1 of 2
+
+VENDOR QUESTIONS AND ANSWERS
+Could you please confirm whether a prime contractor
+7	X	may subcontract modular unit supply, installation, YES. See responses to questions 2 and 3 2-Nov-2026
+utilities and recurring restroom services?
+Could you please confirm whether whether there are any
+There is no "mandatory" site visit but please review FAR
+8	X	mandatory site-visit requirements or amendments	2-Nov-2026
+52.237-1.
+beyond the posted RFQ attachments?
+We would like to know if this is a brand new contract OR
+9	X	New contract	2-Nov-2026
+if there is (was) an incumbent performing these services
+Will an offeror with no record of relevant past
+performance be rated neutral (neither favorably nor
+YES. Refer to Section E, 52.212-2 Addendum,
+10	X	unfavorably) under Factor 3? If not, may the prime	3-Nov-2026
+paragraph 5.a.ii
+submit past performance information for its key
+personnel instead?
+Please clarify whether you would consider a direct quote
+11	X	for just the restroom portion, or whether the entire NO. Partial quotes will not be accepted. 4-Nov-2026
+package must be provided under one contract?
+The only "interested-vendors" list that is publicly
+Is there a publicly available interested-vendor or site-visit available is attached to the RFQ on SAM.gov itself, but
+12	X	attendee list, or another way to connect with potential you must be properly registered and signed-in to 4-Nov-2026
+bidders who may need a restroom trailer supplier? SAM.gov in order to see it. There is no organized site
+visit scheduled.
+13
+14
+2 of 2

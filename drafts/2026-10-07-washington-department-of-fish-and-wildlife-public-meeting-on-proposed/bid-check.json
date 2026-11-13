@@ -1,0 +1,39 @@
+{
+ "verdict": "No bid",
+ "score": 6,
+ "one_line": "There is nothing to bid on: the notice is YouTube captions from a public meeting where WDFW mentioned adding one or two standard portable toilets at a remote Washington trailhead, a tiny local pumping job that an existing nearby vendor already services and that falls outside our NAICS and trailer fleet.",
+ "scope": "At an Oct 2026 public meeting on the proposed Quincy Lakes camping closure, Washington Department of Fish and Wildlife (WDFW) staff said they plan to add portable toilets. One option was two at the lower trailhead; another was one at the trailhead and one at a designated camping area. Service would include pumping, and the number of units would follow the vendor's usage records and recommendations. No quantity, rental length, budget, start date, or solicitation was stated. The larger road and vault-toilet project is a separate, grant-dependent construction effort, with funding no earlier than July 1, 2029.",
+ "fit": [
+  "Our core competencies list 'Facility Support & Utilities ... portable sanitation' (company profile / capability statement).",
+  "We have related servicing experience: the City and County of Denver contract SC-00011558 covers delivery, cleaning, pump-outs, waste disposal, and supplies for restroom trailers.",
+  "Our work area is nationwide, and the bid pack shows no set-aside, so our SBE/MBE status is not a barrier."
+ ],
+ "red_flags": [
+  "This is not a solicitation. The bid pack type is 'Agendas / Minutes', and the only attachment is YouTube captions marked 'not official meeting minutes'.",
+  "There is no contact: the bid pack lists Contact as 'None, None, None'.",
+  "NAICS 562991 (septic tank and related services) is not one of our codes (721310, 532490, 722310, 624230, 624221, 561210, 423740, 532120). PSC is 'None'.",
+  "Wrong product: they want standard portable toilets ('porta potties'), not restroom or shower trailers. Our price list has no single portable-toilet unit.",
+  "The job is very small (1 to 3 units plus pumping) and about 1,000+ miles from our Marina del Rey, CA base. Mobilization and weekly service from a distance would cost more than the job is worth.",
+  "A local incumbent already does the work. Chad Edson named 'Apple pumping', and staff also guessed 'basin septic'. The agency said it relies on its vendors' usage records and recommendations.",
+  "Budget is tight: the O&M budget is about $4 per acre and already committed. Staff also said 'the current status of our state budget is not great.'",
+  "Site access is poor. Staff said a vendor 'is never going to' drive the current two-track, so a unit at the camping area may not be serviceable.",
+  "The anticipated 2027 action would prohibit camping in the closure footprint, which may shrink or drop the camping-area toilet."
+ ],
+ "competition": "The current service provider is a local pumping vendor. Edson called it 'Apple pumping', and another staff member guessed 'basin septic'. The captions say this names the current provider, not an award for the expansion. The bid pack shows no past awards by this agency under NAICS 562991, no offers, and no other bidders.",
+ "price_signal": "There are no benchmarks. The bid pack found no past WDFW awards and no awards under NAICS 562991 with PSC None at any agency. Our price list has no standard portable-toilet line. Its smallest restroom item is the 13ft Luxury Shower-Restroom Combination Trailer (3 Stalls) at 2,995.00 for 1-6 Days, but the billing basis is unspecified and that unit is not what WDFW described.",
+ "must_have": [
+  "None stated. No solicitation, submission instructions, forms, bonding, licenses, insurance, or site visit appear in the bid pack or the attachment.",
+  "The bid pack's 2027-01-07 response deadline comes from HigherGov's forecast record. The source document states no deadline.",
+  "The only dated action in the source is public comment (the WDFW public-input form and SEPA), which was open through October 30, 2026 and has closed (attachment, 00:12:33)."
+ ],
+ "gaps": [
+  "Whether WDFW will issue a formal solicitation or just add units through its current vendor. [CONFIRM: procurement method and WDFW procurement contact]",
+  "Quantity, locations, rental length, servicing frequency, and start date. [CONFIRM: unit count] [CONFIRM: duration]",
+  "Whether we own standard portable toilets or have a servicing subcontractor near Quincy / Grant County, WA. [CONFIRM: portable toilet units in fleet] [CONFIRM: nearest depot or partner to central Washington]",
+  "Whether we are registered as a Washington state vendor, and whether WA requires a septic-pumping or waste-hauling license. [CONFIRM: WA vendor registration and licensing]",
+  "Our pricing for standard portable toilets and pump-out service. [CONFIRM: price]"
+ ],
+ "deadline": "The source states none. The bid pack shows a HigherGov response deadline of 2027-01-07 with no time or time zone. Public comment closed October 30, 2026.",
+ "checked": "2026-11-14T00:50",
+ "ai": "claude-code"
+}

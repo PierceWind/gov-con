@@ -1,0 +1,62 @@
+{
+ "verdict": "Maybe",
+ "score": 30,
+ "one_line": "Bid only if the full RFR lets us bid restroom trailers or Category 3 by itself and accepts our government clients as references; most of the work is low-price portable toilets and composting toilets that we don't stock, and we have only two qualifying references in the 18-month window.",
+ "scope": "Massachusetts DCR wants one or more vendors for a statewide contract to supply portable toilets for Commonwealth special events, beaches, parks, and other temporary or permanent sites. The work has three categories: Category 1 is single, multi-unit, and handicap-accessible portable toilets; Category 2 is public-facility composting toilets; Category 3 is office trailer restroom systems that need no water or sewer connection. Vendors also handle maintenance, repair, replacement, seasonal servicing, and emergency response for equipment failure or vandalism. The term is three years plus a two-year renewal option, and the contract replaces DCR 832.",
+ "fit": [
+  "Set-aside is NONE, so we can bid as prime with our SBE/MBE status.",
+  "Restroom trailers and portable sanitation are core competencies, and the profile offers ADA units on request.",
+  "Denver contract SC-00011558 (Aug 2026 \u2013 ongoing) closely matches the service scope: climate-controlled restroom trailers for up to 500 people, with mobilization, cleaning, pump-outs, waste disposal, supplies, maintenance, and demobilization.",
+  "USCG contract 70Z02826FMIAM0008 (May\u2013Jul 2026) covered restroom/shower trailers with water and wastewater support. It also falls inside the 18-month reference window.",
+  "In business since 1998, which clears the 3-year experience minimum if restroom trailer rentals count as portable toilet rentals.",
+  "Our 24/7 emergency line and 24-hour on-site response for critical failures fit the requirement to respond to failures and vandalism.",
+  "We already provide RCRA-compliant gray/black water removal, and our work area is nationwide."
+ ],
+ "red_flags": [
+  "Every requirement here comes from the HigherGov AI summary. The bid pack has 0 attachments, so we have not seen the actual RFR, its forms, pricing sheet, or evaluation criteria.",
+  "NAICS 562991 and PSC S299 are not among our codes. Our GSA MAS schedule doesn't apply to a state contract.",
+  "Category 2 composting toilets are not in our fleet or core competencies.",
+  "Standard single portable toilets (Category 1) are not in our fleet list or price list. The price list has only luxury shower-restroom trailers and shower containers, and both ADA combination-trailer rows are blank.",
+  "References: the RFR asks for three commercial references from similar projects completed in the last 18 months. Only USCG (May\u2013Jul 2026) and Denver (Aug 2026 \u2013 ongoing) fall in that window. Both are government clients, and Denver is still ongoing, not completed. ECC, Portsmouth, Fort Lee, and the Navy job in Oregon all ended in 2023 or earlier.",
+  "We have no stated Massachusetts presence (HQ is Marina del Rey, CA). Servicing many Massachusetts cities during business hours, plus seasonal servicing and vandalism callouts, probably means using a local subcontractor, which brings the hazardous waste compliance requirement for subcontractors.",
+  "This is a low-price, crowded market: known offer counts in the benchmarks run up to 31 (GDH, Brunswick GA) and 12 (Cross Nation). Our trailer rates and $4,000/lot delivery reference price will probably lose to local portable toilet haulers on standard units.",
+  "Denver's contract value is printed as '~$100,00.00' and needs correcting before we cite it.",
+  "The deadline is 17 days away, and we don't have the RFR documents yet."
+ ],
+ "competition": "The new contract replaces DCR 832, but the bid pack doesn't name its incumbent(s). HigherGov found no past DCR awards under NAICS 562991. The benchmark winners are small local and regional firms. In Massachusetts, Matthew A. Frazier Enterprises won Cape Cod National Seashore portable toilets ($8,945, 2025), and Mbjsmart won Cape Cod wastewater tank pumping ($99,554, 3 offers). Other frequent winners are Major Contracting Services (Fort Riley and Fort Polk) and Samchong Corporation (Osan AB). Where offer counts are known, they range from 1 to 31.",
+ "price_signal": "DCR's estimated value is $250,000\u2013$2,500,000 over a term of up to 5 years. The benchmarks are mostly small federal awards. Cape Cod National Seashore paid $8,945 for 1 standard and 1 ADA portable toilet with delivery and full servicing over about 3 weeks (Aug 2025). A 5-year portable toilet rental and maintenance contract in Brunswick GA went for $37,140 (31 offers). A 2-year portable toilet services contract in Kodiak AK went for $80,205. Fort Riley quarterly latrine and handwashing service went for $180,650. The benchmarks include nothing for composting toilets or office trailer restroom systems. Our price list has no standard portable toilet line. The nearest items are the 13ft luxury 3-stall combination trailer ($2,995 for 1-6 days, $3,995 for 15 days\u20131 month) and the 22ft 6-stall ($4,995 / $5,995). The price list doesn't say what period those rates cover.",
+ "must_have": [
+  "Minimum 3 years of experience providing portable toilet rentals or sales (source: HigherGov AI summary, Bidder Requirements)",
+  "Three commercial references from similar projects completed within the last 18 months (source: HigherGov AI summary, Bidder Requirements)",
+  "If subcontractors handle hazardous waste disposal, compliance with all state and federal hazardous waste disposal rules (source: HigherGov AI summary, Bidder Requirements)",
+  "General liability insurance; limits not stated (source: HigherGov AI summary, Bidder Requirements)",
+  "Category 1 units must be self-contained and transportable, with toilets, urinals, hand sanitizers, and towel dispensers, in single, multi-unit, and handicap-accessible versions (source: HigherGov AI summary, Work Details)",
+  "Category 2 composting toilets that need no water flushing, with all components for installation and operation (source: HigherGov AI summary, Work Details)",
+  "Category 3 office trailer restroom systems that need no water or sewer connections (source: HigherGov AI summary, Work Details)",
+  "Maintenance, repair, replacement, seasonal servicing, and emergency response for equipment failure or vandalism (source: HigherGov AI summary, Work Details)",
+  "Service at Massachusetts locations named by the ordering department, during normal business hours (source: HigherGov AI summary, Place of Performance)",
+  "Response due 2026-12-01 under solicitation BD-27-1020-DCRCU-DC250-133900; the RFR is posted on COMMBUYS (source: bid pack, Opportunity)"
+ ],
+ "gaps": [
+  "[CONFIRM: download the full RFR and all attachments from COMMBUYS] to get the actual requirements, required forms, pricing sheet, and evaluation criteria",
+  "[CONFIRM: response due time and time zone]",
+  "[CONFIRM: can we bid on one category only, e.g., Category 3, or restroom trailers under Category 1?]",
+  "[CONFIRM: do restroom trailers count as 'multi-unit' Category 1 units and as 'portable toilet rentals' for the 3-year experience test?]",
+  "[CONFIRM: do government clients (USCG, Denver) count as 'commercial references', and does Denver qualify while still ongoing?]",
+  "[CONFIRM: third reference within the last 18 months]",
+  "[CONFIRM: general liability limits and any other required insurance]",
+  "[CONFIRM: whether a bid, performance, or payment bond is required; the bid pack doesn't say]",
+  "[CONFIRM: any Massachusetts license or permit needed to transport or dispose of waste]",
+  "[CONFIRM: Massachusetts service partner or depot, and that partner's hazardous waste compliance]",
+  "[CONFIRM: unit prices for standard and ADA portable toilets, per-visit servicing, and delivery within Massachusetts]; none are on our price list, and both ADA trailer rows are blank",
+  "[CONFIRM: estimated quantities, whether the contract is single or multiple award, and any guaranteed minimum]",
+  "[CONFIRM: any pre-bid conference or site visit]; the bid pack mentions none",
+  "[CONFIRM: our COMMBUYS vendor registration status]",
+  "[CONFIRM: whether our SBE/MBE status qualifies for any Commonwealth preference]",
+  "[CONFIRM: Denver contract value]",
+  "[CONFIRM: proposal contact email: sales@temporarykitchens123.com or contract@temporary123.com]"
+ ],
+ "deadline": "2026-12-01; time and time zone not stated in the bid pack [CONFIRM on COMMBUYS]. That is 17 days from today, 2026-11-14.",
+ "checked": "2026-11-14T00:47",
+ "ai": "claude-code"
+}

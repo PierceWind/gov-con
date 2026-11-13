@@ -1,0 +1,49 @@
+{
+ "verdict": "No bid",
+ "score": 20,
+ "one_line": "This is a low-price IFB for basic portable toilets with recurring local servicing across Hampton Roads, and it sits outside our NAICS/PSC codes and our price list. We have no local servicing base, and with 5 days left we have none of the solicitation documents.",
+ "scope": "Hampton Roads Transit (HRT) wants a contractor to rent portable toilets and provide related services at various locations in Hampton Roads, VA. Per the HigherGov AI summary (not the solicitation itself), the work covers delivery, setup, regular servicing and maintenance, and removal of portable toilets to HRT's specifications. The bid pack does not state the period of performance, unit counts, locations, or service frequency.",
+ "fit": [
+  "Portable sanitation is a stated core competency (Facility Support & Utilities), and restroom facilities are in our fleet.",
+  "Closest past performance: City and County of Denver, SC-00011558 (Aug 2026 \u2013 ongoing). We provide and service climate-controlled portable restroom trailers there, including cleaning, pump-outs, waste disposal, supplies, maintenance, and demobilization, for up to 500 people.",
+  "Our servicing model includes RCRA-compliant gray/black water removal, sanitizing, and consumables, plus a 24/7 emergency line.",
+  "Set-aside is NONE, so our SBE/MBE status doesn't bar us.",
+  "We have worked in the region before: Fort Lee, VA (subcontractor, 2021) and Camp Lejeune, NC (2020\u20132021). Neither was in Hampton Roads, and neither was portable toilet work."
+ ],
+ "red_flags": [
+  "NAICS 562991 and PSC S203 aren't among our codes (our NAICS: 721310, 532490, 722310, 624230, 624221, 561210, 423740; our PSC: W023, W099, W045). None of our GSA SINs covers it, though the GSA schedule doesn't apply to a SLED transit buy anyway.",
+  "Our price list has no standard portable toilet line. Our smallest restroom unit is the 13ft Luxury Shower-Restroom Combination Trailer (3 stalls) at 2,995.00 (1-6 Days; billing basis not specified). That is very likely far above the commodity porta-john pricing an IFB will be judged on.",
+  "It's an IFB (Invitation for Bid), so lowest responsive price usually wins. Local Hampton Roads portable toilet and septic firms with nearby trucks and units will have the cost advantage.",
+  "Recurring servicing at multiple sites needs a local truck and crew. We're headquartered in Marina del Rey, CA, and the profile names no Virginia depot or servicing partner.",
+  "The bid pack has 0 attachments, so we don't have the IFB, scope, bid form, terms, bonding, or insurance requirements.",
+  "Only 5 days until the deadline (2026-11-19), and the bid pack gives no time of day or time zone.",
+  "The scope details come only from the HigherGov AI summary, which hedges ('typically spans multiple months or years'). Don't treat it as authoritative.",
+  "The contact name is listed as 'Valmond Employee', which looks like a placeholder. Confirm the real contracting officer."
+ ],
+ "competition": "No incumbent was identified, and the bid pack shows 0 past awards by HRT under NAICS 562991, so offers received on this requirement are unknown. Across agencies, benchmark awards under NAICS 562991 + PSC S203 went to local septic and site-service firms, such as Jersey Shore Septic And Sewer, United Site Services Of Colorado, and A-1 Construction & Septic Service, plus small regional contractors (Caribou Services, BPM Services, Major Contracting Services, Vantex Service Corporation, MB Soft Wash, TV Guy Orlando). Most of those awards drew 1 offer; the largest (Caribou, $437,580) drew 4 and BPM drew 3.",
+ "price_signal": "HRT's estimated value is $50,000\u2013$250,000. We have no HRT history under this NAICS. Comparable portable toilet awards (NAICS 562991 + PSC S203) were mostly small: $425 (2018, Columbus OH), $4,680 (2024, NSA Crane), $4,813 (2016, Basalt CO), $5,486 (2023, Gatesville TX), $9,687 (2024, Fort Riley), $11,013 (FY18, Newton Falls OH), and $26,714 (2024, Ravenna OH, bundled with ECUs and a dumpster). The one large award, $437,580 (2024, Grayling MI), was field sanitation for a military exercise. The two $20,000 Fort Dix awards were grease-trap pumping, not toilets. Our closest reference prices are restroom trailers, not porta-johns: 13ft 3-stall at 2,995.00 / 3,995.00 (15days-1 month), and 9 dollars short of $9,000 per unit ($8,995) for the USCG restroom/shower trailer.",
+ "must_have": [
+  "Submit the bid by the response deadline of 2026-11-19 (bid pack, Opportunity section). [CONFIRM: time, time zone, and submission method]",
+  "Bidder must be a qualified contractor with relevant experience in portable toilet rental services (HigherGov AI summary, Bidder Requirements).",
+  "Deliver, set up, maintain, and remove portable toilets at designated HRT locations throughout Hampton Roads (HigherGov AI summary, Work Details).",
+  "Keep units clean and functional, and service them regularly per HRT's specifications (HigherGov AI summary, Work Details).",
+  "Bid forms, pricing schedule, bonding, insurance, and licensing requirements are unknown because the bid pack has 0 attachments. [CONFIRM: download the IFB 26-00423 documents and any amendments from the source link]"
+ ],
+ "gaps": [
+  "[CONFIRM: full IFB 26-00423 package and any amendments; the bid pack has 0 attachments]",
+  "[CONFIRM: deadline time and time zone, and whether submission is electronic or sealed hard copy]",
+  "[CONFIRM: unit count, unit type (standard portable toilet, ADA, hand-wash station), and whether restroom trailers are acceptable]",
+  "[CONFIRM: number and addresses of HRT locations, and service frequency]",
+  "[CONFIRM: period of performance and option years]",
+  "[CONFIRM: whether a bid bond, performance bond, or payment bond is required]",
+  "[CONFIRM: insurance minimums and any Virginia business, waste-hauling, or septage licenses required]",
+  "[CONFIRM: whether a pre-bid meeting or site visit is required]",
+  "[CONFIRM: vendor registration requirements on the posting portal, mvendor.cgieva.com]",
+  "[CONFIRM: whether we own standard portable toilet units, or have a Hampton Roads depot or servicing subcontractor]",
+  "[CONFIRM: our cost to deliver and service from the nearest depot; the price list has no portable toilet line and doesn't state its billing basis]",
+  "[CONFIRM: real name of the HRT contracting contact (listed as 'Valmond Employee', fvalmond@hrtransit.org, 7572226000)]"
+ ],
+ "deadline": "2026-11-19. The bid pack gives no time of day or time zone. [CONFIRM: time and time zone in the IFB]",
+ "checked": "2026-11-14T00:42",
+ "ai": "claude-code"
+}

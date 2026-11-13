@@ -1,0 +1,56 @@
+{
+ "verdict": "No bid",
+ "score": 5,
+ "one_line": "We are already ineligible: you could only qualify for award by joining the Food and Water Risk Assessment (FWRA), which needed facility details by 2 Nov 2026 and ran 10\u201313 Nov 2026, and both dates have passed. The work is also full catering in Cambodia, not trailer rental.",
+ "scope": "The 413th Contracting Support Brigade wants a firm-fixed-price caterer for Exercise Angkor Sentinel 27 at the PKO Training Center in Kampong Speu, Cambodia, from 14 to 26 Feb 2027. The caterer supplies all food, staff, a Person in Charge, a mobile kitchen or an approved off-site commercial kitchen, potable water, ice, refrigeration, a backup generator and food transport. The amended counts are breakfast and dinner for 92 U.S. personnel, plus breakfast, lunch and dinner for 200 Cambodian personnel, with American/Western, Cambodian and vegetarian options and 0.5 L of water per person. All of it must follow TB MED 530, AR 30-22 and Cambodian law.",
+ "fit": [
+  "Our fleet includes mobile kitchens (24\u201340 ft, combo and bulk kitchens), refrigerated trailers and containers, dishwashing trailers, handwashing sink trailers and potable water tanks. Those cover the kitchen, refrigeration and water parts of CLIN 0001 and CLIN 0012.",
+  "Core competencies include 'Field Kitchen & Emergency Catering', with mobile UL-compliant kitchens and dining units for remote deployments.",
+  "Our profile cites worldwide project experience, and we have military past performance: Fort Lee, VA basecamp ($408,482); U.S. Navy, Oregon kitchen trailer and potable water ($127,240); Camp Lejeune ($239,760).",
+  "The notice has no set-aside, so our SBE/MBE status is no barrier and we are not blocked from any set-aside.",
+  "SAM is active, with UEI REVFD44JLMV5 and CAGE 57C31, as the RFQ requires."
+ ],
+ "red_flags": [
+  "FWRA eligibility has passed. The RFQ makes FWRA participation a condition of award: 'To be considered eligible for award, interested vendors shall participate in and support a FWRA'. Facility details were due 2 Nov 2026, and the assessment window was 10\u201313 Nov 2026 (the notice description says it moved to 09\u201311 Nov). Today is 14 Nov 2026. The RFQ addendum also says 'Failure to provide FWRA coordination information may result in the quote being determined ineligible for award.'",
+  "The questions deadline (6 Nov 2026, 1300 HST) has passed, so we cannot ask for a late FWRA through the Q&A.",
+  "Scope mismatch: this is a turnkey food-service contract that includes food purchasing, cooks, menus, a Person in Charge and meal service. We rent kitchen trailers; our documents show no food-production past performance.",
+  "NAICS 722320 and PSC S203 are not in our codes. Our NAICS list includes 722310, not 722320, and our PSCs are W023, W099 and W045.",
+  "Host-nation hurdles: we would need Cambodian food-service licenses and permits, Cambodian work authorization for staff, PKO access, and compliance with Cambodian labor, environmental and safety law (PWS 1.6.3, Part 4, PRS 5). None of these appear in our profile.",
+  "Moving trailers from CONUS to Cambodia for a 13-day job: shipping must be included in the price (RFQ addendum), and we have no regional depot there.",
+  "Defense Base Act (DBA) insurance: we need a DBA estimate from a DOL-authorized carrier with the quote, coverage within 72 hours of award, and the cost built into the price with no adjustment after award.",
+  "Key personnel must be fluent in English, and the PIC must hold food-safety certifications. We have no catering staff on record.",
+  "Funding is not yet available (FAR 52.232-18), and the Government may cancel at no penalty within 48 hours of the start of performance.",
+  "The documents conflict with each other: the updated PWS says normal catering continues for the 200 Cambodian personnel during the cultural event, while the Q&A says all personnel travel; CLIN 0014 (U.S. lunch) was added with no quantity; the RFQ addendum misstates the FWRA window as 2027; and the tax instructions conflict (price without taxes vs. the Q&A's 'factor any taxes')."
+ ],
+ "competition": "The incumbent pattern is strongly in favor of JTG Corporation Pte, which won 13 of the agency's 15 past awards under NAICS 722320. These include Keris Strike 26 ($287,640, 5 offers), Cobra Gold 2026 ($536,294 and $115,116), Salaknib/Balikatan 2025\u201326 and SNBK 26. Most of those drew only 1 offer. The other 2 awards went to Hale Koa Hotel for receptions in Honolulu. No offers received on this RFQ are stated.",
+ "price_signal": "The notice estimates $150,000\u2013$450,000. Similar 413th CSB exercise catering awards to JTG include Keris Strike 26 at $287,640 (20 days), Cobra Gold 2026 at $115,116\u2013$536,294, SNBK 26 at $87,152\u2013$535,320 and Balikatan 25 at $47,366\u2013$585,086. The amended counts work out to about 784 meals a day (92\u00d72 + 200\u00d73) before the cultural-event reductions. Our price list covers equipment only: a 40ft Mobile Kitchen at the military tier (Tier 1) is listed at $8,995 for 8\u201314 days and $10,995 for 15 days\u20131 month, but the billing basis is not stated. We have no food or labor pricing, so we could not price this from our own documents.",
+ "must_have": [
+  "FWRA participation and facility details by 2 Nov 2026; assessment 10\u201313 Nov 2026 (Updated B08 Combined Synopsis/Solicitation 10NOV2026; notice description says the window moved to 09\u201311 Nov). PASSED.",
+  "Signed and dated solicitation with a total price for ALL CLINs and options, plus the completed contractor information block (Updated B08, Addendum to 52.212-1).",
+  "Completed Pricing Sheet in Excel with unit pricing for CLINs 0001\u20130014, including the evaluated option CLIN 0013 (Updated B08; Q&A confirms the option is evaluated).",
+  "FWRA coordination information: primary and alternate POC, preferred plus two alternate dates, food-preparation location and access, capability description, licenses, PIC certifications, sanitation, temperature and water procedures, and waste and grey/grease-water plan (Updated B08, 52.212-1 Addendum).",
+  "DBA insurance estimate from a DOL-authorized carrier and the ability to obtain coverage within 72 hours of award (Updated B08, 52.212-1 and 52.212-2 Addenda).",
+  "Capability statement / technical approach: one original and one redacted copy with no company name, UEI, CAGE or other identifiers (Updated B08).",
+  "Signed Form 889 (Updated B08).",
+  "Active SAM, CAGE code, WAWF enrollment and payment in USD (Updated B08).",
+  "Prices in USD, including all shipping, valid for at least 90 days (Updated B08).",
+  "Name, title and phone of a POC who can obligate the company (Updated B08).",
+  "Response in PDF plus pricing in Excel, emailed to phillip.d.pandy2.mil@army.mil and uchechukwu.mbawuike.mil@army.mil (Updated B08).",
+  "Do not share the RFQ with other vendors, or we may be eliminated (Updated B08).",
+  "Cambodian licenses, permits and work authorization; a host-nation food-service license before performance (Updated PWS Part 4, 1.6.3, Tech Exhibit B).",
+  "Dedicated backup generator sized for the whole operation and an independent FWRA-approved alternate water source (Updated PWS 3 and 5.1.7; CLINs 0010\u20130012)."
+ ],
+ "gaps": [
+  "[CONFIRM: whether Temporary 123 sent FWRA facility details by 2 Nov 2026 or took part in the 10\u201313 Nov 2026 FWRA. If not, the bid is dead.]",
+  "[CONFIRM: whether the contracting office would accept a late FWRA. The documents offer no route for one.]",
+  "[CONFIRM: any Cambodian business registration, food-service license or work-authorized staff. None appear in our profile.]",
+  "[CONFIRM: any catering or food-production past performance and any certified PIC. None appear in our profile.]",
+  "[CONFIRM: whether we have an existing DBA insurance broker or carrier.]",
+  "[CONFIRM: WAWF enrollment status. It is not stated in our profile.]",
+  "[CONFIRM: whether we have any relationship with JTG Corporation Pte or another regional caterer for supplying kitchen trailers. None is documented.]",
+  "[CONFIRM: the cost and lead time to ship a mobile kitchen to Cambodia. It is not in our price list.]"
+ ],
+ "deadline": "27 November 2026, 1300 (1 PM) Hawaii Standard Time, by email (Updated B08 Combined Synopsis and Solicitation 10NOV2026, posted 2026-11-13; this replaces the earlier 20 Nov 2026 date). Already passed: FWRA facility details were due 2 Nov 2026, the FWRA ran 10\u201313 Nov 2026, and questions closed 6 Nov 2026 at 1300 HST.",
+ "checked": "2026-11-14T00:07",
+ "ai": "claude-code"
+}

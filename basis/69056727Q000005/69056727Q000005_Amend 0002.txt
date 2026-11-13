@@ -1,0 +1,474 @@
+1. CONTRACT ID CODE PAGE OF PAGES
+AMENDMENT OF SOLICITATION/MODIFICATION OF CONTRACT
+1	2
+2. AMENDMENT/MODIFICATION NUMBER 3. EFFECTIVE DATE 4. REQUISITION/PURCHASE REQUISITION NUMBER 5. PROJECT NUMBER (If applicable)
+0002	11/06/2026
+6. ISSUED BY	CODE 690567	7.ADMINISTERED BY (If other than Item 6)CODE
+Federal Highway Administration
+FHWA WESTERN FED LANDS DIVISION
+610 E FIFTH STREET
+Vancouver WA 98661
+8. NAME AND ADDRESS OF CONTRACTOR (Number, street, county, State and ZIP Code) 9A. AMENDMENT OF SOLICITATION NUMBER
+(X) 69056727Q000005
+9B. DATED (SEE ITEM 11)
+10/28/2026
+10A. MODIFICATION OF CONTRACT/ORDER NUMBER
+10B. DATED (SEE ITEM 13)
+CODE	FACILITY CODE
+11. THIS ITEM ONLY APPLIES TO AMENDMENTS OF SOLICITATIONS
+The above numbered solicitation is amended as set forth in Item 14.The hour and date specified for receipt of Offers is extended. is not extended.
+Offers must acknowledge receipt of this amendment prior to the hour and date specified in the solicitation or as amended, by one of the following methods:
+(a) By completing items 8 and 15, and returning O N E ( 1 ) copies of the amendment; (b) By acknowledging receipt of this amendment on each copy of the offer submitted;
+or (c) By separate letter or electronic communication which includes a reference to the solicitation and amendment numbers. FAILURE OF YOUR ACKNOWLEDGMENT TO BE
+RECEIVED AT THE PLACE DESIGNATED FOR THE RECEIPT OF OFFERS PRIOR TO THE HOUR AND DATE SPECIFIED MAY RESULT IN REJECTION OF YOUR OFFER. If
+by virtue of this amendment you desire to change an offer already submitted, such change may be made by letter or electronic communication, provided each letter or electronic
+communication makes reference to the solicitation and this amendment, and is received prior to the opening hour and date specified.
+12. ACCOUNTING AND APPROPRIATION DATA (If required)
+13. THIS ITEM APPLIES ONLY TO MODIFICATIONS OF CONTRACTS/ORDERS.
+IT MODIFIES THE CONTRACT/ORDER NUMBER AS DESCRIBED IN ITEM 14.
+CHECK ONEA. THIS CHANGE ORDER IS ISSUED PURSUANT TO: (Specify authority) THE CHANGES SET FORTH IN ITEM 14 ARE MADE IN THE CONTRACT ORDER
+NUMBER IN ITEM 10A.
+B. THE ABOVE NUMBERED CONTRACT/ORDER IS MODIFIED TO REFLECT THE ADMINISTRATIVE CHANGES (such as changes in paying office,
+appropriation data, etc.) SET FORTH IN ITEM 14, PURSUANT TO THE AUTHORITY OF FAR 43.103(b).
+C. THIS SUPPLEMENTAL AGREEMENT IS ENTERED INTO PURSUANT TO AUTHORITY OF:
+D. OTHER (Specify type of modification and authority)
+E. IMPORTANT: Contractor is not is required to sign this document and return copies to the issuing office.
+14. DESCRIPTION OF AMENDMENT/MODIFICATION (Organized by UCF section headings, including solicitation/contract subject matter where feasible.)
+See continuation page
+Except as provided herein, all terms and conditions of the document referenced in Item 9A or 10A, as heretofore changed, remains unchanged and in full force and effect.
+15A. NAME AND TITLE OF SIGNER (Type or print) 16A. NAME AND TITLE OF CONTRACTING OFFICER (Type or print)
+N/A
+15B. CONTRACTOR/OFFEROR	15C. DATE SIGNED 16B. UNITED STATES OF AMERICA 16C. DATE SIGNED
+(Signature of person authorized to sign) (Signature of Contracting Officer)
+Previous edition unusable	STANDARD FORM 30 (REV. 11/2016)
+Prescribed by GSA FAR (48 CFR) 53.243
+
+REFERENCE NO. OF DOCUMENT BEING CONTINUED	PAGES
+CONTINUATION SHEET
+69056727Q000005/0002	PAGE 2 OF 2
+NAME OF OFFEROR OR CONTRACTOR
+ITEM NO.	SUPPLIES/SERVICES	QUANTITY UNIT UNIT PRICE AMOUNT
+(A)	(B)	(C)	(D)  (E)	(F)
+Amendment 0002 adds site visit information in
+Section D and extends the due date for quote
+submission.
+By way of this amendment, paragraph 3.1,
+Organized Site Visit, is added to Section D.
+Additionally, the cover page and page A-1 are
+updated accordingly to extend the due date for
+submission of quotes to Tuesday, 08-DEC-2026,
+at 2:00pm PT. Amendments are indicated by red
+and/or lined-through text on the attached
+pages.
+All other stipulations remain unchanged.
+NSN 7540-01-152-8067	OPTIONAL FORM 336 (4-86)
+Sponsored by GSA FAR (48 CFR) 53.110
+
+Western Federal Lands Highway Division
+610 E. Fifth Street
+Vancouver, WA 98661
+Phone 360-619-7700
+Fax 360-619-7846
+REQUEST	FOR  QUOTATION
+This is a combined synopsis/solicitation for commercial
+QUICK INDEX
+products or commercial services prepared in
+Page Item	accordance with FAR 12.201 Solicitation procedures.
+Solicitation number 69056727Q000005 is issued as an
+A-1  SF18, Request for Quotation
+(RFQ) for Modular Building & Restroom Rental with
+B-1  Price Schedule
+Ancillary Services. Additional information as required
+C-1  Contract Clauses	in FAR 12.202(b)(1) is provided in the RFQ document
+attached herein.
+D-1  Statement of Work
+E-1  Solicitation Provisions and This announcement constitutes the only solicitation.
+Instructions to Offerors	Quotations are being requested and a written
+solicitation will not be issued.
+ATTACHMENTS
+This acquisition is UNRESTRICTED FULL & OPEN
+0001 Proposed 24' x 60' Floor Plan
+and incorporates provisions and clauses by reference.
+Layout
+The full text of provisions and clauses may be accessed
+0002 Offeror Work Experience	electronically at https://www.acquisition.gov/far-
+overhaul/far-part-deviation-guide/far-overhaul-part-52.
+0003 Past Performance Questionnaire
+0004 Service Contract Act Wage  The North American Industry Classification System
+Determination	(NAICS) code is 532490 with an industry size standard
+of $40.0 million and the associated Product Service
+Code (PSC) is W054.
+All interested vendors shall refer to Section E for full-text FAR Provision 52.212-1, Instructions to
+Offerors, and its Addendum.
+Solicitation Release Date: 28-OCT-2026
+Technical Questions Due Date: DayTuesday, 19-NOV01-DEC-2026, at 4:00pm PT
+Response Due Date: DayTuesday, 24-NOV08-DEC-2026, at 2:00 pm PT
+NOTICE: This solicitation and the resulting contract incorporate the latest updates from the
+Revolutionary Federal Acquisition Regulation (FAR) Overhaul (RFO). Any standard FAR
+references within this document correspond directly to the associated text in the RFO. All
+provisions and clauses reflect the most recent RFO requirements and approved deviations.
+Offerors can review the complete RFO text at Revolutionary FAR Overhaul.
+AMENDMENT 0002
+
+A-1	Amendment 0002
+REQUEST FOR QUOTATION	PAGE OF PAGES
+THIS RFQ IS  IS NOT A SMALL BUSINESS SET-ASIDE 1 1
+(THIS IS NOT AN ORDER)
+1. REQUEST NUMBER	2. DATE ISSUED 3. REQUISITION/PURCHASE REQUEST NUMBER 4. CERT. FOR NAT. DEF. RATING
+69056727Q000005	10/28/2026 HFLWSI260133PR	UNDER BDSA REG. 2
+AND/OR DMS REG. 1
+5a. ISSUED BY Federal Highway Administration WESTERN 6. DELIVER BY (Date)
+FEDERAL LANDS HIGHWAY DIVISION 610 E
+FIFTH STREET
+Vancouver WA 98661
+7. DELIVERY
+WFL.Purchasing@dot.gov	OTHER
+FOB DESTINATION (See Schedule)
+5b. FOR INFORMATION CALL (NO COLLECT CALLS)
+NAME	TELEPHONE NUMBER
+Doug Taylor
+AREA CODE NUMBER	9. DESTINATION
+douglas.g.taylor@dot.gov	360	619-7738	a. NAME OF CONSIGNEE
+FHWA-WFLHD
+8. TO:
+a. NAME	b. COMPANY	b. STREET ADDRESS
+610 E FIFTH STREET
+c. STREET ADDRESS
+c. CITY
+Vancouver
+d. CITY	e. STATE f. ZIP CODE	d. STATE	e. ZIP CODE
+WA	98661-3801
+10. PLEASE FURNISH QUOTATIONS TO THE IMPORTANT: This is a request for information and quotations furnished are not offers. If you are unable to quote, please
+ISSUING OFFICE IN BLOCK 5a ON OR so indicate on this form and return it to the address in Block 5a. This request does not commit the Government to pay any
+BEFORE CLOSE OF BUSINESS (Date) costs incurred in the preparation of the submission of this quotation or to contract for supplies or service. Supplies are of
+12/08/2026	domestic origin unless otherwise indicated by quoter. Any representations and/or certifications attached to this Request for
+11/24/2026 @ 1400 PT  Quotation must be completed by the quoter.
+11.SCHEDULE (Include applicable Federal, State and local taxes)
+ITEM NUMBER	SUPPLIES/SERVICES	QUANTITY UNIT UNIT PRICE	AMOUNT
+(a)	(b)	(c)	(d)	(e)	(f)
+UEI:  
+Modular Buildings & Restroom Rental with
+Ancillary Services
+This will be a Firm-Fixed Price Task
+Order.
+The Contractor shall provide WFLHD with
+Modular Buildings & Restroom Rental with
+Ancillary Services in accordance with
+Section D, Statement of Work.
+Anticipated Period of Performance:
+02/01/2027 to 01/31/2029
+a. 10 CALENDAR DAYS (%) b. 20 CALENDAR DAYS (%) c. 30 CALENDAR DAYS (%) d. CALENDAR DAYS
+12.DISCOUNT FOR PROMPT PAYMENT	NUMBER PERCENTAGE
+NOTE: Additional provisions and representations are are not attached.
+13. NAME AND ADDRESS OF QUOTER 14. SIGNATURE OF PERSON AUTHORIZED TO 15. DATE OF QUOTATION
+SIGN QUOTATION
+a. NAME OF QUOTER
+b. STREET ADDRESS	16. SIGNER
+a. NAME (Type or print)	b. TELEPHONE
+c. COUNTY	AREA CODE
+d. CITY	e. STATE f. ZIP CODE c. TITLE (Type or print) NUMBER
+AUTHORIZED FOR LOCAL REPRODUCTION	STANDARD FORM 18 (REV. 6/1995)
+Previous edition not usable	Prescribed by GSA-FAR (48 CFR) 53.215-1(a)
+
+D-1	Amendment 0002
+SECTION D – STATEMENT OF WORK
+1.	BACKGROUND
+Western Federal Lands Highway Division (WFLHD), a division of the US Department of
+Transportation – Federal Highway Administration, designs and administers, primarily,
+road construction projects on Federal Lands in the states of Alaska, Washington, Oregon,
+Idaho, Montana, and Wyoming.
+2.	OBJECTIVE
+The objective of this requirement is to support and maintain WFLHD operations during the
+Division Office Facility Renovation by obtaining prefabricated modular office building(s),
+single-wide container/modular office units, and an executive restroom trailer on a
+temporary lease basis, including professional delivery, site preparation, installation, utility
+connection, preventative maintenance, weekly septic pumping maintenance, technical
+troubleshooting support, and eventual teardown/demobilization.
+3.	LOCATION
+The delivery and service location shall be at the WFLHD secure federal facility located at
+610 East Fifth Street, Vancouver, Clark County, WA 98661-3801.
+The Contractor must coordinate the delivery schedule, truck access, and exact site
+placements with the Technical Point of Contact (TPOC) at least 10 business days prior to
+on-site delivery. This coordination is critical to ensure that delivery vehicles can access
+the compound and that drop zones are clear of obstruction. The Contractor is responsible
+for preparing the sites, offloading, setup, and placing/setting all units.
+3.1. Organized Site Visit. An organized site visit has been scheduled for Tuesday,
+17-NOV-2026, at 10:00am PST. Participants will meet at the WFLHD Main Entrance
+located at 610 E 5th Street, Vancouver, WA 98661. If interested in attending, please
+provide Company name, attendee’s name(s), and contact information to
+WFL.Purchasing@dot.gov.
+Please arrive at least 10 minutes prior to the scheduled start time to accommodate the
+visitor access process. Additionally, access to a federal facility requires compliance with
+the “REAL ID” Act requirements. Please review https://www.tsa.gov/real-id for additional
+information.
+All interested Contractors shall satisfy themselves regarding all general and local
+conditions that may affect the cost of contract performance, to the extent that the
+information is reasonably obtainable. Any failure of the Contractor to take the actions
+described in this paragraph will not relieve the Contractor from responsibility for estimating
+properly the difficulty and cost of successfully performing the work, or for proceeding to
+successfully perform the work without additional expense to the Government.
+The Government assumes no responsibility for any conclusions or interpretations made
+by the Contractor based on the information made available by the Government, nor does
+the Government assume responsibility for any understanding reached or representation
+made concerning conditions which can affect the work by any of its officers or agents
+WFLHD Modular Buildings & Restroom Rental with Ancillary Services
+
+D-2	Amendment 0002
+before the execution of this contract, unless that understanding, or representation is
+expressly stated in this contract.
+The provision at 52.237-1, Site Visit, is included in this solicitation. Accordingly, in no
+event shall failure to inspect the site constitute grounds for a claim after contract award.
+4.	PERFORMANCE  PERIOD
+It is anticipated that the work listed in this order shall be completed over a period of twenty-
+four (24) months beginning approximately 01-Feb-2027 and ending approximately 31-Jan-
+2029
+.
+5.	REQUIREMENT DESCRIPTION
+The Contractor shall provide the following supplies and maintenance services:
+● Procure and supply one pre-engineered prefabricated modular office building of
+approximately 24' x 60' (1,440 SQFT) containing a minimum of three offices, one
+small secure meeting room, and two conference rooms, fully compliant with local
+commercial building codes.
+● Procure and supply two 8' x 40' Office Containers or Modular units (fully finished,
+with active HVAC systems and full office finishes).
+● Procure and supply one modern, climate-controlled executive restroom trailer (3-
+station minimum).
+● Manage and execute the transport of all modular units on a commercial carrier,
+F.O.B. Destination, to the Vancouver, Washington compound.
+● Provide complete site preparation services, including minor grading and leveling
+of all designated site areas to support solid, level footing for the modular units.
+● Perform professional installation, including block & level setup for the 24' wide
+multi-plex, 8' wide single-wide unit, and restroom trailer.
+● Construct, wire, and certify full utility service connections from the modular
+buildings' distribution panels to the closest WFLHD building electrical distribution
+panels.
+● Perform post-installation inspection and leveling adjustments between 30 and 60
+days following initial occupancy to ensure long-term stability and code compliance.
+● Provide weekly septic sanitation pumping services, freshwater holding tank refills,
+winterization assistance, technical troubleshooting, and general routine
+maintenance of all integrated trailer systems.
+5.1. Task 1: Modular unit lease. The contractor shall lease to WFLHD the following
+pre-engineered modular units for a firm-fixed lease term of twenty-two (22) months. All
+units shall be delivered fully operational and turnkey ready for immediate use and
+occupancy no later than 01-MAR-2027.
+WFLHD Modular Buildings & Restroom Rental with Ancillary Services
+
+D-3	Amendment 0002
+5.1.1. Task 1.1: Double-wide modular office trailer (24' x 60'). Provide 1 pre-
+engineered double-wide modular office building of approximately 24 feet by 60 feet (1,440
+SQFT interior area). The modular office building shall feature an integrated interior floor
+plan configured containing a minimum of 3 offices, 1 small secure meeting room, and 2
+conference rooms and be fully ADA compliant. Functional bathrooms are not required in
+this office space.
+Refer to Attachment 0001 for proposed floor plan layout. Alternative layouts will be
+considered and deemed appropriate IF overall room quantities and capacity needs are
+met.
+5.1.2. Task 1.2: Single-wide container/modular office (8' x 40'). Provide 2 pre-
+engineered, single-wide 8' x 40' containers or modular office units (320 SQFT interior
+area). The units shall feature full HVAC capability (minimum 1.5-ton capacity),
+commercial-grade finishes, insulated walls, high-durability VCT or commercial carpet
+flooring, a minimum of one exterior door with locksets, and high-efficiency LED or
+fluorescent ceiling fixtures.
+5.1.3. Task 1.3: Restroom trailer (3-station minimum). Provide 1 fully self-contained,
+temporary restroom trailer with a minimum three (3) station configuration. The unit
+delivered must be no older than seven (7) years.
+5.2. Task 2: Professional installation & ancillary services. The contractor shall
+perform all necessary set-up services under, ensuring completely safe, stable, and
+regulatory-compliant structures. Task 2 services shall include:
+5.2.1. Site leveling and preparation: The contractor shall be responsible for any minor
+leveling and site preparation of the existing gravel/asphalt base at all designated
+compound sites to guarantee solid, level, and stable footings for the modular units.
+5.2.2. Block and level set: The contractor shall block, level, and structural-couple the
+24' wide multiplex sections, and independently block, level, and secure the 8' wide single-
+wide container office and the restroom trailer in accordance with local guidelines,
+manufacturer specifications, and standard tie-down anchoring protocols.
+5.2.3. Noise mitigation: The contractor shall install sound-dampening interior walls
+(minimum STC 40+ rating) to divide the 24' x 60' interior space into three offices, one
+small secure meeting room, and two conference rooms. The 8' x 40' unit shall remain a
+wide-open configured administrative workspace with no interior partitions.
+5.2.4. Skirting and site aesthetics: The contractor shall supply and install matching
+high-durability hardboard or vinyl skirting around the complete exterior perimeter of both
+office foundations (representing approximately 168 linear feet for the 24' x 60' unit and
+approximately 96 linear feet for the 8' x 40' unit) to protect the sub-floor area and maintain
+visual compound standards.
+5.2.5. OSHA steps and ADA ramps: The contractor shall supply, install, and lease three
+complete access packages:
+WFLHD Modular Buildings & Restroom Rental with Ancillary Services
+
+D-4	Amendment 0002
+● DOUBLE-WIDE OFFICE (24' X 60'): 1 OSHA-compliant aluminum step system
+with a 40" x 60" landing and handrails, and 1 ADA/IBC-compliant 30-foot aluminum
+ramp system with a 60" x 60" switchback landing and continuous handrails.
+● SINGLE-WIDE OFFICE (8' X 40'): As needed, 2 additional OSHA-compliant
+aluminum step systems with landing or an ADA-compliant ramp system.
+● RESTROOM  TRAILER: 1 OSHA-compliant aluminum step system with landing or
+ADA-compliant ramp system as designated by the TPOC.
+5.2.6. Utility connections: The contractor shall complete and certify electrical service
+connections for all units. This includes laying properly sized, weather-insulated
+commercial-grade wiring and circuit breakers from the 24' x 60' unit's 125-amp panel and
+the 8' x 40' unit's 100-amp or 125-amp panel to the nearest designated WFLHD compound
+distribution panel in compliance with NEC and local standards. The contractor shall
+connect initial municipal water (via standard hose) and electrical lines (standard 120V) for
+the restroom trailer.
+5.2.7. Post-installation re-leveling: The contractor shall return to the project site to re-
+verify leveling and adjust stability jacks for all units no earlier than 30 days and no later
+than 60 days following initial setup to correct standard structural settling.
+5.3. Task 3: Monthly maintenance and lease technical support. Throughout the
+active lease, the contractor shall maintain full commercial warranty coverage and provide
+technical support for all structural, electrical, and mechanical systems across all leased
+units. WFLHD shall not be responsible for standard wear-and-tear repairs. The contractor
+shall coordinate and perform quarterly preventative maintenance checks on the
+commercial HVAC units and utility connections for both office facilities.
+5.3.1. Task 3.1: Routine maintenance, septic pumping, and support services. The
+contractor shall perform scheduled septic pumping, greywater/waste tank management,
+freshwater replenishment, and standard technical repairs to ensure continuous, reliable,
+and sanitary trailer operations throughout the entire lease period. Services shall include:
+● SEPTIC PUMPING SERVICE: Execute scheduled waste extraction and septic
+pumping services at least once per week (minimum 1x weekly) utilizing a certified
+sanitation pumper truck, maintaining odor-free operation and adequate holding
+tank capacity.
+● FRESHWATER REFILLS: Coordinate and perform freshwater tank replenishment
+(minimum 150-gallon capacity on trailer) to ensure reliable supply for handwashing
+sinks and toilet flushing systems.
+● INITIAL STOCKING OF SUPPLIES: Deliver the restroom trailer fully stocked with
+starting hygiene supplies, including dissolve-ready toilet paper installed on wall
+mounts, paper towels in dispenser units, and liquid hand soap in dispenser units.
+● REGULAR TECHNICAL MAINTENANCE & REPAIRS: Deliver prompt technical
+support, repair labor, and replacement parts for standard plumbing, HVAC climate
+control, electrical, and structural systems at no additional cost to the Government.
+● WINTERIZATION AND COLD WEATHER SUPPORT: Provide heated water
+connection recommendations, tank winterization assistance, and heated garden
+hose accessories to ensure freezing protection during cold winter operational
+periods.
+WFLHD Modular Buildings & Restroom Rental with Ancillary Services
+
+D-5	Amendment 0002
+● ACCOUNT MANAGEMENT: Assign an Account Manager to oversee scheduled
+septic pumpers, answer technical questions, and resolve administrative or
+operational concerns during the rental term.
+5.4. Task 4: Teardown, demobilization, and site restoration. At the conclusion of
+the lease, the contractor shall perform complete demobilization services within 30
+calendar days. The contractor shall dismantle step and ramp systems, strip exterior
+skirting from all units, decouple the 24' x 60' multi-plex sections, perform final septic
+pumping and deep sanitization on the restroom trailer, disconnect all temporary utility
+hookups, and transport all leased assets off the WFLHD compound. The contractor is
+responsible for all return freight charges and shall restore all compound sites to their
+original clean, vacant, and level condition.
+6. TECHNICAL AND MATERIALS QUALITY CRITERIA
+All temporary facilities leased to WFLHD must meet or exceed the following Technical and
+Materials Quality Criteria:
+6.1. General code compliance & accessibility (all units)
+6.1.1. Structural code compliance. The entire structure of all units, including materials,
+insulation, emergency egress, and load ratings, must comply with International Building
+Code (IBC) standards for commercial occupancy. Standard residential units meeting only
+residential codes (IRC) are strictly prohibited.
+6.1.2. Accessibility ramps and landings: Leased aluminum ramp systems with
+continuous, non-slip surfaces must be provided at entry doorways in compliance with ADA
+and IBC accessibility guidelines.
+6.1.3. Exterior doors & lighting: All exterior entry doors must include commercial
+cylinder locksets, weatherstripping, and exterior wall-mounted LED security fixtures.
+● 24' X 60' UNIT: Minimum of two exterior doors.
+● Two 8' X 40' UNITS: Minimum of one exterior door.
+● RESTROOM  TRAILER: Dedicated exterior entry doors for separate men's and
+women's suites.
+6.2. Modular office facilities (24' x 60' & 8' x 40')
+6.2.1. 24' x 60' Unit:
+● INTEGRATED HVAC SYSTEM with a minimum 2.0-ton cooling capacity and
+professionally balanced ductwork serving all offices, meeting and conference
+rooms simultaneously.
+● ACOUSTICS AND PARTITIONS: Interior office partitions must have upgraded
+sound-dampening qualities (minimum STC rating of 40+) to allow confidential
+business meetings and focused work. Partition walls must consist of a minimum of
+painted sheetrock or foam-core panels with metal 'H' track systems, rising securely
+from floor to ceiling.
+● DATA AND TELECOMMUNICATIONS PRE-WIRING: The 24' x 60' building must
+include a dedicated utility closet to house a pre-wired, rack-mounted 48-port RJ-
+WFLHD Modular Buildings & Restroom Rental with Ancillary Services
+
+D-6	Amendment 0002
+45 Category 6 (Cat6) data patch panel. Every office must contain a minimum of
+two (2) dual Cat6 data drops, and conference rooms must contain a minimum of
+four (4) dual Cat6 data drops. Electrical pre-wiring must provide 110V commercial
+outlets supporting a minimum of twelve (12) active devices in the utility closet.
+6.2.2. 8' x 40' Units: Integrated commercial HVAC system with a minimum 1.5-ton
+cooling capacity to serve the open-plan work area.
+6.2.3. Lighting & electrical controls: High-efficiency LED or fluorescent troffer ceiling
+fixtures with individual wall switches for all offices, meeting and conference rooms, and
+open work areas.
+6.2.4. Interior flooring & trim: Commercial-grade, low-VOC carpet tile or high-durability
+vinyl composition tile (VCT) with commercial vinyl base molding on all interior walls.
+6.3. Restroom trailer (3-station minimum / executive configuration)
+6.3.1. Layout & station capacity: 3-station configuration minimum. Each suite must
+include a vanity and private toilet stall, with one of the suites including a waterless urinal
+with privacy screen.
+6.3.2. Integrated climate control / HVAC: High-efficiency AC units and integrated heat
+strips (with a 3–4 season cold-weather arctic package) to sustain interior temperatures
+between 68°F and 74°F year-round.
+6.3.3. Water & waste tank capacities: Minimum 150-gallon integrated freshwater
+holding tank and minimum 560-gallon integrated waste septic holding tank.
+6.3.4. Utility power & water connections: Powered via standard 120V electrical
+connections (requiring no more than 3–4 standard 30 AMP power cords). Water supply
+connects to municipal pressurized water via heavy-duty commercial hose (heated garden
+hose required during winter months).
+6.3.5. High-end interior materials & finishes: Executive-level environment featuring
+fiberglass walls, vinyl trim, poly base cabinets, high-durability VCT or jet-tile rolled flooring,
+drop-in white porcelain sinks, solid surface countertops, vanity mirrors, and integrated
+warm lighting.
+7. INSPECTION AND ACCEPTANCE
+All supplies and/or work hereunder shall be subject to review by the Government. The
+designated Technical Point of Contact (TPOC) is responsible for the physical inspection,
+testing, and formal acceptance of all incoming shipments, installation services, and utility
+connections. Final acceptance of the temporary modular office trailer, container office,
+and restroom trailer, confirming they are fully functional and ready for immediate federal
+occupancy, shall be made in writing by TPOC.
+8. GOVERNMENT ACCEPTANCE PERIOD
+Unless stated elsewhere, the FHWA will have 10 calendar days from the date of physical
+delivery to review, inspect, and test the physical containers/modular units and submit any
+WFLHD Modular Buildings & Restroom Rental with Ancillary Services
+
+D-7	Amendment 0002
+non-conformance comments. The Contractor shall have five calendar days from receipt
+of comments to make revisions, address any defects, or replace non-conforming units.
+Upon receipt of the corrected deliverables, WFHD will have five calendar days for final
+review prior to formal written acceptance.
+9. AUTHORITY TO OBLIGATE THE GOVERNMENT
+The Contracting Officer is the only individual who can legally commit or obligate the
+Government to the expenditure of public funds. No cost chargeable to the proposed task
+order can be incurred before receipt of a fully executed task order or specific authorization
+from the Contracting Officer.
+10. ANTI-DEFICIENCY
+Unless otherwise authorized by Public Law or Federal Regulation, nothing contained
+herein shall be construed as binding the Government to expend, in any one fiscal year,
+any sum in excess of the appropriation made by Congress for that fiscal year in
+furtherance of the matter of the contract or to involve the Government in an obligation for
+the future expenditure of monies before an appropriation is made (Anti-Deficiency Act, 31
+U.S.C. 1341.A.1).
+11. INDEMNIFICATION
+Any indemnification language contained in standard form agreements executed between
+the Government and the Contractor shall be binding upon the Government only to the
+extent authorized by law, opinions of the Government Accountability Office and the
+Federal Tort Claims Act (28 U.S.C. §§ 2671-2680).
+12. PAYMENT FOR UNAUTHORIZED WORK
+No payments will be made for any unauthorized supplies and/or services or for any
+unauthorized changes to the work specified herein. This includes any services performed
+by the Contractor of their own volition or at the request of an individual other than a duly
+appointed Contracting Officer. Only a duly appointed Contracting Officer is authorized to
+change the specifications, terms, and conditions under this effort.
+13. CLOSEOUT OF CONTRACT FILES
+The Government will initiate the administrative close-out of the Task Order after receiving
+evidence that all technical requirements have been completed. The Contractor shall
+furnish all required documents in support of the closeout of this contract.
+The Government anticipates the timeframe to complete the administrative close-out of this
+order will not exceed 30 days. The costs incurred in the administrative closeout of task
+orders and contract files are unallowable direct costs under the contract and, therefore,
+cannot be charged as direct costs to the Government. Contractors are to handle such
+costs in accordance with their disclosure statements/cost accounting systems.
+14. LIST OF ATTACHMENTS
+Attachment 0001 – Proposed 24' x 60' Floor Plan Layout
+WFLHD Modular Buildings & Restroom Rental with Ancillary Services
+
+D-8	Amendment 0002
+Attachment 0002 – Offeror Work Experience form
+Attachment 0003 – Past Performance Questionnaire
+Attachment 0004 – Department of Labor Service Contract Act Wage Determination
+WFLHD Modular Buildings & Restroom Rental with Ancillary Services

@@ -1,0 +1,59 @@
+{
+ "verdict": "No bid",
+ "score": 8,
+ "one_line": "No bid: the bidder must already hold a Merced County Health Permit to Operate a Septic Tank/Chemical Toilet Cleaning Business, which our profile doesn't show and we can't realistically get before the 2026-11-19 deadline; the work is also basic portable-toilet pumping outside our NAICS, fleet, and pricing, and the listing is tagged SDVOSBC.",
+ "scope": "CAL FIRE wants a 3-year rental and service contract for up to 18 portable restroom units and 8 handwashing stations at the CAL FIRE Atwater Training Center in Atwater, CA. The rate sheet estimates 156 weeks, and quantities are not guaranteed. The work covers weekly or requested servicing, pumping, cleaning, restocking, minor repairs, offsite waste disposal, and relocation within two business days at no extra cost. Response times are two business days for routine requests, 24 hours for urgent sanitation issues, and the same business day for emergency health or safety issues. The estimated term is Dec 1, 2026 (or Department of General Services approval, whichever is later) through Nov 30, 2029.",
+ "fit": [
+  "Portable sanitation is one of our stated core competencies (Facility Support & Utilities: water delivery, waste removal, generators, and portable sanitation).",
+  "Relevant past performance: City and County of Denver, SC-00011558 (Aug 2026 \u2013 ongoing), restroom trailer service including mobilization, cleaning, pump-outs, waste disposal, supplies, maintenance, and demobilization for up to 500 people.",
+  "Relevant past performance: USCG Station Lake Worth Inlet, 70Z02826FMIAM0008 ($78,500.00), restroom/shower trailers with water and wastewater support, maintenance, and demobilization.",
+  "We are based in California (Marina del Rey, CA). Being a California corporation would help with the Secretary of State good-standing requirement, but our state of incorporation is not stated.",
+  "We hold SBE status, which could qualify for the 5% California SB preference only if we are certified by California DGS. That certification is not stated in our profile."
+ ],
+ "red_flags": [
+  "Hard gate: the bidder must hold a valid, active Health Permit to Operate for a Septic Tank/Chemical Toilet Cleaning Business issued by the Merced County Division of Environmental Health. Our profile shows no such permit, and the deadline is 5 days away (2026-11-19).",
+  "Set-aside conflict: HigherGov tags this SDVOSBC. We have no SDVOSB or DVBE status. But the summary text says no DVBE participation goal is required and DVBE participation is only an evaluation incentive. If this really is a DVBE/SDVOSB set-aside, we can't bid as prime.",
+  "Wrong fit for our business: NAICS 562991 and PSC S222 are not among our NAICS or PSC codes. The work is standard portable toilets and handwash stations, while our fleet and price list are trailers. Our price list has no rows for portable toilets or handwash stations, only a Handwashing Sink Trailer.",
+  "Price mismatch: our reference weekly servicing rate of $5,000/week \u00d7 156 weeks = $780,000 before any unit rental. The estimated value is $120,000\u2013$260,000.",
+  "Service model: this needs local pumper-truck route service with same-business-day emergency response and free relocations within two business days. Our profile lists no depot or pumping trucks near Atwater, CA.",
+  "Our 'MBE' is Minority Business Enterprise. California's 'SB/MB' preference refers to DGS-certified Small Business/Microbusiness, so our MBE status does not by itself qualify for that preference.",
+  "The bid pack has no attachments (0). The only scope we have is the posting description and the HigherGov AI summary, not the IFB itself or the rate sheet.",
+  "Quantities are not guaranteed, and CAL FIRE may add or remove service locations.",
+  "A motor carrier permit is required if applicable under California law. Our profile doesn't mention one."
+ ],
+ "competition": "The bid pack shows no incumbent and no past CAL FIRE awards under NAICS 562991. Nationwide benchmarks for this NAICS and PSC show the work usually goes to local sanitation and pumping firms, with 1 to 31 offers. California examples: BIG Valley Sanitation (Redding, CA, portable toilets and hand wash stations with weekly service, 2 offers; Mineral, CA, 7 offers), D&M Pumping (Sausalito, CA, 2 offers), A&G Pumping (Paicines, CA, 1 offer), J & J Enterprises (Twentynine Palms, CA, 3 offers). We have no information on offers received for this IFB.",
+ "price_signal": "CAL FIRE's estimate is $120,000\u2013$260,000 for the 3-year term. Closest benchmarks: BIG Valley Sanitation, Redding, CA, portable toilets and hand wash stations with weekly service, $65,762 (PoP 2017-10-01..2022-09-30); D&M Pumping, Sausalito, CA, portable and vault toilet services, $277,330 (PoP 2020-03-06..2025-03-14); GPC Consolidated Reporting, Chelan, WA, fire-incident port-a-potties and handwash stations, $198,806 for about 3 months (PoP 2026-08-22..2026-11-30). Our price list has no portable toilet or handwash station rates, so we have no basis to price this.",
+ "must_have": [
+  "Licensed to do business in California (Bid pack, HigherGov AI summary, Bidder Requirements).",
+  "Valid, active Health Permit to Operate for a Septic Tank/Chemical Toilet Cleaning Business from the Merced County Division of Environmental Health (Bid pack, Bidder Requirements).",
+  "California corporations: registered and active/in good standing with the California Secretary of State. Out-of-state prime bidders: home-state business license or incorporation documents showing good standing (Bid pack, Bidder Requirements).",
+  "Commercial general liability of at least $1,000,000 per occurrence, with the State as additional insured where specified (Bid pack, Bidder Requirements).",
+  "Workers' compensation with waiver of subrogation in favor of the State, and employer's liability of at least $1,000,000 (Bid pack, Bidder Requirements).",
+  "Commercial auto coverage for owned, hired, and non-owned vehicles of at least $1,000,000 (Bid pack, Bidder Requirements).",
+  "Subcontractors must hold all required licenses, permits, and certifications; a motor carrier permit if applicable under California law (Bid pack, Bidder Requirements).",
+  "Provide all materials, labor, equipment, tools, permits, taxes, transportation, supervision, licenses, insurance, and fees (Bid pack, Description).",
+  "Up to 18 portable restrooms and 8 handwashing stations, with weekly or requested service including pumping, cleaning and sanitizing, restocking, minor repairs, and lawful offsite waste disposal (Bid pack, Work Details).",
+  "Units compliant with Cal/OSHA, public health, and environmental requirements, and available 24/7 (Bid pack, Work Details).",
+  "Relocations within 2 business days at no additional cost; routine requests within 2 business days; urgent sanitation within 24 hours; emergency health or safety issues the same business day (Bid pack, Work Details).",
+  "Routine service access Monday\u2013Friday, 8:30 a.m.\u20135:00 p.m., excluding State holidays, unless otherwise coordinated (Bid pack, Work Details).",
+  "Optional: DVBE incentive of 1\u20135%; 5% SB/MB preference for certified California SB/MB bidders, capped at $50,000 (Bid pack, Bidder Requirements).",
+  "Completed rate sheet [CONFIRM: rate sheet and IFB bid forms not included in bid pack]."
+ ],
+ "gaps": [
+  "[CONFIRM: whether Temporary 123 holds or can obtain a Merced County Health Permit to Operate a Septic Tank/Chemical Toilet Cleaning Business before 2026-11-19]",
+  "[CONFIRM: whether 7CA08060 is actually an SDVOSB/DVBE set-aside (HigherGov tag) or open to all bidders (summary text)]",
+  "[CONFIRM: response deadline time and time zone on Cal eProcure]",
+  "[CONFIRM: full IFB documents, rate sheet, and any addenda; the bid pack has 0 attachments]",
+  "[CONFIRM: state of incorporation and California Secretary of State good standing]",
+  "[CONFIRM: whether we hold California DGS SB or Microbusiness certification]",
+  "[CONFIRM: current insurance limits for CGL, workers' compensation/employer's liability, and auto, plus ability to add the State as additional insured and a waiver of subrogation]",
+  "[CONFIRM: whether we own portable toilet units, handwash stations, and pumping trucks, and have a depot that can serve Atwater, CA]",
+  "[CONFIRM: motor carrier permit status]",
+  "[CONFIRM: whether a mandatory site visit or pre-bid conference applies; none is mentioned in the bid pack]",
+  "[CONFIRM: bonding requirements; none are mentioned in the bid pack]",
+  "[CONFIRM: unit and weekly service pricing for portable toilets and handwash stations; not on our price list]"
+ ],
+ "deadline": "2026-11-19. The bid pack gives no time or time zone: [CONFIRM: time and time zone on Cal eProcure event 3540].",
+ "checked": "2026-11-14T00:43",
+ "ai": "claude-code"
+}

@@ -1,0 +1,42 @@
+{
+ "verdict": "No bid",
+ "score": 12,
+ "one_line": "There is nothing to bid on: this lead comes from city council meeting captions about a possible short-term generator rental, which the city would most likely handle informally with the vendor it has used for 5 years, and generators are not in our listed fleet or price list.",
+ "scope": "The City of Larkspur, CA, may rent a backup generator for the Hillview (Bon Air) pump station if a flood or power outage happens before the generator it already bought arrives. It might also rent extra generators if the winter brings repeated storms and outages. The likely work is emergency generator rental and delivery for pump-station backup power. No equipment rating, rental length, or budget was given.",
+ "fit": [
+  "NAICS 532490 is on our capability statement and matches the forecast's NAICS.",
+  "Our core competencies list generators under 'Facility support and utilities' (company profile).",
+  "Place of performance is California (Larkspur, Marin County). Our office is in Marina del Rey, CA, and our work area is nationwide.",
+  "No set-aside is stated, so our SBE/MBE status does not limit us.",
+  "Our 24/7 emergency line and 24\u201372 hour deployment (proposal template) fit an emergency rental call.",
+  "Low-cost relationship play only: the meeting describes winter flooding, power outages, and countywide mass feeding during a past SNAP outage. These match our basecamp, kitchen, and sanitation work if Larkspur or Marin County OEM later buys those services. This is not a current opportunity."
+ ],
+ "red_flags": [
+  "This is not a solicitation. The source is YouTube captions of an Oct 7, 2026 council meeting (marked 'not official meeting minutes'). There is no RFQ, SOW, submission instructions, or contact.",
+  "The only generator need is a contingency: Public Works Director Julian Skinner said the purchased generator was in final shipping and expected 'within a week or two' of Oct 7. As of today (2026-11-14) it has probably arrived, so the rental may never happen.",
+  "Incumbent behavior: 'we'll go rent one like we have for the last 5 years.' This points to a quick local purchase from an existing vendor, not a competition.",
+  "Generators are not on our fleet list and not on our price list. We have no generator pricing or stated inventory.",
+  "No equipment rating, duration, quantity, or spending was identified. Extra rentals 'will depend on how the winter goes.'",
+  "The HigherGov 'response deadline' of 2027-01-08 is a forecast placeholder, not a real due date.",
+  "The value would likely be small, and the timing is tied to storm events (king tides around Thanksgiving and Christmas), which leaves no time for a formal response."
+ ],
+ "competition": "The city has rented a generator for this need from an unnamed vendor for the last 5 years, according to Skinner at the meeting. HigherGov shows no past awards by this agency under NAICS 532490 and no NAICS benchmarks. No offers were reported.",
+ "price_signal": "None available. No past awards or benchmarks were found, and no spending was identified. Skinner said only that rentals have a cost, and the mayor noted the rental cost is 'a lot lower' than buying. Our price list has no generator rows.",
+ "must_have": [
+  "None stated: the bid pack has no solicitation, SOW, forms, or submission instructions (source: bid pack).",
+  "Implied need: emergency generator rental and delivery for pump-station backup power at Hillview/Bon Air pump station (source: bid pack description; meeting captions about 04:05:00).",
+  "Implied need: fast delivery during storm events, possibly on holidays (source: meeting captions, public comment and staff discussion of king tides at Thanksgiving and Christmas)."
+ ],
+ "gaps": [
+  "[CONFIRM: whether Temporary 123 owns or can source generators, and at what kW ratings], since generators are not in the fleet list",
+  "[CONFIRM: generator rental pricing], since none is on the price list",
+  "[CONFIRM: delivery and response time to Marin County / Bay Area, and nearest regional depot]",
+  "[CONFIRM: any California license or electrical requirement for connecting a generator to a municipal pump station]",
+  "[CONFIRM: whether the city's purchased generator has arrived]",
+  "[CONFIRM: city purchasing contact], since the bid pack lists none (Public Works Director Julian Skinner is named in the meeting)",
+  "[CONFIRM: whether the city will issue any formal request, or will only rent on an emergency basis]"
+ ],
+ "deadline": "HigherGov lists a response deadline of 2027-01-08, with no time or time zone stated. That is a forecast placeholder, not a solicitation due date. Any actual rental would be arranged during a storm event.",
+ "checked": "2026-11-14T00:51",
+ "ai": "claude-code"
+}

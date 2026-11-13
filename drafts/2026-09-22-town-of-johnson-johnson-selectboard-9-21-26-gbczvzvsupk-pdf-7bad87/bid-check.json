@@ -1,0 +1,40 @@
+{
+ "verdict": "No bid",
+ "score": 3,
+ "one_line": "This isn't a solicitation. It's a YouTube caption transcript of a 9/21/26 Vermont selectboard meeting that approved one portable toilet for a soccer season that has likely already ended, and the town told its own staff to handle it, probably by moving a unit it already has.",
+ "scope": "The Town of Johnson, VT approved adding one portable toilet near the Old Mill Park playground and soccer fields for the rest of the recreation soccer season. Officials would rather move the existing Legion Field toilet than rent another one, and they want the unit removed after the season, before cold weather. Any vendor work would be seasonal rental, relocation, routine servicing, and removal of a single standard portable toilet.",
+ "fit": [
+  "Weak fit only. Our core competencies list 'portable sanitation' under Facility Support & Utilities.",
+  "Our work area is nationwide, and no set-aside is stated, so our SBE/MBE status doesn't exclude us.",
+  "Relevant restroom-servicing past performance: City and County of Denver, SC-00011558 (restroom trailer pump-outs, cleaning, supplies, demobilization).",
+  "SAM is active (UEI REVFD44JLMV5, CAGE 57C31)."
+ ],
+ "red_flags": [
+  "Not a procurement. The source is a HigherGov 'Agendas / Minutes' forecast built from YouTube captions, labeled 'not official meeting minutes.' There is no RFQ, scope document, or submission instructions.",
+  "The board already approved the action on 9/21/26 and directed staff ('Can you scope out a good spot for it?') to act directly. No competitive solicitation is indicated.",
+  "Officials preferred moving the existing Legion Field toilet instead of renting a new unit ('If we can move the ones out of Legion Field, so much better').",
+  "Timing: the need ran only through the fall rec soccer season, with removal before cold weather. As of 2026-11-14 the season has most likely ended in Vermont. The 2026-12-22 'deadline' comes from HigherGov, not from the town.",
+  "Tiny value: the town pays about $355/month for its existing units (count uncertain, possibly including an ADA unit). One board member called it 'nickel dime stuff.' The town's procurement policy requires sealed bids only above $10,000.",
+  "Product mismatch: our fleet and price list cover restroom/shower trailers and shower containers, not single standard portable toilets. Our price list has no line for this item.",
+  "NAICS 562991 (septic tank and related services) isn't one of our listed NAICS codes, and no PSC is given.",
+  "Place of performance is rural Vermont. Delivery and pick-up from our reference pricing ($4,000/lot each) alone would far exceed the likely contract value.",
+  "No contact is listed: name, email, and phone are all 'None.'"
+ ],
+ "competition": "The incumbent is an unnamed local vendor that already supplies the town's portable toilets at about $355/month (the number of units that covers is unclear). The Legion Field unit may belong to another party: officials weren't sure whether the town or 'TNL' is responsible for it. No past awards by this agency under NAICS 562991 were found, and no offers are recorded.",
+ "price_signal": "No award benchmarks were found, either for this agency or for NAICS 562991 at any agency. The only figure is the town's existing payment of about $355/month, which the board said may cover several units (possibly three, including an ADA unit). It is not a confirmed price for the additional toilet. Our price list has no standard portable toilet line, so we have no basis for a comparable price.",
+ "must_have": [
+  "None stated. The bid pack contains no solicitation document, submission instructions, forms, insurance or bonding requirements, license requirements, or site visit requirement (source: bid pack, Opportunity section and the single attachment).",
+  "If the town ever solicits this work, its procurement policy requires a sealed bid only for purchases over $10,000 (source: transcript, 01:27:23 to 01:29:30). This purchase would almost certainly fall below that, so a direct purchase is likely."
+ ],
+ "gaps": [
+  "[CONFIRM: whether the Town of Johnson ever issued a solicitation or RFQ for this work]",
+  "[CONFIRM: whether the town already moved the Legion Field unit or placed a unit with its existing vendor after the 9/21/26 vote]",
+  "[CONFIRM: when the recreation soccer season ends, and whether any need remains as of 2026-11-14]",
+  "[CONFIRM: town point of contact (none listed)]",
+  "[CONFIRM: whether we can supply and service a single standard portable toilet in Vermont at all, and at what price (no price list line exists)]",
+  "[CONFIRM: source of the 2026-12-22 response deadline; it doesn't appear in the transcript]"
+ ],
+ "deadline": "2026-12-22, from the HigherGov listing. No time or time zone is given, and the date doesn't appear anywhere in the town's transcript. [CONFIRM: actual deadline, if any]",
+ "checked": "2026-11-14T00:48",
+ "ai": "claude-code"
+}

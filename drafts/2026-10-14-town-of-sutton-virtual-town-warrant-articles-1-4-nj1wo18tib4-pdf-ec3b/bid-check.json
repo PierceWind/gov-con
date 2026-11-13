@@ -1,0 +1,36 @@
+{
+ "verdict": "No bid",
+ "score": 5,
+ "one_line": "This isn't a solicitation. It's a $2,000 town budget line for portable restrooms at two parks in Sutton, MA, and that is less than our $4,000 delivery charge for one lot.",
+ "scope": "The Town of Sutton, MA plans to start providing portable restrooms at Unity Park and American Legion Park in calendar year 2027. Until now, local organizations have donated them. The town added $2,000 for this to its FY2027 culture and recreation budget (Article 1, fall annual town meeting, October 19, 2026). The town manager's presentation gave no unit count, servicing frequency, season, or vendor.",
+ "fit": [
+  "Portable sanitation is one of our core competencies, under Facility Support & Utilities (company profile).",
+  "We have relevant municipal restroom work: City and County of Denver contract SC-00011558, restroom trailers with cleaning, pump-outs, supplies, and servicing (past performance).",
+  "Our work area is nationwide, and the bid pack shows no set-aside, so our SBE/MBE status doesn't limit us."
+ ],
+ "red_flags": [
+  "It isn't a solicitation. HigherGov lists the type as 'Agendas / Minutes'. The only source is YouTube captions of a town warrant video, which the source itself labels 'not official meeting minutes.' There is no RFQ, RFP, or SOW.",
+  "The money doesn't work. The whole budget is $2,000 for both parks for the year. Our reference pricing charges $4,000 for delivery per lot, $4,000 for pick-up per lot, and $3,000 each for mobilization and demobilization. Our cheapest restroom row on the price list, the 13ft Luxury Shower-Restroom Combination Trailer, is $2,995 to $3,995 for one unit.",
+  "Our equipment probably doesn't match. A $2,000 budget for two parks suggests standard portable toilets. Our price list has no standard portable toilet row, only restroom/shower trailers and containers.",
+  "NAICS 562991 isn't one of our NAICS codes (721310, 532490, 722310, 624230, 624221, 561210, 423740, 532120), and the bid pack lists no PSC.",
+  "No contact is listed, and the bid pack names no buying office.",
+  "Article 1 was set for a vote on October 19, 2026. The documents don't say whether it passed.",
+  "Our office is in Marina del Rey, CA. The documents show no Massachusetts depot or local service partner, and we would need ongoing local servicing for a two-park municipal job."
+ ],
+ "competition": "There's no incumbent contract. Local organizations have donated the portable restrooms until now, and the town manager says they made 'an agreement with those organizations' about the town taking over. The bid pack found no past awards by this agency under NAICS 562991 and no NAICS 562991 benchmarks from any agency.",
+ "price_signal": "The town budgeted $2,000 for the calendar year to cover both parks (Article 1, FY2027 budget adjustment). The bid pack found no comparable awards.",
+ "must_have": [
+  "The documents state no submission items or hard requirements. The source is a budget presentation, not a solicitation (bid pack, Type: Agendas / Minutes)."
+ ],
+ "gaps": [
+  "[CONFIRM: whether the Town of Sutton will issue a solicitation or quote request, or just hire a local vendor directly]",
+  "[CONFIRM: whether Article 1 passed at the October 19, 2026 town meeting]",
+  "[CONFIRM: unit count and unit type (standard portable toilets or restroom trailers)]",
+  "[CONFIRM: season and dates of coverage, and servicing frequency]",
+  "[CONFIRM: town purchasing contact]",
+  "[CONFIRM: whether we have standard portable toilet inventory or a Massachusetts servicing partner]"
+ ],
+ "deadline": "HigherGov lists a response deadline of 2027-01-14, with no time or time zone. The town's own document sets no response deadline.",
+ "checked": "2026-11-14T00:51",
+ "ai": "claude-code"
+}

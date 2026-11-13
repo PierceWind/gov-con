@@ -1,0 +1,46 @@
+{
+ "verdict": "No bid",
+ "score": 4,
+ "one_line": "No solicitation exists: this is an auto-captioned conservation commission meeting where volunteers talked about maybe researching a different vendor for about three portable toilets in Vermont, and they already prefer a named local company.",
+ "scope": "At its 9-8-2026 meeting, the Richmond Conservation Commission (listed under Town of Jericho, VT) talked about researching alternatives to the town's current portable restroom service. That service is P&P units at the Town Green, Browns Court park, and behind the round church, plus extra units for July Fourth. The member who raised it suggested Wasted (wasted.earth), which diverts urine for fertilizer, and offered to find out who manages the current contract. Nothing was decided, no RFP was issued, and any recommendation would go to Josh and possibly the Selectboard.",
+ "fit": [
+  "Portable sanitation is one of our core competencies (Facility Support and Utilities), and restroom trailers are in our fleet.",
+  "Relevant past performance: City and County of Denver, SC-00011558, climate-controlled restroom trailers with cleaning, pump-outs, waste disposal, supplies, and maintenance.",
+  "No set-aside is stated, so our SBE/MBE status is not a barrier.",
+  "Our work area is nationwide, so Vermont is inside it."
+ ],
+ "red_flags": [
+  "No solicitation. The notice type is 'Agendas / Minutes,' and the source is YouTube captions, which the bid pack itself says are 'not official meeting minutes.' The commission said only that 'further research was necessary.'",
+  "The commission is an advisory body with no authority to award. Any change needs the town manager (Josh) and possibly the Selectboard, and it depends on the terms of the existing contract.",
+  "The commission already prefers a specific vendor: Wasted, a local company founded in Burlington. Its main goal is urine diversion for fertilizer and resource recovery, which we have no stated capability for.",
+  "The incumbent, P&P, is owned by Richmond residents, and the transcript calls a switch 'potentially sensitive.'",
+  "Members said the lowest price may drive the procurement. A cost premium would need Conservation Reserve Fund support.",
+  "Very small job: about three standard portable toilets plus July Fourth extras. Our fleet and price list are built around trailers, and we have no line item for a single portable toilet.",
+  "Recurring servicing in Vermont from Marina del Rey, CA. The documents name no Vermont or New England depot.",
+  "NAICS 562991 (Septic Tank and Related Services) is not one of our NAICS codes, and no PSC is listed.",
+  "The bid pack's attachment summary does not match the transcript. It says 'Riverside County,' 'Recycling Fund,' 'Rochester Selectboard,' and 'Rochester Mountain Trails,' but the transcript says RCC, Conservation Reserve Fund, and Richmond Mountain Trails. The summary is unreliable.",
+  "The notice is labeled Town of Jericho, but the meeting is the Richmond Conservation Commission, so the buying entity is unclear.",
+  "No contact is listed (Contact: None) and the estimated value is blank."
+ ],
+ "competition": "Incumbent: P&P, a traditional portable restroom provider owned by Richmond residents, holds the town's current contract or contracts. Members did not know whether all three units are under the same contract. Wasted (wasted.earth) is the alternative the commission named and wants to research. No past awards were found for this agency under NAICS 562991, so there are no offer counts.",
+ "price_signal": "No data. There are no past awards by this agency under NAICS 562991 and no benchmarks for NAICS 562991 at any agency. The transcript gives no prices for the restroom service. The only dollar figure ($10,000\u2013$20,000 for a boardwalk) is for unrelated trail work. Our price list has no single portable toilet line. Our smallest restroom unit, the 13ft Luxury Shower-Restroom Combination Trailer (3 stalls), is listed at $2,995 for 1-6 days, with the billing basis unspecified. That is a different, higher-end product than what the town uses now.",
+ "must_have": [
+  "None stated. No solicitation, statement of work, submission instructions, or evaluation criteria have been issued (bid pack: 'no replacement decision or award was made').",
+  "Possible lowest-price evaluation if the town procures (transcript [01:36:29]: 'who's offering the lowest price to the town').",
+  "Possible sustainability or resource-recovery preference: environmentally friendly restroom liquid, urine-to-fertilizer, and fertilizer use in town gardens (transcript [01:35:30], [01:41:18]).",
+  "Any change requires Selectboard or town manager approval and is subject to the existing contract (bid pack description; transcript [01:37:24]\u2013[01:37:58])."
+ ],
+ "gaps": [
+  "[CONFIRM: whether the town of Richmond or Jericho will issue any RFP or quote request for portable restroom service, and when]",
+  "[CONFIRM: which town is the buyer: the notice says Town of Jericho, but the meeting is the Richmond Conservation Commission]",
+  "[CONFIRM: current contract holder(s), terms, and expiration date for the Town Green, Browns Court park, and round church units]",
+  "[CONFIRM: unit count and service frequency, including July Fourth extras]",
+  "[CONFIRM: town procurement contact; none is listed]",
+  "[CONFIRM: whether we can supply and service standard portable toilets in Vermont, and from which depot]",
+  "[CONFIRM: any urine-diversion or eco-friendly chemical capability; none is stated in our profile]",
+  "[CONFIRM: price for single portable toilet rental and servicing; not on our price list]"
+ ],
+ "deadline": "2026-12-11 per the HigherGov listing, with no time or time zone stated. This is not a real response deadline because no solicitation has been issued. The commission planned to discuss the topic again at its next meeting, in November or another nearby meeting.",
+ "checked": "2026-11-14T00:47",
+ "ai": "claude-code"
+}

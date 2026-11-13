@@ -1,0 +1,978 @@
+HISTORICAL BENCHMARK - REFERENCE DATA ONLY
+Source: basis/IFB - Portable Restroom Trailer Rental_Temporary 123.pdf
+Original customer: City and County of Denver, IFB No. 11213.
+Use for proposal organization and depth, not as the current solicitation.
+Some source pages contain images or scanned forms that are not captured in this text.
+Consult the original PDF for those pages; do not claim that a form is completed or signed.
+
+=== PAGE 1
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+=== PAGE 2
+IFB No. 11213
+Portable Restroom Trailer Rental
+City and County of Denver 
+ 
+Table of Contents
+ 
+Signed Cover Sheet...................................................................................................................................... 2 
+Addenda Acknowledgment......................................................................................................................... 3 
+1. Executive Summary................................................................................................................................. 5 
+2. Company Overview..................................................................................................................................6 
+3. Technical Response and Scope Compliance...........................................................................................7 
+3.1 Delivery and Deployment..................................................................................................................7 
+3.2 Restroom Trailer Specifications........................................................................................................ 9 
+3.3 Service and Maintenance Plan.........................................................................................................12 
+3.4 Emergency Repair and Downtime Response.................................................................................. 14 
+4. Operations and Staffing Plan................................................................................................................15 
+5. Health and Safety Compliance..............................................................................................................17 
+6. Environmental and Sustainability Response.......................................................................................19 
+7. Past Performance and References........................................................................................................ 22 
+Past Performance/Reference 1: Temporary Living Quarters and Sanitation Support........................... 22 
+Past Performance/Reference 2: U.S. Navy Contract Support................................................................22 
+Past Performance/Reference 3: Temporary Restroom and Housing Facility Rental.............................23 
+8. Required Forms and Certifications......................................................................................................24 
+8.1 E.1- Contract Certification Form.....................................................................................................24 
+8.2 E.2- Reference Listing.....................................................................................................................25 
+8.3 E.3- Denver Vendor Sustainability.................................................................................................. 26 
+8.4 E.4- Small Business Information Request.......................................................................................27 
+8.6 E.6- Disclosure of Generative Artificial Intelligence (A.I.) Usage.................................................28 
+8.7 E.7- Vendor Information..................................................................................................................29 
+8.8 E.8- Vendor Checklist......................................................................................................................30 
+8.9 Byrd Anti-Lobbying Amendment Certification.............................................................................. 31 
+ 
+ 
+ 
+Page | 1 
+
+
+=== PAGE 3
+IFB No. 11213
+Portable Restroom Trailer Rental
+City and County of Denver 
+ 
+Signed Cover Sheet 
+ 
+ 
+ 
+Page | 2 
+
+
+=== PAGE 4
+IFB No. 11213
+Portable Restroom Trailer Rental
+City and County of Denver 
+ 
+Addenda Acknowledgment 
+ 
+ 
+ 
+ 
+Page | 3 
+
+
+=== PAGE 5
+IFB No. 11213
+Portable Restroom Trailer Rental
+City and County of Denver 
+ 
+ 
+ 
+ 
+Page | 4 
+
+
+=== PAGE 6
+IFB No. 11213
+Portable Restroom Trailer Rental
+City and County of Denver 
+ 
+1. Executive Summary 
+Temporary 123 Inc. is pleased to submit this bid in response to IFB No. 11213 for the rental, deployment, 
+servicing, and maintenance of climate-controlled portable restroom trailers for the City and County of 
+Denver. Our company specializes in providing turnkey temporary sanitation and support infrastructure 
+solutions for municipalities, emergency management agencies, disaster response operations, public 
+events, wildfire base camps, temporary sheltering operations, and federal agencies throughout the United 
+States. 
+With extensive experience supporting government and emergency-response contracts, Temporary 123 has 
+successfully deployed restroom trailers and related temporary facilities for large-scale operations 
+involving hundreds of occupants in both urban and remote environments. Our operational experience 
+includes emergency shelter support, wildfire incident base camps, disaster recovery missions, public 
+events, military support services, and seasonal surge operations requiring rapid mobilization and 
+continuous servicing under demanding conditions. 
+Temporary 123 maintains the personnel, transportation assets, vendor partnerships, and operational 
+systems necessary to provide rapid deployment and ongoing support throughout the Denver metropolitan 
+area. We understand the critical importance of sanitation services in emergency sheltering and public 
+support operations and are prepared to deliver fully operational restroom trailer units within the timelines 
+established in the solicitation. Our team is capable of coordinating multiple simultaneous deployments 
+and scaling services as operational requirements evolve throughout the contract term. 
+Our restroom trailer fleet is specifically equipped to support all-season operations, including winter and 
+freezing-weather conditions as required under the Scope of Work. Units are equipped with climate control 
+systems, freeze-protection measures, heated interiors, and utility configurations designed to maintain safe 
+and sanitary operation during Colorado winter conditions. Temporary 123 also provides comprehensive 
+servicing support including waste collection and disposal, cleaning and sanitization, pump-out services, 
+consumable replenishment, transportation, and emergency maintenance response. 
+Temporary 123 recognizes the City’s requirement for responsive service and operational reliability. We 
+are committed to maintaining rapid response capabilities for service calls, wastewater removal requests, 
+emergency repairs, and replacement units when necessary. Our operations team is available to coordinate 
+scheduling, dispatch, maintenance support, and communication throughout the duration of the contract to 
+ensure uninterrupted service and compliance with all local, state, and federal requirements. 
+In addition, Temporary 123 supports environmentally responsible operating practices through the use of 
+compliant cleaning products, proper waste handling procedures, preventive maintenance programs, and 
+operational practices designed to minimize environmental impact while maintaining safe and sanitary 
+conditions for all users. 
+We appreciate the opportunity to submit this proposal and look forward to partnering with the City and 
+County of Denver to provide dependable, high-quality restroom trailer rental and servicing solutions in 
+support of its sheltering and public assistance operations. 
+ 
+Page | 5 
+
+
+=== PAGE 7
+IFB No. 11213
+Portable Restroom Trailer Rental
+City and County of Denver 
+ 
+2. Company Overview 
+Temporary 123 Inc. is a nationwide provider of premium temporary sanitation and infrastructure support 
+services specializing in luxury restroom and shower trailer rentals for government, municipal, emergency 
+response, disaster recovery, and public event operations. Our company provides turnkey deployment, 
+servicing, maintenance, and operational support for temporary facilities designed to deliver safe, sanitary, 
+and comfortable environments for users in both planned and emergency settings. 
+Temporary 123 is also a GSA Contract Holder, demonstrating our experience working 
+with federal agencies and our ability to meet government contracting standards for 
+pricing, operational performance, compliance, and service delivery. Our experience 
+supporting the government has enabled us to develop scalable deployment capabilities 
+and responsive service operations suitable for municipal sheltering and public assistance environments. 
+For IFB No. 11213, Temporary 123 is pleased to offer premium luxury 3-in-1 combination restroom 
+and shower trailers capable of supporting the City and County of Denver’s summer and winter sheltering 
+operations. Our available fleet includes both 3-stall and 8-stall trailer configurations, allowing the City 
+flexibility to scale operations based on occupancy demands and shelter locations. 
+Unlike standard portable restroom units, our trailers are modern, professionally maintained, and 
+specifically designed to provide a significantly higher level of comfort, cleanliness, accessibility, and user 
+experience. Units feature well-lighted interiors and exteriors, climate-controlled environments, modern 
+finishes, flushing toilets, integrated handwashing stations, durable flooring, ventilation systems, and 
+private shower accommodations. The combination restroom and shower functionality provides an 
+efficient all-in-one sanitation solution that is particularly valuable for emergency sheltering and extended 
+occupancy operations. 
+Our restroom trailers are fully equipped for year-round deployment, including winter and 
+freezing-weather operations required under the solicitation. Units include heating systems, insulated 
+components, freeze protection systems, and operational configurations designed to maintain reliable 
+performance during Colorado winter conditions. These features allow the trailers to safely support shelter 
+residents, staff, and emergency personnel during both summer and cold-weather response operations. 
+Temporary 123 maintains the operational capability to support deployments serving 200–500 users per 
+day through scalable fleet availability, responsive servicing operations, and coordinated logistics support. 
+Our experienced operations and dispatch teams oversee transportation, setup, servicing schedules, 
+emergency maintenance response, consumable replenishment, and wastewater removal to ensure 
+uninterrupted service throughout the contract term. 
+The company has experience supporting municipal agencies, emergency management operations, disaster 
+response activities, temporary shelter environments, wildfire incident support operations, and other 
+FEMA-style deployments requiring rapid mobilization, dependable servicing, and operational flexibility 
+under demanding conditions. We understand the importance of maintaining sanitary, safe, and dignified 
+facilities for vulnerable populations and emergency response environments. 
+ 
+Page | 6 
+
+
+=== PAGE 8
+IFB No. 11213
+Portable Restroom Trailer Rental
+City and County of Denver 
+ 
+Temporary 123’s staffing and dispatch operations are structured to provide responsive customer support 
+and rapid field service coordination. Our personnel and vendor network enable efficient deployment 
+throughout Colorado and surrounding regions, including emergency response mobilization, scheduled 
+servicing, repair coordination, and replacement unit support when necessary. 
+Relevant NAICS Codes include: 
+● 532490 – Other Commercial and Industrial Machinery and Equipment Rental and Leasing 
+● 562991 – Septic Tank and Related Services 
+● 562998 – All Other Miscellaneous Waste Management Services 
+● 624230 – Emergency and Other Relief Services 
+● 561210 – Facilities Support Services 
+Temporary 123 is prepared to comply with all applicable State of Colorado business registration 
+requirements and will provide a current Certificate of Good Standing from the Colorado Secretary of 
+State as required under the solicitation. 
+3. Technical Response and Scope Compliance 
+Temporary 123 Inc. understands the operational importance of providing reliable, safe, sanitary, and 
+responsive restroom trailer support services for the City and County of Denver’s sheltering and 
+emergency support operations. Our proposed solution fully complies with the Scope of Work 
+requirements outlined in IFB No. 11213, including rapid deployment capability, climate-controlled 
+restroom trailer rentals, ongoing servicing, emergency response support, and winter operational readiness. 
+Temporary 123’s operational approach is designed to provide scalable deployment capability, responsive 
+field support, and uninterrupted service throughout the contract term. Our company has extensive 
+experience supporting municipal operations, emergency response deployments, disaster relief 
+environments, and temporary occupancy operations requiring dependable sanitation infrastructure and 
+rapid service coordination. 
+3.1 Delivery and Deployment 
+Temporary 123 confirms our ability to deliver initial restroom trailer deployments by June 15, 2026, in 
+accordance with the solicitation requirements. We also confirm our ability to comply with the City’s 
+requirement for delivery within one week of receipt of purchase orders for future deployments and 
+additional unit requests. 
+Our operational infrastructure supports both scheduled and rapid-response deployments throughout the 
+Denver metropolitan area and surrounding regions. Temporary 123 maintains transportation coordination, 
+dispatch scheduling, and field operations procedures necessary to support multiple simultaneous trailer 
+deployments as operational needs evolve during the contract term. 
+ 
+ 
+Page | 7 
+
+
+=== PAGE 9
+IFB No. 11213
+Portable Restroom Trailer Rental
+City and County of Denver 
+ 
+Delivery & Deployment Capabilities 
+● Delivery available by June 15, 2026 
+● Compliance with one-week deployment requirements 
+● Multiple trailer deployment capability 
+● Scalable support for additional units during peak operational periods 
+● Denver-area logistics and transportation coordination 
+● Rapid mobilization capability for emergency deployments 
+Dispatch & Logistics Procedures 
+Temporary 123 utilizes centralized dispatch coordination to manage transportation scheduling, driver 
+communication, deployment tracking, servicing schedules, and emergency response activities. Upon 
+receipt of a purchase order or deployment request, our operations team will coordinate: 
+ 
+Our operations team remains available throughout deployment activities to coordinate any adjustments, 
+service requests, or operational support needs. 
+Delivery Timeline 
+Typical deployment procedures include: 
+● Deployment confirmation and scheduling within 24 hours of notice to proceed 
+● Transportation dispatch coordination 
+● Equipment mobilization and site delivery 
+ 
+Page | 8 
+
+
+=== PAGE 10
+IFB No. 11213
+Portable Restroom Trailer Rental
+City and County of Denver 
+ 
+● Trailer placement and stabilization 
+● Utility connection support 
+● Operational inspection and turnover 
+Temporary 123 is capable of prioritizing emergency deployments and accelerated delivery schedules 
+when operationally required. 
+Setup Procedures 
+Upon arrival, trained personnel will perform: 
+● Trailer positioning and leveling 
+● Stabilization and safety inspection 
+● Utility connection assistance 
+● HVAC startup and systems testing 
+● Interior and exterior inspection 
+● Operational readiness verification 
+Prior to turnover, all units will be inspected to ensure proper operation, cleanliness, lighting functionality, 
+climate control operation, and overall readiness for occupancy. 
+Utility Connection Requirements 
+Depending on deployment location and trailer configuration, units may require: 
+● Electrical power connection 
+● Freshwater connection 
+● Sanitary sewer connection (when available) 
+● Generator support (if required) 
+Temporary 123 can coordinate utility requirements with site representatives and provide guidance 
+regarding operational setup requirements. 
+3.2 Restroom Trailer Specifications 
+Temporary 123 proposes the use of premium luxury 3-in-1 combination restroom and shower trailers 
+designed to provide a superior level of sanitation, comfort, and functionality compared to standard 
+portable restroom units. Our available fleet includes both 3-stall and 8-stall trailer configurations capable 
+of supporting varying occupancy levels and operational requirements. 
+The proposed units are modern, professionally maintained, climate-controlled, and specifically configured 
+to support both summer and winter sheltering operations. Units are designed to provide safe, sanitary, 
+accessible, and dignified accommodations suitable for emergency sheltering environments and 
+extended-duration deployments. 
+ 
+Page | 9 
+
+
+=== PAGE 11
+IFB No. 11213
+Portable Restroom Trailer Rental
+City and County of Denver 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Page | 10 
+
+
+=== PAGE 12
+IFB No. 11213
+Portable Restroom Trailer Rental
+City and County of Denver 
+ 
+Compliance Features 
+Our proposed restroom trailers comply with solicitation requirements through the following features: 
+● Climate-controlled heating and ventilation systems 
+● Winter operational capability for freezing conditions 
+● All-gender accommodation capability 
+● ADA-accessible units available upon request 
+● Interior and exterior lighting systems 
+● Flushing toilets and integrated handwashing stations 
+● Private shower accommodations 
+● Durable, slip-resistant flooring 
+● Ventilation and odor-control systems 
+Trailer Configurations 
+Available trailer options include: 
+3-Stall Combination Restroom & Shower Trailers 
+● Compact footprint for smaller deployment locations 
+● Multiple restroom and shower stations 
+● Suitable for decentralized shelter operations 
+8-Stall Combination Restroom & Shower Trailers 
+● High-capacity support for larger shelter operations 
+● Increased throughput capability 
+● Designed to support high-volume occupancy environments 
+Operational Features 
+Depending on trailer configuration, units may include: 
+● Freshwater holding capacity 
+● Wastewater holding tanks 
+● HVAC heating and cooling systems 
+● Insulated plumbing systems 
+● Freeze-protection and winterization systems 
+● Interior LED lighting 
+● Exterior safety lighting 
+● Ventilation systems 
+● Hot water systems 
+● Utility connection compatibility 
+ 
+Page | 11 
+
+
+=== PAGE 13
+IFB No. 11213
+Portable Restroom Trailer Rental
+City and County of Denver 
+ 
+Power Requirements 
+Power requirements vary by trailer configuration and operational setup. Units may utilize: 
+● Shore power connections 
+● Generator-compatible electrical systems 
+● Standard utility hookups 
+Temporary 123 will coordinate site-specific power requirements prior to deployment. 
+Winterization Capability 
+All proposed units are capable of operating in winter and freezing conditions through the use of: 
+● Heated interiors 
+● Freeze-protected plumbing systems 
+● Insulated utility lines 
+● Winter-grade HVAC systems 
+● Cold-weather operational procedures 
+These systems are designed to maintain safe and functional operation throughout Colorado winter 
+conditions. 
+3.3 Service and Maintenance Plan 
+Temporary 123 will provide comprehensive servicing and maintenance support throughout the duration of 
+all deployments. Our servicing operations are designed to ensure continuous sanitation, operational 
+reliability, and compliance with all applicable local, state, and federal regulations. 
+Included Services 
+Services provided under this contract include: 
+ 
+ 
+Page | 12 
+
+
+=== PAGE 14
+IFB No. 11213
+Portable Restroom Trailer Rental
+City and County of Denver 
+ 
+Service Frequency 
+Service schedules will be coordinated based on occupancy levels, usage demands, and operational 
+requirements to ensure consistent cleanliness, functionality, and user accessibility. Temporary 123 is 
+capable of providing scheduled recurring service, daily servicing when required, on-demand servicing, 
+and emergency response service calls to address urgent operational needs quickly and efficiently. 
+Wastewater Cleanout Response 
+Temporary 123 confirms compliance with the solicitation requirement to provide wastewater cleanout 
+services within 48 hours of request. Emergency pump-out support and accelerated response scheduling 
+can also be coordinated as operational conditions require. 
+Cleaning Protocols 
+Servicing procedures include: 
+ 
+All cleaning activities are performed using commercially appropriate cleaning and sanitizing products 
+compliant with applicable environmental requirements. 
+Consumables Replenishment 
+Temporary 123 will maintain and replenish: 
+● Toilet paper 
+● Hand soap 
+● Paper towels 
+● Sanitizing supplies 
+● Other restroom consumables as required 
+Spill Response Procedures 
+ 
+Page | 13 
+
+
+=== PAGE 15
+IFB No. 11213
+Portable Restroom Trailer Rental
+City and County of Denver 
+ 
+In the event of spills or contamination, Temporary 123 personnel will respond promptly to contain 
+affected areas, clean and sanitize impacted surfaces, properly dispose of waste materials, and restore safe 
+operational conditions. Our team follows established safety and sanitation procedures to minimize 
+disruptions and maintain a clean, secure environment for all occupants and staff. 
+Needle & Trash Handling Procedures 
+Temporary 123 understands that shelter and public support environments may require specialized 
+handling of discarded trash or potentially hazardous materials. Personnel will follow established safety 
+procedures for trash removal, sharps awareness, safe containment practices, and proper disposal 
+coordination to help maintain a clean, safe, and compliant environment for occupants, staff, and service 
+personnel. 
+Waste Disposal Compliance 
+All wastewater collection, transportation, and disposal activities will be conducted in compliance with 
+applicable local, state, and federal regulations. Temporary 123 will utilize approved disposal methods and 
+authorized disposal facilities as required. 
+3.4 Emergency Repair and Downtime Response 
+Temporary 123 understands the importance of minimizing operational downtime during active shelter and 
+emergency support operations. In accordance with the requirements identified in the solicitation and 
+Master Purchase Order provisions, our company maintains responsive repair and replacement procedures 
+designed to restore operational functionality as quickly as possible. 
+ 
+On-Call Technical Support 
+Our operations team maintains availability to coordinate emergency repair requests, servicing issues, and 
+deployment concerns. Field service personnel and vendor support resources can be mobilized to address: 
+● HVAC malfunctions 
+● Plumbing issues 
+● Lighting failures 
+● Utility connection problems 
+ 
+Page | 14 
+
+
+=== PAGE 16
+IFB No. 11213
+Portable Restroom Trailer Rental
+City and County of Denver 
+ 
+● Structural or operational concerns 
+Replacement Unit Availability 
+If a unit cannot be restored to operational condition within acceptable timeframes, Temporary 123 will 
+coordinate replacement equipment deployment subject to fleet availability and operational logistics. 
+Escalation Procedures 
+Emergency issues are escalated through the following process: 
+1. Immediate service request intake and dispatch notification 
+2. Operations manager review and prioritization 
+3. Field technician assignment 
+4. Repair or replacement coordination 
+5. Customer communication and status updates 
+6. Final operational verification 
+Temporary 123 is committed to maintaining responsive communication and rapid operational support to 
+ensure uninterrupted restroom and sanitation services throughout the contract term. 
+4. Operations and Staffing Plan 
+Temporary 123 Inc. maintains an operational structure designed to support rapid deployment, continuous 
+servicing, emergency response coordination, and ongoing field support for temporary sanitation and 
+shelter infrastructure operations. Our staffing model combines centralized operations management, 
+coordinated dispatch procedures, trained field personnel, transportation resources, and vendor support 
+partnerships to ensure responsive and reliable service delivery throughout the contract term. 
+Our operations team is experienced in supporting municipal operations, emergency response 
+deployments, disaster recovery environments, temporary sheltering operations, and other high-demand 
+service environments requiring rapid mobilization and continuous field coordination. 
+Organizational Structure 
+Temporary 123 utilizes a coordinated operational framework consisting of: 
+● Executive Management 
+● Operations Management 
+● Dispatch & Logistics Coordination 
+● Transportation Personnel 
+● Service Technicians 
+● Cleaning & Sanitation Personnel 
+● Vendor & Equipment Support Partners 
+● Emergency Response Coordination Staff 
+ 
+Page | 15 
+
+
+=== PAGE 17
+IFB No. 11213
+Portable Restroom Trailer Rental
+City and County of Denver 
+ 
+A formal organizational chart identifying key personnel and reporting structure can be provided upon 
+request or included as an attachment to the proposal. 
+Operations Management 
+An assigned Operations Manager will serve as the primary point of contact for the City and County of 
+Denver throughout the duration of the contract. The Operations Manager will oversee deployment 
+coordination, scheduling and logistics, service operations, emergency response activities, quality control, 
+vendor coordination, communication with City representatives, and escalation management. This 
+individual will be responsible for ensuring compliance with all contract requirements, maintaining service 
+continuity, and coordinating rapid response efforts when operational issues arise to support uninterrupted 
+and efficient operations. 
+Safety Training 
+Temporary 123 places strong emphasis on operational safety, sanitation procedures, and environmental 
+compliance. Personnel receive training and operational guidance related to: 
+● OSHA safety awareness 
+● PPE usage and sanitation procedures 
+● Waste handling and disposal procedures 
+● Spill response protocols 
+● Equipment operation safety 
+● Hazard awareness 
+● Vehicle and trailer safety procedures 
+● Winter operations and cold-weather safety 
+● Site safety and public interaction protocols 
+Where applicable, personnel are trained regarding proper handling and reporting procedures for discarded 
+sharps, hazardous debris, and contaminated materials that may be encountered in shelter or 
+emergency-response environments. 
+CDL Qualifications & Transportation Personnel 
+Where required by equipment size, towing configuration, or transportation regulations, Temporary 123 
+utilizes appropriately qualified drivers and transportation personnel with applicable CDL qualifications 
+and towing experience. 
+Transportation personnel are responsible for: 
+● Safe transportation of trailers and support equipment 
+● Compliance with applicable DOT regulations 
+● Delivery and placement coordination 
+● Equipment inspections 
+● Securement and towing procedures 
+ 
+Page | 16 
+
+
+=== PAGE 18
+IFB No. 11213
+Portable Restroom Trailer Rental
+City and County of Denver 
+ 
+● Operational readiness verification upon arrival 
+Drivers and transportation personnel are selected based on experience operating commercial vehicles, 
+towing heavy equipment, and coordinating deliveries in urban and emergency-response environments. 
+Emergency Operations Capability 
+Temporary 123’s staffing and operational structure supports rapid-response mobilization and scalable 
+deployment capability for emergency sheltering and public support operations. Through coordinated 
+dispatch procedures, transportation resources, service personnel, and vendor partnerships, Temporary 123 
+is capable of supporting evolving operational requirements, additional trailer deployments, emergency 
+servicing requests, and continuous field support throughout the contract period. 
+5. Health and Safety Compliance 
+Temporary 123 Inc. is committed to maintaining safe, sanitary, environmentally responsible, and fully 
+compliant operations throughout the performance of services under IFB No. 11213. Our operational 
+procedures are designed to protect public health, ensure worker safety, minimize environmental impact, 
+and maintain compliance with applicable federal, state, and local regulations governing sanitation 
+services, transportation, waste handling, and workplace safety. 
+Temporary 123 understands the importance of maintaining safe and sanitary conditions within emergency 
+sheltering and public support environments and will implement operational practices consistent with the 
+City and County of Denver’s environmental and safety expectations outlined within the solicitation. 
+OSHA Compliance 
+Temporary 123 maintains operational practices intended to support compliance with applicable 
+Occupational Safety and Health Administration (OSHA) requirements related to sanitation services, 
+equipment operation, transportation activities, and field servicing operations. Personnel are trained 
+regarding: 
+● Workplace safety awareness 
+● Safe equipment handling procedures 
+● Hazard communication practices 
+● Slip, trip, and fall prevention 
+● PPE usage requirements 
+● Waste handling safety 
+● Exposure prevention procedures 
+● Vehicle and trailer safety operations 
+● Winter and cold-weather operational safety 
+Field personnel are instructed to maintain safe work zones during servicing, setup, and maintenance 
+activities and to immediately report unsafe conditions or operational hazards to supervisory personnel. 
+ 
+Page | 17 
+
+
+=== PAGE 19
+IFB No. 11213
+Portable Restroom Trailer Rental
+City and County of Denver 
+ 
+Waste Disposal Compliance 
+Temporary 123 will conduct all wastewater collection, transportation, handling, and disposal activities in 
+compliance with applicable local, state, and federal regulations. Wastewater and sanitation-related waste 
+materials will only be transported and disposed of using approved methods and authorized disposal 
+facilities. Operational procedures include: 
+● Proper wastewater containment 
+● Controlled pump-out operations 
+● Leak prevention measures 
+● Approved disposal coordination 
+● Documentation and operational tracking as required 
+● Compliance with applicable environmental and sanitation regulations 
+Temporary 123 understands the City’s requirement that wastewater cleanout services be completed within 
+48 hours of request and will maintain operational procedures designed to support timely response and 
+compliant disposal activities. 
+DOT Compliance 
+Temporary 123 utilizes transportation personnel and operational procedures intended to comply with 
+applicable Department of Transportation (DOT) regulations governing commercial vehicle operation, 
+trailer transportation, towing procedures, and roadway safety. Transportation activities include: 
+● Commercial vehicle inspections 
+● Proper trailer securement 
+● Driver qualification verification 
+● CDL-qualified drivers where required 
+● Equipment safety checks 
+● Transportation route coordination 
+● Compliance with applicable weight and towing regulations 
+Drivers and transportation personnel are expected to operate equipment safely and professionally while 
+maintaining compliance with applicable transportation requirements. 
+Spill Mitigation & Environmental Protection Procedures 
+Temporary 123 maintains operational procedures designed to minimize the risk of spills, leaks, or 
+environmental contamination during transportation, servicing, pump-out operations, and maintenance 
+activities. Spill mitigation procedures include routine inspection of hoses, tanks, and fittings; controlled 
+pump-out operations; immediate containment procedures; spill cleanup coordination; safe disposal of 
+contaminated materials; and established incident reporting and escalation procedures. In the event of a 
+spill or accidental release, Temporary 123 personnel will respond promptly to contain, clean, sanitize, and 
+properly dispose of affected materials in accordance with applicable environmental regulations and 
+operational safety standards. 
+ 
+Page | 18 
+
+
+=== PAGE 20
+IFB No. 11213
+Portable Restroom Trailer Rental
+City and County of Denver 
+ 
+Needle & Hazardous Debris Awareness 
+Temporary 123 recognizes that emergency shelter and public support environments may occasionally 
+involve discarded sharps, hazardous debris, or contaminated materials. Personnel are instructed to 
+exercise caution during servicing activities and follow established safety procedures for identifying, 
+isolating, and coordinating the safe handling or disposal of hazardous materials when encountered. 
+Denver Environmental Compliance 
+Temporary 123 acknowledges and supports the City and County of Denver’s environmental management 
+and environmentally preferable purchasing objectives outlined within the solicitation. Our company is 
+committed to operating in a manner that minimizes environmental impact while maintaining safe and 
+sanitary operating conditions. Where operationally feasible, Temporary 123 utilizes: 
+● Environmentally responsible cleaning products 
+● Properly labeled sanitation chemicals 
+● Waste reduction practices 
+● Spill prevention procedures 
+● Fuel-efficient transportation coordination 
+● Responsible wastewater disposal practices 
+Temporary 123 also understands and will comply with the City’s restrictions regarding prohibited 
+chemicals, hazardous substances, and environmentally sensitive materials as outlined in the solicitation 
+documents. 
+Commitment to Safe & Sanitary Operations 
+Temporary 123 is committed to maintaining high operational standards throughout all deployment, 
+servicing, transportation, and maintenance activities performed under this contract. Our operational 
+objective is to provide safe, clean, reliable, and compliant restroom trailer services that support the health, 
+safety, and dignity of shelter residents, staff, emergency personnel, and the general public. 
+6. Environmental and Sustainability Response 
+Temporary 123 Inc. recognizes the City and County of Denver’s strong commitment to environmental 
+stewardship, sustainability, and environmentally preferable purchasing practices. Our company supports 
+operational practices designed to minimize environmental impact while maintaining safe, sanitary, and 
+reliable restroom and shower trailer services for emergency sheltering and public support operations. 
+Temporary 123 is committed to conducting operations in a responsible manner through the use of 
+environmentally conscious products, waste reduction practices, efficient transportation coordination, and 
+operational procedures intended to support public health and environmental protection objectives. 
+ 
+ 
+Page | 19 
+
+
+=== PAGE 21
+IFB No. 11213
+Portable Restroom Trailer Rental
+City and County of Denver 
+ 
+Eco-Friendly Cleaning Products 
+Temporary 123 utilizes commercially appropriate cleaning and sanitizing products intended to provide 
+effective sanitation while reducing environmental impact whenever operationally feasible. Our 
+operational preference is to use cleaning products that are environmentally responsible, properly labeled 
+and compliant, low odor where applicable, suitable for high-occupancy sanitation environments, and 
+compatible with safe wastewater disposal practices. Where available and operationally appropriate, 
+Temporary 123 seeks to utilize products that align with environmentally preferable purchasing practices 
+and applicable environmental and regulatory guidance. 
+Reduced Water Usage 
+Temporary 123’s luxury restroom and shower trailers are designed to operate efficiently while 
+maintaining user comfort and sanitary conditions. Water conservation practices may include the use of 
+efficient plumbing fixtures, controlled water flow systems, leak prevention inspections, routine 
+maintenance of plumbing systems, and preventative servicing procedures intended to minimize 
+unnecessary water waste. Operational monitoring and regular servicing help support efficient water usage 
+throughout the duration of deployments. 
+Waste Minimization Practices 
+Temporary 123 also supports waste minimization through operational planning, preventative 
+maintenance, consumable management, and responsible servicing procedures. Operational practices 
+include scheduled servicing to prevent overflow or excess waste generation, proper consumable inventory 
+management, responsible disposal procedures, spill prevention measures, and efficient transportation 
+routing to reduce unnecessary operational waste. The company additionally prioritizes maintaining 
+equipment in good operating condition to help reduce premature replacement of components and 
+materials. 
+Recyclable & Responsible Consumables 
+Where operationally feasible and commercially available, Temporary 123 seeks to utilize recyclable or 
+environmentally preferable consumable products, including: 
+● Paper products 
+● Soap containers 
+● Cleaning supply packaging 
+● Maintenance materials 
+We also seek to minimize unnecessary packaging materials and encourage operational practices that 
+reduce disposable waste generation where practical for emergency and sheltering environments. 
+Fuel-Efficient Transportation & Logistics 
+Temporary 123 coordinates transportation, deployment scheduling, and servicing operations with 
+operational efficiency in mind to help reduce fuel usage and unnecessary vehicle activity. Operational 
+ 
+Page | 20 
+
+
+=== PAGE 22
+IFB No. 11213
+Portable Restroom Trailer Rental
+City and County of Denver 
+ 
+practices include coordinated delivery scheduling, consolidated service routing, efficient dispatch 
+procedures, preventative vehicle maintenance, and reducing unnecessary transportation trips whenever 
+possible. Through coordinated logistics and deployment planning, Temporary 123 works to support 
+environmentally responsible transportation operations while maintaining reliable service delivery and 
+rapid-response capability. 
+Environmentally Preferable Products & Materials 
+Temporary 123 understands and supports the City and County of Denver’s environmentally preferable 
+purchasing objectives identified within the solicitation documents. We acknowledge the City’s restrictions 
+regarding prohibited chemicals and environmentally hazardous materials and will comply with all 
+applicable requirements. Where feasible and operationally appropriate, Temporary 123 seeks to utilize: 
+● PFAS-free products and materials 
+● Environmentally preferable sanitation products 
+● Properly labeled chemical products 
+● Low-impact cleaning materials 
+● Products that support safe wastewater handling and disposal practices 
+Temporary 123 also understands the City’s requirements regarding prohibited chemicals and substances 
+and will avoid the use of restricted products identified within the solicitation requirements. 
+Green-Certified & EPA Safer Choice Products 
+Where commercially available and operationally appropriate, Temporary 123 may utilize: 
+● EPA Safer Choice products 
+● Green-certified cleaning products 
+● Environmentally preferable sanitation chemicals 
+● Products intended to reduce environmental and occupant exposure risks 
+Any products utilized during contract performance will be selected based on operational suitability, 
+sanitation effectiveness, regulatory compliance, and environmental considerations. 
+Commitment to Environmental Responsibility 
+Temporary 123 is committed to supporting safe, sanitary, and environmentally responsible operations 
+throughout all deployment, servicing, transportation, and maintenance activities performed under this 
+contract. Our operational goal is to provide reliable restroom and shower trailer services while supporting 
+the City and County of Denver’s sustainability objectives and maintaining compliance with applicable 
+environmental regulations and procurement requirements. 
+ 
+ 
+ 
+Page | 21 
+
+
+=== PAGE 23
+IFB No. 11213
+Portable Restroom Trailer Rental
+City and County of Denver 
+ 
+7. Past Performance and References 
+Past Performance/Reference 1: Temporary Living Quarters and Sanitation Support 
+Government Agency/Firm: United States Coast Guard – Department of Homeland Security 
+Contract Type: Primecontractor 
+Place of Performance: Riviera Beach, Florida 
+Date Supplies / Services were Provided: May 2026 to Present 
+Contract Value: $55,000.00 
+POC Name & Title: Chief Marissa Massey – Contracting Officer Representative 
+Email:   Marissa.A.Massey@uscg.mil 
+Phone: (561) 718-0424 
+Type of Supplies / Services Provided:
+
+Temporary 123, Inc. provided comprehensive turnkey temporary housing and sanitation support 
+services for U.S. Coast Guard operations at Station Lake Worth Inlet in Riviera Beach, Florida. 
+Services included the delivery, installation, servicing, maintenance, and removal of climate-controlled 
+berthing trailers and restroom/shower trailer systems to support active-duty personnel during 
+operational activities. The project included transportation coordination, utility integration, potable 
+water support, wastewater management, routine servicing, and full demobilization services in 
+accordance with Coast Guard operational requirements and federal safety standards. Temporary 123 
+successfully delivered fully operational temporary living quarters capable of supporting mission 
+readiness while maintaining sanitation, safety, and occupant comfort throughout the period of 
+performance. Routine maintenance and quality control services included potable water replenishment, 
+gray and black water removal, sanitation servicing, consumable restocking, HVAC inspections, and 
+rapid-response support to ensure continuous operational uptime. All services were performed in 
+compliance with OSHA, EPA, RCRA, and applicable Department of Homeland Security and U.S. 
+Coast Guard installation requirements. The successful completion of this contract demonstrates 
+Temporary 123’s capability to rapidly deploy and sustain mission-critical temporary infrastructure 
+solutions for military and federal agencies operating in secure and high-demand environments. 
+ 
+Past Performance/Reference 2: U.S. Navy Contract Support 
+Government Agency/Firm: United States Navy – Oregon 
+Contract Type: Subcontractor 
+Place of Performance: Oregon 
+Date Supplies / Services were Provided: July 2018 – Jan 2019 
+Contract Value: $127,240.00 
+POC Name & Title: Marlene White - Project Manager 
+Email: marlene.write@vigor.net 
+Phone: (206) 510-9643 
+ 
+Page | 22 
+
+
+=== PAGE 24
+IFB No. 11213
+Portable Restroom Trailer Rental
+City and County of Denver 
+ 
+Type of Supplies / Services Provided:
+
+Subcontracted under Vigor Marine Group, Temporary 123, Inc. provided temporary facility rentals, 
+such as Restroom Trailers, Complete Kitchen Trailer with Handwashing sinks, Potable water, and 
+more. For delivery, setup, and sustained maintenance for a 7-month period. All services adhered to 
+government standards and were completed on schedule with consistent operational uptime. 
+ 
+Past Performance/Reference 3: Temporary Restroom and Housing Facility Rental 
+Government Agency/Firm:  Environmental Chemical Corporation 
+Contract Type: Prime Contractor 
+Place of Performance: Camp Lejeune, North Carolina 
+Date Supplies / Services were Provided: May 2020 – Oct 2021 
+Contract Value: $239,760.00 
+POC Name & Title: ECC Team 
+Email: invoices.camplejeune@ecc.net 
+Phone: (252) 503-9329 
+Type of Supplies / Services Provided:
+
+Provided temporary restroom and housing facilities for a 17-month period, fully meeting stringent 
+contractor and operational requirements. Temporary 123 delivered consistent, high-quality 
+maintenance with proactive servicing and rapid response to all on-site needs. This sustained 
+performance demonstrates our reliability in supporting long-term, mission-critical operations. 
+ 
+ 
+ 
+Page | 23 
+
+
+=== PAGE 25
+IFB No. 11213
+Portable Restroom Trailer Rental
+City and County of Denver 
+ 
+8. Required Forms and Certifications 
+8.1 E.1- Contract Certification Form 
+ 
+ 
+Page | 24 
+
+
+=== PAGE 26
+IFB No. 11213
+Portable Restroom Trailer Rental
+City and County of Denver 
+ 
+8.2 E.2- Reference Listing 
+ 
+ 
+ 
+ 
+ 
+Page | 25 
+
+
+=== PAGE 27
+IFB No. 11213
+Portable Restroom Trailer Rental
+City and County of Denver 
+ 
+8.3 E.3- Denver Vendor Sustainability 
+ 
+ 
+ 
+ 
+Page | 26 
+
+
+=== PAGE 28
+IFB No. 11213
+Portable Restroom Trailer Rental
+City and County of Denver 
+ 
+8.4 E.4- Small Business Information Request 
+ 
+ 
+ 
+ 
+Page | 27 
+
+
+=== PAGE 29
+IFB No. 11213
+Portable Restroom Trailer Rental
+City and County of Denver 
+ 
+8.6 E.6- Disclosure of Generative Artificial Intelligence (A.I.) Usage 
+ 
+ 
+ 
+ 
+ 
+ 
+Page | 28 
+
+
+=== PAGE 30
+IFB No. 11213
+Portable Restroom Trailer Rental
+City and County of Denver 
+ 
+8.7 E.7- Vendor Information 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Page | 29 
+
+
+=== PAGE 31
+IFB No. 11213
+Portable Restroom Trailer Rental
+City and County of Denver 
+ 
+8.8 E.8- Vendor Checklist 
+ 
+ 
+ 
+Page | 30 
+
+
+=== PAGE 32
+IFB No. 11213
+Portable Restroom Trailer Rental
+City and County of Denver 
+ 
+8.9 Byrd Anti-Lobbying Amendment Certification 
+ 
+ 
+Page | 31 
+
+
+=== PAGE 33
+IFB No. 11213
+Portable Restroom Trailer Rental
+City and County of Denver 
+ 
+ 
+ 
+Page | 32 
+
+
+=== PAGE 34
+IFB No. 11213
+Portable Restroom Trailer Rental
+City and County of Denver 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+~end of submission~ 
+ 
+Page | 33 

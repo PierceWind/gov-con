@@ -1,0 +1,46 @@
+{
+ "verdict": "No bid",
+ "score": 15,
+ "one_line": "This is local, recurring portable toilet pump-out work in Dayton, OH, under NAICS 562991/PSC S214, which are not our codes. It sits outside our trailer-based fleet and pricing, we have no stated Ohio servicing presence, and quotes are due Monday, November 16, while today is Saturday and we have not seen the quote package.",
+ "scope": "Five Rivers MetroParks (a local agency, not federal) wants quotes for renting and servicing portable toilets, Bid No. 26-020, with work in Dayton, OH. The estimated value is $25,000 to $120,000. The bid pack has no SOW, attachments, unit counts, service frequency, or contract term. Those details are only in the quote requirements package on the MetroParks website.",
+ "fit": [
+  "Portable sanitation is one of our core competencies, under Facility Support & Utilities (company profile).",
+  "Denver contract SC-00011558 (Aug 2026 \u2013 ongoing) covers delivering and servicing restroom trailers, including cleaning, pump-outs, waste disposal, supplies, maintenance, and demobilization. This is the closest past performance.",
+  "USCG Station Lake Worth Inlet contract 70Z02826FMIAM0008 ($78,500) included restroom/shower trailers with water and wastewater support.",
+  "Our standard operations include weekly RCRA-compliant gray/black water removal, sanitizing, and consumables, plus a 24/7 emergency line.",
+  "The set-aside is NONE, so our status (SBE, MBE) does not block us. Our work area is nationwide."
+ ],
+ "red_flags": [
+  "NAICS 562991 and PSC S214 are not among our NAICS codes (721310, 532490, 722310, 624230, 624221, 561210, 423740, and 532120 per the proposal template) or our PSCs (W023, W099, W045).",
+  "Deadline is November 16, 2026 at 5:00 PM local time. Today, November 14, 2026, is a Saturday, so we have about one business day.",
+  "The bid pack has 0 attachments. We have not seen the quote requirements, the contract document, or the submission email address.",
+  "The job is recurring local pump-out servicing in Dayton, OH. We are based in Marina del Rey, CA, and no Ohio depot or service trucks are documented. Servicing would probably need a local subcontractor we have not identified.",
+  "Our price list has no line for standard portable toilet units. The closest items are shower-restroom combination trailers ($2,995\u2013$5,995) and the template's $8,995 restroom/shower trailer, which are a different product and likely too expensive for this work.",
+  "No contact information is given (Contact: None).",
+  "This is a low-margin commodity service where local providers that own pump trucks have a structural cost advantage."
+ ],
+ "competition": "No incumbent was identified and the bid pack shows no past awards by Five Rivers MetroParks under NAICS 562991. The federal benchmarks list Sani-Can (2019, 1 offer) and Energica Spurghi Srl (2008\u20132009, 2 offers each). Those are unrelated small jobs in Alaska and Italy and tell us nothing about who competes in Dayton. [CONFIRM: incumbent and prior award amount, via a records request to FRMP or the bid tab]",
+ "price_signal": "No useful benchmark exists. FRMP's estimate is $25,000\u2013$120,000. The NAICS 562991/PSC S214 awards in the bid pack ($1,432 in 2019, $4,934 in 2009, $11,769 in 2008) are old, small, federal, and not in Ohio. Our price list has no portable toilet rates, so we could not price this from approved figures. [CONFIRM: unit rental and per-service rates]",
+ "must_have": [
+  "Electronic quote by email to the address given in the quote requirements package (bid pack description)",
+  "Quote received by November 16, 2026, 5:00 PM local time (bid pack description)",
+  "Review the complete quote requirements package, including the contract document, from https://www.metroparks.org/about/do-business-with-us/#bid-on-active-projects (bid pack description)",
+  "Reference Bid No. 26-020, Portable Toilet Rental and Servicing Services (bid pack)",
+  "[CONFIRM: quote form, pricing sheet, required forms, insurance, and other requirements in the quote package, which the bid pack does not include]"
+ ],
+ "gaps": [
+  "[CONFIRM: unit count, unit types (standard, ADA, handwash stations), and park locations]",
+  "[CONFIRM: service frequency and contract term or renewal options]",
+  "[CONFIRM: whether restroom trailers are acceptable in place of standard portable toilets]",
+  "[CONFIRM: whether Ohio or Montgomery County requires a septage/waste hauler registration or license]",
+  "[CONFIRM: insurance and bonding requirements]",
+  "[CONFIRM: whether there is a pre-quote meeting or site visit]",
+  "[CONFIRM: a Dayton-area servicing subcontractor and its pricing]",
+  "[CONFIRM: our cost per unit and per service for standard portable toilets, which are not on the price list]",
+  "[CONFIRM: submission email address and the question deadline or contact]",
+  "[CONFIRM: incumbent vendor and current pricing]"
+ ],
+ "deadline": "November 16, 2026, 5:00 PM, local time (Dayton, OH), submitted by email",
+ "checked": "2026-11-14T00:41",
+ "ai": "claude-code"
+}

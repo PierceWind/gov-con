@@ -1,0 +1,42 @@
+{
+ "verdict": "No bid",
+ "score": 5,
+ "one_line": "This is not a solicitation: it is a YouTube-caption transcript of a city council meeting held October 8, 2026, about a hurricane that has already passed, and the possible work (bypass pumps and generators for sewer lift stations, plus a truck) is outside our trailer and basecamp fleet.",
+ "scope": "On October 8, 2026, the City of Fairhope, AL declared a local emergency for Hurricane Isaiah. It authorized the mayor and city clerk to sign emergency contracts without public advertisement. Staff said they were \"looking at bypass pumps and generators on lift stations, possibly running another back truck\" to prevent sanitary sewer overflows. The source does not show that any outside equipment was ordered, that a vendor was picked, or that anything is being procured.",
+ "fit": [
+  "Our Facility Support & Utilities competency lists generators, waste removal, and portable sanitation (company profile).",
+  "Disaster Response & Recovery and emergency support for state and local agencies are core competencies (capability statement).",
+  "Our work area is nationwide, so Fairhope, AL is in range (company profile).",
+  "No set-aside is stated, so our SBE/MBE status does not block us (bid pack).",
+  "None of our fleet matches the likely need. We rent kitchen, shower, restroom, laundry, berthing, and basecamp trailers, not wastewater bypass pumps or lift-station equipment."
+ ],
+ "red_flags": [
+  "It is not a solicitation. The notice type is 'Agendas / Minutes', and the source is 'YouTube captions \u2014 not official meeting minutes.'",
+  "The timing has passed. The emergency was declared October 8, 2026, and the storm was expected to pass that week. Today is November 13, 2026, and the bid pack shows no remaining need.",
+  "Contracts were authorized 'without public advertisement', so there is no open competition to respond to.",
+  "The scope does not match our fleet. Sewer lift-station bypass pumping and generators are specialized wastewater work. Our price list has no pumps, lift-station generators, or vacuum or other trucks.",
+  "NAICS 562998 is not one of our NAICS codes (721310, 532490, 722310, 624230, 624221, 561210, 423740, 532120). No PSC is given.",
+  "The truck type is unconfirmed. The captions say 'back truck', and the bid pack says the equipment type was not confirmed.",
+  "There is no contact name, email, or phone number.",
+  "The city said its staff 'have been taking care of' these measures and that it has spent five years building resilience into its systems. Nothing shows it needs a vendor.",
+  "The 2027-01-08 'response deadline' is a HigherGov placeholder. The source document does not state it."
+ ],
+ "competition": "No incumbent or vendor is named. The bid pack found no past awards by the City of Fairhope under NAICS 562998, and no award benchmarks for NAICS 562998 at any agency. The council planned to use mutual-aid crews from Alabama and Florida for electric work.",
+ "price_signal": "None. The bid pack found no similar awards. Our price list has no rates for bypass pumps, generators, or trucks, so we have no basis to price this.",
+ "must_have": [
+  "No submission items or requirements are stated. No solicitation, statement of work, or response instructions exist (bid pack).",
+  "Under Resolution No. 5930-26, any emergency contract is signed by the mayor and attested by the city clerk without public advertisement, under the Code of Alabama (bid pack attachment)."
+ ],
+ "gaps": [
+  "[CONFIRM: whether the City of Fairhope has or plans any actual procurement for bypass pumps, lift-station generators, or truck services]",
+  "[CONFIRM: whether any need remains after Hurricane Isaiah]",
+  "[CONFIRM: city procurement or utilities contact name, email, and phone]",
+  "[CONFIRM: what equipment 'back truck' means]",
+  "[CONFIRM: whether Temporary 123 can supply wastewater bypass pumps or lift-station generators, alone or through a partner]",
+  "[CONFIRM: Alabama or City of Fairhope business license requirements]",
+  "[CONFIRM: insurance or bonding requirements, which are not stated]"
+ ],
+ "deadline": "2027-01-08 per HigherGov, with no time or time zone given. The source meeting transcript states no response date, and the emergency contracts were authorized without public advertisement on October 8, 2026.",
+ "checked": "2026-11-13T23:37",
+ "ai": "claude-code"
+}

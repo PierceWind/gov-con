@@ -1,0 +1,41 @@
+{
+ "verdict": "No bid",
+ "score": 3,
+ "one_line": "This is not a solicitation. It is YouTube captions of a town Parks and Recreation meeting about two porta potties for a Halloween parade that has most likely already happened, and officials plan to ask a local hauler they already use, possibly for free, to \"do what he's done in the past.\"",
+ "scope": "For the Norton, MA Halloween parade, the Parks and Recreation Commission needs one portable toilet at Tricentennial Park for the crowd and one at the Oasis area for workers and parade participants. Officials said they would ask \"Alec and his waste disposal waste company\" to do what he has done in past years. The documents do not say whether this is paid or donated, and they give no parade date, company name, price, or procurement process.",
+ "fit": [
+  "Portable sanitation is part of our core competency 'Facility Support & Utilities' (company profile).",
+  "Our fleet includes restroom facilities, and we have relevant past performance with portable restroom trailers: City and County of Denver, contract SC-00011558 (company profile).",
+  "Our work area is nationwide, and no set-aside is stated, so our SBE/MBE status does not limit us (bid pack; company profile).",
+  "That is the only fit. NAICS 562991 (septic tank and related services) is not one of our NAICS codes. No PSC is assigned, so we cannot match our PSCs (W023, W099, W045) or GSA SINs to it."
+ ],
+ "red_flags": [
+  "The source is not a procurement. It is labeled 'Agendas / Minutes,' and the attachment says 'YouTube captions \u2014 not official meeting minutes.'",
+  "The timing is wrong. The parade was being planned in an October 7, 2026 meeting ('Let's get through Halloween'), so it has most likely already happened by today, 2026-11-14. The 2027-01-07 'response deadline' looks like a HigherGov placeholder, not a real deadline.",
+  "There is an incumbent with a relationship. Officials intend to ask Alec's waste company to 'please do what he's done in the past,' and one official offered to contact him directly.",
+  "There may be no paid work at all. The bid pack says the transcript does not establish whether the past arrangement was paid or donated.",
+  "The requirement is tiny: two standard porta potties for one day. We rent restroom and shower trailers, not single porta potties, and shipping equipment to Massachusetts for a one-day job is not economical.",
+  "The agency is mislabeled. HigherGov lists 'Norton Housing Authority,' but the meeting is the Parks and Recreation Commission, which reports under the town DPW.",
+  "There is no contact person, estimated value, statement of work, or submission instructions.",
+  "The Commission is short on money. Its revolving fund holds 'under 75,000,' and members are debating carryover limits."
+ ],
+ "competition": "The incumbent is 'Alec and his waste disposal waste company' (name not given), which has supplied a porta potty at Tricentennial Park and one at the Oasis in past years. The Commission plans to ask him again directly. No past awards and no offers are recorded: HigherGov shows 0 awards by this agency under NAICS 562991.",
+ "price_signal": "No benchmarks exist: 0 past awards by this agency and 0 awards under NAICS 562991 + PSC None. The past arrangement may have been donated. For comparison, our smallest relevant price-list item, the 13ft Luxury Shower-Restroom Combination Trailer (3 Stalls), is listed at 2,995.00 for 1\u20136 days. The price list does not state the billing basis, and that figure does not include delivery ($4,000/lot in our reference pricing). One unit plus delivery would likely cost far more than this need is worth.",
+ "must_have": [
+  "No submission requirements are stated. The only attachment is captions of a meeting video, not a solicitation (bid pack, attachment header).",
+  "Location 1: one porta potty at Tricentennial Park for the crowd (transcript 00:12:14\u201300:12:34).",
+  "Location 2: one porta potty at the Oasis area for workers and parade participants (transcript 00:12:34\u201300:12:44).",
+  "Expected service: delivery, rental, and removal for the parade, the same as in past years. Servicing is inferred, not stated (bid pack description; transcript 00:12:44\u201300:12:47)."
+ ],
+ "gaps": [
+  "[CONFIRM: whether the Town of Norton has issued or will issue any actual solicitation or quote request for this work]",
+  "[CONFIRM: parade date. It is not stated and has most likely already passed]",
+  "[CONFIRM: whether the past arrangement with Alec's company was paid or donated]",
+  "[CONFIRM: buyer contact name, email, and phone. None are listed]",
+  "[CONFIRM: any Massachusetts or Town of Norton permit or license needed to provide and pump portable toilets. None stated]",
+  "[CONFIRM: whether we have, or can subcontract, standard single porta potties in Massachusetts. Our documents list restroom trailers only]"
+ ],
+ "deadline": "HigherGov lists a response deadline of 2027-01-07, with no time or time zone. That date is probably a placeholder: the source is meeting captions with no solicitation, and the parade it concerns was planned for around Halloween 2026 (exact date not given), which is before today, 2026-11-14.",
+ "checked": "2026-11-14T00:50",
+ "ai": "claude-code"
+}

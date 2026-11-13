@@ -1,0 +1,38 @@
+{
+ "verdict": "No bid",
+ "score": 5,
+ "one_line": "This is a $2,000 line item in a town budget for basic portable restrooms at two parks, with no solicitation, no contact, and an existing provider; one of our smallest restroom trailers costs more than that for six days.",
+ "scope": "The Town of Sutton, MA added $2,000 under culture and recreation for portable restrooms at American Legion Park and Unity Park for the spring and summer 2027 season. No rental dates, servicing schedule, or unit count were given. The source is YouTube captions of a finance and warrant advisory committee meeting held September 30, 2026. It is not an RFQ or a solicitation, and the captions are not official minutes.",
+ "fit": [
+  "Weak fit. Our core competencies list 'portable sanitation' and restroom trailers, so the work is broadly in our line.",
+  "No set-aside is stated, so our SBE/MBE status raises no eligibility problem.",
+  "We work nationwide, so Massachusetts is inside our stated work area."
+ ],
+ "red_flags": [
+  "Not a procurement. The source is meeting captions about a budget appropriation (Article 1). HigherGov labels it 'Agendas / Minutes' / contract forecast. There is no RFQ, scope of work, or submission instructions.",
+  "The money doesn't work. The full $2,000 covers a whole season at two parks. Our cheapest comparable price-list item, the 13ft Luxury Shower-Restroom Combination Trailer (3 Stalls), is $2,995 for 1-6 days. Our reference delivery charge alone is $4,000/lot.",
+  "Product mismatch. $2,000 for a season points to standard portable toilets. Our price list has no standard portable toilet unit, only restroom/shower trailers.",
+  "There is an incumbent. Restrooms are already at both parks, paid for this year by Sutton Recreational Resources. The town official said 'I would cover it for next year,' which suggests the town will keep the current arrangement.",
+  "NAICS 562991 does not appear in our NAICS list (721310, 532490, 722310, 624230, 624221, 561210, 423740; template also 532120). PSC is listed as None.",
+  "No contact. The listing shows Contact: None. HigherGov names the agency as Sutton Public Schools, but the spending is a town culture and recreation item.",
+  "Funding depends on town meeting approval of Article 1. The committee only voted to recommend it."
+ ],
+ "competition": "The incumbent is whichever vendor now supplies the portable restrooms at American Legion Park and Unity Park, paid this year by Sutton Recreational Resources. The documents don't name the vendor. HigherGov shows no past awards by this agency under NAICS 562991, no offers received, and no benchmark awards under NAICS 562991 with PSC None.",
+ "price_signal": "The only signal is the town's own figure: $2,000 total for portable restrooms at two parks for the spring and summer 2027 season. HigherGov lists the estimated value as 2000 - 2000. There are no comparable awards. Our price list starts at $2,995 for 1-6 days (13ft 3-stall shower-restroom trailer), and the reference USCG job charged $4,000/lot for delivery and $4,000/lot for pick-up.",
+ "must_have": [
+  "No submission items or hard requirements are stated. The source (meeting captions, posted 2026-09-30) contains no solicitation.",
+  "Funding depends on town meeting adoption of Article 1, which the finance and warrant advisory committee recommended unanimously (source: meeting captions)."
+ ],
+ "gaps": [
+  "[CONFIRM: whether the Town of Sutton will issue any solicitation or request for quotes, or will simply renew with the current provider]",
+  "[CONFIRM: procuring office and contact; the listing shows Contact: None]",
+  "[CONFIRM: rental and servicing dates for the spring and summer 2027 season]",
+  "[CONFIRM: unit count and type (standard portable toilets or restroom trailers) at each park]",
+  "[CONFIRM: incumbent vendor name and current pricing]",
+  "[CONFIRM: whether Temporary 123 offers standard portable toilet units; none appear on the price list]",
+  "[CONFIRM: whether Article 1 was adopted at town meeting]"
+ ],
+ "deadline": "HigherGov shows a response deadline of 2027-01-01, with no time or time zone given. The source document states no deadline and does not describe any procurement.",
+ "checked": "2026-11-14T00:49",
+ "ai": "claude-code"
+}

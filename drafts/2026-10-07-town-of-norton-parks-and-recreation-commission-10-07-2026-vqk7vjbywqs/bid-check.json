@@ -1,0 +1,43 @@
+{
+ "verdict": "No bid",
+ "score": 3,
+ "one_line": "This is not a procurement. It comes from YouTube captions of a town committee meeting where staff agreed to ask the local waste company that usually supplies two porta-potties to \"please do what he's done in the past\" for a Halloween parade, and the parade has most likely already happened.",
+ "scope": "The Town of Norton, MA Parks and Recreation Commission needs porta-potties for its Halloween parade: one at Tricentennial Park for the crowd and one at the old Oasis lot for workers and parade participants. The work would be delivery, rental, servicing, and removal of standard portable toilets for one event day. The town has not issued a solicitation, set a price, or made a payment arrangement. Staff plan to contact their usual provider directly.",
+ "fit": [
+  "'Portable sanitation' is one of our stated core competencies under Facility Support & Utilities (company profile).",
+  "We have restroom trailer past performance with the City and County of Denver (SC-00011558, climate-controlled portable restroom trailers for up to 500 people), which is relevant municipal work.",
+  "No set-aside is stated, so our SBE/MBE status raises no eligibility problem.",
+  "Our stated work area is nationwide, so Massachusetts is technically in range."
+ ],
+ "red_flags": [
+  "Not a solicitation. The source document is 'YouTube captions \u2014 not official meeting minutes' of the 10/07/2026 Parks and Recreation Commission meeting. HigherGov lists the Type as 'Agendas / Minutes' and calls the page a contract forecast.",
+  "The event has probably already happened. It is a Halloween parade discussed at an October 7, 2026 meeting, and today is 2026-11-14. The documents do not give the parade date.",
+  "The 2027-01-07 'response deadline' looks like a HigherGov placeholder. Nothing in the transcript sets a deadline.",
+  "Staff have a local provider in mind: 'Alec and his waste disposal waste company usually puts a porta potty at Tricentennial.' The plan is to 'ask him to please do what he's done in the past.' No competition is planned.",
+  "The bid pack says the transcript 'does not establish whether the customary provision is paid or donated.' There may be no paid work at all.",
+  "The work is tiny: two standard portable toilets for one day. Our price list has no standard portable toilet line. Our smallest restroom unit is a 13ft 3-stall Luxury Shower-Restroom Combination Trailer.",
+  "NAICS 562991 is not one of our NAICS codes (721310, 532490, 722310, 624230, 624221, 561210, 423740, 532120). No PSC is listed.",
+  "We are based in Marina del Rey, CA, and the profile names no Massachusetts depot. Our reference delivery and pick-up rates ($4,000/lot each) would be far more than the value of two porta-potties.",
+  "No contact is listed: Contact is 'None, None, None.'",
+  "Estimated value: '? - ?'."
+ ],
+ "competition": "There is no formal incumbent, but the de facto provider is 'Alec and his waste disposal waste company,' which has customarily placed a porta-potty at Tricentennial Park and one at the Oasis lot. The town intends to ask him again. The bid pack lists no past awards by the Town of Norton under NAICS 562991 (0 found) and no number of offers received.",
+ "price_signal": "No price data. There are no past agency awards under NAICS 562991 (0) and no award benchmarks for NAICS 562991 with any PSC, any agency (0). The transcript gives no price, and the customary provision may be donated. Our price list has no standard portable toilet item. The nearest item, the 13ft Luxury Shower-Restroom Combination Trailer (3 stalls), is listed at 2,995.00 for 1-6 Days, but the billing basis is unspecified, so that figure does not compare to two porta-potties.",
+ "must_have": [
+  "No submission items or requirements are stated. The source is YouTube captions of the meeting, not a solicitation (bid pack attachment, 2026-10-07).",
+  "Porta-potties are needed at Tricentennial Park and the Oasis area (attachment summary; transcript 00:12:14\u201300:12:44).",
+  "Tricentennial unit is for the crowd; Oasis unit is 'for the workers and for the people that are in the parade' (transcript 00:12:31\u201300:12:44)."
+ ],
+ "gaps": [
+  "[CONFIRM: whether the Town of Norton ever issued a solicitation or request for quotes for this work]",
+  "[CONFIRM: parade date (not stated in the documents; likely before 2026-11-14)]",
+  "[CONFIRM: whether the incumbent's service is paid or donated]",
+  "[CONFIRM: town procurement contact name, phone, email]",
+  "[CONFIRM: whether we stock or can source standard single portable toilets (not in our fleet list or price list)]",
+  "[CONFIRM: whether we have Massachusetts or New England service and pump-out capability, or a local partner]",
+  "[CONFIRM: any Massachusetts or Norton permit or license required to service portable toilets or haul waste]"
+ ],
+ "deadline": "HigherGov field: 2027-01-07, with no time or time zone stated. The source document (meeting captions) sets no response deadline, and the parade itself has most likely already happened.",
+ "checked": "2026-11-14T00:51",
+ "ai": "claude-code"
+}

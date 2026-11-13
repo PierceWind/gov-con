@@ -1,0 +1,40 @@
+{
+ "verdict": "No bid",
+ "score": 5,
+ "one_line": "This isn't a solicitation. It's a city council agenda item for a lease between the City of Tumwater and another public agency, Lacey Fire District 3, and the council took it up on September 1, 2026, so there is nothing for us to bid on.",
+ "scope": "The September 1, 2026 Tumwater City Council agenda lists one item under Council Considerations: \"Lease Agreement with Lacey Fire District 3 for Shower Trailer (Fire Department).\" It looks like the City Fire Department plans to lease a shower trailer from a neighboring fire district under an agreement between the two agencies. The agenda gives no unit count, term, dollar amount, specifications, or service requirements. The extra detail in HigherGov's description about maintenance, sanitation, transport, and setup is general commentary, not something the agenda says.",
+ "fit": [
+  "Shower trailers are in our fleet and core competencies. The price list includes a 20ft Shower Container (5 Stalls) and 13ft, 22ft, and 30ft Luxury Shower-Restroom Combination Trailers.",
+  "Our work area is nationwide, so Washington is covered.",
+  "NAICS 532120 appears in our proposal template, but not in the capability statement's NAICS list. [CONFIRM: whether 532120 is one of our registered NAICS codes]",
+  "No set-aside is stated, so our SBE/MBE status doesn't block us.",
+  "We have fire and emergency-responder experience: responder support camps, plus shower and restroom trailers for the USCG and the City and County of Denver."
+ ],
+ "red_flags": [
+  "This isn't a procurement. The source is a council meeting agenda (HigherGov type 'Agendas / Minutes'). There is no RFP, RFQ, or RFI, and no instructions for submitting anything.",
+  "The lessor is already named: Lacey Fire District 3. That makes this a lease between two public agencies, not an open competition.",
+  "The council meeting was Tuesday, September 1, 2026, more than two months ago. The agreement may already be approved and signed.",
+  "HigherGov's 2026-12-01 'response deadline' doesn't appear anywhere in the agenda. It is probably a placeholder date added by HigherGov.",
+  "There is no contact name, email, or phone for the item. The only contacts in the agenda are the general council email and the ADA Coordinator.",
+  "The value is unknown and probably small, apparently a single trailer, and the site in Tumwater, WA is far from our Marina del Rey, CA office. Mobilization costs would eat most of the margin.",
+  "The bid pack lists no PSC code."
+ ],
+ "competition": "The agenda names Lacey Fire District 3 as the other party to the lease, so the provider appears to be chosen already. The bid pack shows no past awards by the City of Tumwater under NAICS 532120 and no award benchmarks for NAICS 532120 from any agency. It reports no offer counts.",
+ "price_signal": "There's no price data from comparable awards: the bid pack has no past awards and no benchmarks, and the agenda gives no dollar amount. For reference only, our price list shows the 20ft Shower Container (5 Stalls) at 3,995.00 for 1\u20136 days, 3,995.00 for 8\u201314 days, 4,995.00 for 15 days to 1 month, and 3,995.00 for more than 3 months. The list doesn't say what billing period those figures cover. Our USCG quote priced a restroom/shower trailer at $8,995 per unit for a 30-day job.",
+ "must_have": [
+  "None stated. The agenda (MEET-Agenda-96288a661281463c896832eb214e9e9a.pdf, posted 2026-08-31) has no submission items, forms, certifications, bonding, insurance, license, or site-visit requirements.",
+  "The only participation option in the agenda is public comment on the agenda items: in person, by registering online by 5:00 p.m. on the meeting day (Sep 1, 2026), or by email to council@ci.tumwater.wa.us by 5:00 p.m. that day. Source: the agenda's 'Public and Written Comment' section. That deadline has passed."
+ ],
+ "gaps": [
+  "[CONFIRM: whether the council approved the Lacey Fire District 3 shower trailer lease on Sep 1, 2026, and its term and value. The meeting video should be at tumwater-wa.municodemeetings.com]",
+  "[CONFIRM: whether the City of Tumwater or the Tumwater Fire Department plans any open solicitation for shower trailers or other temporary facilities]",
+  "[CONFIRM: a procurement or fire department contact at the City of Tumwater. None is given in the bid pack]",
+  "[CONFIRM: where HigherGov's 2026-12-01 response deadline comes from. It isn't in the source document]",
+  "[CONFIRM: whether 532120 is one of our registered NAICS codes. It's in the proposal template but not the capability statement]",
+  "[CONFIRM: what Washington State or City of Tumwater business registration or license would apply if a real solicitation comes out later. The documents don't say]",
+  "[CONFIRM: what it would cost to deliver and service a trailer in Tumwater, WA from our nearest depot. The documents don't name our depot locations]"
+ ],
+ "deadline": "The agenda sets no deadline for proposals or responses. HigherGov lists a response deadline of 2026-12-01 with no time or time zone, and the source document doesn't support it. The only dated event is the City Council meeting on Tuesday, September 1, 2026, at 7:00 PM (no time zone given; the meeting was in Tumwater, WA). The public comment cutoff was 5:00 p.m. that day. Both dates have passed.",
+ "checked": "2026-11-14T00:45",
+ "ai": "claude-code"
+}

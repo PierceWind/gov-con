@@ -1,0 +1,47 @@
+{
+ "verdict": "No bid",
+ "score": 15,
+ "one_line": "We would have to rent and clean standard portable toilets on Cape Cod over the long term. That is outside our trailer fleet, our NAICS/PSC codes, and our price list, and the bid is due in 4 days with the bid documents not yet in hand.",
+ "scope": "The Town of Mashpee, MA Department of Public Works wants sealed bids to rent portable toilets and clean them on a schedule. Unit counts, locations, cleaning frequency, and contract term are in bid documents that are only available by emailing the DPW. None were attached to the bid pack.",
+ "fit": [
+  "No set-aside (NONE), so our SBE/MBE status works and no 8(a)/WOSB/SDVOSB/HUBZone certification is needed.",
+  "Our core competencies list 'portable sanitation' under Facility Support & Utilities, and restroom facilities are in our fleet.",
+  "Related past performance: City and County of Denver, SC-00011558 (Aug 2026 \u2013 ongoing). We deliver and service climate-controlled restroom trailers there, including cleaning, pump-outs, waste disposal, supplies, maintenance, and demobilization.",
+  "New England past performance: Portsmouth Naval Shipyard, Peterborough, NH (Nov 2022 \u2013 Nov 2023, about $130,000).",
+  "We already run weekly servicing (RCRA-compliant gray/black water removal, sanitizing, consumables) and cover the whole country."
+ ],
+ "red_flags": [
+  "Product mismatch: they asked for portable toilets, not the restroom/shower trailers we rent. Our price list has no portable toilet line.",
+  "NAICS 562991 and PSC S216 are not among our codes (our NAICS are 721310, 532490, 722310, 624230, 624221, 561210, 423740, plus possibly 532120; our PSCs are W023, W099, W045).",
+  "Response deadline is 2026-11-18, 4 days from today. We have not received the bid documents and must request them by email first.",
+  "Sealed bid with no COMMBUYS submission ('DO NOT SUBMIT BID VIA COMMBUYS'). Delivery method is unknown and may need physical delivery from California.",
+  "The job is recurring cleaning in Mashpee, MA. Our profile shows no depot or pump-truck capability in Massachusetts, so local haulers will likely have a big cost advantage.",
+  "A comparable Massachusetts job (Portable Latrine Services, Devens RFTA, MA) drew 18 offers.",
+  "The bid pack has no attachments, so terms, bonding, insurance, and license requirements are unknown."
+ ],
+ "competition": "No incumbent identified. The bid pack found no past Town of Mashpee awards under NAICS 562991. Closest benchmark: Portable Latrine Services, Devens RFTA, MA, awarded 2026-03-20 to Louis Unlimited Prosperity for $69,952 with 18 offers (small business set-aside). Other portable toilet awards: Gettysburg NMP seasonal and special-event portable toilets, Associated Products Services, $29,135, 4 offers; Suisun Bay Reserve Fleet portable toilets and handwashing stations, M & M Sanitary, $52,810, 7 offers. Most other benchmarks are federal vault-toilet or septic pumping, which is not comparable.",
+ "price_signal": "HigherGov estimates the value at $15,000\u2013$120,000. Comparable portable toilet awards: Devens RFTA, MA, $69,952 for 12 months (2026-03-22 to 2027-03-21); Gettysburg seasonal, $29,135 (Apr\u2013Nov 2026); Suisun Bay, CA, $52,810 (base plus options, 2022\u20132027). We have no portable toilet unit price. Our smallest restroom unit, the 13ft Luxury Shower-Restroom Combination Trailer (3 stalls), is listed at $2,995\u2013$3,995 depending on duration, and the billing basis is not stated. We cannot price this from our current price list.",
+ "must_have": [
+  "Sealed bid (bid pack, Description)",
+  "Request bid documents by emailing dpw@mashpeema.gov (bid pack, Description)",
+  "Do not submit the bid through COMMBUYS (bid pack, Description)",
+  "Submit by the 2026-11-18 response deadline (bid pack, Opportunity)",
+  "All other submission items and requirements: [CONFIRM: requirements in bid documents, not yet received]"
+ ],
+ "gaps": [
+  "[CONFIRM: bid documents, requested from dpw@mashpeema.gov]",
+  "[CONFIRM: bid due time and time zone on 2026-11-18]",
+  "[CONFIRM: sealed-bid delivery method and address (mail, hand delivery, or email)]",
+  "[CONFIRM: number of portable toilets, locations in Mashpee, cleaning frequency, and contract term]",
+  "[CONFIRM: whether restroom trailers are acceptable in place of standard portable toilets]",
+  "[CONFIRM: bid bond, performance bond, and insurance requirements]",
+  "[CONFIRM: any Massachusetts or Town of Mashpee license or permit needed to haul and dispose of waste]",
+  "[CONFIRM: whether a site visit or pre-bid meeting is required]",
+  "[CONFIRM: whether we have a portable toilet supply source and a local servicing subcontractor near Mashpee, MA]",
+  "[CONFIRM: incumbent vendor and prior contract price]",
+  "[CONFIRM: proposal email address (sales@temporarykitchens123.com or contract@temporary123.com)]"
+ ],
+ "deadline": "2026-11-18 (response deadline per bid pack; time and time zone not stated) [CONFIRM: time and time zone]",
+ "checked": "2026-11-14T00:41",
+ "ai": "claude-code"
+}

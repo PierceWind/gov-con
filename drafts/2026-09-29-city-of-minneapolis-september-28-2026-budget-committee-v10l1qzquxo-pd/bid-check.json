@@ -1,0 +1,47 @@
+{
+ "verdict": "Maybe",
+ "score": 30,
+ "one_line": "There is nothing to bid on yet. This is a budget-committee remark about a $52,000 standby contract for portable sinks and toilets that expires in March 2027, so we should track it and decide if the City actually posts a solicitation.",
+ "scope": "Minneapolis Regulatory Services, through its Homeless and Encampment Program, holds one professional-services contract for portable sinks and toilets. The contract gives standby access at prices agreed up front. The City has not used it yet, and it expires in March 2027. A renewal or replacement contract could follow, but no official announced a rebid, a renewal, or an extension.",
+ "fit": [
+  "Direct past performance: our City and County of Denver contract SC-00011558 (Aug 2026 \u2013 ongoing) supplies climate-controlled restroom trailers for shelter operations serving up to 500 people, including pump-outs, waste disposal, supplies, and maintenance. That is the same city homelessness and shelter use case.",
+  "'Portable sanitation' and restroom facilities are stated core competencies (Facility Support & Utilities). Our fleet includes shower and restroom facilities.",
+  "Our price list includes a Handwashing Sink Trailer and Luxury Shower-Restroom Combination Trailers (13ft, 3 stalls, and up), which can cover a sinks-and-toilets requirement.",
+  "The template describes servicing we already run: weekly servicing, gray/black water removal, sanitizing, consumables, and a 24/7 emergency line.",
+  "Our stated work area is nationwide, which covers Minnesota.",
+  "No set-aside is stated, so our SBE/MBE status does not block us."
+ ],
+ "red_flags": [
+  "This is not a solicitation. The source is YouTube captions of the September 28, 2026 Budget Committee meeting, which state they are 'not official meeting minutes.' Notice type: Agendas / Minutes (contract forecast).",
+  "The City has stated no RFP, no scope, and no response deadline. HigherGov's 2026-12-29 'response deadline' does not appear anywhere in the City's material.",
+  "The City has not said it will rebid. It could renew or extend with the unnamed incumbent.",
+  "The contract is standby and has never been used ('We haven't needed to tap into this service yet'), so an award may bring little or no guaranteed revenue.",
+  "The value is small: $52,000 is the existing contract and 2027 budget line, not an estimate for a replacement award.",
+  "NAICS 562991 (Septic Tank and Related Services) is not one of our listed NAICS codes, and no PSC is given.",
+  "The need is likely basic portable toilets and handwash stations, a commodity where local Minneapolis-area portable-toilet providers likely have a cost and response-time advantage. No company document shows a Minnesota depot.",
+  "Not our scope: the Public Works rubbish abatement contract (est. $300,000, also ending March 2027) and the $250,000 warming center joint powers agreement mentioned in the same meeting. Neither is a sanitation rental opportunity."
+ ],
+ "competition": "The incumbent is not named. HigherGov found no past awards by the City of Minneapolis under NAICS 562991 and no NAICS 562991 award benchmarks from any agency. The number of offers on the current contract is unknown.",
+ "price_signal": "The only figure is the existing contract and proposed 2027 budget line of $52,000 for portable sinks and toilets, with pricing set up front and no spending to date. There are no comparable awards. For reference only, our price list shows Handwashing Sink Trailer $2,995\u2013$3,995 and 13ft Luxury Shower-Restroom Combination Trailer (3 Stalls) $2,995\u2013$3,995, depending on duration. The list does not say whether those prices are daily, weekly, monthly, or per term, so they cannot be compared to $52,000 yet.",
+ "must_have": [
+  "None stated. No solicitation document exists yet, so the City has set no submission items or hard requirements (source: bid pack).",
+  "Set-aside: none stated (source: bid pack opportunity data).",
+  "Place of performance: MN, City of Minneapolis (source: bid pack opportunity data).",
+  "Expected service: standby portable sinks and toilets at predetermined pricing (source: Director Velazquez, captions 02:03:24\u201302:03:56).",
+  "Timing reference: the current contract expires March 2027 (source: same remarks)."
+ ],
+ "gaps": [
+  "[CONFIRM: whether Minneapolis will rebid, renew, or extend the portable sinks and toilets contract, and when]",
+  "[CONFIRM: procurement method, solicitation number, and posting date; the City's purchasing portal for Regulatory Services]",
+  "[CONFIRM: incumbent vendor name and current unit pricing]",
+  "[CONFIRM: whether the requirement is standard portable toilets and handwash stations or restroom/sink trailers, plus unit counts, ADA needs, and service frequency]",
+  "[CONFIRM: City of Minneapolis vendor registration, insurance, and any license or bonding requirements]",
+  "[CONFIRM: our ability to deliver and service in Minneapolis on standby call-out terms (nearest depot, response time)]",
+  "[CONFIRM: billing basis for price-list rates (daily, weekly, monthly, or term)]",
+  "[CONFIRM: Denver contract SC-00011558 value, printed as '~$100,00.00']",
+  "[CONFIRM: whether we would register NAICS 562991 or bid under our existing codes]"
+ ],
+ "deadline": "The City has stated no response deadline. HigherGov lists 2026-12-29 with no time or time zone, and the City's material does not support that date. The existing contract expires in March 2027, per Director Velazquez at the September 28, 2026 Budget Committee.",
+ "checked": "2026-11-14T00:49",
+ "ai": "claude-code"
+}

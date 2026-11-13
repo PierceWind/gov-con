@@ -1,0 +1,242 @@
+1. CONTRACT ID CODE PAGE OF PAGES
+AMENDMENT OF SOLICITATION/MODIFICATION OF CONTRACT
+1	2
+2. AMENDMENT/MODIFICATION NUMBER 3. EFFECTIVE DATE 4. REQUISITION/PURCHASE REQUISITION NUMBER 5. PROJECT NUMBER (If applicable)
+0001	11/02/2026
+6. ISSUED BY	CODE 690567	7.ADMINISTERED BY (If other than Item 6)CODE
+Federal Highway Administration
+FHWA WESTERN FED LANDS DIVISION
+610 E FIFTH STREET
+Vancouver WA 98661
+8. NAME AND ADDRESS OF CONTRACTOR (Number, street, county, State and ZIP Code) 9A. AMENDMENT OF SOLICITATION NUMBER
+(X) 69056727Q000005
+9B. DATED (SEE ITEM 11)
+10/28/2026
+10A. MODIFICATION OF CONTRACT/ORDER NUMBER
+10B. DATED (SEE ITEM 13)
+CODE	FACILITY CODE
+11. THIS ITEM ONLY APPLIES TO AMENDMENTS OF SOLICITATIONS
+The above numbered solicitation is amended as set forth in Item 14.The hour and date specified for receipt of Offers is extended. is not extended.
+Offers must acknowledge receipt of this amendment prior to the hour and date specified in the solicitation or as amended, by one of the following methods:
+(a) By completing items 8 and 15, and returning O N E ( 1 ) copies of the amendment; (b) By acknowledging receipt of this amendment on each copy of the offer submitted;
+or (c) By separate letter or electronic communication which includes a reference to the solicitation and amendment numbers. FAILURE OF YOUR ACKNOWLEDGMENT TO BE
+RECEIVED AT THE PLACE DESIGNATED FOR THE RECEIPT OF OFFERS PRIOR TO THE HOUR AND DATE SPECIFIED MAY RESULT IN REJECTION OF YOUR OFFER.
+If by virtue of this amendment you desire to change an offer already submitted, such change may be made by letter or electronic communication, provided each letter or electronic
+communication makes reference to the solicitation and this amendment, and is received prior to the opening hour and date specified.
+12. ACCOUNTING AND APPROPRIATION DATA (If required)
+13. THIS ITEM APPLIES ONLY TO MODIFICATIONS OF CONTRACTS/ORDERS.
+IT MODIFIES THE CONTRACT/ORDER NUMBER AS DESCRIBED IN ITEM 14.
+CHECK ONEA. THIS CHANGE ORDER IS ISSUED PURSUANT TO: (Specify authority) THE CHANGES SET FORTH IN ITEM 14 ARE MADE IN THE CONTRACT ORDER
+NUMBER IN ITEM 10A.
+B. THE ABOVE NUMBERED CONTRACT/ORDER IS MODIFIED TO REFLECT THE ADMINISTRATIVE CHANGES (such as changes in paying office,
+appropriation data, etc.) SET FORTH IN ITEM 14, PURSUANT TO THE AUTHORITY OF FAR 43.103(b).
+C. THIS SUPPLEMENTAL AGREEMENT IS ENTERED INTO PURSUANT TO AUTHORITY OF:
+D. OTHER (Specify type of modification and authority)
+E. IMPORTANT: Contractor is not is required to sign this document and return copies to the issuing office.
+14. DESCRIPTION OF AMENDMENT/MODIFICATION (Organized by UCF section headings, including solicitation/contract subject matter where feasible.)
+See continuation page
+Except as provided herein, all terms and conditions of the document referenced in Item 9A or 10A, as heretofore changed, remains unchanged and in full force and effect.
+15A. NAME AND TITLE OF SIGNER (Type or print) 16A. NAME AND TITLE OF CONTRACTING OFFICER (Type or print)
+N/A
+15B. CONTRACTOR/OFFEROR	15C. DATE SIGNED 16B. UNITED STATES OF AMERICA 16C. DATE SIGNED
+(Signature of person authorized to sign) (Signature of Contracting Officer)
+Previous edition unusable	STANDARD FORM 30 (REV. 11/2016)
+Prescribed by GSA FAR (48 CFR) 53.243
+
+REFERENCE NO. OF DOCUMENT BEING CONTINUED	PAGES
+CONTINUATION SHEET
+69056727Q000005/0001	PAGE 2 OF 2
+NAME OF OFFEROR OR CONTRACTOR
+ITEM NO.	SUPPLIES/SERVICES	QUANTITY UNIT UNIT PRICE AMOUNT
+(A)	(B)	(C)	(D)  (E)	(F)
+Amendment 0001 corrects typographical errors.
+By way of this amendment, typographical errors
+are hereby corrected on the cover page, and
+Section E (Solicitation Provisions) pages E-12,
+E-14, and E-15. Corrections are indicated by
+red and/or lined-through text on the attached
+pages.
+All other stipulations remain unchanged.
+Period of Performance: 02/01/2027 to
+01/31/2029
+NSN 7540-01-152-8067	OPTIONAL FORM 336 (4-86)
+Sponsored by GSA FAR (48 CFR) 53.110
+
+Western Federal Lands Highway Division
+610 E. Fifth Street
+Vancouver, WA 98661
+Phone 360-619-7700
+Fax 360-619-7846
+REQUEST	FOR  QUOTATION
+This is a combined synopsis/solicitation for commercial
+QUICK INDEX
+products or commercial services prepared in
+Page Item	accordance with FAR 12.201 Solicitation procedures.
+Solicitation number 69056727Q000005 is issued as an
+A-1  SF18, Request for Quotation
+(RFQ) for Modular Building & Restroom Rental with
+B-1  Price Schedule
+Ancillary Services. Additional information as required
+C-1  Contract Clauses	in FAR 12.202(b)(1) is provided in the RFQ document
+attached herein.
+D-1  Statement of Work
+E-1  Solicitation Provisions and This announcement constitutes the only solicitation.
+Instructions to Offerors	Quotations are being requested and a written
+solicitation will not be issued.
+ATTACHMENTS
+This acquisition is UNRESTRICTED FULL & OPEN
+0001 Proposed 24' x 60' Floor Plan
+and incorporates provisions and clauses by reference.
+Layout
+The full text of provisions and clauses may be accessed
+0002 Offeror Work Experience	electronically at https://www.acquisition.gov/far-
+overhaul/far-part-deviation-guide/far-overhaul-part-52.
+0003 Past Performance Questionnaire
+0004 Service Contract Act Wage  The North American Industry Classification System
+Determination	(NAICS) code is 532490 with an industry size standard
+of $40.0 million and the associated Product Service
+Code (PSC) is W054.
+All interested vendors shall refer to Section E for full-text FAR Provision 52.212-1, Instructions to
+Offerors, and its Addendum.
+Solicitation Release Date: 28-OCT-2026
+Technical Questions Due Date: Day, 19-MOVNOV-2026, at 4:00pm PT
+Response Due Date: Day, 24-NOV-2026, at 2:00 pm PT
+NOTICE: This solicitation and the resulting contract incorporate the latest updates from the
+Revolutionary Federal Acquisition Regulation (FAR) Overhaul (RFO). Any standard FAR
+references within this document correspond directly to the associated text in the RFO. All
+provisions and clauses reflect the most recent RFO requirements and approved deviations.
+Offerors can review the complete RFO text at Revolutionary FAR Overhaul.
+AMENDMENT 0001
+
+E-12
+more favorable to the Government will be considered at any time it is received and may be
+accepted.
+(3) If an emergency or unanticipated event interrupts normal Government processes so
+that offers cannot be received at the Government office designated for receipt of offers by the
+exact time specified in the solicitation, and urgent Government requirements preclude
+amendment of the solicitation or other notice of an extension of the closing date, the time
+specified for receipt of offers will be deemed to be extended to the same time of day specified in
+the solicitation on the first work day on which normal Government processes resume.
+(4) Offerors may withdraw their offers by written notice to the Government received at any
+time before award.
+(d) Contract award (not applicable to Invitation for Bids). The Government intends to evaluate
+offers and award a contract without discussions with Offerors. Therefore, the Offeror’s initial
+offer should contain the Offeror’s best terms. However, the Government reserves the right to
+conduct discussions, if necessary. The Government may reject any or all offers if such action is
+in the public interest, accept other than the lowest offer, and waive informalities and minor
+irregularities in offers received.
+(e) Debriefings. If a postaward debriefing is given to requesting Offerors, the Government will
+disclose the following information, if applicable:
+(1) The agency’s evaluation of the significant weak or deficient factors in the debriefed
+Offeror’s offer.
+(2) The overall evaluated cost or price and technical rating of the successful Offeror and
+the debriefed Offeror and past performance information on the debriefed Offeror.
+(3) The overall ranking of all Offerors when any ranking was developed by the agency
+during source selection.
+(4) A summary of the rationale for award.
+(5) For acquisitions of commercial products, the make and model of the product to be
+delivered by the successful Offeror.
+(6) Reasonable responses to relevant questions posed by the debriefed Offeror as to
+whether the agency followed source-selection procedures set forth in the solicitation, applicable
+regulations, and other applicable authorities.
+(End of provision)
+FAR 52.212-1 – Instructions to Offerors – Commercial Products and Commercial Services
+(DEVIATION Aug 2025) ADDENDUM
+All questions concerning this RFQ shall be submitted electronically to
+WFL.Purchasing@dot.gov, no later than the due date and time on page B-1 of this RFQ.
+Each prospective Quoter should attempt to state each question in such a way that the Quoter
+would have no objection to the Government publishing that precise question (and its answer) in
+a formal amendment to the RFQ. Additionally, each prospective Quoter should attempt to word
+each question in such a way that the publication of that question (and its answer) would not
+divulge any information that the prospective Quoter considers to be proprietary or confidential.
+This is an electronic procurement action. Hard copies of quotations will not be accepted for
+this solicitation. All documents are to be submitted in Portable Document Format (pdf), or an
+approved fixed-layout electronic format, via the GSA eBuy Portalvia email to
+WFL.Purchasing@dot.gov with reference to the RFQ number in the subject line. File(s) shall
+WFLHD Modular Buildings & Restroom Rental with Ancillary Services AMENDMENT 0001
+
+E-14
+WFL.Purchasing@dot.gov with the subject line “Source Selection Information:
+69056726Q000042 PPQ for RFQ 69056727Q000005”.
+e. Completed Representations and Certifications (see Section E paragraph 1).
+f. “Reps and Certs FAR Report" from the offerors SAM.gov account.
+g. Acknowledgement of all solicitation amendments, if any.
+NOTE: Failure to furnish all information required above may result in your quotation
+being considered non-responsive and eliminated from further consideration.
+Fraud Alert. Current and potential U.S. Department of Transportation (DOT) Contractors have
+recently been receiving fraudulent letters purporting to be issued by DOT. These fraudulent
+letters request that the Contractors resubmit their banking information to DOT. If you receive
+such a letter, please DO NOT complete the requested worksheet that is attached to the letters
+and DO NOT release any information. To register or update information, Contractors are
+required to go directly through the System for Award Management (SAM) website and never
+through a third party. You can access SAM at https://sam.gov/.
+Department of Transportation (DOT) Compliance with President Trump’s Priorities and
+Agenda. Consistent with President Trump’s priorities and agenda, to the maximum extent
+permitted by law, DOT intends to take immediate action to begin forbearing enforcement of all
+Federal Acquisition Regulation (FAR) or Transportation Acquisition Regulation (TAR) contract
+clauses, provisions, terms, and conditions, if inconsistent with EOs and implementing guidance
+issued by the current administration, including but not limited to:
+  Executive Order (EO) 14168, Defending Women from Gender Ideology Extremism and
+Restoring Biological Truth to the Federal Government (January 20, 2025);
+  Executive Order (EO) 14151, Ending Radical and Wasteful Government DEI Programs
+and Preferencing (January 20, 2025);
+  Executive Order (EO) 14148, Initial Rescissions of Harmful Executive Orders and
+Actions (January 20, 2025);
+  Executive Order (EO) 14173, Ending Illegal Discrimination and Restoring Merit-Based
+Opportunity (January 21, 2025);
+  Executive Order (EO) 14168, Defending Women from Gender Ideology Extremism and
+Restoring Biological Truth to the Federal Government (January 20, 2025);
+  OPM Memorandum, Initial Guidance Regarding President Trump’s Executive Order
+Defending Women (January 29, 2025);
+  Executive Order (EO) 14208, Ending Procurement and Forced Use of Paper Straws
+(February 10, 2025);
+  Executive Order (EO) 14222, Implementing the President’s “Department of Government
+Efficiency” Cost Efficiency Initiative (February 26, 2025);
+  Executive Order (EO) 14240, Eliminating Waste and Saving Taxpayer Dollars by
+Consolidating Procurement (March 20, 2025);
+  Executive Order (EO) 14269, Restoring America’s Maritime Dominance (April 9, 2025);
+  Executive Order (EO) 14275, Restoring Common Sense to Federal Procurement (April
+15, 2025); and
+  Executive Order (EO) 14271, Ensuring Commercial, Cost-Effective Solutions in Federal
+WFLHD Modular Buildings & Restroom Rental with Ancillary Services AMENDMENT 0001
+
+E-15
+Contracts (April 16, 2025.
+DOT remains committed to ensuring its acquisition policies and practices reflect the direction of
+the current administration and reserves the right to issue further guidance or take additional
+action as necessary. Contractors are reminded that compliance with applicable laws,
+regulations, and Executive Orders is a condition of doing business with the Federal Government
+and DOT. It is the responsibility of each contractor to monitor for updates and adjust operations
+accordingly.
+(End of addendum)
+FAR 52.212-2 – Evaluation – Commercial Products and Commercial Services (DEVIATION
+Aug 2025)
+(a) Evaluation factors. The Government will award a firm-fixed price delivery/taskpurchase
+order resulting from this solicitation order under MAS SIN 532490P to the responsible Offeror
+whose offer conforming to the solicitation is the lowest evaluated price of quotations meeting or
+exceeding the requirements for acceptability The following factors will be used to evaluate
+offers:
+  Price
+  Technical Capability (based on Compliance with Solicitation Requirements, Requirement
+Specifications, and Relevant Past Experience), and
+  Relevant Past Performance
+(b) Options (if applicable). The Government will evaluate offers for award purposes by adding
+the total price for all options to the total price for the basic requirement. The Government may
+determine that an offer is unacceptable if the option prices are significantly unbalanced. The
+evaluation of options does not obligate the Government to exercise the option(s).
+(c) Notice of award. A written notice of award or acceptance of an offer furnished to the
+successful Offeror within the time for acceptance specified in the offer, shall result in a binding
+contract without further action by either party. Before the offer’s specified expiration time, the
+Government may accept an offer (or part of an offer), whether or not there are negotiations after
+its receipt, unless a written notice of withdrawal is received before award.
+(End of provision)
+FAR 52.212-2 – Evaluation – Commercial Products and Commercial Services (DEVIATION
+Aug 2025) ADDENDUM
+EVALUATION FACTORS
+1. Factor 1 – Price. The Government will evaluate the quoted price to determine that the price
+is valid, realistic, fair, and reasonable as well as for consistency and understanding of the
+PWS/SOW requirements. The price evaluation will determine whether the quoted prices are
+accurate, complete, and reasonable in relation to the solicitation requirements, market rates,
+and the Independent Government Cost Estimate (IGCE). The IGCE will not be disclosed to
+the public.
+WFLHD Modular Buildings & Restroom Rental with Ancillary Services AMENDMENT 0001

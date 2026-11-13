@@ -1,0 +1,50 @@
+{
+ "verdict": "Maybe",
+ "score": 32,
+ "one_line": "Portable sanitation is one of our stated competencies and the Denver restroom-trailer contract is a close match, but this is a low-price IFB for standard portable toilets and handwashing stations, with frequent on-call servicing in Central Texas. It sits outside our NAICS and PSC codes, our fleet, and our price list, and we can't judge it until we get the actual IFB documents.",
+ "scope": "The buyer wants a vendor to rent out portable toilets and hand washing stations at multiple locations in Hays County, plus anywhere else in the County on an as-needed basis. It is an Invitation for Bid (IFB), so the award will most likely go to the lowest responsive, responsible bidder. The bid pack does not give unit counts, locations, service frequency, or contract term.",
+ "fit": [
+  "Portable sanitation is a listed core competency (Facility Support & Utilities), and 'restrooms' appears under Mobile Infrastructure & Equipment Rentals (company profile).",
+  "Closest past performance: City and County of Denver, SC-00011558 (Aug 2026 \u2013 ongoing, multi-year). We provide, deliver, and service climate-controlled portable restroom trailers there, including cleaning, pump-outs, waste disposal, supplies, maintenance, and demobilization, for up to 500 people.",
+  "Other related past performance: U.S. Navy, Oregon (subcontractor under Vigor Marine Group), restroom trailers and a kitchen trailer with handwashing sinks, $127,240. USCG Station Lake Worth Inlet, 70Z02826FMIAM0008, restroom/shower trailers with wastewater support, $78,500.",
+  "Set-aside is NONE, so our SBE/MBE status doesn't limit us.",
+  "We work nationwide and deploy within 24\u201372 hours of award. We have a 24/7 emergency line and promise on-site response within 24 hours for a critical failure (company profile operations).",
+  "Our price list includes a Handwashing Sink Trailer ($2,995\u2013$3,995 depending on duration) and Luxury Shower-Restroom Combination Trailers (3, 6, and 8 stalls)."
+ ],
+ "red_flags": [
+  "The issuer is unclear. The bid pack names the City of San Marcos as the agency, but the description says 'Hays County issues this Invitation for Bid.'",
+  "The bid pack has 0 attachments: no bid form, specifications, bond, insurance, site visit, or license terms. We can't check any hard requirement yet.",
+  "NAICS 562991 and PSC S214 don't appear among our NAICS, PSC, or GSA SIN codes.",
+  "Standard portable toilets and standalone handwashing stations aren't in our stated fleet or our price list. We list trailers only, which are likely heavier and more expensive than what the county wants.",
+  "As-needed, countywide portable toilet service usually means frequent local pump-outs and quick dispatch. Our HQ is in Marina del Rey, CA, and the profile names no Texas depot or servicing partner.",
+  "Under an IFB, price wins. Local portable toilet companies with their own trucks and units nearby will likely underbid us.",
+  "The bid pack lists no contact (Contact: None).",
+  "The award type is 'as needed', so quantities and any guaranteed minimum are unknown."
+ ],
+ "competition": "We found no past awards by this agency under NAICS 562991, no incumbent named, and no offers-received data for this IFB. The only benchmarks are unrelated federal awards: Sani-Can (Eielson AFB, AK, 2019, 1 offer) and Energica Spurghi Srl (Italy, 2008 and 2009, 2 offers each).",
+ "price_signal": "We have no usable comparable. The benchmarks ($1,432 in 2019, and $4,934 and $11,769 in 2008\u20132009) are small, old, out-of-area federal awards. The bid pack estimates the value at $75,000\u2013$450,000. Our closest data points are the Denver restroom-trailer contract (printed as '~$100,00.00'; CONFIRM, likely $100,000) and the USCG award ($78,500).",
+ "must_have": [
+  "Submit the bid by the response deadline, 2026-12-07 [CONFIRM: time, time zone, and submission method] (bid pack).",
+  "Provide portable toilet and hand washing station rental services at multiple locations in Hays County and countywide on an as-needed basis (bid pack description).",
+  "Open competition, no set-aside (bid pack: Set-aside NONE).",
+  "Get the IFB document, bid form, specifications, and any amendments from https://www.sanmarcostx.gov/bids.aspx?bidID=788. The bid pack has 0 attachments, so [CONFIRM: bid bond, insurance, mandatory pre-bid/site visit, licenses/permits, forms] (bid pack)."
+ ],
+ "gaps": [
+  "[CONFIRM: issuing entity] Is the buyer the City of San Marcos or Hays County, and where do bids go?",
+  "[CONFIRM: full IFB package and any amendments] from the source URL.",
+  "[CONFIRM: unit counts, number of locations, service frequency, and contract term/renewals]",
+  "[CONFIRM: whether restroom trailers and handwashing sink trailers meet the spec, or only standard portable toilets and handwashing stations are acceptable]",
+  "[CONFIRM: bid bond / performance bond requirements]",
+  "[CONFIRM: insurance requirements]",
+  "[CONFIRM: mandatory pre-bid meeting or site visit, with date]",
+  "[CONFIRM: required state, county, or city licenses or permits for portable toilet servicing and waste hauling/disposal]",
+  "[CONFIRM: local servicing partner or depot in Central Texas, and response times we can actually meet]",
+  "[CONFIRM: our pricing for standard portable toilets and standalone handwashing stations] These aren't on our price list.",
+  "[CONFIRM: guaranteed minimum order, if any]",
+  "[CONFIRM: vendor registration requirements with the City/County]",
+  "[CONFIRM: buyer contact name, email, and phone]"
+ ],
+ "deadline": "2026-12-07. The bid pack gives no time or time zone. [CONFIRM: time and time zone]",
+ "checked": "2026-11-14T00:47",
+ "ai": "claude-code"
+}
