@@ -1,0 +1,40 @@
+{
+ "verdict": "Maybe",
+ "score": 45,
+ "one_line": "Pursue clarification because sanitation services fit our capabilities, but this expiring-contract forecast lacks a current solicitation and confirmed equipment requirements.",
+ "scope": "CAL FIRE needs portable toilet services in California for fiscal years 2025 and 2026. The supplied notice is an expiring-contract forecast with no attachments; it does not specify quantities, locations, servicing frequency, or whether restroom trailers qualify.",
+ "fit": [
+  "Portable sanitation, restroom facilities, water delivery, waste removal, and maintenance are stated capabilities.",
+  "Nationwide coverage includes California.",
+  "Denver restroom-trailer work demonstrates related cleaning, pump-outs, waste disposal, supplies, and maintenance.",
+  "No set-aside is stated, so the notice presents no identified conflict with our SBE/MBE status."
+ ],
+ "red_flags": [
+  "This is a forecast, not a supplied solicitation with actionable submission instructions.",
+  "The FY2025\u20132026 scope conflicts with the listed December 2027 response deadline; the procurement schedule needs confirmation.",
+  "NAICS 562991 is not listed in the company profile; solicitation PSC is not provided.",
+  "The fleet includes restroom trailers, but conventional portable toilet inventory and required capacity are unconfirmed.",
+  "Site visits, bonding, licenses, and contract-specific experience requirements are not provided."
+ ],
+ "competition": "No incumbent, past winner, or offer count is supplied. The bid pack found no agency awards or broader benchmarks under NAICS 562991.",
+ "price_signal": "The forecast lists an estimated value of 65,520\u201365,520, with currency and pricing basis unstated; this is not a verified award price. Our $78,500 USCG award included housing and sanitation and is not a direct portable-toilet comparison.",
+ "must_have": [
+  "[CONFIRM: current solicitation and submission requirements] \u2014 Source: Bid pack, Opportunity type 'Expiring Contract' and Attachments (0); no mandatory submission items are supplied.",
+  "[CONFIRM: required equipment, service standards, site visits, bonds, and licenses] \u2014 Source: Bid pack, Description; only portable toilet services for FY2025 and FY2026 are identified."
+ ],
+ "gaps": [
+  "[CONFIRM: whether a successor procurement is open and whether 2027-12-14 is an actual submission deadline]",
+  "[CONFIRM: performance dates, California service locations, unit counts, toilet types, accessibility requirements, and servicing frequency]",
+  "[CONFIRM: available compliant units, local servicing capacity, and deployment costs]",
+  "[CONFIRM: NAICS 562991 eligibility and applicable size standard; SBE/MBE labels alone do not establish solicitation-specific eligibility]",
+  "[CONFIRM: procurement vehicle and whether listed GSA SINs 532490P, 561210FS, 561210FAC, or 541614 apply; PSC coverage cannot be checked without a solicitation PSC]",
+  "[CONFIRM: incumbent, prior award amount, contract duration, and competition history]",
+  "[CONFIRM: approved pricing for the actual scope; supplied trailer rates do not establish portable-toilet service pricing]",
+  "[CONFIRM: agency contact and submission method]"
+ ],
+ "deadline": "2027-12-14 as listed in the forecast; time and time zone are not stated. Future relative to 2026-11-17, but not verified as a live solicitation deadline.",
+ "checked": "2026-11-17T21:27",
+ "ai": "codex",
+ "requested_ai": "claude-code",
+ "fallback": true
+}

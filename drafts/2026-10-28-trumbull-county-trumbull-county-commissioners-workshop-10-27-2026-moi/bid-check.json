@@ -1,0 +1,43 @@
+{
+ "verdict": "No bid",
+ "score": 25,
+ "one_line": "Do not bid now: this is a workshop discussion of an unfunded need, with no restroom solicitation or request for responses.",
+ "scope": "Trumbull County discussed extending portable-toilet rental and cleaning or servicing at trail facilities in Ohio. An extra month and year-round service were discussed, but no expansion, duration, site count, or funding was approved.",
+ "fit": [
+  "Portable sanitation, restroom rentals, cleaning, pump-outs, maintenance, and waste disposal match company competencies.",
+  "Nationwide coverage includes Ohio; Denver restroom-trailer work provides relevant past performance.",
+  "No set-aside is stated, so no stated restriction conflicts with the company's SBE/MBE status.",
+  "Company PSCs W023, W099, W045 and GSA SINs 532490P, 561210FS, 561210FAC, 541614 provide related coverage, but this notice states no PSC or GSA purchasing requirement."
+ ],
+ "red_flags": [
+  "The record is classified as Agendas / Minutes, not a solicitation, sources sought, or RFI.",
+  "The attachment contains YouTube captions expressly labeled as unofficial meeting minutes.",
+  "Budget constraints caused early toilet removal; additional funding remains unresolved.",
+  "Discussion concerns porta-johns; standard portable-toilet inventory is not established by the company's documented restroom-trailer fleet.",
+  "Notice NAICS 562991 is absent from the company's supplied NAICS list.",
+  "No specifications, submission instructions, procurement contact, or evaluation criteria are supplied."
+ ],
+ "competition": "No incumbent, past restroom awardee, or offer count is identified. The supplied agency award search and broader benchmark search returned zero results; competition cannot be assessed.",
+ "price_signal": "No comparable trailhead award price is supplied. The $131,000 received and $136,000 requested were overall parks budgets, not restroom contract values. Denver restroom-trailer past performance has an unresolved printed value of '~$100,00.00'; the $78,500 USCG award included housing and sanitation and is not a direct comparison. The price list provides no confirmed standard porta-john rate.",
+ "must_have": [
+  "No restroom submission items or hard requirements are established in the supplied record. Source: bid pack Opportunity and workshop attachment.",
+  "Mandatory site visits, bonding, licenses, and insurance requirements are not stated and cannot be treated as waived. Source: supplied workshop attachment.",
+  "The November 20, 2026, 2:00 p.m. deadline applies to the separate Rural Water Facilities Project. Source: workshop attachment, 00:28:06\u201300:28:38."
+ ],
+ "gaps": [
+  "[CONFIRM: whether an authorized restroom procurement or request for responses exists]",
+  "[CONFIRM: approved funding, purchasing agency, procurement contact, and submission instructions]",
+  "[CONFIRM: exact sites, unit counts, portable-toilet versus trailer requirements, accessibility, and site access]",
+  "[CONFIRM: service dates, rental duration, cleaning and pump-out frequency, and winter operation requirements]",
+  "[CONFIRM: suitable fleet availability and Ohio delivery and servicing costs]",
+  "[CONFIRM: NAICS 562991 coverage and any applicable small-business eligibility requirement]",
+  "[CONFIRM: mandatory site visits, bonding, licenses, permits, and insurance]",
+  "[CONFIRM: incumbent, prior contract prices, and current applicable rental and servicing rates]",
+  "[CONFIRM: official restroom response deadline, time, and time zone]"
+ ],
+ "deadline": "HigherGov lists 2027-01-28, which is future as of 2026-11-17; no time or time zone is stated. The workshop attachment establishes no restroom response deadline.",
+ "checked": "2026-11-17T21:23",
+ "ai": "codex",
+ "requested_ai": "claude-code",
+ "fallback": true
+}

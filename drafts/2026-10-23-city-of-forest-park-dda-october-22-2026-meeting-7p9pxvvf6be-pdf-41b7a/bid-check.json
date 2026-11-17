@@ -1,0 +1,39 @@
+{
+ "verdict": "Maybe",
+ "score": 35,
+ "one_line": "Track this as a potential portable-restroom opportunity; the supplied record is an event forecast from meeting captions, not an open solicitation.",
+ "scope": "Forest Park anticipates another Blues on Main event requiring a stage, bathrooms, lighting, sound, and setup services. Temporary 123 fits the bathroom rental and servicing portion, but the supplied profile does not establish staging, lighting, sound, or complete event-production capability.",
+ "fit": [
+  "Restroom trailers, portable sanitation, delivery, waste removal, maintenance, and demobilization match the potential bathroom scope (company profile).",
+  "Nationwide service includes Georgia, and the Denver restroom-trailer contract provides relevant sanitation experience (company profile).",
+  "No set-aside is stated; the company's stated SBE and MBE status presents no identified restriction in this forecast (bid pack; company profile)."
+ ],
+ "red_flags": [
+  "No solicitation, RFQ, RFI, or sources-sought response instructions are supplied.",
+  "Listed NAICS 561920 is not among the company's supplied NAICS codes; no PSC is stated, and applicability of its GSA SINs is unconfirmed.",
+  "A combined event-production contract would extend beyond documented core capabilities.",
+  "Bathroom type, quantities, accessibility requirements, service frequency, and rental duration are unspecified.",
+  "The source is YouTube captions rather than official meeting minutes, and its dates contain inconsistencies."
+ ],
+ "competition": "No event incumbent, past winner, or offer count is identified. The bid pack reports no agency awards or broader benchmarks under NAICS 561920; this does not establish an absence of competition.",
+ "price_signal": "Staff reported $42,849.88 in total spending for the completed event and a customary approximately $50,000 event budget (meeting transcript, 00:31:22\u201300:32:23). Neither figure is a restroom award or approved next-year procurement value. The supplied price list does not establish a directly applicable restroom-only rate, currency, or billing basis.",
+ "must_have": [
+  "No submission items or hard procurement requirements are established by the supplied forecast (bid pack, Opportunity and attached meeting transcript).",
+  "[CONFIRM: mandatory site visit, bonding, licenses, insurance, and submission requirements in an actual solicitation]; none are specified for this event in the supplied record (bid pack)."
+ ],
+ "gaps": [
+  "[CONFIRM: whether an event procurement will be issued and whether bathrooms can be quoted separately]",
+  "[CONFIRM: official procurement contact, submission method, evaluation criteria, and actual response deadline]",
+  "[CONFIRM: event date, exact Forest Park site, access, utilities, and delivery/removal windows]",
+  "[CONFIRM: restroom type, unit count, capacity, ADA requirements, servicing, and fleet availability]",
+  "[CONFIRM: applicable NAICS, PSC, GSA SIN coverage, and any eventual set-aside eligibility]",
+  "[CONFIRM: mandatory site visit, bonds, licenses, permits, and insurance]",
+  "[CONFIRM: incumbent sanitation provider, prior restroom prices, and approved next-year budget]",
+  "[CONFIRM: applicable approved pricing, billing basis, transportation costs, and service costs]"
+ ],
+ "deadline": "2027-10-01 is listed as the response deadline in the bid-pack metadata; time and time zone are not stated. It is future as of 2026-11-17, but the meeting transcript establishes no bid deadline and describes the event as occurring on the first Friday in October. [CONFIRM: actual procurement deadline and event date].",
+ "checked": "2026-11-17T21:27",
+ "ai": "codex",
+ "requested_ai": "claude-code",
+ "fallback": true
+}

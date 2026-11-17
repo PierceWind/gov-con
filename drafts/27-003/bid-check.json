@@ -1,0 +1,42 @@
+{
+ "verdict": "No bid",
+ "score": 12,
+ "one_line": "The City needs a homelessness program operator with professional case management and crisis intervention capabilities that Temporary 123\u2019s supplied profile does not establish.",
+ "scope": "Manage the Beaverton Safe Parking Program across five locations, including enrollment, parking assignments, participant rules, safety, stakeholder coordination, reporting, and connections to stable housing. Provide trauma-informed case management and on-call crisis intervention; the City separately funds program infrastructure such as portable toilets, handwashing stations, and storage pods.",
+ "fit": [
+  "Beaverton, Oregon is within the company\u2019s stated nationwide service area.",
+  "Sanitation, utilities, and basecamp operations offer limited supporting scope alignment.",
+  "Denver shelter restroom support demonstrates relevant facility support experience, but does not establish homelessness case management qualifications.",
+  "SBE and MBE status are documented; the supplied notice identifies no 8(a), WOSB, SDVOSB, or HUBZone restriction."
+ ],
+ "red_flags": [
+  "No documented professional case management staff, trauma-informed service experience, housing placement results, or crisis intervention capability.",
+  "The principal requirement is program operation rather than trailer rental; infrastructure receives separate City funding.",
+  "Solicitation NAICS 624190 and PSC G099 are absent from the company\u2019s listed codes. The supplied GSA SINs do not establish coverage for the required case management services.",
+  "No solicitation attachments were supplied; detailed requirements are available only through the description and HigherGov AI summary.",
+  "Funding period is unclear: the description lists $73,000, while the summary describes performance from July 1, 2027 through June 30, 2032, with possible renewals."
+ ],
+ "competition": "No incumbent, prior Beaverton winner, or current offer count is supplied. No agency awards under NAICS 624190 were found in the bid pack. Broader benchmarks include Volunteers Of America Northern Rockies for homeless veterans outreach ($1,004,070; three offers) and Acuity International for young adult case management ($21,896,818; 15 offers), but neither establishes direct competition for this program.",
+ "price_signal": "The description specifies $58,000 for case management plus $15,000 in flexible participant funds, totaling $73,000; HigherGov estimates $65,000\u2013$90,000. The funding period is unspecified. Supplied benchmark awards differ substantially in scope and duration, and trailer rental prices do not support pricing this service.",
+ "must_have": [
+  "Demonstrate the ability to serve extremely vulnerable populations through a trauma-informed approach and coordinate with the City, police, providers, host sites, and neighbors. Source: bid pack Description.",
+  "Operate the free program, enroll participants, assign spaces, maintain rosters, enforce rules, maintain site cleanliness and safety, connect participants to services, and respond to complaints. Source: HigherGov AI summary, Work Details; verify against the RFP.",
+  "Provide significant-incident reports within 24 hours, monthly participant and outcome reports, an annual report, and an on-call crisis intervention system. Source: HigherGov AI summary, Work Details; verify against the RFP.",
+  "Certify compliance with Oregon employment nondiscrimination laws and identify Oregon resident status. Source: HigherGov AI summary, Bidder Requirements; verify required forms against the RFP.",
+  "Consider COBID-certified enterprise participation toward the City\u2019s 15% goal; the summary describes participation as encouraged, not mandatory. Source: HigherGov AI summary, Bidder Requirements."
+ ],
+ "gaps": [
+  "[CONFIRM: complete RFP, amendments, submission method, required forms, evaluation criteria, and exact deadline time and time zone]",
+  "[CONFIRM: meaning and eligibility requirements of the notice\u2019s SBA set-aside designation; SBE/MBE status alone does not resolve this]",
+  "[CONFIRM: qualified case management staff, trauma-informed experience, crisis coverage, housing referral network, and comparable program past performance]",
+  "[CONFIRM: mandatory site visit requirements, bonding, insurance, professional licenses, and local operating requirements; none are stated in the supplied pack]",
+  "[CONFIRM: whether $73,000 applies annually or to another funding period, and confirm contract and renewal terms]",
+  "[CONFIRM: incumbent, previous program award values, and anticipated competition]",
+  "[CONFIRM: any proposed COBID participation; Temporary 123\u2019s Oregon COBID certification is not documented]"
+ ],
+ "deadline": "2026-11-30; still upcoming as of 2026-11-17. [CONFIRM: submission time and time zone; neither is supplied]",
+ "checked": "2026-11-17T21:14",
+ "ai": "codex",
+ "requested_ai": "claude-code",
+ "fallback": true
+}

@@ -1,0 +1,43 @@
+{
+ "verdict": "No bid",
+ "score": 10,
+ "one_line": "This is a historical event-planning discussion, not an actionable solicitation, and only the sanitation portion overlaps with Temporary 123\u2019s services.",
+ "scope": "The Water Street event in Eau Claire, Wisconsin, involved bands, stage rental, professional production, art, promotion, and sanitation. The only clear rental opportunity within our scope was five regular portable toilets and one handwashing station, for which the organizer already had a vendor quote.",
+ "fit": [
+  "Portable sanitation and handwashing equipment overlap with our facility support and rental capabilities, although availability of five regular portable toilets is unconfirmed.",
+  "Wisconsin falls within our stated nationwide service area.",
+  "No set-aside is stated; the record shows no certification restriction that conflicts with our SBE/MBE status.",
+  "Our listed NAICS codes do not include 711320. The notice lists no PSC or GSA SIN requirement; our active MAS and listed SINs do not establish coverage for the overall festival scope.",
+  "Denver restroom servicing experience supports the sanitation portion, but the supplied profile does not establish festival production, entertainment booking, or promotional services experience."
+ ],
+ "red_flags": [
+  "The record is classified as Agendas / Minutes and contains YouTube captions expressly identified as unofficial meeting minutes.",
+  "The June 22, 2026 discussion described the event as approximately 30 days away, placing its intended timing before today, November 17, 2026; the exact event date and outcome are unconfirmed.",
+  "The listed December 29 response deadline is unsupported by submission instructions or a request for bids in the attachment.",
+  "The organizer already had a sanitation quote from its usual vendor; stage and other arrangements were also underway.",
+  "Most of the scope falls outside our documented core competencies.",
+  "No procurement contact, submission method, evaluation criteria, or confirmed available contract is supplied."
+ ],
+ "competition": "The organizer\u2019s usual sanitation vendor had already quoted five regular portable toilets and a handwashing station; its name and quoted price are unclear. Four buses were being arranged through a personal connection for street blocking. No past awards, named winners, or offer counts were supplied under NAICS 711320.",
+ "price_signal": "No comparable award prices are supplied. The initial $5,000 BID commitment and additional $5,000 allocation are event funding, not contract values; the $4,000 visitor grant is restricted to promotion. Our handwashing sink trailer reference lists 2,995.00 in the 1\u20136 Days column, but currency, billing basis, applicability, and delivery terms are unspecified, and no regular portable-toilet price is supplied.",
+ "must_have": [
+  "Historical sanitation requirement: five regular portable toilets and one handwashing station; this is not a current invitation to quote. Source: attachment, 00:07:21\u201300:07:54.",
+  "Historical event approval requirements: City Council approval, approved street blockers, and six police officers for four hours each; these are organizer requirements, not established rental-vendor submission requirements. Source: attachment summary and 00:01:07\u201300:03:08.",
+  "No mandatory bidder site visit, bonding, vendor license, or proposal submission requirements are stated. Source: supplied opportunity record and attachment."
+ ],
+ "gaps": [
+  "[CONFIRM: whether any current procurement exists and whether sanitation work remains available]",
+  "[CONFIRM: exact event date, whether the event occurred, and any future performance dates]",
+  "[CONFIRM: official solicitation, procurement contact, submission method, and valid deadline with time zone]",
+  "[CONFIRM: availability of five regular portable toilets and an acceptable handwashing station in Eau Claire]",
+  "[CONFIRM: required servicing, delivery and removal windows, site access, and disposal arrangements]",
+  "[CONFIRM: applicable NAICS, PSC, purchasing vehicle, and any vendor registration, licensing, insurance, bonding, or site-visit requirements]",
+  "[CONFIRM: sanitation vendor identity, quoted price, award status, and remaining budget]",
+  "[CONFIRM: approved sanitation pricing, currency, billing basis, and Wisconsin transportation and servicing costs]"
+ ],
+ "deadline": "2026-12-29 is listed in the opportunity metadata; no time or time zone is stated. The attachment does not establish it as a bid deadline.",
+ "checked": "2026-11-17T21:17",
+ "ai": "codex",
+ "requested_ai": "claude-code",
+ "fallback": true
+}

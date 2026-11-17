@@ -1,0 +1,41 @@
+{
+ "verdict": "No bid",
+ "score": 15,
+ "one_line": "This is a budget-planning lead indicating use of an existing state contract, with no open solicitation or confirmed ordering path for Temporary 123.",
+ "scope": "Anacortes plans to obtain parks portable toilet services through an existing state contract and adjust service levels seasonally. The supplied meeting captions do not specify equipment types, quantities, locations, servicing frequency, or performance dates.",
+ "fit": [
+  "Portable sanitation, waste removal, servicing, and restroom facilities align with stated competencies.",
+  "Washington falls within the company's nationwide work area.",
+  "Denver restroom-trailer work provides related servicing experience, although the required Anacortes equipment is unspecified.",
+  "No set-aside is stated; the company's SBE/MBE status presents no identified restriction."
+ ],
+ "red_flags": [
+  "The notice is classified as Agendas / Minutes, not a solicitation, sources sought, or RFI.",
+  "Meeting captions at 00:34:07 indicate a planned transition to an existing state contract; company access to that vehicle is unconfirmed.",
+  "Listed NAICS 562991 is absent from the company profile. No PSC is stated, and the company's GSA SINs do not establish eligibility under the unidentified state contract.",
+  "The documented restroom-trailer fleet does not establish availability of the specific portable toilets the city needs.",
+  "The attachment consists of YouTube captions, expressly identified as unofficial meeting minutes."
+ ],
+ "competition": "No portable-toilet incumbent, state-contract supplier, past winner, or offer count is supplied. The bid pack reports no agency awards or broader award benchmarks under NAICS 562991.",
+ "price_signal": "Nearly $14,000 is projected savings, not contract value. No comparable portable-toilet award price is supplied. Temporary 123's $78,500 USCG award included berthing and sanitation and is not a direct pricing benchmark; the price list does not establish a rate for the unspecified parks equipment.",
+ "must_have": [
+  "No submission package or response instructions are stated. Source: bid-pack Opportunity and supplied meeting captions.",
+  "No mandatory bidder site visit, bonding, license, or past-performance threshold is stated; actual contract requirements remain unverified. Source: supplied bid pack.",
+  "[CONFIRM: applicable state contract and Temporary 123's eligibility to receive orders under it]. Source: meeting captions, 00:34:07."
+ ],
+ "gaps": [
+  "[CONFIRM: whether any procurement is open to new suppliers and whether a response is requested]",
+  "[CONFIRM: state contract number, awarded suppliers, ordering rules, and company access]",
+  "[CONFIRM: procurement contact and submission method]",
+  "[CONFIRM: equipment type, ADA requirements, quantities, and fleet availability]",
+  "[CONFIRM: park locations, seasonal schedule, service frequency, and performance term]",
+  "[CONFIRM: applicable licenses, disposal requirements, insurance, bonding, and mandatory site visits]",
+  "[CONFIRM: actual response deadline, time, and time zone]",
+  "[CONFIRM: incumbent, historical prices, contract value, and applicable approved pricing]"
+ ],
+ "deadline": "HigherGov metadata states 2027-12-31, which is after 2026-11-17; no time or time zone is stated. The supplied attachment establishes no procurement response deadline. [CONFIRM: actual deadline, time, and time zone]",
+ "checked": "2026-11-17T21:29",
+ "ai": "codex",
+ "requested_ai": "claude-code",
+ "fallback": true
+}

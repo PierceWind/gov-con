@@ -1,0 +1,43 @@
+{
+ "verdict": "Maybe",
+ "score": 30,
+ "one_line": "Track a possible portable-toilet rental and servicing opportunity, but this meeting update is not a solicitation and heating-oil supply-line repair is outside our documented capabilities.",
+ "scope": "Cape Cod National Seashore staff reported a failed heating-oil supply line at the Salt Pond Visitor Center satellite restroom in Eastham, Massachusetts. The restroom will close December 1, 2026, with two portable toilets provided during the closure. The supplied material does not establish whether toilet rental and servicing will be procured separately from the repair.",
+ "fit": [
+  "Portable sanitation, waste removal, and restroom facilities match our core services; availability of the specific porta johns described is unconfirmed.",
+  "Massachusetts falls within our nationwide work area.",
+  "Denver restroom servicing and USCG housing and sanitation work support the temporary-sanitation portion.",
+  "No set-aside is stated, so no stated restriction conflicts with our SBE/MBE status."
+ ],
+ "red_flags": [
+  "The source is meeting captions explicitly labeled as unofficial minutes, not an invitation for bids, RFQ, sources sought, or RFI.",
+  "Listed NAICS 238220 is absent from our company profile; heating-oil supply-line repair experience and licenses are not documented.",
+  "Our PSCs W023, W099, W045 and GSA SINs 532490P, 561210FS, 561210FAC, 541614 do not establish coverage for the repair; the notice supplies no PSC or GSA ordering requirement.",
+  "No procurement specifications, submission instructions, servicing schedule, rental duration, or repair completion date are supplied.",
+  "The listed January response date falls after the December closure begins; its status as a procurement deadline is unverified.",
+  "The listing names the Town of Eastham, while the reported need concerns Cape Cod National Seashore; the contracting entity is unconfirmed."
+ ],
+ "competition": "No incumbent, past winner, or offer count is supplied. The bid pack reports no agency awards or broader benchmarks under NAICS 238220.",
+ "price_signal": "No directly comparable award price or project estimate is supplied. Temporary 123's USCG housing and sanitation award was $78,500, but its scope differs substantially. The supplied price list has no standalone porta-john rate and leaves currency and billing basis unspecified.",
+ "must_have": [
+  "No submission items or binding procurement requirements are established by the supplied meeting update. [CONFIRM: actual solicitation and submission requirements] (Source: bid pack Opportunity and attachment.)",
+  "The stated operational plan is two portable toilets during the restroom closure beginning December 1, 2026; contractor specifications are unconfirmed. (Source: attachment, 00:09:51\u201300:10:22.)",
+  "[CONFIRM: mandatory site visit, bonding, licenses, permits, and insurance requirements]; none are stated in the supplied material. (Source: bid pack and attachment.)"
+ ],
+ "gaps": [
+  "[CONFIRM: whether an open procurement exists and which agency will contract]",
+  "[CONFIRM: whether portable-toilet rental and servicing are separately available or already arranged]",
+  "[CONFIRM: actual response deadline, time, time zone, submission method, and procurement contact]",
+  "[CONFIRM: availability of two suitable portable toilets and Massachusetts delivery and servicing capacity]",
+  "[CONFIRM: rental duration, winter operating specifications, accessibility requirements, placement, and servicing frequency]",
+  "[CONFIRM: applicable NAICS, size standard, set-aside, PSC, and any GSA SIN requirement]",
+  "[CONFIRM: mandatory site visit, bonding, licenses, permits, and insurance requirements]",
+  "[CONFIRM: qualified repair capability or partner if the heating-oil supply-line repair is bundled]",
+  "[CONFIRM: approved equipment, delivery, servicing, and removal prices]"
+ ],
+ "deadline": "2027-01-06 is listed as the response deadline in the bid pack; time and time zone are not stated. It is future as of 2026-11-17, but the meeting attachment establishes no procurement deadline. [CONFIRM: official deadline, time, and time zone]",
+ "checked": "2026-11-17T21:18",
+ "ai": "codex",
+ "requested_ai": "claude-code",
+ "fallback": true
+}

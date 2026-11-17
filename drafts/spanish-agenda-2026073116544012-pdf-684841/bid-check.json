@@ -1,0 +1,46 @@
+{
+ "verdict": "No bid",
+ "score": 25,
+ "one_line": "Do not bid this agenda item: the services fit our business, but the supplied record is a funding continuation action with no open solicitation or response instructions.",
+ "scope": "Agenda Item 24 proposes funding continued Skid Row hygiene, citywide Rapid Pit Stop, and BPW portable hygiene services from July 1, 2026, through June 30, 2027. It does not request vendor proposals or establish equipment quantities, specifications, staffing, or servicing requirements. Keep this as a potential future opportunity.",
+ "fit": [
+  "Restroom and shower facilities, potable water support, waste removal, cleaning, maintenance, and turnkey operations match our stated competencies and fleet.",
+  "Denver shelter restroom servicing and USCG housing and sanitation work provide relevant past performance, although comparable citywide operating capacity is unconfirmed.",
+  "Los Angeles, California, falls within our nationwide work area; our company address is in Marina del Rey.",
+  "Our profile lists NAICS 532490 and 561210 and PSC W023, W099, and W045; the notice lists NAICS 562991, which is absent from our stated coverage, and no PSC.",
+  "Active GSA MAS #47QSMS25D00AM lists SINs 532490P, 561210FS, 561210FAC, and 541614, but this agenda establishes no GSA purchasing route or required SIN.",
+  "No set-aside is stated. Our stated SBE/MBE status presents no identified restriction here; eligibility for any future procurement remains unconfirmed."
+ ],
+ "red_flags": [
+  "This is an Agendas / Minutes record, not a solicitation, sources sought, or RFI.",
+  "The funding recommendations are subject to mayoral approval; the supplied agenda does not establish final approval or a new competitive procurement.",
+  "The word 'continuation' suggests existing services, but does not establish whether contracts will be extended or recompeted.",
+  "The service period began before today's November 17, 2026 review date.",
+  "The listed June 30, 2027 response deadline matches the service-period end and is not supported as a bid deadline by the agenda.",
+  "No procurement contact, submission route, evaluation criteria, unit counts, or detailed scope is supplied.",
+  "The listed estimated value exceeds the three relevant hygiene transfers by $125.00."
+ ],
+ "competition": "No relevant incumbent, past winner, offer count, or award benchmark is supplied. The bid pack reports zero agency awards and zero broader benchmarks found under NAICS 562991. Continuation language alone does not identify an incumbent or establish competitive access.",
+ "price_signal": "Item 24, recommendations 11, 15, and 16 propose up to $4,936,003.16, $5,595,292.80, and $2,183,297.32 respectively, totaling $12,714,593.28. These are program funding transfers, not award prices or a single contract ceiling; HigherGov lists $12,714,718.28. Our $78,500 USCG sanitation/housing award is a smaller reference, not a comparable citywide price. Denver's printed contract value needs confirmation, and the unit price list lacks confirmed currency and billing basis.",
+ "must_have": [
+  "No vendor submission items or hard procurement requirements are established by the supplied record. Source: bid pack Type: Agendas / Minutes; Spanish Agenda, Item 24, pages 30\u201337.",
+  "Mandatory site visits, bonding, and contractor licenses are not stated for these hygiene services; absence from the agenda does not establish that none will be required. Source: Spanish Agenda, Item 24.",
+  "Council public-comment procedures are meeting participation rules, not bid submission instructions. Source: Spanish Agenda, pages 2\u20133."
+ ],
+ "gaps": [
+  "[CONFIRM: whether an open solicitation or RFI exists, its official number, procurement contact, and submission instructions]",
+  "[CONFIRM: final funding approval and whether continuation uses existing contracts, extensions, or a new competition]",
+  "[CONFIRM: actual bid deadline, time, and time zone]",
+  "[CONFIRM: required equipment types, unit counts, locations, accessibility specifications, operating hours, staffing, servicing frequency, and remaining performance period]",
+  "[CONFIRM: available fleet and staffing capacity for the required Los Angeles operations]",
+  "[CONFIRM: NAICS 562991 coverage, required PSC/SIN, purchasing route, and any set-aside eligibility requirements]",
+  "[CONFIRM: mandatory site visits, bonding, insurance, licenses, permits, and waste-disposal requirements]",
+  "[CONFIRM: relevant incumbents, contract numbers, past award prices, and offers received]",
+  "[CONFIRM: $125.00 funding-value discrepancy and applicable approved pricing, currency, billing basis, and service inclusions]"
+ ],
+ "deadline": "HigherGov states 2027-06-30; no time or time zone is supplied. This date is future as of 2026-11-17, but the agenda identifies it as the service-period end, not a procurement response deadline. [CONFIRM: actual submission deadline, time, and time zone]",
+ "checked": "2026-11-17T21:26",
+ "ai": "codex",
+ "requested_ai": "claude-code",
+ "fallback": true
+}

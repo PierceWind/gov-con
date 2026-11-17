@@ -170,9 +170,9 @@ def _bullet_block(label, values, max_items=None, item_limit=360):
     values = _items(values)
     if max_items and len(values) > max_items:
         values = values[:max_items] + [f"({len(values) - max_items} additional items in the bid check)"]
-    if not values:
-        return [f"**{label}:** Not stated"]
-    return [f"**{label}:**"] + [f"- {_clip(item, item_limit)}" for item in values]
+    if not values or (len(values) == 1 and values[0].casefold() == "not stated"):
+        return f"**{label}:** Not stated"
+    return f"**{label}:**\n\n" + "\n".join(f"- {_clip(item, item_limit)}" for item in values)
 
 
 def _brief_markdown(r, max_bullets=None):
@@ -196,7 +196,7 @@ def _brief_markdown(r, max_bullets=None):
     questions = _first(r, "Questions due", "Questions Due", default="") or "Not stated"
     start = _first(r, "Start date", "Start Date", default="") or bid.get("start_date") or "Not stated"
     note = _first(r, "Note", "Notes", default="")
-    lines = [
+    blocks = [
         f"## {title}",
         f"**Agency:** {agency}",
         f"**Solicitation:** {solicitation}",
@@ -208,17 +208,17 @@ def _brief_markdown(r, max_bullets=None):
         f"**AI view:** {ai_view}",
         f"**Scope:** {_clip(scope, 1200)}",
     ]
-    lines += _bullet_block("Key requirements", requirements, max_items=max_bullets)
-    lines += _bullet_block("Eligibility / gaps", gaps, max_items=max_bullets)
-    lines += _bullet_block("Risks / red flags", red_flags, max_items=max_bullets)
+    blocks += [_bullet_block("Key requirements", requirements, max_items=max_bullets)]
+    blocks += [_bullet_block("Eligibility / gaps", gaps, max_items=max_bullets)]
+    blocks += [_bullet_block("Risks / red flags", red_flags, max_items=max_bullets)]
     if competition:
-        lines.append(f"**Competition:** {_clip(competition, 900)}")
+        blocks.append(f"**Competition:** {_clip(competition, 900)}")
     if price:
-        lines.append(f"**Price signal:** {_clip(price, 900)}")
+        blocks.append(f"**Price signal:** {_clip(price, 900)}")
     if note:
-        lines.append(f"**Notes:** {_clip(note, 900)}")
-    lines.append(f"**Official link:** {link}")
-    return "\n".join(lines)
+        blocks.append(f"**Notes:** {_clip(note, 900)}")
+    blocks.append(f"**Official link:** {link}")
+    return "\n\n".join(blocks)
 
 
 def brief_markdown(rows):

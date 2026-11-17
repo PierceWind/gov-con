@@ -1,0 +1,37 @@
+{
+ "verdict": "No bid",
+ "score": 8,
+ "one_line": "This is a preliminary permanent restroom conversion project, outside our documented rental scope, with no actual solicitation or response instructions supplied.",
+ "scope": "Darien is considering converting part of the Pear Tree concession area into one or more completely ADA accessible, family accessible restrooms using existing infrastructure. The project could eliminate the year-round portable toilet; funding and timing remain preliminary.",
+ "fit": [
+  "Connecticut falls within our stated nationwide service area.",
+  "Our restroom trailers and sanitation services could support a separately requested temporary-facility need.",
+  "SBE/MBE status presents no stated set-aside conflict; none is identified."
+ ],
+ "red_flags": [
+  "The notice is classified as Agendas / Minutes, supported by unofficial YouTube captions, rather than an IFB, RFP, sources sought, or RFI.",
+  "Permanent building conversion is outside our documented core rental competencies and past performance.",
+  "Listed NAICS 236220 is absent from our supplied NAICS coverage. No PSC is stated, and our supplied GSA SINs do not establish coverage for this conversion.",
+  "The project could be deferred because of department workload.",
+  "Staff described a substantial-improvement spending limit of 50% of building value over three years; the $75,000 allowance leaves room below an approximately $100,000 limit."
+ ],
+ "competition": "No incumbent, past winner, or offer count is supplied for this conversion. The bid pack found no agency awards under NAICS 236220 and no matching award benchmarks; proposal counts for unrelated projects do not establish competition here.",
+ "price_signal": "$75,000 is a preliminary budget allowance, not an award price or firm estimate. No comparable construction awards are supplied; our rental price list and temporary-facility awards do not establish a conversion price.",
+ "must_have": [
+  "The proposed facilities must be completely ADA accessible and family accessible; detailed specifications are not supplied. Source: meeting transcript, 00:44:29\u201300:45:32.",
+  "No submission package, mandatory site visit, bonding, license, or past-performance requirements are established in the supplied material. Source: bid pack and attached meeting transcript."
+ ],
+ "gaps": [
+  "[CONFIRM: whether an actual procurement will be issued, its approved scope, funding, and schedule]",
+  "[CONFIRM: official response deadline, time, time zone, submission method, and procurement contact]",
+  "[CONFIRM: final restroom count, drawings, accessibility specifications, and required construction trades]",
+  "[CONFIRM: mandatory site visit, bonding, licenses, permits, insurance, and past-performance requirements]",
+  "[CONFIRM: construction delivery capability and applicable NAICS/GSA coverage before considering a prime bid]",
+  "[CONFIRM: whether any separate temporary-restroom rental requirement exists, including unit count, duration, accessibility, and fleet availability]"
+ ],
+ "deadline": "2027-01-22 is listed in the opportunity metadata and is future as of 2026-11-17; no time or time zone is stated. The attachment establishes no procurement response deadline. [CONFIRM: official deadline, time, and time zone]",
+ "checked": "2026-11-17T21:25",
+ "ai": "codex",
+ "requested_ai": "claude-code",
+ "fallback": true
+}

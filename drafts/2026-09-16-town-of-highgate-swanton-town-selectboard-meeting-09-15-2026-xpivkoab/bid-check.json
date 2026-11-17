@@ -1,0 +1,40 @@
+{
+ "verdict": "No bid",
+ "score": 20,
+ "one_line": "Do not bid this record: it documents preliminary town discussion, with no solicitation, approved scope, or submission process.",
+ "scope": "Officials discussed restoring portable toilet access at the LVRT parking area while limiting vandalism and closing access after hours. The attachment calls for pricing a rollup steel door; the bid-pack description says folding steel door, and no final design, rental arrangement, budget, or implementation date is established.",
+ "fit": [
+  "Portable sanitation, restroom facilities, servicing, and waste removal fit Temporary 123's capabilities; nationwide coverage includes Vermont.",
+  "Denver restroom operations provide relevant sanitation experience, but steel security-door fabrication and installation are not documented capabilities.",
+  "Listed NAICS 332321 is absent from the company profile; no PSC is stated. The company's PSCs W023, W099, W045 and GSA SINs 532490P, 561210FS, 561210FAC, 541614 do not establish coverage for this undefined purchase.",
+  "No set-aside is stated, so no stated restriction excludes the company's SBE/MBE status."
+ ],
+ "red_flags": [
+  "The record is classified as Agendas / Minutes; its attachment is YouTube captions, expressly not official meeting minutes.",
+  "HigherGov identifies Highgate, while the meeting identifies Swanton; the purchasing entity is unresolved.",
+  "Board spending approval remains undecided in the supplied discussion.",
+  "Standard portable toilet availability and steel enclosure capability are unconfirmed; a restroom trailer is not an established substitute.",
+  "Repeated vandalism creates unresolved equipment protection, repair, and servicing obligations."
+ ],
+ "competition": "No incumbent or previous portable toilet supplier is named. The supplied pack reports zero agency awards and zero benchmarks under NAICS 332321; past winners and offers received are unavailable.",
+ "price_signal": "No relevant award price or approved restroom/security-door budget is supplied. Company trailer prices do not establish a standard portable toilet or steel-door price, and the price list leaves currency, billing basis, and delivery terms unspecified. Meeting amounts for benches, trash receptacles, lighting, and other projects are unrelated.",
+ "must_have": [
+  "No bid forms, submission method, evaluation criteria, mandatory site visit, bonding, license, or past-performance threshold is stated for the restroom/security enclosure discussion. Source: bid-pack Opportunity and attachment, especially 00:44:25\u201300:45:06.",
+  "The event-insurance and coordination conditions apply to the PTO fun run, not this potential purchase. Source: attachment, 00:02:48\u201300:07:07."
+ ],
+ "gaps": [
+  "[CONFIRM: whether an active solicitation or request for quotes exists, its current amendments, submission instructions, and actual deadline]",
+  "[CONFIRM: purchasing entity, authorized procurement contact, and exact Vermont site]",
+  "[CONFIRM: board approval, funding, budget, purchase versus rental, implementation date, and service duration]",
+  "[CONFIRM: rollup versus folding steel door, enclosure specifications, installation responsibilities, permits, licenses, bonding, and mandatory site visit]",
+  "[CONFIRM: portable toilet type, unit count, accessibility requirements, available inventory, and compliant security-door capability]",
+  "[CONFIRM: delivery access, Vermont service coverage, cleaning and pump-out frequency, after-hours locking, and vandalism liability]",
+  "[CONFIRM: applicable NAICS, PSC, GSA purchasing route/SIN coverage, and any eventual set-aside]",
+  "[CONFIRM: incumbent supplier, prior prices, competing quotes, and approved equipment, installation, transportation, and servicing rates]"
+ ],
+ "deadline": "2026-12-16 is listed in HigherGov metadata and is future as of 2026-11-17. Time and time zone are not stated; the attachment establishes no procurement response deadline. [CONFIRM: official deadline, time, and time zone]",
+ "checked": "2026-11-17T21:15",
+ "ai": "codex",
+ "requested_ai": "claude-code",
+ "fallback": true
+}

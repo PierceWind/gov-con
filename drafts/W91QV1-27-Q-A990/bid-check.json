@@ -1,0 +1,43 @@
+{
+ "verdict": "Maybe",
+ "score": 52,
+ "one_line": "Portable sanitation fits our services, but this forecast lacks the requirements needed to confirm fleet fit, eligibility, and competitive pricing.",
+ "scope": "W91QV1-27-Q-A990 forecasts JBMHH FY27 Porta John Rental for MICC Fort Belvoir. No attachments establish quantities, equipment specifications, servicing frequency, performance dates, or delivery locations.",
+ "fit": [
+  "Portable sanitation, restroom facilities, water support, and waste removal are stated core capabilities.",
+  "Nationwide coverage supports potential deployment; the current place of performance is unspecified.",
+  "Denver restroom servicing and USCG housing and sanitation work provide relevant experience.",
+  "SBE status appears consistent with the listed SBA set-aside, subject to confirming size eligibility under NAICS 562991.",
+  "Active SAM and GSA MAS #47QSMS25D00AM are documented."
+ ],
+ "red_flags": [
+  "The source is a contract forecast with opportunity type Unknown, zero attachments, and no usable contact.",
+  "Standalone Porta John inventory and quantities are not documented; restroom trailers may not meet the eventual requirement.",
+  "NAICS 562991 and PSC W085 are absent from the supplied company code lists; coverage under listed GSA SINs is unconfirmed.",
+  "Mandatory site visits, bonding, licenses, and submission requirements are unknown.",
+  "Repeated awards to Two-Tac and a closely matching BPM Services award indicate established competition."
+ ],
+ "competition": "BPM Services received a JBMHH Porta John Rental award for $44,472 with 3 offers; Two-Tac received a Fort Myer Porta John Services award for $266,945 with 9 offers and numerous smaller portable-latrine awards. The current incumbent and current offer count are [CONFIRM: incumbent and current competition].",
+ "price_signal": "The forecast estimates $25,000\u2013$250,000. Closest supplied awards are BPM Services at $44,472 and Two-Tac at $266,945, but quantities, servicing, and comparable pricing periods are unavailable. These are reported award values, not verified annual rates. The company price list has no standalone Porta John rate and leaves currency and billing basis unspecified.",
+ "must_have": [
+  "Confirm small-business eligibility for the listed SBA set-aside under NAICS 562991; SBE/MBE status alone does not establish size eligibility. Sources: bid pack Opportunity; company profile.",
+  "[CONFIRM: required submission documents, delivery method, and evaluation criteria]. Source: bid pack lists zero attachments and no submission instructions.",
+  "[CONFIRM: mandatory site visit, bonding, licenses, and technical requirements]. Source: no requirements documents supplied."
+ ],
+ "gaps": [
+  "[CONFIRM: whether a solicitation has been issued and whether the forecast deadline remains current].",
+  "[CONFIRM: exact place of performance, delivery sites, access requirements, and performance dates].",
+  "[CONFIRM: Porta John types, quantities, accessibility requirements, handwashing needs, and servicing frequency].",
+  "[CONFIRM: compliant standalone Porta John inventory, availability, and local servicing capacity].",
+  "[CONFIRM: SBA set-aside terms and company size eligibility under NAICS 562991].",
+  "[CONFIRM: applicable NAICS/PSC registrations and GSA SIN coverage if schedule ordering is required].",
+  "[CONFIRM: site visit requirements, bonding, licenses, submission requirements, and evaluation criteria].",
+  "[CONFIRM: approved rental and service rates, billing basis, delivery costs, and disposal costs].",
+  "[CONFIRM: incumbent, comparable award scope, and whether reported award values represent full contract totals]."
+ ],
+ "deadline": "2027-02-01; time and time zone not stated. Future as of 2026-11-17. [CONFIRM: official response deadline, time, and time zone].",
+ "checked": "2026-11-17T21:26",
+ "ai": "codex",
+ "requested_ai": "claude-code",
+ "fallback": true
+}

@@ -1,0 +1,37 @@
+{
+ "verdict": "No bid",
+ "score": 12,
+ "one_line": "This is an event funding request, not an actionable solicitation, and only the $475 portable restroom item clearly fits Temporary 123\u2019s documented services.",
+ "scope": "Alamogordo requests $9,875 for Christmas Tree Lighting Ceremony attractions, entertainment, refreshments, supplies, portable restrooms, and a light tower at Washington Park on December 4, 2026. The supplied agenda documents a budget amendment, with no vendor selection or invitation to submit bids.",
+ "fit": [
+  "Portable restroom rental and servicing match the company\u2019s sanitation fleet and relevant Denver and USCG experience.",
+  "New Mexico falls within the company\u2019s stated nationwide service area.",
+  "No set-aside is stated; no restriction conflicting with the company\u2019s SBE/MBE status is identified."
+ ],
+ "red_flags": [
+  "No actual solicitation, submission instructions, procurement contact, or evaluation criteria are supplied.",
+  "Most spending is for snow slide rental, a petting zoo, entertainment, and event supplies outside the documented core competencies.",
+  "Listed NAICS 713990 is absent from the company\u2019s supplied NAICS coverage. No PSC or GSA SIN is specified for this opportunity; the active MAS does not establish coverage for the entire event scope.",
+  "The $475 restroom allocation does not establish that the city needs trailers matching the company\u2019s fleet or can cover delivery and servicing.",
+  "Light tower inventory is not established by the company profile; communications towers do not establish this capability."
+ ],
+ "competition": "No event suppliers, incumbent, past winners, or offer counts are supplied. No agency awards or benchmarks were found in the bid pack. National Construction\u2019s Fire Station 2 work is unrelated.",
+ "price_signal": "The $9,875 is requested event funding, including $475 for portable restrooms and $450 for a light tower, not award pricing. No comparable awards are supplied. The company price list does not establish a matching standalone restroom rate, and its currency, billing basis, and delivery terms remain unspecified.",
+ "must_have": [
+  "No bid submission items or mandatory site visit, bonding, license, or past-performance requirements are stated for the event. Source: bid pack and agenda budget journal 2027/4/680.",
+  "Event service window: December 4, 2026, 5:00 PM\u20139:00 PM, Washington Park. Setup and removal requirements are unstated. Source: agenda budget journal 2027/4/680."
+ ],
+ "gaps": [
+  "[CONFIRM: whether an open procurement exists and separate restroom quotes are accepted]",
+  "[CONFIRM: purchasing contact, submission method, actual bid deadline, time, and time zone]",
+  "[CONFIRM: restroom type, unit count, capacity, ADA requirements, utilities, servicing, and setup/removal schedule]",
+  "[CONFIRM: available compliant fleet and delivered cost to Washington Park within the restroom budget]",
+  "[CONFIRM: mandatory site visit, bonding, insurance, licenses, and vendor registration requirements]",
+  "[CONFIRM: applicable procurement NAICS/PSC/GSA SIN coverage and any set-aside restrictions]"
+ ],
+ "deadline": "HigherGov lists December 4, 2026, which is after November 17, 2026, but the underlying record identifies it as the event date, not a bid deadline. Event hours are 5:00 PM\u20139:00 PM; time zone is unstated. [CONFIRM: actual response deadline, time, and time zone]",
+ "checked": "2026-11-17T21:15",
+ "ai": "codex",
+ "requested_ai": "claude-code",
+ "fallback": true
+}

@@ -1,0 +1,40 @@
+{
+ "verdict": "No bid",
+ "score": 20,
+ "one_line": "Do not bid now: this is a meeting discussion of a possible future sanitation need, with no solicitation or request for responses.",
+ "scope": "Maui Emergency Management Agency is evaluating pre-positioned portable toilets for future resilient hubs. The supplied meeting captions establish no quantities, hub locations, servicing requirements, funding, or implementation schedule.",
+ "fit": [
+  "Portable sanitation, restroom facilities, water delivery, and waste removal match our core competencies and stated fleet.",
+  "Emergency basecamp support and the supplied USCG and Denver sanitation experience support a future capability response.",
+  "Nationwide coverage includes the stated Hawaii location, but Maui deployment and servicing capacity remain unconfirmed.",
+  "No set-aside is stated; our SBE/MBE status presents no stated eligibility barrier.",
+  "Active GSA MAS coverage includes SINs 532490P, 561210FS, 561210FAC, and 541614, but this record establishes no GSA purchasing requirement."
+ ],
+ "red_flags": [
+  "The record is classified as Agendas / Minutes, not a solicitation, sources sought notice, or RFI.",
+  "Portable toilets are a prospective capability; the supplied fleet description does not confirm standalone portable toilet inventory.",
+  "Listed NAICS 562991 is absent from our supplied company codes; no PSC is stated.",
+  "No submission instructions, procurement contact, or confirmed response deadline appear in the meeting captions.",
+  "Mandatory site visits, bonding, licenses, and procurement-specific past performance requirements are not established."
+ ],
+ "competition": "No sanitation incumbent, past winner, or sanitation offer count is supplied. At 02:00:38\u201302:01:44, officials said only generator and bus providers submitted bids or proposals during earlier outreach. West Maui Land Construction Company and Alpha were discussed as competitive winners on other work, not portable sanitation.",
+ "price_signal": "No agency sanitation awards or matching benchmarks were supplied. Our USCG housing and sanitation award was $78,500 for May\u2013July 2026, but its bundled scope does not establish a Maui portable toilet price. The price list supplies no standalone portable toilet rate and leaves currency, billing basis, geography, and delivery terms unresolved.",
+ "must_have": [
+  "No current bid or RFI submission items are established. Source: bid pack opportunity type and meeting captions, 01:59:54\u201302:02:54.",
+  "No mandatory site visit, bond, license, or equipment minimum is stated. Source: supplied bid pack and attachment."
+ ],
+ "gaps": [
+  "[CONFIRM: whether an active solicitation or request for capability responses exists, with official submission instructions and procurement contact]",
+  "[CONFIRM: official deadline, time, and time zone; HigherGov's listed date is not corroborated by the attachment]",
+  "[CONFIRM: portable toilet quantities, specifications, ADA requirements, hub locations, and standby or deployment schedule]",
+  "[CONFIRM: Maui inventory availability, transport lead time, servicing resources, wastewater disposal arrangements, and costs]",
+  "[CONFIRM: procurement NAICS, applicable size standard, set-aside, PSC, and whether GSA SIN coverage is relevant]",
+  "[CONFIRM: mandatory site visits, bonding, Hawaii licensing or permits, insurance, and past performance requirements]",
+  "[CONFIRM: funding, contract duration, pricing structure, and any fuel adjustment terms]"
+ ],
+ "deadline": "2027-01-21 is listed in HigherGov metadata and is future as of 2026-11-17; no time or time zone is supplied, and the meeting attachment establishes no procurement response deadline.",
+ "checked": "2026-11-17T21:19",
+ "ai": "codex",
+ "requested_ai": "claude-code",
+ "fallback": true
+}

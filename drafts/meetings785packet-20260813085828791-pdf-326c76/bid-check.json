@@ -1,0 +1,42 @@
+{
+ "verdict": "No bid",
+ "score": 20,
+ "one_line": "There is no active solicitation to answer, and the contemplated prime contract is for a local nonprofit operator; Temporary 123 fits a possible sanitation subcontract.",
+ "scope": "Thornton is considering a six-month Safe Parking pilot with 5\u201310 spaces, trash services, hand washing stations, porta potties, intake and background checks, and quarterly reporting and data sharing. The contracted model anticipates a local nonprofit providing services for an estimated $98,000. Staff does not recommend Safe Parking and instead recommends exploring an Aurora Regional Navigation Campus partnership.",
+ "fit": [
+  "Portable sanitation, handwashing equipment, water support, waste removal, and servicing align with the company\u2019s facility support capabilities and fleet (company profile; price list).",
+  "Nationwide coverage includes Colorado, and the Denver shelter restroom-trailer contract provides relevant sanitation experience (company profile, operations and past performance).",
+  "Company NAICS 624230 and 624221 are related coverage, but the listed opportunity code 624229 is not in the supplied company profile. Company PSCs are W023, W099, and W045; no opportunity PSC is stated (company profile; bid pack).",
+  "Active GSA MAS #47QSMS25D00AM includes SINs 532490P, 561210FS, 561210FAC, and 541614; the packet establishes no GSA purchasing route or required SIN (company profile; bid pack)."
+ ],
+ "red_flags": [
+  "This is an agenda/planning packet, not an RFP, sources sought notice, or RFI; it supplies no submission instructions.",
+  "Model 2 contemplates an RFP contract with a local nonprofit. The supplied company profile establishes SBE and MBE status but does not establish local nonprofit eligibility.",
+  "Intake, background checks, case management, housing navigation, and program reporting extend beyond the demonstrated equipment and sanitation scope.",
+  "Safe Parking requires zoning changes and suitable zoning districts; site selection, Council direction, and funding remain unresolved (attachment, Safe Parking slides 15\u201319).",
+  "No set-aside is stated. SBE/MBE status does not establish eligibility for the contemplated local nonprofit operator role.",
+  "Mandatory site visits, bonding, licenses, equipment quantities, and performance dates are not specified."
+ ],
+ "competition": "No Safe Parking incumbent, past winner, or offer count is supplied; the bid pack reports zero agency awards and zero benchmarks under NAICS 624229. The Aurora partnership is the staff-recommended alternative, not an identified Safe Parking awardee.",
+ "price_signal": "$98,000 is a planning estimate for the entire contracted six-month model, not an award or sanitation budget. The $26,000 city-staff model has different staffing responsibilities and is not a comparable contractor award. No comparable award prices are supplied; the company price list lacks confirmed billing basis and complete delivery and servicing terms, so it cannot support a six-month quote.",
+ "must_have": [
+  "No current submission package or response is requested (source: attachment, Homelessness Sheltering Options communication and Safe Parking slides 17\u201320).",
+  "Prospective operator: local nonprofit under Model 2; this is a planning condition pending an actual RFP (source: attachment, Safe Parking slide 17).",
+  "Prospective services: trash, hand washing stations, porta potties, intake and background checks, quarterly reports and data sharing, with case management and housing navigation identified in the contracted model (source: attachment, Safe Parking slide 17).",
+  "Implementation depends on site feasibility, site agreement, contracts or partnerships, and completion of site requirements; zoning changes are also identified (source: attachment, Safe Parking slides 15 and 19)."
+ ],
+ "gaps": [
+  "[CONFIRM: Council authorization, funding, zoning approval, and issuance of an actual Safe Parking solicitation]",
+  "[CONFIRM: final local nonprofit eligibility rules and whether equipment subcontracting is allowed]",
+  "[CONFIRM: eligible nonprofit prime partner before pursuing a sanitation subcontract]",
+  "[CONFIRM: exact Thornton site, performance dates, equipment quantities, accessibility requirements, utilities, servicing frequency, and available fleet]",
+  "[CONFIRM: mandatory site visits, bonding, licenses, insurance, and required past performance in the actual solicitation]",
+  "[CONFIRM: submission contact, required documents, evaluation criteria, and official deadline]",
+  "[CONFIRM: approved equipment rates, currency, billing basis, delivery, setup, collection, and servicing costs]"
+ ],
+ "deadline": "HigherGov metadata states 2027-12-31; no time or time zone is supplied. As of 2026-11-17, that date is future, but the underlying planning packet establishes no procurement response deadline. [CONFIRM: official deadline, time, and time zone if an RFP is issued]",
+ "checked": "2026-11-17T21:29",
+ "ai": "codex",
+ "requested_ai": "claude-code",
+ "fallback": true
+}

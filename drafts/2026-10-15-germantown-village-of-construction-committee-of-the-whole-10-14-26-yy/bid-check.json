@@ -1,0 +1,41 @@
+{
+ "verdict": "No bid",
+ "score": 15,
+ "one_line": "Do not bid now: this is a budget discussion, not a solicitation or request for information; retain it as a possible future portable-toilet opportunity.",
+ "scope": "Germantown discussed portable toilets for parks and landscape services, including weed control and fertilization. Staff requested a $9,000 increase in the shared expense category because only three indoor bathrooms serve nine parks; no equipment quantities, service schedule, or procurement scope were issued.",
+ "fit": [
+  "Portable sanitation, restroom facilities, cleaning, pump-outs, waste disposal, and maintenance match stated capabilities.",
+  "The Denver restroom-trailer contract provides relevant municipal sanitation experience.",
+  "Wisconsin is within the company's stated nationwide work area.",
+  "No set-aside is stated; the company's SBE and MBE status presents no stated eligibility conflict."
+ ],
+ "red_flags": [
+  "The record is classified as Agendas / Minutes and contains unofficial YouTube captions, not procurement instructions.",
+  "Portable toilets or porta johns are discussed; availability of the required equipment type is unconfirmed because the documented fleet emphasizes restroom trailers.",
+  "Weed control and fertilization are not documented core competencies.",
+  "Listed NAICS 561720 is absent from the company profile. No PSC is supplied, and applicability of the company's GSA SINs is not established.",
+  "The $9,000 is a requested budget increase covering toilets and landscaping, not a contract value or award ceiling.",
+  "No submission process, procurement contact, mandatory site visit, bonding requirement, or license requirement is stated; their absence does not establish a waiver."
+ ],
+ "competition": "No relevant incumbent, past winner, or offer count is supplied. The bid pack reports zero agency awards and zero benchmarks under NAICS 561720. Safe Built's inspection-services agreement concerns unrelated work.",
+ "price_signal": "No comparable award price is supplied. The company's Denver restroom-trailer contract has an unresolved value printed as approximately $100,00.00. The price list does not establish standalone porta-john or landscaping rates, and its currency and billing basis are unspecified.",
+ "must_have": [
+  "No bid or RFI submission items are stated. Source: Bid pack, Opportunity type and October 14, 2026 meeting captions.",
+  "No mandatory site visit, bond, license, equipment specification, or past-performance threshold is stated. Source: Supplied bid pack and attachment."
+ ],
+ "gaps": [
+  "[CONFIRM: whether an actual solicitation or RFI will be issued, its official identifier, procurement contact, and submission instructions]",
+  "[CONFIRM: official response deadline, time, and time zone]",
+  "[CONFIRM: toilet type, unit count, accessibility requirements, park addresses, rental term, and servicing frequency]",
+  "[CONFIRM: whether sanitation and landscaping will be purchased separately]",
+  "[CONFIRM: suitable equipment availability and Wisconsin delivery and servicing costs]",
+  "[CONFIRM: applicable NAICS, PSC, purchasing vehicle, GSA SIN coverage, and any set-aside]",
+  "[CONFIRM: mandatory site visits, bonding, licenses, permits, insurance, and qualification requirements]",
+  "[CONFIRM: approved budget, incumbent sanitation provider, prior award prices, and applicable quote rates]"
+ ],
+ "deadline": "HigherGov metadata lists 2027-12-31, which is after November 17, 2026; no time or time zone is stated. The meeting attachment establishes no procurement response deadline. [CONFIRM: official deadline, time, and time zone]",
+ "checked": "2026-11-17T21:30",
+ "ai": "codex",
+ "requested_ai": "claude-code",
+ "fallback": true
+}

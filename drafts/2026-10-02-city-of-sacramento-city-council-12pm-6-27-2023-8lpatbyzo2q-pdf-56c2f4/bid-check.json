@@ -1,0 +1,45 @@
+{
+ "verdict": "No bid",
+ "score": 25,
+ "one_line": "Track this as a potential lead: the supplied record is a historical council workshop, not an actionable solicitation or request for information.",
+ "scope": "Sacramento discussed expanding encampment trash collection, debris and biohazard removal, portable toilets, showers, and drinking-water access. Service locations, quantities, duration, funding, and vendor responsibilities remain undefined; the June 27, 2023 workshop did not establish a procurement.",
+ "fit": [
+  "Mobile showers, restroom facilities, potable-water support, wastewater removal, and servicing match Temporary 123\u2019s stated fleet and competencies.",
+  "Sacramento, California falls within the company\u2019s nationwide work area.",
+  "Denver shelter restroom services provide relevant experience with mobilization, cleaning, pump-outs, supplies, and maintenance.",
+  "No set-aside is stated. The company reports SBE and MBE status; no restricted certification is established or required in this record.",
+  "The company holds active GSA MAS #47QSMS25D00AM with SINs 532490P, 561210FS, 561210FAC, and 541614, although this record establishes no GSA purchasing route."
+ ],
+ "red_flags": [
+  "The notice type is Agendas / Minutes; there are no bid instructions, specifications, evaluation criteria, submission channel, or procurement contact.",
+  "The attachment describes a June 27, 2023 meeting despite its 2026 posting. YouTube captions are expressly identified as unofficial.",
+  "Listed NAICS 562119 is absent from the company\u2019s supplied NAICS coverage. No PSC is provided; company PSCs W023, W099, and W045 cannot be matched to a stated requirement.",
+  "Broad encampment cleanup could extend beyond trailer sanitation services; specialized biohazard and sharps-removal qualifications are not documented.",
+  "The mayor\u2019s $20 million statement was a request to develop funding options, not an approved contract budget.",
+  "Fleet quantities, availability, site access, utilities, and required servicing frequency are unknown."
+ ],
+ "competition": "No incumbent, past award winners, or offer counts are supplied; the agency-award and benchmark searches each returned zero records. Forensic Clean is named as supporting a historical cleanup, but no incumbent contract or award value is established.",
+ "price_signal": "No comparable Sacramento awards or sanitation rental prices are supplied. The $2 million-to-$4 million annual trash-removal funding increase is program spending, not a vendor award. Temporary 123\u2019s Denver restroom contract value is printed as ~$100,00.00 [CONFIRM: Denver contract value]. The price list lacks confirmed currency, billing basis, and delivery terms, so it cannot support a reliable estimate for this undefined scope.",
+ "must_have": [
+  "No submission items or binding vendor requirements are established. Source: Bid pack, Opportunity type and attached council workshop transcript.",
+  "Mandatory site visits, bonding, licenses, and insurance requirements are not stated. Source: Supplied bid pack.",
+  "No sources-sought or RFI response is requested. Source: Bid pack, Opportunity and attachment."
+ ],
+ "gaps": [
+  "[CONFIRM: current solicitation or RFI, procurement status, official identifier, and agency contact]",
+  "[CONFIRM: official response deadline, time, time zone, submission method, and required documents]",
+  "[CONFIRM: approved funding, contract structure, evaluation criteria, and set-aside]",
+  "[CONFIRM: sanitation-only scope versus responsibility for trash, debris, biohazards, and sharps]",
+  "[CONFIRM: approved Sacramento sites, unit counts, capacity, accessibility, utilities, service frequency, and performance dates]",
+  "[CONFIRM: available fleet and local delivery, servicing, and disposal capacity]",
+  "[CONFIRM: mandatory site visits, bonding, insurance, permits, licenses, and specialized qualifications]",
+  "[CONFIRM: required NAICS/PSC coverage and applicability of GSA SINs or schedule purchasing]",
+  "[CONFIRM: incumbent, prior award prices, and current competition]",
+  "[CONFIRM: applicable equipment rates, currency, billing basis, and complete delivered-service pricing]"
+ ],
+ "deadline": "HigherGov lists 2027-01-02, which is after 2026-11-17; no time or time zone is stated. The supplied workshop transcript establishes no procurement deadline. [CONFIRM: official deadline and whether responses are being accepted]",
+ "checked": "2026-11-17T21:17",
+ "ai": "codex",
+ "requested_ai": "claude-code",
+ "fallback": true
+}

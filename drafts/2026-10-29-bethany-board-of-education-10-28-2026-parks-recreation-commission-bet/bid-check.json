@@ -1,0 +1,38 @@
+{
+ "verdict": "No bid",
+ "score": 10,
+ "one_line": "This is preliminary race planning rather than a solicitation, and chip timing falls outside Temporary 123\u2019s documented capabilities; only a possible portable sanitation purchase fits.",
+ "scope": "Bethany Parks & Recreation is planning a four-mile trail race with an eight-mile option for an anticipated 50\u2013100 runners at Veterans Park and adjoining land trust trails in Bethany, Connecticut. Officials discussed chip timing, bibs, shirts, awards, portable toilets, and event support, but approved no purchase or final event date.",
+ "fit": [
+  "Portable sanitation, restroom trailers, delivery, servicing, and waste removal match documented capabilities, subject to confirming the requested toilet type.",
+  "Connecticut falls within the company\u2019s stated nationwide work area.",
+  "No set-aside is stated; the company documents SBE and MBE status.",
+  "The listed NAICS 713940 is absent from the company\u2019s documented codes. No PSC or required GSA SIN is stated; the active MAS and listed SINs do not establish coverage for race timing."
+ ],
+ "red_flags": [
+  "The attachment consists of YouTube captions explicitly labeled as unofficial meeting minutes, not procurement instructions.",
+  "No documented capability or past performance covers chip timing or race management.",
+  "Portable toilets are a planning item, with no separate solicitation, specifications, quantities, or budget.",
+  "The event date and required approvals remain unresolved.",
+  "No submission procedure, mandatory vendor site visit, bonding, or contractor license requirements are stated. The proposed course walk is an organizer planning activity."
+ ],
+ "competition": "Officials intend to obtain multiple timing-company quotes, with three quotes discussed. No supplier was selected, no received offers are reported, and the supplied agency history and benchmarks contain no past winners.",
+ "price_signal": "No comparable race-timing or event-sanitation awards are supplied, and no race budget is established. Temporary 123\u2019s reference prices do not establish a price for the unspecified portable toilets; currency, billing basis, delivery, and other price-list terms remain unresolved.",
+ "must_have": [
+  "No formal submission items or binding vendor requirements are established in the supplied material. Source: bid pack Opportunity type 'Agendas / Minutes' and October 28, 2026 transcript, 00:36:58\u201300:37:29, stating no action was taken."
+ ],
+ "gaps": [
+  "[CONFIRM: whether an actual solicitation or request for quotes exists, the purchasing authority, contact, and submission method]",
+  "[CONFIRM: whether portable sanitation will be purchased separately from race timing and event services]",
+  "[CONFIRM: required toilet type, unit count, accessibility, servicing, utilities, site access, and available fleet]",
+  "[CONFIRM: final event date, rental duration, approvals, and budget]",
+  "[CONFIRM: official response deadline, time, and time zone]",
+  "[CONFIRM: any mandatory vendor site visit, bonding, licenses, insurance, or eligibility requirements]",
+  "[CONFIRM: applicable sanitation pricing, currency, billing basis, delivery, setup, and collection costs]"
+ ],
+ "deadline": "HigherGov metadata states 2027-01-29, which is after today, 2026-11-17; no time or time zone is stated. The supplied transcript establishes no procurement response deadline. [CONFIRM: official deadline]",
+ "checked": "2026-11-17T21:24",
+ "ai": "codex",
+ "requested_ai": "claude-code",
+ "fallback": true
+}

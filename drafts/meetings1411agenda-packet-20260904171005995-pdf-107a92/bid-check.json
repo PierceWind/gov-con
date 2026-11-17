@@ -1,0 +1,39 @@
+{
+ "verdict": "Maybe",
+ "score": 60,
+ "one_line": "Pursue the potential restroom rental opportunity, but this agenda packet is a forecast lead with no solicitation or confirmed bid deadline.",
+ "scope": "San Marino staff plan to replace the restroom vendor for the next Independence Day celebration after late delivery and mismatched units in 2026. Temporary 123 fits the potential sanitation work at Lacy Park, California; broader event coordination and food vendor opportunities remain speculative.",
+ "fit": [
+  "Restroom trailers, delivery, cleaning, pump-outs, supplies, maintenance, and removal align with documented capabilities and fleet.",
+  "San Marino, California falls within the company's nationwide service area.",
+  "Denver restroom support and USCG housing and sanitation work provide relevant experience, although neither establishes capacity for this event.",
+  "No set-aside is stated; the company's SBE/MBE status presents no stated eligibility barrier."
+ ],
+ "red_flags": [
+  "The supplied notice is an agenda/minutes forecast, not a solicitation, sources sought, or RFI; no bid or response is currently requested.",
+  "Restroom type, quantity, accessibility requirements, service frequency, and delivery windows are unspecified; attendance of 11,898 does not establish unit requirements.",
+  "Listed NAICS 561920 is absent from the supplied company codes. No PSC is specified, and use of the company's GSA MAS or listed SINs is not established.",
+  "The packet does not establish a contract for full event management, food vending, traffic control, or payment infrastructure."
+ ],
+ "competition": "The unnamed 2026 restroom vendor delivered late and supplied mismatched units; staff explicitly plan to use a different vendor next year (event recap, page 17). No incumbent name, past awardee, offer count, or agency award history is supplied.",
+ "price_signal": "No San Marino award prices or NAICS 561920 benchmarks are supplied. Temporary 123's $78,500 USCG award covered housing plus sanitation and is not a direct event-restroom comparison. The price list includes shower/restroom combination trailers, but currency, billing basis, applicable equipment, and delivery/service terms remain unconfirmed; it cannot support a reliable event total.",
+ "must_have": [
+  "No submission package, mandatory site visit, bonding, license, insurance, or qualification requirements are established in the supplied agenda packet (source: Recreation Commission packet, pages 1\u201317).",
+  "The September 14, 2026 public-comment cutoff at 3:00 p.m. concerns Commission participation, not procurement submissions (source: agenda, pages 1\u20133)."
+ ],
+ "gaps": [
+  "[CONFIRM: whether the City will issue a restroom solicitation, quote request, or other vendor selection process, and its procurement contact]",
+  "[CONFIRM: actual submission deadline, time, time zone, submission method, and required documents]",
+  "[CONFIRM: restroom types, matching-unit specifications, unit counts, ADA requirements, and available compliant fleet]",
+  "[CONFIRM: 2027 event schedule, delivery/setup and removal windows, site access, utilities, cleaning, and pump-out requirements]",
+  "[CONFIRM: applicable NAICS/PSC, set-aside, local vendor eligibility, and whether GSA MAS/SIN coverage will be used]",
+  "[CONFIRM: mandatory site visits, bonding, licenses, permits, insurance, and past-performance requirements]",
+  "[CONFIRM: prior restroom vendor, award amount, competing offers, and City budget]",
+  "[CONFIRM: approved equipment rates, currency, billing basis, transportation, setup, servicing, and total price]"
+ ],
+ "deadline": "HigherGov metadata lists 2027-07-04, which is future as of 2026-11-17; no time or time zone is stated. The City packet establishes no procurement deadline. [CONFIRM: actual response deadline, time, and time zone]",
+ "checked": "2026-11-17T21:26",
+ "ai": "codex",
+ "requested_ai": "claude-code",
+ "fallback": true
+}

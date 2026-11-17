@@ -1,0 +1,42 @@
+{
+ "verdict": "No bid",
+ "score": 25,
+ "one_line": "Do not submit now: this is a council planning record, not a solicitation or RFI; retain it as a potential interim sanitation opportunity.",
+ "scope": "Worcester is considering permanent public bathrooms, beginning in District 2, and suitable locations for interim porta-potties. The supplied record requests planning and reports; it does not establish an equipment rental, construction, or servicing contract.",
+ "fit": [
+  "Interim sanitation rental and servicing align with our restroom fleet, potable water support, waste removal, cleaning, and maintenance capabilities (company profile).",
+  "Denver shelter restroom-trailer work provides relevant experience supporting public sanitation needs (capability statement, page 2).",
+  "Worcester, Massachusetts is within our stated nationwide work area (company profile).",
+  "No set-aside is stated, so no stated restriction conflicts with our SBE/MBE status; eligibility under any future solicitation remains unconfirmed (bid pack; company profile).",
+  "Our listed NAICS 532490 and 561210, PSC W023/W099/W045, and GSA SINs 532490P, 561210FS, 561210FAC, and 541614 support assessing a future rental/support requirement, but the record establishes no applicable GSA purchasing route (company profile)."
+ ],
+ "red_flags": [
+  "The notice is classified as Agendas / Minutes, with no bid instructions, defined quantities, funded scope, evaluation criteria, or procurement contact.",
+  "HigherGov lists Worcester Housing Authority, while the attachment concerns City of Worcester City Council business; the actual buyer is unresolved.",
+  "Listed NAICS 238990 is absent from our supplied company codes; permanent bathroom design and construction capabilities are not established.",
+  "The agenda requests porta-potties; our documents establish restroom trailers and portable sanitation capability but do not confirm a conventional porta-potty inventory or acceptance of trailers.",
+  "The stronger September 29 motion was denied 5\u20136; the alternative 'consider a process' motion was held under privilege. October 6 item 8a seeks reconsideration, but no resulting decision is supplied (agenda items 19n\u201319o and 8a).",
+  "Funding, locations, service duration, and any monitoring or attendant contract remain undefined."
+ ],
+ "competition": "The bid-pack description states that no vendor has been selected. No incumbent, prior Worcester sanitation winner, or offer count is supplied; both award-history tables contain zero results. This does not establish an absence of competitors.",
+ "price_signal": "No Worcester award price or budget is supplied. Our USCG housing-and-sanitation award was $78,500 for May\u2013July 2026, but its bundled scope is not directly comparable. The Denver restroom contract value is malformed and requires confirmation. The price list has no confirmed conventional porta-potty rate and leaves currency, billing basis, delivery, and other commercial terms unresolved.",
+ "must_have": [
+  "No procurement submission items or hard requirements are established in the supplied council packet; it is not a solicitation or sources sought notice (bid pack, Opportunity type and attachment).",
+  "No mandatory site visit, bonding, license, or past-performance threshold is stated; these cannot be treated as waived requirements for a future procurement (supplied attachment)."
+ ],
+ "gaps": [
+  "[CONFIRM: whether an authorized solicitation or RFI exists, the actual purchasing agency, procurement contact, and submission method]",
+  "[CONFIRM: October 6 reconsideration outcome, subsequent approvals, funding, and current program status]",
+  "[CONFIRM: actual response deadline, time, and time zone]",
+  "[CONFIRM: porta-potty versus restroom-trailer acceptance, unit count, accessibility specifications, exact sites, utilities, and deployment dates]",
+  "[CONFIRM: available compliant fleet, Massachusetts delivery and servicing resources, cleaning frequency, winter operation needs, and any attendant duties]",
+  "[CONFIRM: final NAICS/PSC, set-aside eligibility, purchasing vehicle, and applicability of our GSA SIN coverage]",
+  "[CONFIRM: mandatory site visits, bonds, licenses, permits, insurance, and qualification requirements]",
+  "[CONFIRM: applicable approved prices, currency, billing basis, transportation, setup, servicing costs, and Denver reference contract value]"
+ ],
+ "deadline": "HigherGov lists 2027-01-04, which is future as of 2026-11-17; no time or time zone is stated. The council attachment establishes no procurement response deadline. [CONFIRM: authoritative deadline, time, and time zone]",
+ "checked": "2026-11-17T21:18",
+ "ai": "codex",
+ "requested_ai": "claude-code",
+ "fallback": true
+}

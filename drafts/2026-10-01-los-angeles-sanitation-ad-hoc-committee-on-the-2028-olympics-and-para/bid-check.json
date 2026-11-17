@@ -1,0 +1,44 @@
+{
+ "verdict": "Maybe",
+ "score": 58,
+ "one_line": "Track the accessible-restroom opportunity for the expected 2027 RFP process; this meeting record provides no current bid or RFI response instructions.",
+ "scope": "Los Angeles is planning equipment and services for 2028 Olympic and Paralympic activation sites, including accessible portable toilets, fencing, and potential site security. Quantities, sites, operating schedules, funding, security arrangements, and contract packaging remain unresolved.",
+ "fit": [
+  "Restroom rentals, water supply, waste removal, cleaning, and maintenance match our core services and fleet; ADA units are available on request.",
+  "The listed NAICS 561210 matches the capability statement. PSC is unstated; our listed PSCs are W023, W099, and W045.",
+  "Our active GSA MAS includes SINs 532490P, 561210FS, 561210FAC, and 541614, although this notice specifies no GSA purchasing route or required SIN.",
+  "No set-aside is stated, so no stated restriction excludes our SBE/MBE status.",
+  "Los Angeles, California falls within our nationwide work area, and our business address is in Marina del Rey.",
+  "Denver restroom servicing and USCG sanitation support provide relevant experience."
+ ],
+ "red_flags": [
+  "This is a procurement forecast based on meeting captions, expressly identified as unofficial, rather than an actionable solicitation.",
+  "Accessibility shortcomings were specifically identified; general ADA availability does not establish compliance with future site and equipment specifications.",
+  "Fencing and site-security services are not established company capabilities; a combined contract could exceed our documented scope.",
+  "The City anticipates competing demand for portable toilets in 2028 and emphasizes early procurement and cost control.",
+  "Funding and procurement packaging remain unresolved; activation-site agenda item 8 was continued."
+ ],
+ "competition": "No incumbent, past winners, or offer counts are supplied. The bid pack reports no agency awards or broader benchmarks under the listed classification; officials anticipate equipment demand from corporations and other government entities.",
+ "price_signal": "No comparable activation-site award prices are supplied. Temporary 123's Denver restroom contract has an unresolved printed value of '~$100,00.00'; its USCG housing and sanitation award was $78,500. Neither establishes pricing for this scope. ADA combination-trailer price rows are blank, and the price list leaves currency, billing basis, and commercial terms unspecified.",
+ "must_have": [
+  "No submission package, response channel, or procurement contact is provided. Source: Bid pack, Opportunity and meeting attachment.",
+  "Accessibility, safe entrance and exit, crowd circulation, transit access, and public safety are planning priorities; final contractor requirements are not supplied. Source: Meeting attachment, 01:21:42\u201301:27:30.",
+  "Mandatory site visits, bonding, contractor licenses, and bidder insurance requirements are not stated. The meeting's LA28 cancellation-insurance discussion does not establish requirements for this prospective equipment contract. Source: Meeting attachment."
+ ],
+ "gaps": [
+  "[CONFIRM: actionable solicitation or RFI, issuing department, procurement contact, and submission instructions]",
+  "[CONFIRM: actual response deadline, time, and time zone]",
+  "[CONFIRM: final set-aside, NAICS, PSC, purchasing route, and any required GSA SIN]",
+  "[CONFIRM: restroom specifications, accessibility standards, unit counts, site locations, operating dates, and servicing requirements]",
+  "[CONFIRM: compliant accessible-unit availability and fleet capacity for 2028]",
+  "[CONFIRM: whether sanitation can be bid separately from fencing, security, and event management]",
+  "[CONFIRM: mandatory site visits, bonding, licenses, insurance, and vendor registration requirements]",
+  "[CONFIRM: approved pricing, billing basis, delivery and setup costs, accessibility costs, and Denver contract value]",
+  "[CONFIRM: funding, evaluation criteria, incumbent, past award prices, and competition]"
+ ],
+ "deadline": "2027-12-31 is listed in the bid-pack metadata; no time or time zone is stated. It is future as of 2026-11-17, but the supplied meeting record does not establish it as an actual bid or RFI response deadline.",
+ "checked": "2026-11-17T21:28",
+ "ai": "codex",
+ "requested_ai": "claude-code",
+ "fallback": true
+}

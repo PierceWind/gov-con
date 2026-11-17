@@ -1,0 +1,40 @@
+{
+ "verdict": "Maybe",
+ "score": 30,
+ "one_line": "Keep this as a potential lead: the committee discussed another porta-potty, but no solicitation, approved purchase, or submission process is supplied.",
+ "scope": "The Belchertown Fair Committee discussed adding a portable toilet at JBS for morning parade staging because the existing single unit had a long line. The next fair is September 24\u201326, 2027; quantity, specifications, service schedule, delivery, and removal terms remain unapproved or undefined.",
+ "fit": [
+  "Portable sanitation, waste removal, and restroom facilities fall within our stated competencies.",
+  "Nationwide coverage includes Massachusetts.",
+  "Denver restroom-trailer work demonstrates relevant delivery, cleaning, pump-out, maintenance, and removal experience.",
+  "No set-aside is stated; the supplied record identifies no restriction conflicting with our SBE/MBE status."
+ ],
+ "red_flags": [
+  "This is an agendas/minutes forecast based on YouTube captions, explicitly described as unofficial meeting minutes; it is not an RFQ, sources sought, or RFI.",
+  "The requested single porta-potty is not specifically documented in our fleet or price list; restroom trailers may exceed the need.",
+  "Listed NAICS 562991 is absent from our supplied company codes. No PSC or required GSA SIN is stated; our active MAS does not establish coverage for this specific purchase.",
+  "No approved budget, purchasing contact, procurement method, or evaluation criteria are supplied.",
+  "A small single-unit rental may not justify mobilization costs; local availability and economics are unconfirmed."
+ ],
+ "competition": "No incumbent, supplier, past winner, offer count, or agency award history is supplied. The transcript confirms an existing portable toilet but does not identify its provider.",
+ "price_signal": "No relevant award benchmarks or single porta-potty rates are supplied. Our $78,500 USCG housing/sanitation award and restroom-trailer price-list entries cover different equipment or scope and do not establish a price for this need.",
+ "must_have": [
+  "No submission items or binding procurement requirements are established in the supplied record. Source: bid pack, Opportunity type and October 19, 2026 transcript.",
+  "No mandatory site visit, bonding, license, insurance, or past-performance threshold is stated; absence from this discussion does not establish a waiver. Source: supplied bid pack and attachment."
+ ],
+ "gaps": [
+  "[CONFIRM: approved purchase and actual solicitation or quote request, purchasing contact, submission method, and evaluation criteria]",
+  "[CONFIRM: actual response deadline, time, and time zone]",
+  "[CONFIRM: additional unit count, single porta-potty specifications, accessibility requirements, and whether a restroom trailer is acceptable]",
+  "[CONFIRM: exact JBS placement location, site access, delivery/removal dates, rental duration, and servicing requirements]",
+  "[CONFIRM: available compliant single-unit inventory or supply arrangement and Massachusetts delivery/service costs]",
+  "[CONFIRM: budget, approved quote, billing basis, and applicable commercial terms]",
+  "[CONFIRM: applicable NAICS/PSC, any required GSA SIN, set-aside eligibility, site visit, bonding, licenses, insurance, and past-performance requirements]",
+  "[CONFIRM: incumbent supplier, prior rental price, and competing quote requirements]"
+ ],
+ "deadline": "HigherGov metadata states 2027-09-26, which is future as of 2026-11-17; no time or time zone is stated. The attachment establishes September 24\u201326, 2027 as fair dates, not a procurement response deadline. [CONFIRM: actual submission deadline, time, and time zone]",
+ "checked": "2026-11-17T21:27",
+ "ai": "codex",
+ "requested_ai": "claude-code",
+ "fallback": true
+}

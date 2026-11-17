@@ -1,0 +1,48 @@
+{
+ "verdict": "No bid",
+ "score": 0,
+ "one_line": "Temporary 123 cannot bid as prime because the latest Q&A confirms a 100% certified SDVOSB set-aside, and the flooring work falls outside its documented capabilities.",
+ "scope": "The VA seeks flooring demolition, preparation, replacement, installation, and related services at Baltimore VAMC, the entire Loch Raven campus, and Perry Point VAMC in Maryland. This is a flooring BPA RFQ, despite the Special Notice label, with a revised base period of December 1, 2026\u2013November 30, 2027, plus four option years.",
+ "fit": [
+  "Maryland falls within Temporary 123's stated nationwide work area.",
+  "The company has federal facility-support experience, but none of the supplied past performance establishes flooring installation or healthcare infection-control experience.",
+  "Office trailers and sanitation facilities could support incidental contractor needs, but the notice does not establish a separate trailer-rental procurement."
+ ],
+ "red_flags": [
+  "Hard eligibility barrier: November 10 Q&A confirms certified SDVOSB eligibility; Temporary 123 has SBE and MBE status and no stated SDVOSB certification.",
+  "Mandatory walkthroughs occurred October 20\u201321, 2026. The latest Q&A requires a bidder member to have attended; Temporary 123's attendance is undocumented.",
+  "NAICS 238330 and PSC N055 are absent from the company profile. Its listed GSA SINs\u2014532490P, 561210FS, 561210FAC, and 541614\u2014do not establish flooring coverage.",
+  "The documented fleet and price list cover temporary facilities, not flooring installation crews, materials, or rates.",
+  "Same-date November 10 documents conflict on quantities, CLIN numbering, and VA-furnished versus contractor-furnished materials; their precedence is not established.",
+  "The LPTA versus best-value conflict is not clearly resolved by the full Q&A; the response to question 15 refers to order limits.",
+  "No minimum task-order size or guaranteed volume; fixed annual pricing must absorb stated material, freight, tariff, and product-discontinuation risks, with no substitutions.",
+  "Insurance limits remain unclear, bonding is unanswered, and specific license requirements are not established in the supplied procurement text."
+ ],
+ "competition": "The HigherGov AI summary identifies Fidelity Contract Flooring as a possible related incumbent under BPA 36C24523A0027, reported at $3,033,053; this is not confirmed as the incumbent for all current sites. Supplied records show repeated Fidelity flooring awards, commonly with one offer. Carpet Resources received a $21,214 Perry Point flooring award with 22 offers, and G3 Venture Hub's Baltimore record lists 17 offers. Current offers received are not supplied.",
+ "price_signal": "Reported related Fidelity BPA value: $3,033,053. Other supplied Fidelity flooring awards include $1,396,970, $1,441,234, and $149,691; the Perry Point award was $21,214. These differ in scope and duration and do not establish unit rates. Current Q&A sets a $6,000,000 BPA ceiling and $1,500,000 order limit, neither guaranteed. Temporary 123's trailer prices provide no usable flooring benchmark.",
+ "must_have": [
+  "Certified SDVOSB prime eligibility. Source: November 10 Q&A, set-aside responses.",
+  "A bidder member must have attended the October 20\u201321 walkthroughs covering Baltimore, Loch Raven, and Perry Point. Sources: Amendment #3 and November 10 final Q&A.",
+  "Best and final quote covering all three sites and flooring requirements, due November 18, 2026, at 2 p.m. Eastern Time. Source: Amendment #3.",
+  "Quote the base year and all four option years; total five-year price is evaluated. Sources: November 10 Q&A, evaluation response and question 72.",
+  "Meet the 50% services limitation on subcontracting, measured by base/option period under 852.219-73(e). Source: November 10 Q&A, subcontracting response.",
+  "Provide an onsite designer/project manager with at least COR Level 1 certification for each project, plus project-specific safety/QC personnel. Source: November 10 Q&A, questions 27\u201329.",
+  "Perform required ICRA/PCRA controls and furnish barrier materials; comply with OSHA and manufacturer warranties. Source: November 10 Q&A, questions 24, 29\u201330, and 63.",
+  "Use specified Tarkett materials without substitutions and cover stated pricing risks in annual fixed rates. Source: November 10 Q&A, questions 53 and 72\u201373.",
+  "Comply with Baltimore WD 2015-4265, Revision 35, and Cecil County WD 2015-4215, Revision 33, including applicable wages and benefits. Sources: November 10 wage attachments.",
+  "Maintain applicable insurance; the asbestos provision applies even when separate Government personnel perform abatement. Source: November 10 Q&A, questions 74\u201380."
+ ],
+ "gaps": [
+  "[CONFIRM: documented attendance at all required October 20\u201321 walkthroughs].",
+  "[CONFIRM: complete RFQ submission instructions, forms, technical and past-performance requirements, and quote delivery method]; the underlying RFQ is not supplied.",
+  "[CONFIRM: controlling quantities, CLIN schedule, material-furnishing responsibilities, and evaluation method across conflicting November 10 documents].",
+  "[CONFIRM: required Maryland/local flooring licenses, installer credentials, and company qualifications]; the AI summary alone does not establish specific requirements.",
+  "[CONFIRM: bid, payment, and performance bond requirements and thresholds, insurance limits, endorsements, and asbestos-exclusion terms].",
+  "[CONFIRM: flooring crews, qualified project managers, safety/QC staff, healthcare flooring experience, and pricing] before considering any future eligible flooring opportunity; these confirmations would not remove the current SDVOSB barrier."
+ ],
+ "deadline": "November 18, 2026, 2:00 p.m. EASTERN TIME, NEW YORK, USA. Still upcoming as of November 17, 2026; the mandatory site visits and October 27 question deadline have passed.",
+ "checked": "2026-11-17T21:11",
+ "ai": "codex",
+ "requested_ai": "claude-code",
+ "fallback": true
+}

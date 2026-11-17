@@ -1,0 +1,51 @@
+{
+ "verdict": "No bid",
+ "score": 20,
+ "one_line": "Do not submit now: Amendment 0001 pauses additional BPA admissions, although portable sanitation is a potential fit if admissions reopen.",
+ "scope": "NSWC Indian Head Division seeks portable restroom rental suppliers for Master BPAs supporting Indian Head, Maryland. Qualified vendors would compete for individual calls below the Simplified Acquisition Threshold; price lists may support direct awards below $10,000.",
+ "fit": [
+  "Restroom facilities, portable sanitation, water delivery, waste removal, maintenance, and nationwide deployment are stated company capabilities.",
+  "Relevant experience includes USCG restroom/shower support, Denver portable restroom trailers, and Navy restroom rentals.",
+  "Active SAM registration and GSA MAS #47QSMS25D00AM support the stated administrative requirements.",
+  "The company states SBE and MBE status. The solicitation requires a small business, without an 8(a), WOSB, SDVOSB, or HUBZone restriction; size eligibility under NAICS 562991 still needs confirmation.",
+  "Indian Head, Maryland falls within the company's stated nationwide work area."
+ ],
+ "red_flags": [
+  "Amendment 0001 controls: rolling admissions are paused, with no reopening date supplied.",
+  "The amendment directs vendors not to contact the previously listed individuals about BPA status or process and identifies IHD_BPA@us.navy.mil for future inquiries.",
+  "The solicitation narrative states a small business set-aside despite the opportunity metadata saying none stated.",
+  "NAICS 562991 and PSC W085 are absent from the company's listed codes. Its GSA SINs are 532490P, 561210FS, 561210FAC, and 541614; coverage of this exact requirement is unconfirmed.",
+  "The fleet and price list establish restroom trailers, but do not establish available standard portable toilet inventory or standalone accessible portable toilets comparable to recent agency purchases.",
+  "No mandatory site visit, bonding requirement, or specific license requirement is stated in the supplied pack; individual call requirements remain unknown.",
+  "Master BPA admission provides eligibility to compete for future requirements, not a stated guaranteed order value."
+ ],
+ "competition": "United Contract Solutions is the dominant recurring supplier in the supplied agency history, winning 12 of 15 listed awards, including Indian Head orders of $18,660 and $6,720 in August 2026 with two offers each. Other agency winners include FED Crew, Reliance Contractors, and I-2-I Solutions. No offer count or awardee list is supplied for this Master BPA admission.",
+ "price_signal": "Relevant Indian Head awards include $18,660 for two standard portable restroom units and one handicap-accessible unit for the listed 2026\u20132027 period, $6,720 for another 2026\u20132027 order, and $18,000 and $6,480 for listed 2025\u20132026 orders. Short Indian Head orders include $630 and $1,440. These are order totals, not established unit rates. Temporary 123's supplied prices cover shower/restroom combination trailers rather than comparable standard portable toilets, and the price list leaves currency and billing basis unspecified. The $10,000\u2013$250,000 opportunity estimate is not a guaranteed BPA value.",
+ "must_have": [
+  "Wait for reopened admissions before submitting; follow any replacement process. Source: Amendment 0001.",
+  "Qualify as a small business for the solicitation. Source: solicitation Important Notes.",
+  "Provide a cover sheet with official company name, CAGE code, and contact name, phone number, and email address. Source: solicitation interested-company requirements.",
+  "Provide documentation of capabilities and expertise; identify GSA contract number if held. Source: solicitation requirements and Important Notes.",
+  "Provide at least three past performance references, including organization name, address, contract/order number, award amount, contact, telephone number, and item description. Source: solicitation past performance requirement.",
+  "Use the attached Past Performance Questionnaire for reference evaluations covering customer satisfaction, timeliness, technical success, program management, and quality. Source: attachment and announcement attachment instructions; submission routing must be reconciled with the amendment when admissions reopen.",
+  "Maintain active SAM registration and either an active PIEE account for invoices and receiving reports or credit card as a payment method. Source: solicitation interested-company requirements.",
+  "Complete and return a price list if applicable; catalog prices may support direct awards below $10,000. Source: solicitation requirements and Important Notes."
+ ],
+ "gaps": [
+  "[CONFIRM: admissions reopening date, current submission process, questionnaire routing, and operative deadline]",
+  "[CONFIRM: small business size eligibility under NAICS 562991]",
+  "[CONFIRM: NAICS 562991 and PSC W085 registration coverage and applicability of existing GSA SINs]",
+  "[CONFIRM: standard and accessible portable toilet inventory, quantities, availability, and specifications]",
+  "[CONFIRM: Maryland delivery and servicing capacity, disposal arrangements, and call-specific licenses, bonding, or site visits]",
+  "[CONFIRM: PIEE account status or credit card payment capability]",
+  "[CONFIRM: three complete references and customer questionnaire responses; supplied records lack required fields, including telephone numbers or addresses for several references]",
+  "[CONFIRM: Denver award amount before using that reference]",
+  "[CONFIRM: approved portable restroom rates, currency, billing basis, delivery, servicing, pickup, and other applicable charges]",
+  "[CONFIRM: proposal contact email]"
+ ],
+ "deadline": "Listed response deadline: 2028-11-12; time and time zone are not stated. Original rotation cutoffs are 30 April for June awards and 31 October for December awards, through June 2029. As of 2026-11-17, the October cutoff has passed, and Amendment 0001 pauses admissions without a reopening date.",
+ "checked": "2026-11-17T21:31",
+ "ai": "codex",
+ "requested_ai": "claude-code",
+ "fallback": true
+}

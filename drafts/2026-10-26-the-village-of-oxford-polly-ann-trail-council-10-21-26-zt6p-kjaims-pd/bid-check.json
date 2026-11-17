@@ -1,0 +1,36 @@
+{
+ "verdict": "No bid",
+ "score": 3,
+ "one_line": "This is a meeting-transcript forecast for fencing and paver work outside Temporary 123\u2019s documented rental capabilities, with no confirmed solicitation or request for responses.",
+ "scope": "Levi Lane Park in Michigan needs fencing, brick-paver platforms, and reinstallation of two stored trail benches. Parks and recreation was tasked with fencing; the transcript does not establish outside contracting, quantities, specifications, or a temporary-facility rental requirement.",
+ "fit": [
+  "Michigan falls within the company\u2019s stated nationwide service area.",
+  "No set-aside is stated, so no stated socioeconomic restriction excludes the company.",
+  "NAICS 238990 is absent from the company\u2019s listed codes; no supplied PSC or GSA SIN coverage establishes fencing or paver installation capability."
+ ],
+ "red_flags": [
+  "The notice is classified as Agendas / Minutes, not a solicitation, sources sought, or RFI.",
+  "Fencing and paver installation are outside the documented core competencies and fleet.",
+  "The portable toilet already has a three-sided enclosure; its mention does not establish a rental or servicing opportunity.",
+  "The attachment contains YouTube captions, explicitly identified as unofficial meeting minutes.",
+  "No current site-visit, bonding, licensing, submission, or evaluation requirements are supplied."
+ ],
+ "competition": "No Levi Lane Park incumbent, awardee, or offer count is identified; the supplied agency award search found none under NAICS 238990. Hubble, Roth & Clark won a separate trail engineering contract in July 2026 after four proposals and a mandatory pre-bid meeting attended by five firms; those requirements do not apply to this park work.",
+ "price_signal": "No comparable fencing or paver awards or estimated project cost are supplied. Temporary 123\u2019s rental price list does not price this scope; unrelated engineering and mowing actions are not comparable benchmarks.",
+ "must_have": [
+  "[CONFIRM: actual solicitation or request for responses and required submission items] \u2014 Source: bid-pack Opportunity classification and transcript at 47:37\u201348:42; neither provides bidding instructions.",
+  "[CONFIRM: current mandatory site visit, bonding, licenses, and insurance requirements] \u2014 Source: supplied bid pack; none are established for Levi Lane Park. Engineering pre-bid and mowing insurance requirements concern separate contracts."
+ ],
+ "gaps": [
+  "[CONFIRM: whether any park work will be contracted out and remains available as of 2026-11-17]",
+  "[CONFIRM: fencing and paver quantities, specifications, exact work limits, and performance schedule]",
+  "[CONFIRM: procurement contact, submission method, and official response deadline with time and time zone]",
+  "[CONFIRM: applicable eligibility requirements and company capability, personnel, and equipment for this construction scope]",
+  "[CONFIRM: current park contractor, competing offers, budget, and comparable award prices]"
+ ],
+ "deadline": "2026-11-30 per HigherGov metadata; time and time zone are not stated. This date is after 2026-11-17, but the supplied transcript does not establish a procurement deadline.",
+ "checked": "2026-11-17T21:13",
+ "ai": "codex",
+ "requested_ai": "claude-code",
+ "fallback": true
+}

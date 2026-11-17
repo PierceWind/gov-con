@@ -1,0 +1,45 @@
+{
+ "verdict": "No bid",
+ "score": 30,
+ "one_line": "Do not bid as prime: the main scope is permanent hospital construction outside documented capabilities, although the temporary modular kitchen is a strong subcontract fit.",
+ "scope": "Replace three walk-in coolers and the kitchen exhaust hood system at Harris Psychiatric Hospital in Anderson, SC, with related lighting, HVAC, and plumbing modifications. Provide temporary modular kitchen service during construction, including utility design work for that unit.",
+ "fit": [
+  "Mobile kitchens, refrigerated storage, and utility support match the temporary kitchen portion.",
+  "Nationwide operations cover Anderson, SC.",
+  "Documented Navy subcontract work included a complete kitchen trailer, handwashing sinks, and potable water.",
+  "No set-aside is listed, so the company's stated SBE/MBE status presents no set-aside barrier.",
+  "Active GSA MAS includes SIN 532490P; however, this notice does not establish a GSA procurement or applicable SIN."
+ ],
+ "red_flags": [
+  "Permanent cooler, exhaust hood, lighting, HVAC, and plumbing construction is not established by the supplied company profile.",
+  "Solicitation NAICS 238220 and PSC Z1DA are absent from the company's listed codes; no supplied SIN establishes coverage for the complete construction scope.",
+  "No construction licenses, bonding capacity, utility design qualifications, or comparable hospital construction performance are documented.",
+  "The bid pack contains no attachments, specifications, bid forms, or amendments; mandatory site visits and submission requirements cannot be determined.",
+  "The temporary kitchen's capacity, configuration, rental duration, and available fleet units are unspecified."
+ ],
+ "competition": "No incumbent, prior winner, or offer count is supplied for this project; no agency awards under NAICS 238220 were found in the bid pack. Other-agency benchmarks show 1\u201313 offers, but do not establish competition for this solicitation.",
+ "price_signal": "The supplied project estimate is $1.2\u2013$2.8 million for the full construction scope. Benchmarks include Global Engineering Services at $1,733,746 for HVAC replacement (11 offers) and F & C Group JV at $2,339,706 for morgue freezer replacement (5 offers); neither establishes temporary kitchen pricing. The company price list lacks confirmed currency, billing basis, and applicable duration, so it cannot support a project total.",
+ "must_have": [
+  "Replace three walk-in coolers and the kitchen exhaust hood system, with required lighting, mechanical HVAC, and plumbing modifications. Source: bid pack, Description.",
+  "Provide temporary modular kitchen service during construction and include utility design work for the temporary kitchen unit. Source: bid pack, Description.",
+  "Meet the December 3, 2026 response deadline. Source: bid pack, Opportunity.",
+  "[CONFIRM: required submission forms, delivery method, mandatory site visit, bonds, licenses, and amendment acknowledgments]. Source: bid pack lists zero attachments and supplies no details on these requirements."
+ ],
+ "gaps": [
+  "[CONFIRM: complete solicitation and all current amendments, including submission instructions and evaluation criteria].",
+  "[CONFIRM: deadline time and time zone].",
+  "[CONFIRM: mandatory site visit requirements and whether any attendance deadline has passed].",
+  "[CONFIRM: required South Carolina contractor and trade licenses, permits, and utility design credentials].",
+  "[CONFIRM: bid, performance, and payment bond requirements and company bonding capacity].",
+  "[CONFIRM: qualified construction prime and availability of a temporary kitchen subcontract opportunity].",
+  "[CONFIRM: kitchen capacity, equipment specifications, unit count, fleet availability, construction schedule, and rental duration].",
+  "[CONFIRM: utility connections, site access, servicing responsibilities, and hospital operating constraints].",
+  "[CONFIRM: applicable rental rates, currency, billing basis, delivery, setup, servicing, and removal costs].",
+  "[CONFIRM: project incumbent, past winners, award prices, and current competition]."
+ ],
+ "deadline": "2026-12-03; time and time zone not supplied [CONFIRM: exact cutoff]. Upcoming as of 2026-11-17.",
+ "checked": "2026-11-17T21:14",
+ "ai": "codex",
+ "requested_ai": "claude-code",
+ "fallback": true
+}

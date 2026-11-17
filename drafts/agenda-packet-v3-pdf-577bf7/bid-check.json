@@ -1,0 +1,44 @@
+{
+ "verdict": "No bid",
+ "score": 25,
+ "one_line": "This is a council agenda and potential procurement lead, not an actionable solicitation or RFI; track it for a future facilities opportunity.",
+ "scope": "Burlington is considering expanded temporary emergency shelter space or sanctioned camping to supplement established shelters. Potential sites would need sanitation, laundry, water, electricity, and broader shelter operations and supportive services, but no vendor scope or quantities are defined.",
+ "fit": [
+  "Shelter facilities, showers, restrooms, laundry, potable water, wastewater support, and basecamp services align with the documented fleet and competencies.",
+  "Listed NAICS 624221 matches the opportunity; related company codes include 532490 and 561210. The company's primary NAICS remains unresolved.",
+  "Company PSCs W023, W099, and W045 and GSA SINs 532490P, 561210FS, 561210FAC, and 541614 support related capabilities, but this notice specifies no PSC or GSA purchasing requirement.",
+  "No set-aside is stated, so no stated restriction excludes the company's SBE/MBE status; no 8(a), WOSB, SDVOSB, or HUBZone status is documented.",
+  "Burlington, Vermont falls within the company's nationwide work area.",
+  "Denver shelter restroom support and USCG temporary housing and sanitation provide relevant documented experience."
+ ],
+ "red_flags": [
+  "The notice is classified as Agendas / Minutes; it contains no bid instructions, evaluation criteria, submission channel, or procurement contact.",
+  "Resolution adoption, funding, approved sites, and an actual procurement are not established by the supplied packet.",
+  "The revised resolution includes admission, security, behavioral health, housing navigation, transportation, case management, and program evaluation; capability to perform all of these services is not documented.",
+  "Fleet quantities, availability, Vermont deployment costs, and suitability for the eventual site's operating conditions are unconfirmed.",
+  "No mandatory site visit, bonding, or vendor license requirements are stated; their absence from this agenda does not establish future solicitation requirements.",
+  "The 90-day site-designation request runs from adoption and is not a vendor delivery or response deadline."
+ ],
+ "competition": "No incumbent, past Burlington winners, offers received, or competing vendors are identified. The bid pack reports zero agency awards and zero broader benchmarks under the listed NAICS/PSC combination.",
+ "price_signal": "No Burlington award price or budget is supplied. Temporary 123's USCG housing and sanitation award was $78,500 for May\u2013July 2026, but scope and duration differ. Denver is a closer shelter sanitation reference, but its printed value requires confirmation. The unit price list lacks a confirmed billing basis, currency, effective dates, and delivery terms, so it cannot establish a Burlington bid total.",
+ "must_have": [
+  "No vendor submission items are specified; no bid or RFI response is requested. Source: bid pack Opportunity type and Agenda Packet v3.pdf.",
+  "Planning prerequisite: designated locations require City Council approval and consideration of neighborhoods, infrastructure, environmental impacts, and supportive services. Source: revised resolution \u00a73.04, pp. 68\u201369.",
+  "Planning prerequisite: sites are expected to adopt and enforce operational standards before approval; the Administration is asked to publish anonymized performance data at least monthly. These are not established vendor submission requirements. Source: revised resolution \u00a73.04, p. 69."
+ ],
+ "gaps": [
+  "[CONFIRM: whether an actual solicitation or RFI exists, its current amendments, procurement contact, submission method, and evaluation criteria]",
+  "[CONFIRM: resolution adoption date, approved site locations, funding, and procurement schedule]",
+  "[CONFIRM: required equipment quantities, capacities, accessibility specifications, rental period, deployment date, utilities, and servicing frequency]",
+  "[CONFIRM: whether facilities can be procured separately from shelter operations and supportive services]",
+  "[CONFIRM: available fleet, Vermont logistics, operating-condition suitability, and approved project pricing]",
+  "[CONFIRM: mandatory site visits, bonding, licenses, permits, and required past-performance qualifications]",
+  "[CONFIRM: incumbent, prior awards, competing offers, and comparable prices]",
+  "[CONFIRM: official response deadline, time, and time zone]"
+ ],
+ "deadline": "2026-11-26 is listed in the HigherGov-derived bid pack, nine days after 2026-11-17; time and time zone are not stated. The agenda packet does not establish this as a procurement response deadline. [CONFIRM: official deadline]",
+ "checked": "2026-11-17T21:13",
+ "ai": "codex",
+ "requested_ai": "claude-code",
+ "fallback": true
+}

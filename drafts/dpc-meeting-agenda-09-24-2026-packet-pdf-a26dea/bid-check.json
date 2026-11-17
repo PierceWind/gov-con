@@ -1,0 +1,39 @@
+{
+ "verdict": "No bid",
+ "score": 10,
+ "one_line": "This is a draft community garden recommendation in a meeting agenda packet, with no solicitation or request for vendor responses.",
+ "scope": "The draft suggests possible shade structures, benches, portable restrooms, and other accessibility improvements at City of Brighton community gardens in Colorado. It does not establish an approved purchase, quantities, specifications, funding, or implementation schedule.",
+ "fit": [
+  "Portable restrooms and sanitation servicing fit Temporary 123's fleet and core competencies.",
+  "Nationwide service coverage includes Colorado; the supplied Denver restroom-trailer contract provides relevant regional experience.",
+  "SBE and MBE status presents no stated set-aside conflict; no set-aside is identified.",
+  "Company NAICS 532490 and 561210, PSC W099, and GSA SINs 532490P, 561210FS, and 561210FAC offer potential alignment with a future rental or facility-support requirement; the packet does not establish applicable contract coverage."
+ ],
+ "red_flags": [
+  "The underlying document is an agenda packet and draft recommendation, not a solicitation, sources sought, or RFI.",
+  "Listed NAICS 238990 is absent from the supplied company codes; no opportunity PSC is stated.",
+  "Shade structures, benches, and accessibility construction are outside the expressly documented core fleet and installation capabilities.",
+  "Funding may involve sponsorship; no budget or procurement method is established.",
+  "No mandatory site visit, bonding, licenses, or contractor qualification requirements are stated; their absence from this draft does not establish future requirements.",
+  "The meeting address is not an established equipment delivery or installation site."
+ ],
+ "competition": "No incumbent, past winner, or offer count is supplied. The bid pack reports zero agency awards under NAICS 238990 and zero award benchmarks.",
+ "price_signal": "No comparable award price is supplied for these garden improvements. Temporary 123's Denver restroom-trailer contract has an unresolved printed value of '~$100,00.00'; the $78,500 USCG award includes housing and sanitation and is not a direct pricing benchmark. The unit price list lacks confirmed billing basis and applicable delivery and service terms.",
+ "must_have": [
+  "No bid forms, response package, submission method, or vendor response requirement is stated. Source: DPC Meeting Agenda 09.24.2026 - Packet.pdf, draft Community Gardens Recommendations."
+ ],
+ "gaps": [
+  "[CONFIRM: whether the City approved the recommendation and issued an actual procurement or request for responses]",
+  "[CONFIRM: procurement contact, submission instructions, and authoritative response deadline]",
+  "[CONFIRM: funded scope, rental versus purchase, quantities, accessibility specifications, exact garden locations, and performance dates]",
+  "[CONFIRM: applicable NAICS, PSC, purchasing vehicle, and any set-aside or size requirements]",
+  "[CONFIRM: mandatory site visits, bonding, licenses, permits, insurance, and installation responsibilities]",
+  "[CONFIRM: available compliant restroom units, servicing capacity, and complete delivered pricing]",
+  "[CONFIRM: incumbent, prior awards, competing offers, and approved budget]"
+ ],
+ "deadline": "HigherGov metadata lists 2026-12-24; time and time zone are not stated. That date is after today, 2026-11-17, but the underlying agenda packet establishes no vendor response deadline.",
+ "checked": "2026-11-17T21:16",
+ "ai": "codex",
+ "requested_ai": "claude-code",
+ "fallback": true
+}

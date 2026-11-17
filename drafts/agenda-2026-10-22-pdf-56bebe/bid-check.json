@@ -1,0 +1,40 @@
+{
+ "verdict": "No bid",
+ "score": 12,
+ "one_line": "This is a nonprofit event sponsorship request in a City budget agenda, not a vendor solicitation; only the portable-restroom portion fits Temporary 123.",
+ "scope": "End Of The Road Ren Fair requests $20,000 in City sponsorship for an approximately 1,200-attendee event at the north side of Barney Meyring Park in Valdez, Alaska. Funding would cover toilets, entertainment, travel, advertising, cleaning, refreshments, and other event expenses; no vendor bid or RFI response is requested.",
+ "fit": [
+  "Restroom trailers, portable sanitation, cleaning, water supply, and waste removal fit the company\u2019s capabilities and fleet.",
+  "Nationwide coverage includes the stated Alaska location, but local equipment availability and delivery costs are unconfirmed.",
+  "Company NAICS 532490 and 561210 and GSA SINs 532490P, 561210FS, and 561210FAC support equipment rental and facility support. Listed opportunity NAICS 711320 is absent from the company profile; no opportunity PSC or GSA SIN is stated.",
+  "No set-aside is stated, so the company\u2019s SBE/MBE status presents no stated set-aside barrier."
+ ],
+ "red_flags": [
+  "The $20,000 is a sponsorship request covering multiple purchases, not a single available contract or confirmed appropriation.",
+  "Entertainment and overall event production exceed the company\u2019s documented core scope.",
+  "The application names porta potties; acceptance of restroom trailers is not established.",
+  "Event start/end fields state June 19\u201320, 2026, while setup and teardown state June 17 and June 20, 2027.",
+  "No vendor specifications, submission instructions, evaluation criteria, mandatory site visit, or bonding requirements are provided.",
+  "Alaska mobilization and servicing costs could undermine competitiveness against the named recurring restroom supplier."
+ ],
+ "competition": "The Ren Fair application identifies Petrol Management as its recurring restroom supplier, usually costing upwards of $1,500; this does not establish a 2027 award. No agency past awards, award benchmarks, or offer counts were supplied.",
+ "price_signal": "The strongest relevant signal is the organizer\u2019s statement that restroom rentals usually cost upwards of $1,500, not a documented award. The $20,000 sponsorship is not a sanitation budget. Temporary 123\u2019s price list does not establish a comparable porta-potty rate, billing basis, or Alaska delivery and servicing price.",
+ "must_have": [
+  "No vendor submission package or hard vendor requirements are established by this agenda. Source: bid pack, agenda_2026-10-22.pdf.",
+  "For sponsorship applicants only: IRS 501 nonprofit documentation, State of Alaska Non-Profit Corporation Entity License, and City of Valdez Business License; the form also requests a current W-9. These are organizer requirements, not established requirements for Temporary 123 as a supplier. Source: Ren Fair application, application restrictions and organization information.",
+  "For the organizer: $1,000,000 liability insurance documentation naming the City as Certificate Title Holder at least 30 days before the event, and a Temporary Land Use Permit application within 12 weeks of the event. Supplier applicability is unconfirmed. Source: Ren Fair application, event information and event support."
+ ],
+ "gaps": [
+  "[CONFIRM: whether the organizer will seek vendor quotes for sanitation and the actual quote deadline and submission method]",
+  "[CONFIRM: approved sponsorship funding and sanitation purchasing budget]",
+  "[CONFIRM: correct event dates and required delivery, servicing, and removal schedule]",
+  "[CONFIRM: toilet type, unit count, ADA requirements, utilities, site access, and acceptance of restroom trailers]",
+  "[CONFIRM: available fleet serving Valdez and total mobilization, rental, servicing, and demobilization costs]",
+  "[CONFIRM: supplier licensing, insurance, permits, bonding, and any mandatory site visit requirements]"
+ ],
+ "deadline": "HigherGov metadata lists January 22, 2027, with no time or time zone; the attachment does not establish this as a vendor deadline. The sponsorship application states August 15 of the current year at 5:00pm, with no time zone stated\u2014August 15, 2026 for this application, already past as of November 17, 2026. [CONFIRM: actual vendor quote deadline, time, and time zone].",
+ "checked": "2026-11-17T21:21",
+ "ai": "codex",
+ "requested_ai": "claude-code",
+ "fallback": true
+}

@@ -1,0 +1,42 @@
+{
+ "verdict": "No bid",
+ "score": 25,
+ "one_line": "Do not pursue the permanent restroom reconstruction as prime; the potential four-to-six-month portable restroom requirement fits Temporary 123 but has no confirmed procurement scope yet.",
+ "scope": "Flagstaff plans to combine two existing Heritage Square restroom rooms into one permanent facility with three toilets, an ADA-accessible partition with an adult changing station, sinks, a custodial closet, and an overhead security door. Staff also anticipates portable restroom units during four to six months of construction, with placement and procurement arrangements still unresolved.",
+ "fit": [
+  "Portable restroom rental, servicing, water support, and waste removal match the company's fleet and core competencies.",
+  "Denver portable restroom trailer work and USCG housing and sanitation work provide relevant experience for the temporary facilities portion.",
+  "Flagstaff, Arizona falls within the company's stated nationwide service area.",
+  "No set-aside is stated, so the supplied notice presents no stated socioeconomic restriction.",
+  "Company NAICS 532490 and 561210, PSC W099, and GSA SINs 532490P, 561210FS, and 561210FAC relate to its rental and support services; acceptance for this potential requirement is unconfirmed."
+ ],
+ "red_flags": [
+  "This is an agenda/minutes forecast based on YouTube captions, not an issued IFB, sources sought, or RFI.",
+  "The main requirement is permanent construction under NAICS 236220, which is absent from the company profile; general contracting qualifications are not documented.",
+  "Portable restroom rental may be included in the general contractor's scope or procured separately.",
+  "The $250,000 budget covers design, construction, and project management; construction funding remaining is less than $250,000.",
+  "No issued drawings, bid schedule, submission instructions, or procurement contact are supplied.",
+  "The commission's discussion of site visits concerns commissioner activities, not a mandatory bidder site visit."
+ ],
+ "competition": "No incumbent construction contractor, past construction winners, offer counts, or award benchmarks are supplied. The Downtown Business Alliance clean team cleans the permanent restrooms and will continue; this is not a newly announced cleaning procurement. Staff anticipates award to the lowest responsible bidder within budget.",
+ "price_signal": "No comparable construction awards or portable restroom allowance are supplied. The $250,000 figure is the entire project budget, not an award estimate for rentals; the $500,000 partition comment is illustrative. Temporary 123's $78,500 USCG award included housing and sanitation and is not directly comparable. The price list leaves currency, billing basis, and delivery terms unspecified, so it cannot establish a four-to-six-month quote.",
+ "must_have": [
+  "No current response package or submission requirements are established by the supplied forecast. Source: bid pack, Opportunity type and meeting transcript 01:09:18\u201301:10:18.",
+  "The anticipated IFB would require pricing a bid schedule matching construction drawings, with award proposed for the lowest responsible bidder within budget. Source: meeting transcript 01:09:18\u201301:10:18."
+ ],
+ "gaps": [
+  "[CONFIRM: issued IFB, final drawings, amendments, submission requirements, and procurement contact]",
+  "[CONFIRM: separate portable restroom procurement or subcontract opportunity within the construction contract]",
+  "[CONFIRM: temporary unit type, count, accessibility requirements, placement, utilities, servicing responsibilities, and performance dates]",
+  "[CONFIRM: available fleet and delivery, setup, servicing, and removal costs for Flagstaff]",
+  "[CONFIRM: mandatory bidder site visit, bonding, licenses, insurance, and experience requirements; none are stated in the supplied forecast]",
+  "[CONFIRM: final NAICS, PSC, set-aside, and whether GSA purchasing applies]",
+  "[CONFIRM: applicable rental rates, currency, billing basis, and commercial terms]",
+  "[CONFIRM: actual procurement deadline, closing time, and time zone]"
+ ],
+ "deadline": "2027-01-20 is listed as the response deadline in the bid pack; time and time zone are not stated. It is future as of 2026-11-17, but no issued solicitation confirms it as a bid deadline.",
+ "checked": "2026-11-17T21:19",
+ "ai": "codex",
+ "requested_ai": "claude-code",
+ "fallback": true
+}
