@@ -31,6 +31,7 @@ pre{margin:0 20px 12px;padding:10px;background:var(--card);border:1px solid var(
 .sel button{padding:4px 10px;font-size:13px;cursor:pointer}
 .sel .sep{width:1px;height:20px;background:var(--line);margin:0 6px}
 .sel .exp{border-color:var(--accent);color:var(--accent)}
+.filter-menu{position:relative}.filter-menu summary{cursor:pointer;list-style:none;border:1px solid var(--line);background:var(--card);border-radius:6px;padding:6px 10px;font-weight:600}.filter-menu summary::-webkit-details-marker{display:none}.filter-panel{display:flex;flex-wrap:wrap;gap:8px;align-items:center;position:absolute;z-index:5;top:calc(100% + 6px);left:0;min-width:min(580px,calc(100vw - 40px));padding:10px;background:var(--card);border:1px solid var(--line);border-radius:8px;box-shadow:0 8px 24px rgba(0,0,0,.14)}
 .tracker-tag{display:inline-block;border:1px solid var(--line);border-radius:999px;padding:2px 8px;font-size:11px;white-space:nowrap}.tracker-tag.in{color:#8250df}.tracker-tag.new{color:var(--muted)}
 tr.picked td{background:color-mix(in srgb,var(--accent) 12%,transparent)}
 td.cb,th.cb{width:28px;text-align:center}
@@ -93,32 +94,27 @@ button.docbtn{padding:2px 8px;font-size:12px;cursor:pointer}
 </div>
 <pre id="log"></pre>
 <div class="bar">
-  <span class="muted">Match:</span>
-  <button class="chip on" data-m="0">&gt;0%</button>
-  <button class="chip" data-m="25">≥25%</button>
-  <button class="chip" data-m="50">≥50%</button>
-  <button class="chip" data-m="100">≥100%</button>
-  <label class="muted"><input type="checkbox" id="newonly"> New today only</label>
-  <label class="muted"><input type="checkbox" id="expired"> Show past deadline</label>
-  <select id="stfilter" title="Filter by lead status"><option value="">All statuses</option></select>
-  <select id="source" title="Filter by source"><option value="">All sources</option><option>HigherGov</option><option>SAM.gov</option></select>
-  <select id="trackerfilter" title="Filter by tracker state"><option value="">All tracker states</option><option>Already in tracker</option><option>New to tracker</option></select>
+  <details id="filtermenu" class="filter-menu">
+    <summary>Filters <span class="muted" id="filtersummary"></span></summary>
+    <div class="filter-panel">
+      <span class="muted">Match:</span>
+      <button class="chip on" data-m="0">&gt;0%</button>
+      <button class="chip" data-m="25">≥25%</button>
+      <button class="chip" data-m="50">≥50%</button>
+      <button class="chip" data-m="100">≥100%</button>
+      <label class="muted"><input type="checkbox" id="newonly"> New today only</label>
+      <label class="muted"><input type="checkbox" id="expired"> Show past deadline</label>
+      <select id="stfilter" title="Filter by lead status"><option value="">All statuses</option></select>
+      <select id="source" title="Filter by source"><option value="">All sources</option><option>HigherGov</option><option>SAM.gov</option></select>
+      <select id="trackerfilter" title="Filter by tracker state"><option value="">All tracker states</option><option>Already in tracker</option><option>New to tracker</option></select>
+    </div>
+  </details>
   <input type="search" id="q" placeholder="Filter title, agency, place…">
   <span class="muted" id="count"></span>
 </div>
 <div class="sel">
   <span class="muted">Select:</span>
-  <button data-q="all">All shown</button>
-  <button data-q="none">None</button>
-  <button data-q="invert">Invert</button>
-  <button data-q="m50">&ge;50%</button>
-  <button data-q="m100">&ge;100%</button>
-  <button data-q="new">New today</button>
-  <button data-q="week">Due in 7 days</button>
-  <button data-q="setaside">Has set-aside</button>
-  <button data-q="nottracker">Not in tracker</button>
-  <button data-q="nocheck">Not bid-checked</button>
-  <button data-q="bid">Verdict: Bid</button>
+  <select id="quickselect" title="Select rows quickly"><option value="">Choose rows…</option><option value="all">All shown</option><option value="none">None</option><option value="invert">Invert</option><option value="m50">≥50% match</option><option value="m100">≥100% match</option><option value="new">New today</option><option value="week">Due in 7 days</option><option value="setaside">Has set-aside</option><option value="nottracker">Not in tracker</option><option value="nocheck">Not bid-checked</option><option value="bid">Verdict: Bid</option></select>
   <span class="sep"></span>
   <select id="bulkst" title="Set status of selected leads"><option value="">Set status…</option></select>
   <span class="sep"></span>
@@ -189,6 +185,8 @@ function render(){
    .sort((a,b)=>{const val=r=>sortKey==="bid"?(r.bid?r.bid.score:-1):r[sortKey];const x=val(a)??"",y=val(b)??"";return (x>y?1:x<y?-1:0)*sortDir});
   shown=list;
   $("count").textContent=`${list.length} of ${rows.length}`;
+  const active=[minM?`≥${minM}% match`:"All matches",$("newonly").checked?"New today":"",$("expired").checked?"Past due":"",$("stfilter").value,$("source").value,$("trackerfilter").value].filter(Boolean);
+  $("filtersummary").textContent=active.length?` — ${active.join(", ")}`:"";
   $("empty").hidden=list.length>0;
   $("body").innerHTML=list.map(r=>{
     const p=r["Match %"],cls=p>=100?"p100":p>=50?"p50":"p0",dl=daysLeft(r["Response Deadline"]);
@@ -248,7 +246,7 @@ $("bulkst").onchange=async e=>{
   if(!keys.length)return toast("Select leads first");
   await setStatus(keys,s);toast(`${keys.length} lead${keys.length>1?"s":""} set to ${s}`);
 };
-document.querySelectorAll(".sel [data-q]").forEach(b=>b.onclick=()=>{QUICK[b.dataset.q]();render()});
+$("quickselect").onchange=e=>{const q=e.target.value;e.target.value="";if(q&&QUICK[q]){QUICK[q]();render()}};
 // ---- documents ----
 let docKey=null;
 const kb=n=>n?(n>1e6?(n/1e6).toFixed(1)+" MB":Math.round(n/1e3)+" KB"):"";
