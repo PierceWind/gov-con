@@ -112,13 +112,28 @@ def load(refresh_if_stale: bool = True) -> dict:
             "ids": data.get("ids") or {}, "error": data.get("error")}
 
 
-def opportunity_id(row: dict) -> str:
+def opportunity_ids(row: dict) -> set[str]:
+    """Return all identifiers that may match the tracker Notice ID column."""
+    values = set()
     for key in ("Solicitation #", "Notice ID", "source_id", "opp_key"):
         value = normalize_id(row.get(key))
         if value:
-            return value
-    return ""
+            values.add(value)
+    return values
+
+
+def matched_tracker_row(row: dict, index: dict) -> dict | None:
+    for notice_id in opportunity_ids(row):
+        if notice_id in index:
+            return index[notice_id]
+    return None
 
 
 def status_for(row: dict, index: dict) -> str:
-    return "Already in tracker" if opportunity_id(row) and opportunity_id(row) in index else "New to tracker"
+    tracker_row = matched_tracker_row(row, index)
+    if tracker_row is None:
+        return "Not in tracker"
+    for key in ("STATUS", "Status", "status"):
+        if tracker_row.get(key):
+            return str(tracker_row[key]).strip()
+    return "In tracker"

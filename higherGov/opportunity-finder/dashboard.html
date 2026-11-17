@@ -106,7 +106,7 @@ button.docbtn{padding:2px 8px;font-size:12px;cursor:pointer}
       <label class="muted"><input type="checkbox" id="expired"> Show past deadline</label>
       <select id="stfilter" title="Filter by lead status"><option value="">All statuses</option></select>
       <select id="source" title="Filter by source"><option value="">All sources</option><option>HigherGov</option><option>SAM.gov</option></select>
-      <select id="trackerfilter" title="Filter by tracker state"><option value="">All tracker states</option><option>Already in tracker</option><option>New to tracker</option></select>
+      <select id="trackerfilter" title="Filter by tracker status"><option value="">All tracker statuses</option></select>
     </div>
   </details>
   <input type="search" id="q" placeholder="Filter title, agency, place…">
@@ -194,7 +194,7 @@ function render(){
     return `<tr class="${r.first_seen===today?"new":""} ${on?"picked":""}" data-k="${esc(r.opp_key)}">
 <td class="cb"><input type="checkbox" class="pick" ${on?"checked":""}></td>
 <td class="nw"><select class="st ${stc(r.Status)}" title="${r["Status updated"]?"Updated "+esc(r["Status updated"]):"Not updated yet"}">${STATUSES.map(s=>`<option ${s===r.Status?"selected":""}>${s}</option>`).join("")}</select></td>
-<td class="nw"><span class="tracker-tag ${r.Tracker==="Already in tracker"?"in":"new"}">${esc(r.Tracker||"Unknown")}</span></td>
+<td class="nw"><span class="tracker-tag ${r.Tracker!=="Not in tracker"?"in":"new"}">${esc(r.Tracker||"Not in tracker")}</span></td>
 <td class="pct ${cls}">${p}%</td>
 <td class="nw">${r.bid?`<span class="verdict ${r.bid.verdict==="Bid"?"v-bid":r.bid.verdict==="Maybe"?"v-maybe":"v-no"}" title="${esc(r.bid.one_line||"")}" style="font-size:11px;padding:2px 8px">${esc(r.bid.verdict)} ${r.bid.score??""}</span>`:'<span class="muted">-</span>'}</td>
 <td class="muted">${esc(r.Source)}</td>
@@ -254,7 +254,7 @@ const QUICK={
   nocheck:()=>shown.forEach(r=>!r.bid&&picked.add(r.opp_key)),
   bid:()=>shown.forEach(r=>r.bid&&r.bid.verdict==="Bid"&&picked.add(r.opp_key)),
   setaside:()=>shown.forEach(r=>r["Set-aside"]&&r["Set-aside"]!=="NONE"&&picked.add(r.opp_key)),
-  nottracker:()=>shown.forEach(r=>r.Tracker==="New to tracker"&&picked.add(r.opp_key)),
+  nottracker:()=>shown.forEach(r=>r.Tracker==="Not in tracker"&&picked.add(r.opp_key)),
 };
 $("bulkst").onchange=async e=>{
   const s=e.target.value;e.target.value="";if(!s)return;
@@ -446,7 +446,13 @@ $("x_export").onchange=()=>{
   else if(kind==="xlsx")exportXlsx();
   else if(kind==="pdf")exportPdf();
 };
-async function load(){rows=await (await fetch("/api/opportunities")).json();render()}
+function updateTrackerOptions(){
+  const sel=$("trackerfilter"),current=sel.value;
+  const values=[...new Set(rows.map(r=>r.Tracker).filter(Boolean))].sort((a,b)=>a.localeCompare(b));
+  sel.innerHTML=`<option value="">All tracker statuses</option>`+values.map(v=>`<option>${esc(v)}</option>`).join("");
+  if(values.includes(current))sel.value=current;
+}
+async function load(){rows=await (await fetch("/api/opportunities")).json();updateTrackerOptions();render()}
 async function status(){
   const s=await (await fetch("/api/status")).json();
   $("last").textContent="Last run: "+(s.last_run||"never");
