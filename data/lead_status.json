@@ -630,10 +630,15 @@
     "status": "New",
     "at": "2026-11-18T00:31",
     "auto": false
+   },
+   {
+    "status": "Copied",
+    "at": "2026-11-18T01:20",
+    "auto": true
    }
   ],
-  "status": "New",
-  "updated": "2026-11-18T00:31"
+  "status": "Copied",
+  "updated": "2026-11-18T01:20"
  },
  "5673d5e2afb058df95a31c9f4d83350f": {
   "history": [

@@ -129,7 +129,9 @@ def matched_tracker_row(row: dict, index: dict) -> dict | None:
     return None
 
 
-def status_for(row: dict, index: dict) -> str:
+def status_for(row: dict, index: dict, available: bool = True) -> str:
+    if not available:
+        return "Tracker unavailable"
     tracker_row = matched_tracker_row(row, index)
     if tracker_row is None:
         return "Not in tracker"

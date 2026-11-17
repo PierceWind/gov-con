@@ -64,12 +64,13 @@ def api_rows():
     # button performs the network sync explicitly.
     tracker_data = tracker.load(refresh_if_stale=False)
     tracker_index = tracker_data.get("ids") or {}
+    tracker_available = bool(tracker_data.get("synced_at"))
     return [{"Status": (st.get(r.get("opp_key")) or {}).get("status", "New"),
              "Status updated": (st.get(r.get("opp_key")) or {}).get("updated", ""), **{k: v for k, v in r.items() if not k.startswith("_")}, "bid": bid_summary(r),
              "Summary": r.get("Summary") or r.get("_desc") or "",
              "Link": finder.full_url(r.get("Link")) or finder.full_url(r.get("HigherGov")),
              "HigherGov": finder.full_url(r.get("HigherGov")),
-             "Tracker": tracker.status_for(r, tracker_index)}
+             "Tracker": tracker.status_for(r, tracker_index, tracker_available)}
             for r in (json.loads(STORE.read_text()).values() if STORE.exists() else [])]
 
 
