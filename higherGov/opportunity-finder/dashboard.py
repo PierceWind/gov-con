@@ -30,6 +30,7 @@ sys.path.insert(0, str(HERE))
 import find_opportunities as finder  # noqa: E402  (api key + fetch helpers)
 import proposal  # noqa: E402
 import teams  # noqa: E402
+import tracker  # noqa: E402
 
 teams_log = {"last": None, "error": None}
 
@@ -59,11 +60,16 @@ def set_status(keys, status, auto=False):
 
 def api_rows():
     st = lead_statuses()
+    # Keep page loads local and predictable; the dashboard's Refresh tracker
+    # button performs the network sync explicitly.
+    tracker_data = tracker.load(refresh_if_stale=False)
+    tracker_index = tracker_data.get("ids") or {}
     return [{"Status": (st.get(r.get("opp_key")) or {}).get("status", "New"),
              "Status updated": (st.get(r.get("opp_key")) or {}).get("updated", ""), **{k: v for k, v in r.items() if not k.startswith("_")}, "bid": bid_summary(r),
              "Summary": r.get("Summary") or r.get("_desc") or "",
              "Link": finder.full_url(r.get("Link")) or finder.full_url(r.get("HigherGov")),
-             "HigherGov": finder.full_url(r.get("HigherGov"))}
+             "HigherGov": finder.full_url(r.get("HigherGov")),
+             "Tracker": tracker.status_for(r, tracker_index)}
             for r in (json.loads(STORE.read_text()).values() if STORE.exists() else [])]
 
 
@@ -303,6 +309,11 @@ class H(BaseHTTPRequestHandler):
             return self.send(json.dumps({**teams_log, "configured": bool(teams.webhook()),
                                          "auto": bool(teams_auto()), "destination": teams.send_target(),
                                          "duplicate_check": teams.duplicate_check_configured()}))
+        if self.path == "/api/tracker":
+            data = tracker.load(refresh_if_stale=False)
+            return self.send(json.dumps({"configured": bool(tracker._sheet_csv_url()),
+                                         "count": data.get("count", 0), "synced_at": data.get("synced_at"),
+                                         "error": data.get("error")}))
         if self.path == "/api/ai/batch":
             return self.send(json.dumps({k: v for k, v in batch.items() if k != "stop"}))
         if self.path.startswith("/api/ai?"):
@@ -370,6 +381,10 @@ class H(BaseHTTPRequestHandler):
                 set_status(info["sent_keys"], "Sent", auto=True)
                 set_status(info["duplicates"], "Sent", auto=True)
             return self.send(json.dumps(teams_log), code=200 if ok else 502)
+        if self.path == "/api/tracker/refresh":
+            data = tracker.refresh()
+            return self.send(json.dumps({"count": data.get("count", 0), "synced_at": data.get("synced_at"),
+                                         "error": data.get("error")}), code=200 if not data.get("error") else 502)
         if self.path == "/api/briefs":
             body = json.loads(self.rfile.read(int(self.headers.get("Content-Length") or 0)) or b"{}")
             keys = body.get("keys") or []

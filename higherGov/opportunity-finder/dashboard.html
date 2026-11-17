@@ -31,6 +31,7 @@ pre{margin:0 20px 12px;padding:10px;background:var(--card);border:1px solid var(
 .sel button{padding:4px 10px;font-size:13px;cursor:pointer}
 .sel .sep{width:1px;height:20px;background:var(--line);margin:0 6px}
 .sel .exp{border-color:var(--accent);color:var(--accent)}
+.tracker-tag{display:inline-block;border:1px solid var(--line);border-radius:999px;padding:2px 8px;font-size:11px;white-space:nowrap}.tracker-tag.in{color:#8250df}.tracker-tag.new{color:var(--muted)}
 tr.picked td{background:color-mix(in srgb,var(--accent) 12%,transparent)}
 td.cb,th.cb{width:28px;text-align:center}
 select.st{padding:2px 4px;font-size:12px;border-radius:999px;font-weight:600}
@@ -61,6 +62,8 @@ button.docbtn{padding:2px 8px;font-size:12px;cursor:pointer}
   <h1>Opportunity Finder</h1>
   <span class="muted" id="last">Last run: –</span>
   <span class="muted" id="sources">Sources: –</span>
+  <span class="muted" id="trackerinfo">Tracker: –</span>
+  <button id="trackerrefresh" title="Refresh solicitation IDs from the GovCon tracker">Refresh tracker</button>
   <select id="days" title="Scan window">
     <option value="">Since last run</option><option value="3">Last 3 days</option>
     <option value="7">Last 7 days</option><option value="14">Last 14 days</option>
@@ -99,6 +102,7 @@ button.docbtn{padding:2px 8px;font-size:12px;cursor:pointer}
   <label class="muted"><input type="checkbox" id="expired"> Show past deadline</label>
   <select id="stfilter" title="Filter by lead status"><option value="">All statuses</option></select>
   <select id="source" title="Filter by source"><option value="">All sources</option><option>HigherGov</option><option>SAM.gov</option></select>
+  <select id="trackerfilter" title="Filter by tracker state"><option value="">All tracker states</option><option>Already in tracker</option><option>New to tracker</option></select>
   <input type="search" id="q" placeholder="Filter title, agency, place…">
   <span class="muted" id="count"></span>
 </div>
@@ -112,6 +116,7 @@ button.docbtn{padding:2px 8px;font-size:12px;cursor:pointer}
   <button data-q="new">New today</button>
   <button data-q="week">Due in 7 days</button>
   <button data-q="setaside">Has set-aside</button>
+  <button data-q="nottracker">Not in tracker</button>
   <button data-q="nocheck">Not bid-checked</button>
   <button data-q="bid">Verdict: Bid</button>
   <span class="sep"></span>
@@ -162,7 +167,7 @@ button.docbtn{padding:2px 8px;font-size:12px;cursor:pointer}
 <script>
 const STATUSES=["New","In review","Copied","Sent","Bid submitted","Won","Lost","No bid"];
 const stc=s=>"st-"+String(s).replace(/ /g,"-");
-const COLS=[["Status","Status"],["Match %","Match"],["bid","Bid"],["Source","Source"],["Title","Title"],["Agency","Agency"],["NAICS","NAICS"],["PSC","PSC"],["Set-aside","Set-aside"],["Type","Type"],["Posted","Posted"],["Response Deadline","Deadline"],["Place of Performance","Place"],["Contact","Contact"],["Solicitation #","Solicitation #"]];
+const COLS=[["Status","Status"],["Tracker","Tracker"],["Match %","Match"],["bid","Bid"],["Source","Source"],["Title","Title"],["Agency","Agency"],["NAICS","NAICS"],["PSC","PSC"],["Set-aside","Set-aside"],["Type","Type"],["Posted","Posted"],["Response Deadline","Deadline"],["Place of Performance","Place"],["Contact","Contact"],["Solicitation #","Solicitation #"]];
 let rows=[],minM=0,sortKey="Response Deadline",sortDir=1;
 const today=new Date().toISOString().slice(0,10),$=id=>document.getElementById(id);
 const esc=s=>String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
@@ -170,7 +175,7 @@ let picked=new Set(),shown=[];
 $("head").innerHTML=`<th class="cb"><input type="checkbox" id="pickall" title="Select all shown"></th>`+COLS.map(([k,l])=>`<th data-k="${k}">${l}</th>`).join("");
 document.querySelectorAll("th[data-k]").forEach(th=>th.onclick=()=>{const k=th.dataset.k;sortDir=sortKey===k?-sortDir:(k==="Match %"?-1:1);sortKey=k;render()});
 document.querySelectorAll(".chip").forEach(c=>c.onclick=()=>{document.querySelectorAll(".chip").forEach(x=>x.classList.remove("on"));c.classList.add("on");minM=+c.dataset.m;render()});
-["q","newonly","expired","source","stfilter"].forEach(id=>$(id).oninput=render);
+["q","newonly","expired","source","stfilter","trackerfilter"].forEach(id=>$(id).oninput=render);
 function daysLeft(d){return d?Math.round((new Date(d)-new Date(today))/864e5):null}
 function render(){
   const q=$("q").value.toLowerCase();
@@ -179,6 +184,7 @@ function render(){
     &&(!$("newonly").checked||r.first_seen===today)
     &&(!$("source").value||r.Source===$("source").value)
     &&(!$("stfilter").value||r.Status===$("stfilter").value)
+    &&(!$("trackerfilter").value||r.Tracker===$("trackerfilter").value)
     &&(!q||[r.Title,r.Agency,r["Place of Performance"],r["Solicitation #"]].join(" ").toLowerCase().includes(q)))
    .sort((a,b)=>{const val=r=>sortKey==="bid"?(r.bid?r.bid.score:-1):r[sortKey];const x=val(a)??"",y=val(b)??"";return (x>y?1:x<y?-1:0)*sortDir});
   shown=list;
@@ -190,6 +196,7 @@ function render(){
     return `<tr class="${r.first_seen===today?"new":""} ${on?"picked":""}" data-k="${esc(r.opp_key)}">
 <td class="cb"><input type="checkbox" class="pick" ${on?"checked":""}></td>
 <td class="nw"><select class="st ${stc(r.Status)}" title="${r["Status updated"]?"Updated "+esc(r["Status updated"]):"Not updated yet"}">${STATUSES.map(s=>`<option ${s===r.Status?"selected":""}>${s}</option>`).join("")}</select></td>
+<td class="nw"><span class="tracker-tag ${r.Tracker==="Already in tracker"?"in":"new"}">${esc(r.Tracker||"Unknown")}</span></td>
 <td class="pct ${cls}">${p}%</td>
 <td class="nw">${r.bid?`<span class="verdict ${r.bid.verdict==="Bid"?"v-bid":r.bid.verdict==="Maybe"?"v-maybe":"v-no"}" title="${esc(r.bid.one_line||"")}" style="font-size:11px;padding:2px 8px">${esc(r.bid.verdict)} ${r.bid.score??""}</span>`:'<span class="muted">-</span>'}</td>
 <td class="muted">${esc(r.Source)}</td>
@@ -233,6 +240,7 @@ const QUICK={
   nocheck:()=>shown.forEach(r=>!r.bid&&picked.add(r.opp_key)),
   bid:()=>shown.forEach(r=>r.bid&&r.bid.verdict==="Bid"&&picked.add(r.opp_key)),
   setaside:()=>shown.forEach(r=>r["Set-aside"]&&r["Set-aside"]!=="NONE"&&picked.add(r.opp_key)),
+  nottracker:()=>shown.forEach(r=>r.Tracker==="New to tracker"&&picked.add(r.opp_key)),
 };
 $("bulkst").onchange=async e=>{
   const s=e.target.value;e.target.value="";if(!s)return;
@@ -350,8 +358,22 @@ async function sendTeams(format){
 }
 $("x_teams").onclick=()=>sendTeams("table");
 $("x_teams_brief").onclick=()=>sendTeams("brief");
+// ---- GovCon tracker ----
+async function trackerStatus(){
+  const r=await fetch("/api/tracker"),j=await r.json();
+  $("trackerinfo").textContent=j.synced_at?`Tracker: ${j.count} IDs loaded`:(j.error?"Tracker: sync needed":"Tracker: not synced");
+  if(j.error)$("trackerinfo").title=j.error;
+  return j;
+}
+$("trackerrefresh").onclick=async()=>{
+  $("trackerrefresh").disabled=true;$("trackerinfo").textContent="Tracker: refreshing…";
+  const r=await fetch("/api/tracker/refresh",{method:"POST"}),j=await r.json();
+  $("trackerrefresh").disabled=false;
+  if(!r.ok){$("trackerinfo").textContent="Tracker: sync failed";$("trackerinfo").title=j.error||"";return toast("⚠ "+(j.error||"Tracker sync failed"));}
+  await load();await trackerStatus();toast(`Loaded ${j.count} tracker IDs`);
+};
 // ---- export: selected rows, or everything shown if none selected ----
-const XCOLS=["Status","Bid","Bid score","Match %","Source","Title","Solicitation #","Agency","NAICS","PSC","Set-aside","Type","Posted","Response Deadline","Place of Performance","Link","Contact"];
+const XCOLS=["Status","Tracker","Bid","Bid score","Match %","Source","Title","Solicitation #","Agency","NAICS","PSC","Set-aside","Type","Posted","Response Deadline","Place of Performance","Link","Contact"];
 function exportRows(){const s=shown.filter(r=>picked.has(r.opp_key));return (s.length?s:shown).map(r=>({...r,"Bid":r.bid?r.bid.verdict:"","Bid score":r.bid?r.bid.score:""}))}
 function toast(m){$("toast").textContent=m;$("toast").style.opacity=1;setTimeout(()=>$("toast").style.opacity=0,2200)}
 function fname(ext){return `contracts_${today}.${ext}`}
@@ -394,7 +416,7 @@ function exportXlsx(){
 function exportPdf(){
   if(!window.jspdf)return toast("PDF library didn't load (offline?) - use CSV");
   const rs=exportRows(),doc=new jspdf.jsPDF({orientation:"landscape",unit:"pt",format:"letter"});
-  const PC=["Status","Match %","Title","Solicitation #","Agency","NAICS","Set-aside","Type","Posted","Response Deadline","Place of Performance","Contact"];
+  const PC=["Status","Tracker","Match %","Title","Solicitation #","Agency","NAICS","Set-aside","Type","Posted","Response Deadline","Place of Performance","Contact"];
   doc.setFontSize(14);doc.text(`Contract opportunities - ${today} (${rs.length})`,30,30);
   doc.autoTable({startY:42,head:[PC.map(c=>c==="Response Deadline"?"Deadline":c==="Place of Performance"?"Place":c)],
     body:rs.map(r=>PC.map(c=>c==="Match %"?r[c]+"%":String(r[c]??""))),
@@ -454,7 +476,7 @@ $("c_rescore").onclick=async()=>{
   const t=setInterval(async()=>{const s=await status();if(!s.running){clearInterval(t);load();$("c_msg").textContent=(s.log.match(/Re-checked.*$/m)||[s.error||"Done."])[0]}},2000);
 };
 loadCfg();
-load();status().then(s=>{if(s.running){const t=setInterval(async()=>{const s=await status();if(!s.running){clearInterval(t);load()}},3000)}});
+load();trackerStatus();status().then(s=>{if(s.running){const t=setInterval(async()=>{const s=await status();if(!s.running){clearInterval(t);load()}},3000)}});
 </script>
 </body>
 </html>

@@ -16,10 +16,25 @@
     "status": "Copied",
     "at": "2026-11-14T02:13",
     "auto": true
+   },
+   {
+    "status": "Sent",
+    "at": "2026-11-17T23:56",
+    "auto": false
+   },
+   {
+    "status": "Sent",
+    "at": "2026-11-17T23:56",
+    "auto": false
+   },
+   {
+    "status": "Sent",
+    "at": "2026-11-17T23:58",
+    "auto": false
    }
   ],
-  "status": "Copied",
-  "updated": "2026-11-14T02:13"
+  "status": "Sent",
+  "updated": "2026-11-17T23:58"
  },
  "087bf4b2422a58df9eb43dce2e197ec8": {
   "history": [
@@ -27,10 +42,25 @@
     "status": "Copied",
     "at": "2026-11-17T21:34",
     "auto": true
+   },
+   {
+    "status": "Sent",
+    "at": "2026-11-17T23:56",
+    "auto": false
+   },
+   {
+    "status": "Sent",
+    "at": "2026-11-17T23:56",
+    "auto": false
+   },
+   {
+    "status": "Sent",
+    "at": "2026-11-17T23:58",
+    "auto": false
    }
   ],
-  "status": "Copied",
-  "updated": "2026-11-17T21:34"
+  "status": "Sent",
+  "updated": "2026-11-17T23:58"
  },
  "e609d8a8375e52ac91a1c19662b053f8": {
   "history": [
@@ -38,10 +68,15 @@
     "status": "Copied",
     "at": "2026-11-17T22:10",
     "auto": true
+   },
+   {
+    "status": "Sent",
+    "at": "2026-11-17T23:58",
+    "auto": false
    }
   ],
-  "status": "Copied",
-  "updated": "2026-11-17T22:10"
+  "status": "Sent",
+  "updated": "2026-11-17T23:58"
  },
  "714903762bdd5390b255735183969a4e": {
   "history": [
@@ -49,10 +84,15 @@
     "status": "Copied",
     "at": "2026-11-17T22:10",
     "auto": true
+   },
+   {
+    "status": "Sent",
+    "at": "2026-11-17T23:58",
+    "auto": false
    }
   ],
-  "status": "Copied",
-  "updated": "2026-11-17T22:10"
+  "status": "Sent",
+  "updated": "2026-11-17T23:58"
  },
  "3a5df1ec269058f591db38d167583847": {
   "history": [
@@ -115,10 +155,25 @@
     "status": "Copied",
     "at": "2026-11-17T22:35",
     "auto": true
+   },
+   {
+    "status": "Sent",
+    "at": "2026-11-17T23:56",
+    "auto": false
+   },
+   {
+    "status": "Sent",
+    "at": "2026-11-17T23:56",
+    "auto": false
+   },
+   {
+    "status": "Sent",
+    "at": "2026-11-17T23:58",
+    "auto": false
    }
   ],
-  "status": "Copied",
-  "updated": "2026-11-17T22:35"
+  "status": "Sent",
+  "updated": "2026-11-17T23:58"
  },
  "4719931a15f153f3b9159c4e69f07759": {
   "history": [
@@ -181,10 +236,25 @@
     "status": "Copied",
     "at": "2026-11-17T22:35",
     "auto": true
+   },
+   {
+    "status": "Sent",
+    "at": "2026-11-17T23:56",
+    "auto": false
+   },
+   {
+    "status": "Sent",
+    "at": "2026-11-17T23:56",
+    "auto": false
+   },
+   {
+    "status": "Sent",
+    "at": "2026-11-17T23:58",
+    "auto": false
    }
   ],
-  "status": "Copied",
-  "updated": "2026-11-17T22:35"
+  "status": "Sent",
+  "updated": "2026-11-17T23:58"
  },
  "dcf292f3821659e18a9dec076b59c242": {
   "history": [
@@ -192,10 +262,25 @@
     "status": "Copied",
     "at": "2026-11-17T22:35",
     "auto": true
+   },
+   {
+    "status": "Sent",
+    "at": "2026-11-17T23:56",
+    "auto": false
+   },
+   {
+    "status": "Sent",
+    "at": "2026-11-17T23:56",
+    "auto": false
+   },
+   {
+    "status": "Sent",
+    "at": "2026-11-17T23:58",
+    "auto": false
    }
   ],
-  "status": "Copied",
-  "updated": "2026-11-17T22:35"
+  "status": "Sent",
+  "updated": "2026-11-17T23:58"
  },
  "eaa268cf479f50ed848088ee7ec74b9b": {
   "history": [
@@ -258,10 +343,25 @@
     "status": "Copied",
     "at": "2026-11-17T22:35",
     "auto": true
+   },
+   {
+    "status": "Sent",
+    "at": "2026-11-17T23:56",
+    "auto": false
+   },
+   {
+    "status": "Sent",
+    "at": "2026-11-17T23:56",
+    "auto": false
+   },
+   {
+    "status": "Sent",
+    "at": "2026-11-17T23:58",
+    "auto": false
    }
   ],
-  "status": "Copied",
-  "updated": "2026-11-17T22:35"
+  "status": "Sent",
+  "updated": "2026-11-17T23:58"
  },
  "6ed8eb99f4a85fb4bf154a4eff8bc10e": {
   "history": [
@@ -302,10 +402,25 @@
     "status": "Copied",
     "at": "2026-11-17T22:35",
     "auto": true
+   },
+   {
+    "status": "Sent",
+    "at": "2026-11-17T23:56",
+    "auto": false
+   },
+   {
+    "status": "Sent",
+    "at": "2026-11-17T23:56",
+    "auto": false
+   },
+   {
+    "status": "Sent",
+    "at": "2026-11-17T23:58",
+    "auto": false
    }
   ],
-  "status": "Copied",
-  "updated": "2026-11-17T22:35"
+  "status": "Sent",
+  "updated": "2026-11-17T23:58"
  },
  "0a4c299bbe985a07b8bc5d57cf29e311": {
   "history": [
@@ -401,10 +516,25 @@
     "status": "Copied",
     "at": "2026-11-17T22:35",
     "auto": true
+   },
+   {
+    "status": "Sent",
+    "at": "2026-11-17T23:56",
+    "auto": false
+   },
+   {
+    "status": "Sent",
+    "at": "2026-11-17T23:56",
+    "auto": false
+   },
+   {
+    "status": "Sent",
+    "at": "2026-11-17T23:58",
+    "auto": false
    }
   ],
-  "status": "Copied",
-  "updated": "2026-11-17T22:35"
+  "status": "Sent",
+  "updated": "2026-11-17T23:58"
  },
  "12930a59b2e05834bd9ee3e16c4b1405": {
   "history": [
@@ -456,10 +586,25 @@
     "status": "Copied",
     "at": "2026-11-17T22:35",
     "auto": true
+   },
+   {
+    "status": "Sent",
+    "at": "2026-11-17T23:56",
+    "auto": false
+   },
+   {
+    "status": "Sent",
+    "at": "2026-11-17T23:56",
+    "auto": false
+   },
+   {
+    "status": "Sent",
+    "at": "2026-11-17T23:58",
+    "auto": false
    }
   ],
-  "status": "Copied",
-  "updated": "2026-11-17T22:35"
+  "status": "Sent",
+  "updated": "2026-11-17T23:58"
  },
  "18ff031244cb527a8a622170f86e5090": {
   "history": [
@@ -632,10 +777,25 @@
     "status": "Copied",
     "at": "2026-11-17T22:35",
     "auto": true
+   },
+   {
+    "status": "Sent",
+    "at": "2026-11-17T23:56",
+    "auto": false
+   },
+   {
+    "status": "Sent",
+    "at": "2026-11-17T23:56",
+    "auto": false
+   },
+   {
+    "status": "Sent",
+    "at": "2026-11-17T23:58",
+    "auto": false
    }
   ],
-  "status": "Copied",
-  "updated": "2026-11-17T22:35"
+  "status": "Sent",
+  "updated": "2026-11-17T23:58"
  },
  "6e7b4f6a629857aeb589884cb0bd7d21": {
   "history": [
@@ -676,10 +836,15 @@
     "status": "Copied",
     "at": "2026-11-17T22:35",
     "auto": true
+   },
+   {
+    "status": "Sent",
+    "at": "2026-11-17T23:58",
+    "auto": false
    }
   ],
-  "status": "Copied",
-  "updated": "2026-11-17T22:35"
+  "status": "Sent",
+  "updated": "2026-11-17T23:58"
  },
  "1a851e28b3865408b5701f49847f6ff1": {
   "history": [
@@ -687,10 +852,25 @@
     "status": "Copied",
     "at": "2026-11-17T22:35",
     "auto": true
+   },
+   {
+    "status": "Sent",
+    "at": "2026-11-17T23:56",
+    "auto": false
+   },
+   {
+    "status": "Sent",
+    "at": "2026-11-17T23:56",
+    "auto": false
+   },
+   {
+    "status": "Sent",
+    "at": "2026-11-17T23:58",
+    "auto": false
    }
   ],
-  "status": "Copied",
-  "updated": "2026-11-17T22:35"
+  "status": "Sent",
+  "updated": "2026-11-17T23:58"
  },
  "58df5222e8985ab686cbffbb8073713d": {
   "history": [
@@ -698,10 +878,25 @@
     "status": "Copied",
     "at": "2026-11-17T22:35",
     "auto": true
+   },
+   {
+    "status": "Sent",
+    "at": "2026-11-17T23:56",
+    "auto": false
+   },
+   {
+    "status": "Sent",
+    "at": "2026-11-17T23:56",
+    "auto": false
+   },
+   {
+    "status": "Sent",
+    "at": "2026-11-17T23:58",
+    "auto": false
    }
   ],
-  "status": "Copied",
-  "updated": "2026-11-17T22:35"
+  "status": "Sent",
+  "updated": "2026-11-17T23:58"
  },
  "47a9ed846bbd5b509e4d56fe77a1fd47": {
   "history": [
