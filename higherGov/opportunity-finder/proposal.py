@@ -23,6 +23,7 @@ import tempfile
 import json
 import os
 import re
+import time
 import urllib.error
 import urllib.parse
 import urllib.request
@@ -36,6 +37,7 @@ COMPANY = ROOT / "company"
 PRICELIST = ROOT.parent / "template" / ".agents" / "skills" / "site-rebuild-standards" / "UNIT-PRICELIST.md"
 API = "https://www.highergov.com/api-external/"
 MODEL = "claude-opus-5-5"
+HIGHERGOV_NETWORK_RETRIES = 4
 
 
 class NoAIKey(RuntimeError):
@@ -44,11 +46,31 @@ class NoAIKey(RuntimeError):
 
 # ---------- data gathering ----------
 
+def _get_json(url):
+    """Fetch HigherGov JSON with short retries for transient Windows socket failures."""
+    last = None
+    for attempt in range(HIGHERGOV_NETWORK_RETRIES):
+        request = urllib.request.Request(url, headers={
+            "Accept": "application/json",
+            "Connection": "close",
+            "User-Agent": "gov-con opportunity finder/1.0",
+        })
+        try:
+            with urllib.request.urlopen(request, timeout=60) as response:
+                return json.load(response)
+        except urllib.error.HTTPError:
+            raise
+        except (urllib.error.URLError, OSError, TimeoutError) as exc:
+            last = exc
+            if attempt + 1 < HIGHERGOV_NETWORK_RETRIES:
+                time.sleep(1 << attempt)
+    raise last
+
+
 def _get(endpoint, **params):
     q = urllib.parse.urlencode({"api_key": finder.api_key(), "page_size": 100, **params})
     try:
-        with urllib.request.urlopen(f"{API}{endpoint}/?{q}", timeout=60) as r:
-            return json.load(r).get("results", [])
+        return _get_json(f"{API}{endpoint}/?{q}").get("results", [])
     except Exception as e:  # halt, as the finder does
         raise finder.FetchError(f"HigherGov {endpoint} request failed: {e}") from None
 
