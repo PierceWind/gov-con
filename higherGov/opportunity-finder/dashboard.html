@@ -167,7 +167,7 @@ const COLS=[["Status","Status"],["Tracker","Tracker"],["Match %","Match"],["bid"
 let rows=[],minM=0,sortKey="Response Deadline",sortDir=1;
 const today=new Date().toISOString().slice(0,10),$=id=>document.getElementById(id);
 const esc=s=>String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
-let picked=new Set(),shown=[];
+let picked=new Set(),shown=[],lastPickKey=null;
 $("head").innerHTML=`<th class="cb"><input type="checkbox" id="pickall" title="Select all shown"></th>`+COLS.map(([k,l])=>`<th data-k="${k}">${l}</th>`).join("");
 document.querySelectorAll("th[data-k]").forEach(th=>th.onclick=()=>{const k=th.dataset.k;sortDir=sortKey===k?-sortDir:(k==="Match %"?-1:1);sortKey=k;render()});
 document.querySelectorAll(".chip").forEach(c=>c.onclick=()=>{document.querySelectorAll(".chip").forEach(x=>x.classList.remove("on"));c.classList.add("on");minM=+c.dataset.m;render()});
@@ -222,9 +222,25 @@ async function setStatus(keys,status,auto=false){
 }
 $("body").addEventListener("change",e=>{
   if(e.target.classList.contains("st")){setStatus([e.target.closest("tr").dataset.k],e.target.value).then(()=>toast("Status: "+e.target.value));return}
-  if(!e.target.classList.contains("pick"))return;
-  const tr=e.target.closest("tr"),k=tr.dataset.k;
-  e.target.checked?picked.add(k):picked.delete(k);tr.classList.toggle("picked",e.target.checked);updSel();
+});
+$("body").addEventListener("click",e=>{
+  const tr=e.target.closest("#body tr[data-k]");
+  if(!tr)return;
+  const checkbox=e.target.closest(".pick");
+  const control=e.target.closest("button,select,input,a,textarea,details");
+  if(control&&!checkbox)return;
+  const k=tr.dataset.k,idx=shown.findIndex(r=>r.opp_key===k);
+  if(idx<0)return;
+  const checked=checkbox?checkbox.checked:!picked.has(k);
+  const anchor=lastPickKey?shown.findIndex(r=>r.opp_key===lastPickKey):-1;
+  if(e.shiftKey&&anchor>=0){
+    const lo=Math.min(anchor,idx),hi=Math.max(anchor,idx);
+    shown.slice(lo,hi+1).forEach(r=>checked?picked.add(r.opp_key):picked.delete(r.opp_key));
+  }else{
+    checked?picked.add(k):picked.delete(k);
+  }
+  lastPickKey=k;
+  render();
 });
 $("pickall").onchange=e=>{shown.forEach(r=>e.target.checked?picked.add(r.opp_key):picked.delete(r.opp_key));render()};
 const QUICK={
