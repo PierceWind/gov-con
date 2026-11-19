@@ -1,0 +1,58 @@
+{
+ "verdict": "No bid",
+ "score": 12,
+ "one_line": "This is a small septic-pumping and portable-toilet job, and it requires permits, a vacuum truck, and licensed drivers that we don't show having (a Riverside County Septic Pumper Permit, a California DMV Motor Carrier Permit, and a Class A/B license with air-brake endorsement), so it doesn't fit our trailer-rental business.",
+ "scope": "CAL FIRE wants at least two portable toilets and two handwashing stations rented at Hemet-Ryan Air Attack Base (RAAB). The units must be serviced twice a week and moved as needed at no extra cost. The contractor must also pump the septic tanks at least three times a year (about 1,500 gallons per service, 13,500 gallons estimated, not guaranteed) with its own vacuum truck and/or trailer, respond on site within 48 hours, and haul waste to a certified disposal site with disposal records. The estimated term runs from January 1, 2027 (or CAL FIRE approval, whichever is later) through December 31, 2030, Monday\u2013Friday, 8:00 a.m.\u20135:00 p.m.",
+ "fit": [
+  "The place of performance (Hemet, CA) is in our home state. We are based in Marina del Rey, CA, and our work area is nationwide.",
+  "Portable sanitation is listed under our Facility Support & Utilities core competency.",
+  "Relevant past performance: the City and County of Denver restroom trailer contract (SC-00011558), which includes cleaning, pump-outs, waste disposal, and supplies, plus the USCG Lake Worth Inlet wastewater support (70Z02826FMIAM0008).",
+  "CAL FIRE is an emergency-responder agency, the kind of customer we already serve.",
+  "Our SBE/MBE status might qualify for the 5% California SB/MB preference, but only if we hold California DGS certification, which our documents don't show."
+ ],
+ "red_flags": [
+  "HigherGov tags the set-aside as SDVOSBC. We have no SDVOSB certification, so if the tag is correct we can't bid as prime. The summary also mentions a DVBE incentive and an SB/MB preference, which would suggest open competition, so the tag may be wrong. Either way, it must be checked on Cal eProcure.",
+  "The contractor must hold a current Riverside County Septic Pumper Permit and an active California DMV Motor Carrier Permit, and keep a California Class A or B driver's license with air-brake endorsement. None of these is in our profile.",
+  "We need our own vacuum truck and/or trailer that meets state and federal DOT certification. Our fleet doesn't list one.",
+  "NAICS 562991 and PSC S299 are not in our NAICS, PSC, or GSA SIN lists.",
+  "Portable toilets and handwashing stations are standard units, not the restroom/shower trailers we rent. Our price list has no portable toilet or septic pumping rates.",
+  "The value is small: $12,000\u2013$35,000 over about four years. That's hard to justify for twice-weekly service roughly 90 miles from our office, plus free relocations.",
+  "Quantities are not guaranteed, and CAL FIRE can change frequency and quantity.",
+  "Subcontracting is allowed only for subcontractors listed in the bid declaration. Even with a listed local pumper, it's unclear whether the prime itself must hold the permits.",
+  "Required insurance: $1M general liability, $1M employer's liability, workers' comp with waiver of subrogation, and $1M commercial auto, with the State named as additional insured.",
+  "The pack has no attachments (0). We haven't seen the solicitation, the rate sheet, or the bid declaration."
+ ],
+ "competition": "The pack shows no past CAL FIRE awards under NAICS 562991, so the incumbent is unknown. Nearby benchmark: Clean Relief Portables won latrine vault and septic tank pumping in Idyllwild, CA (also in Riverside County) for $77,200 with 1 offer. That makes them a likely local competitor, but this is our inference, not a fact from the pack. Major Contracting Services wins most of the federal SDVOSB latrine work at Fort Polk and Fort Riley. Offer counts in the benchmarks range from 1 to 31 (GDH & Mrh Ventures, Brunswick, GA: 31 offers).",
+ "price_signal": "CAL FIRE estimates $12,000\u2013$35,000 for the full term, about $3,000\u2013$9,000 per year. Comparable multi-year awards: Clean Relief Portables, Idyllwild, CA, latrine vault and septic pumping, $77,200 (PoP 2024-05-01 to 2028-04-30). GDH & Mrh Ventures, Brunswick, GA, portable toilet rental and maintenance, $37,140 (5 years, 31 offers). Upraise Construction, Kodiak, AK, portable toilet services, $80,205. Mbjsmart, Wellfleet, MA, wastewater tank pumping, $99,554 (5 years). Short jobs ran $2,070\u2013$9,170. We have no internal price list rates for portable toilets, handwashing stations, or septic pumping.",
+ "must_have": [
+  "Prime bidder licensed to do business in California. California or foreign corporations must be active and in good standing with the California Secretary of State; out-of-state bidders must provide good-standing documents (bid pack, HigherGov summary, Bidder Requirements)",
+  "Current Riverside County Septic Pumper Permit (bid pack, Bidder Requirements)",
+  "Active California DMV Motor Carrier Permit (bid pack, Bidder Requirements)",
+  "Valid California Class A or B driver's license with air-brake endorsement, kept for the whole agreement (bid pack, Bidder Requirements)",
+  "Vacuum truck and/or trailer meeting gross vehicle weight and state/federal DOT certification requirements (bid pack, Work Details)",
+  "Waste hauled to a certified disposal site, with disposal records provided to the county agency and CAL FIRE (bid pack, Work Details)",
+  "On-site response within 48 hours of a service call; toilets and handwashing stations serviced twice weekly; relocations at no additional cost (bid pack, Work Details)",
+  "Insurance: CGL $1M per occurrence; workers' comp with waiver of subrogation in favor of the State; employer's liability $1M; commercial auto $1M; State named as additional insured on GL and auto (bid pack, Bidder Requirements)",
+  "Any subcontractors listed in the bid declaration and holding their own required licenses and permits (bid pack, Bidder Requirements)",
+  "Completed rate sheet: 36 months of toilet and handwashing station rental, four pickups/drop-offs, and 13,500 gallons of septic pumping (bid pack, HigherGov summary; rate sheet not in pack)",
+  "Response by 2026-12-03 through Cal eProcure event 3CA08068 (bid pack, Opportunity)"
+ ],
+ "gaps": [
+  "[CONFIRM: actual set-aside on Cal eProcure: SDVOSBC (HigherGov tag) or open competition with DVBE incentive and SB/MB preference]",
+  "[CONFIRM: whether the prime or a listed subcontractor may hold the Riverside County Septic Pumper Permit and DMV Motor Carrier Permit]",
+  "[CONFIRM: whether Temporary 123 holds California DGS SB/MB certification for the 5% preference]",
+  "[CONFIRM: a licensed Riverside County septic pumper available as a subcontractor, and their pricing]",
+  "[CONFIRM: our cost for portable toilets and handwashing stations, which are not on our price list]",
+  "[CONFIRM: response deadline time and time zone, not stated in the pack]",
+  "[CONFIRM: whether there is a mandatory site visit or pre-bid conference, not stated in the pack]",
+  "[CONFIRM: bonding requirements, not stated in the pack]",
+  "[CONFIRM: full solicitation, rate sheet, bid declaration, and any addenda, since the pack has 0 attachments]",
+  "[CONFIRM: incumbent contractor and current rates at RAAB]",
+  "[CONFIRM: that our insurance meets the $1M CGL, employer's liability, and auto limits and can name the State as additional insured]"
+ ],
+ "deadline": "2026-12-03 (time and time zone not stated in the bid pack). That is 14 days from 2026-11-19.",
+ "checked": "2026-11-19T22:18",
+ "ai": "claude-code",
+ "requested_ai": "claude-code",
+ "fallback": false
+}

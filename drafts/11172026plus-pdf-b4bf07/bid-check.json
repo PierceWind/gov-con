@@ -1,0 +1,40 @@
+{
+ "verdict": "No bid",
+ "score": 5,
+ "one_line": "This is not a solicitation: it is a City Commission agenda item approving a permit for the City's own one-evening Christmas Cinema event, with no stated scope, vendor request, or response process.",
+ "scope": "The City of Lake Wales Recreation Department is seeking a special event permit and closure of Cypress Garden Lane to host \"Christmas Cinema with Santa\" at Oakley Park on Saturday, December 19, 2026, from 4:00 p.m. to 8:00 p.m. Setup and takedown run the same day, 2:00 p.m. to 9:00 p.m. The permit application lists Portolets, inflatables (bounce houses), food distribution and sales, on-site cooking, use of electric outlets and water spigots, and \"Handicap Parking & Restrooms\" as the ADA plan. It does not ask for any outside vendor, quantity, or equipment rental.",
+ "fit": [
+  "Restroom/shower trailers, ADA units on request, and a Handwashing Sink Trailer are in our fleet and price list. The permit application lists portable toilets and handicap restrooms.",
+  "Florida experience: USCG Station Lake Worth Inlet, Riviera Beach, FL (70Z02826FMIAM0008, May\u2013Jul 2026, $78,500), plus Denver restroom-trailer service for shelter operations.",
+  "No set-aside is stated, so our SBE/MBE status is no barrier. Our work area is nationwide."
+ ],
+ "red_flags": [
+  "The document type is 'Agendas / Minutes'. It is a City Commission consent item (7.VI) approving an event permit, not an RFQ, RFP, ITB, or sources sought. The bid pack itself says 'the source does not explicitly request an outside vendor.'",
+  "There is no NAICS, PSC, estimated value, contact, scope, quantity, or submission process. The staff memo lists Fiscal Impact as 'Unknown.'",
+  "The HigherGov 'response deadline' of 2026-12-19 is the event date, not a stated proposal deadline.",
+  "The job is a single 4-hour evening event, with a 7-hour setup-to-takedown window. Mobilization and demobilization from our depots would likely cost more than any rental value. Our price list has no bracket shorter than '1-6 Days' and does not state a billing basis.",
+  "The application lists 'Portolets' (portable toilets), a commodity product, not the restroom or kitchen trailers we specialize in.",
+  "A local vendor already serves Lake Wales events: the Mardi Gras sponsor's letter says 'Rhodes will be delivering the sanitary facilities' to Lake Wailes Park and along the parade route.",
+  "The event is 30 days away, which leaves little time to get registered as a City vendor and complete any informal purchase."
+ ],
+ "competition": "No incumbent, past winner, or offers are stated for this event. For a related Lake Wales event (2027 Mardi Gras, a sponsor-run permit, not a City purchase), the sponsor's letter names Rhodes for sanitary facilities, Republic Service for dumpsters, and Premier Parties for tents, tables, and chairs. This suggests established local event suppliers.",
+ "price_signal": "There are no comparable awards. Past awards by this agency under this NAICS: none found. Award benchmarks for this NAICS/PSC: none found. The only nearby figure is unrelated: a $40,000 City sponsorship payment to Blossom Charitable Foundation for Orange Blossom Revue infrastructure (power, fencing, stage). For reference only, our price list prints the 13ft Luxury Shower-Restroom Combination Trailer (3 Stalls) at $2,995 and the Handwashing Sink Trailer at $2,995 in the '1-6 Days' column. The billing basis and the tier that applies are unconfirmed, and the ADA combination-trailer rows are blank.",
+ "must_have": [
+  "No submission items or vendor requirements are stated anywhere in the bid pack.",
+  "Special Event Application (bid pack, Christmas Cinema application): liability insurance naming the City of Lake Wales as additional insured, with proof submitted a week before the event. This applies to the permittee, which here is the City itself, not to a vendor. Any vendor insurance requirement is [CONFIRM: vendor insurance terms, if the City buys rentals].",
+  "Special Event Application: an ADA accessibility plan of 'Handicap Parking & Restrooms.' Whether the City expects a vendor to provide ADA restroom units is [CONFIRM: ADA restroom need and source]."
+ ],
+ "gaps": [
+  "[CONFIRM: whether the City will buy or rent restrooms or other equipment for this event at all, or already owns or contracts them]. Contact on the application: Shay Irvis, City of Lake Wales Recreation, 1001 Burns Avenue, (863) 678-4192, tirvis@lakewalesfl.gov.",
+  "[CONFIRM: unit types and counts (standard portolets vs. ADA restroom trailer vs. handwash station)].",
+  "[CONFIRM: City purchasing method and threshold for small one-day rentals, and vendor registration requirements].",
+  "[CONFIRM: nearest depot and mobilization cost to Lake Wales, FL, and whether a same-day 2:00\u20139:00 p.m. delivery and pickup is feasible].",
+  "[CONFIRM: approved price and billing basis for a one-evening rental; the price list is silent on both].",
+  "[CONFIRM: which company email to use on any outreach (sales@temporarykitchens123.com vs. contract@temporary123.com)]."
+ ],
+ "deadline": "None stated. The HigherGov listing shows a \"response deadline\" of 2026-12-19 with no time or time zone, but that date matches the event date (Saturday, December 19, 2026, 4:00\u20138:00 p.m. event; 2:00\u20139:00 p.m. setup and takedown). It is not a proposal due date.",
+ "checked": "2026-11-19T22:20",
+ "ai": "claude-code",
+ "requested_ai": "claude-code",
+ "fallback": false
+}

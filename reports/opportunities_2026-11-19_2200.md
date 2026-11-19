@@ -1,0 +1,25 @@
+# New opportunities 2026-11-19 (scanned 12623 captured 2026-11-17..2026-11-19)
+
+## Match >=100% (2)
+
+| Match % | Source | Title | Solicitation # | Agency | NAICS | PSC | Set-aside | Type | Posted | Response Deadline | Place of Performance | Link | HigherGov | Contact |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| 135 | HigherGov | Portable Toilet, Handwashing Stations and Septic Tank Pumping Services | 3CA08068 | California Department of Forestry and Fire Protection | 562991 | S299 | SDVOSBC | Solicitation | 2026-11-17 | 2026-12-03 | Hemet, CA | https://caleprocure.ca.gov/event/3540/3CA08068 | https://www.highergov.com/sl/contract-opportunity/ca-portable-toilet-handwashing-stations-an-76899104 | susan.pasarow@fire.ca.gov |
+| 135 | HigherGov | Portable Toilet & Hand-Washing Station Rentals | 2127-RFP | City of Rock Hill | 562991 | S201 | NONE | Solicitation | 2026-11-18 | 2026-12-09 | Rock Hill, SC | https://procurement.opengov.com/portal/cityofrockhill/projects/312155 | https://www.highergov.com/sl/contract-opportunity/sc-portable-toilet-hand-washing-station-r-76959669 | sarah.kesler@cityofrockhill.com |
+
+## Match >=50% (3)
+
+| Match % | Source | Title | Solicitation # | Agency | NAICS | PSC | Set-aside | Type | Posted | Response Deadline | Place of Performance | Link | HigherGov | Contact |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| 75 | HigherGov | MOUNT BAKER AND DARRINGTON RANGER DISTRICTS MARBLEMOUNT/SAUK BOAT LAUNCH RENTAL TOILETS | 1240BD27Q0017 | USFS Region 6: Pacific Northwest Region | 562991 | S222 | SBA | Synopsis Solicitation | 2026-11-17 | 2026-12-02 | Darrington, WA | https://sam.gov/opp/eb0e0b1601f941b2a5c86753c69c017f/view | https://www.highergov.com/contract-opportunity/mount-baker-and-darrington-ranger-districts-marble-1240bd27q0017-k-c017f | jorge.somoza@usda.gov |
+| 75 | HigherGov | Rental, installation, and maintenance of Two (2) 500 kVA Standby Diesel Generators with Automatic Transfer Switches (ATS) | 19KU2027Q0005 | U.S. Embassy In Kuwait | 532490 | W061 |  | Solicitation | 2026-11-18 | 2026-12-08 | Kuwait City | https://sam.gov/opp/0d0fe2a5d7c6432fb87e0295e3500edf/view | https://www.highergov.com/contract-opportunity/rental-installation-and-maintenance-of-two-2-5-19ku2027q0005-o-00edf | kuwait_solicitation@state.gov |
+| 50 | HigherGov | RFP No. CC26002- Commencement Equipment Rental | 0000040972 | Fullerton CSU | 532310 | W099 | NONE | Solicitation | 2026-11-17 | 2027-01-04 | Fullerton, CA | https://caleprocure.ca.gov/event/6710/0000040972 | https://www.highergov.com/sl/contract-opportunity/ca-rfp-no-cc26002-commencement-equipment-76900463 | clcortes@fullerton.edu |
+
+## Match >=25% (1)
+
+| Match % | Source | Title | Solicitation # | Agency | NAICS | PSC | Set-aside | Type | Posted | Response Deadline | Place of Performance | Link | HigherGov | Contact |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| 25 | HigherGov | Christmas Cinema Event Equipment and Recreation Support | 11172026plus-pdf-b4bf07 | City of Lake Wales |  |  |  | Agendas / Minutes | 2026-11-17 | 2026-12-19 | FL | https://www.highergov.com/sl/contract-forecast/41cb176cf10b50c2bf9a4c71fa44e41f | https://www.highergov.com/sl/contract-forecast/41cb176cf10b50c2bf9a4c71fa44e41f |  |
+
+## Match >0% (0)
+

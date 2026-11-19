@@ -1,0 +1,52 @@
+{
+ "verdict": "Maybe",
+ "score": 30,
+ "one_line": "There is no set-aside, and our municipal restroom-trailer work (Denver) is relevant, but this is a local, as-needed contract for portable toilets and hand-washing stations that falls outside our NAICS/PSC codes, our price list and our California base, so bid only if the full RFP accepts trailer units or we can line up a local service partner in South Carolina.",
+ "scope": "The City of Rock Hill, SC wants companies to rent it portable toilets and hand-washing stations as needed for events at various City locations, and also on a semi-permanent basis. The bid pack gives no unit counts, event schedule, servicing frequency or contract term.",
+ "fit": [
+  "Set-aside is NONE, so as a small business (SBE/MBE) we can bid as prime.",
+  "Our core competencies include portable sanitation (Facility Support & Utilities) and restrooms (Mobile Infrastructure & Equipment Rentals).",
+  "Municipal past performance: City and County of Denver, SC-00011558 (Aug 2026 \u2013 ongoing). We provide climate-controlled portable restroom trailers with cleaning, pump-outs, waste disposal, supplies, maintenance and demobilization for up to 500 people.",
+  "USCG Station Lake Worth Inlet (70Z02826FMIAM0008, $78,500): restroom/shower trailers with water and wastewater support.",
+  "U.S. Navy, Oregon (sub to Vigor Marine Group): restroom trailers, plus a kitchen trailer with handwashing sinks.",
+  "Our price list includes a Handwashing Sink Trailer and 3-, 6- and 8-stall Luxury Shower-Restroom Combination Trailers, which could be offered for higher-end events if the RFP allows it.",
+  "We already run weekly servicing (potable water resupply, RCRA-compliant gray/black water removal, sanitizing, consumables) and a 24/7 emergency line.",
+  "Our stated work area is nationwide."
+ ],
+ "red_flags": [
+  "NAICS 562991 and PSC S201 are not among our codes (our NAICS are 721310, 532490, 722310, 624230, 624221, 561210, 423740; our PSC are W023, W099, W045).",
+  "The core item is standard portable toilets and stand-alone hand-washing stations. Neither appears on our price list or in our fleet list, which covers trailers and restroom facilities.",
+  "As-needed event rentals at many City locations need a nearby yard and fast turnaround. We are based in Marina del Rey, CA, and the profile does not name a depot in South Carolina.",
+  "Semi-permanent units need frequent pump-outs. Doing that from far away, or through a subcontractor, cuts margin on a low-cost commodity service.",
+  "Similar portable toilet and handwash awards drew heavy competition: 16 offers at Porterville, CA and 12 at Naval Station Mayport, FL.",
+  "The bid pack has 0 attachments. We have not seen the RFP, the pricing form, the evaluation criteria, or any insurance, bonding or license terms.",
+  "The deadline is in 20 days (2026-12-09), and the time and time zone are not stated."
+ ],
+ "competition": "The incumbent is not identified. The bid pack lists no past awards by the City of Rock Hill under NAICS 562991. Across all agencies, the 25 benchmark awards drew 1 to 16 offers. The closest matches drew many: Porterville portable toilet and handwashing service (AAA Quality Services, 16 offers) and Naval Station Mayport portable toilets and handwash stations (Ecology Mir Group, 12 offers). Expect strong bidding from local portable toilet companies with nearby yards.",
+ "price_signal": "The City estimates $25,000\u2013$180,000. Closest benchmarks: Porterville, CA portable toilet and handwashing service, $21,497 (2024\u20132028); Ravenna, OH, 3 portable latrines and 1 HW station, $17,000 (Nov 2023 \u2013 Sep 2024); Merced, CA recreation area toilet rental and cleaning, $52,125 (2024\u20132027); Naval Station Mayport, FL portable toilets and handwash stations, $131,200 (2022\u20132026). Most of the other benchmarks are vault pumping or septic work and are not comparable. Our price list has no portable toilet or stand-alone hand-washing station rates. The nearest items are the Handwashing Sink Trailer ($2,995 / $3,995 / $3,995 / $2,995) and the 13ft 3-stall Luxury Shower-Restroom Combination Trailer ($2,995 / $2,995 / $3,995 / $2,495\u20133,995). The price list does not state a billing basis for these figures. [CONFIRM: portable toilet and hand-wash station unit rates and service rates]",
+ "must_have": [
+  "Submit a proposal through the City's OpenGov portal (https://procurement.opengov.com/portal/cityofrockhill/projects/312155) by the response deadline of 2026-12-09. Source: bid pack.",
+  "Contact for questions: Sarah Kesler, sarah.kesler@cityofrockhill.com, 803-242-4817. Source: bid pack.",
+  "Provide portable toilet and hand-washing station rentals as needed for events at various City locations, and on a semi-permanent basis. Source: bid pack description.",
+  "[CONFIRM: all other submission items, forms, pricing sheet, insurance, bonding and licensing. The bid pack has no RFP attachments.]"
+ ],
+ "gaps": [
+  "Download and review the full RFP 2127-RFP and any addenda from OpenGov. The bid pack has 0 attachments.",
+  "[CONFIRM: due time and time zone on 2026-12-09, and the question/Q&A deadline]",
+  "[CONFIRM: whether there is a mandatory pre-proposal meeting or site visit]",
+  "[CONFIRM: quantities of portable toilets and hand-washing stations, ADA units, event calendar, delivery locations, and required response or turnaround times]",
+  "[CONFIRM: servicing frequency for semi-permanent units, and pump-out and waste disposal requirements]",
+  "[CONFIRM: whether restroom trailers or handwashing sink trailers are acceptable or can be offered as alternates or optional line items]",
+  "[CONFIRM: whether Temporary 123 owns standard portable toilets and stand-alone hand-washing stations, and how many]",
+  "[CONFIRM: a South Carolina-area depot or a local portable toilet service subcontractor, and that subcontracting is allowed]",
+  "[CONFIRM: City of Rock Hill / South Carolina business license, insurance limits, and any bid, performance or payment bond]",
+  "[CONFIRM: contract term, renewal options, and pricing format (per unit per event, monthly, per service)]",
+  "[CONFIRM: any local-vendor preference in the evaluation criteria]",
+  "[CONFIRM: which proposal email to use, sales@temporarykitchens123.com or contract@temporary123.com]"
+ ],
+ "deadline": "2026-12-09. The bid pack does not give a time or time zone. [CONFIRM: time and time zone in the RFP on OpenGov]",
+ "checked": "2026-11-19T22:20",
+ "ai": "claude-code",
+ "requested_ai": "claude-code",
+ "fallback": false
+}

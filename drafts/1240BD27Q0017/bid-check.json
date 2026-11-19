@@ -1,0 +1,58 @@
+{
+ "verdict": "No bid",
+ "score": 14,
+ "one_line": "This is a small, route-based pump-out contract for three ADA portable toilets at two rural Washington boat launches. It is outside our NAICS/PSC and fleet, needs a local vacuum truck every week year-round, has a cheap local incumbent, and may be a WOSB set-aside that we cannot bid.",
+ "scope": "The Mt. Baker-Snoqualmie National Forest (USFS) wants ADA-accessible portable toilets delivered, installed, and serviced weekly. That means one year-round at Sauk Boat Launch (7 miles from Darrington, WA, on SR-530), one year-round at Marblemount Boat Launch (5872 Cascade River Rd, Marblemount, WA 98267), and a second Marblemount unit from June through September. Weekly service covers pumping out the tank/vault, adding blue liquid, spraying down and sanitizing the interior, removing trash, restocking toilet paper and hand sanitizer, and disposing of waste off National Forest System land. It is a firm-fixed-price contract with one base year (01/01/2027\u201312/31/2027) and four option years through 12/31/2031.",
+ "fit": [
+  "Our core competencies include 'Facility Support & Utilities ... waste removal ... and portable sanitation,' and the fleet includes restroom facilities.",
+  "Relevant service experience: City and County of Denver SC-00011558 (climate-controlled restroom trailers with cleaning, pump-outs, waste disposal, supplies, and maintenance) and USCG 70Z02826FMIAM0008 (restroom/shower trailers with wastewater support).",
+  "Our operations include weekly servicing with gray/black water removal, sanitizing, and consumables restock.",
+  "SAM is active (UEI REVFD44JLMV5), which the solicitation requires.",
+  "The Total Small Business set-aside named in the description and in FAR 52.219-6 would be open to us if we are small under the $9.0M size standard."
+ ],
+ "red_flags": [
+  "The set-aside is unclear. The description, HigherGov, and FAR 52.219-6 say 'Total Small Business Set-Aside.' But SF-1449 Block 10 reads '100.00% FOR: WOMEN-OWNED SMALL BUSINESS (WOSB),' and the attachment summary calls it a 100% WOSB set-aside. We have no WOSB certification. If WOSB controls, we are ineligible.",
+  "NAICS 562991 (Septic Tank and Related Services) and PSC S222 are not in our NAICS list (721310, 532490, 722310, 624230, 624221, 561210, 423740, possibly 532120) or our PSCs (W023, W099, W045).",
+  "Equipment mismatch: the job calls for single ADA portable toilets with weekly pump-out. Our fleet and price list show restroom trailers and shower-restroom combo trailers, not portable toilets or pump trucks. Our lowest restroom line, the 13ft 3-stall combo trailer, starts at $2,995 for 1\u20136 days.",
+  "Logistics: weekly service at two remote sites about 40+ miles apart (Marblemount is 40 miles east of Sedro-Woolley on SR-20), year-round, including winter. Nothing in our documents shows a depot or crew in Washington. We are based in Marina del Rey, CA.",
+  "Using a local pumper would raise Limitations on Subcontracting (FAR 52.219-14 appears in the clause list) and nonmanufacturer issues. Whether that clause is checked can't be read in the OCR'd text.",
+  "The value is very low. The incumbent's prior 5-year contract, which also covered Backman Park, was $33,791. Our margin would not cover mobilization from out of state.",
+  "Service Contract Labor Standards apply (WD 2015-5535 Snohomish, WD 2015-5531 Skagit). The price adjustment clause 52.222-43 applies.",
+  "Past performance requires the last 4 contracts similar in scope. We have about 2 that fit well (Denver, USCG). The others are basecamp, housing, or kitchen work.",
+  "The deadline is tight: 13 days, including Thanksgiving week. Technical questions close 11/25/2026."
+ ],
+ "competition": "The incumbent is Ecology Mir Group (Sedro Woolley, WA), contract 1240BD22C0005. It was $33,791 for PoP 01/06/2022\u201312/31/2026, covered Backman Park and the Marblemount/Sauk boat launches, drew 6 offers, and was a Total Small Business set-aside. The incumbent is local and near Marblemount. Other recent USFS Washington pumping awards went to local firms: Echelon Logistic ($56,675, Snoqualmie NF, 1 offer; $33,000, MSHNVM, 1 offer) and Lunar Holdings ($40,000, Cle Elum RD). Comparable portable toilet buys drew many offers: Pierre Contracting Group, Seattle VA, 19 offers; Access Portable Toilets, SC, 31 offers.",
+ "price_signal": "The government estimates $45,000\u2013$95,000 over the 5 years. The incumbent's 5-year contract, which included an extra site (Backman Park), was only $33,791, about $6,758/year. This year's requirement is 28 unit-months per year (12 + 12 + 4), which works out to roughly $240 or less per unit-month at the incumbent's level. Agency comparables: Pierre Contracting Group $15,910/yr (Seattle VA portable toilet cleaning), BIG Valley Sanitation $65,762 over 5 years (portable toilets + handwash, Redding, CA), A-Affordable Royal Flush $1,040 (portable toilet rental, OR). Our price list has no portable toilet line. Our restroom trailer rates ($2,995+ per period) are an order of magnitude above this market.",
+ "must_have": [
+  "Email the quote to jorge.somoza@usda.gov only, as one PDF attachment, in evaluation-factor order (SF-1449, Schedule of Items, Experience/Past Performance). Source: Price section; FAR 52.212-1 addendum.",
+  "SF-1449: complete Blocks 17a (with telephone, email, and UEID), 30a, 30b, and 30c. The provided SF-1449 must be used. Source: Quotation Package Requirements (i).",
+  "Acknowledge and submit all SF-30 amendments, if any. None are in the bid pack. Source: Quotation Package Requirements (i).",
+  "Complete the provided Schedule of Items for all CLINs, base plus 4 option years (0001\u20130003 through 4001\u20134003): monthly cost \u00d7 months = total, plus TOTAL ALL. Do not use our own format. Math errors or omissions mean exclusion. Source: Schedule of Items; Notes #1\u2013#2.",
+  "Past performance: the last 4 contracts similar in scope, on the Past and Current Contract Information form (customer, contract no., description, address, value, completion date or % complete, primary/secondary contacts). Source: Past Performance section; attachment 5.",
+  "Active SAM registration at submission. Source: Price section item 1; FAR 52.204-7.",
+  "Prices held firm for 90 calendar days. Source: FAR 52.212-1 addendum.",
+  "SCA wages per WD 2015-5535 (Snohomish) and WD 2015-5531 (Skagit); EO 13706 paid sick leave. Source: FAR 52.222-41/-42/-43; attachments 3\u20134.",
+  "Weekly service Monday\u2013Friday 0800\u20131700 PST. Weekend or holiday work needs CO/COR pre-approval. Source: SOW Work Schedule.",
+  "Waste disposal off National Forest System land, per federal, state, and local law. Source: SOW Offsite Disposal.",
+  "Repair any contractor-caused damage at our expense. COR inspection before acceptance. Source: SOW Resource Damage.",
+  "FOB destination. Source: SF-1449 Block 11; FAR 52.247-34.",
+  "No mandatory site visit, bonding, or specific license is stated in the solicitation."
+ ],
+ "gaps": [
+  "[CONFIRM: set-aside type] Total Small Business (description, FAR 52.219-6) or 100% WOSB (SF-1449 Block 10)? Ask CO Jorge Somoza before 11/25/2026.",
+  "[CONFIRM: our size under NAICS 562991 $9.0M standard]",
+  "[CONFIRM: whether we own or can source ADA-accessible portable toilets, not trailers, and a vacuum pump truck in the Darrington/Marblemount area]",
+  "[CONFIRM: local pumping subcontractor and Limitations on Subcontracting compliance; whether FAR 52.219-14 is checked]",
+  "[CONFIRM: Washington State/county septic pumper or waste-hauler licensing and a permitted disposal facility]",
+  "[CONFIRM: winter road access and service feasibility at both sites, January\u2013March]",
+  "[CONFIRM: 4 similar past contracts; only Denver SC-00011558 and USCG 70Z02826FMIAM0008 clearly fit]",
+  "[CONFIRM: Denver contract value, printed as '~$100,00.00']",
+  "[CONFIRM: proposal email, sales@temporarykitchens123.com vs contract@temporary123.com]",
+  "[CONFIRM: unit price per unit-month; no portable toilet rate exists in our price list]"
+ ],
+ "deadline": "December 2, 2026, 2:00 PM PT (SF-1449 Block 8: 12/02/2026 1400 PT). Late quotes are not accepted. Technical questions are due to Ashley Ross (ashley.ross@usda.gov) by November 25, 2026, 12:00 PM PT.",
+ "checked": "2026-11-19T22:19",
+ "ai": "claude-code",
+ "requested_ai": "claude-code",
+ "fallback": false
+}

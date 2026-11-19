@@ -1,0 +1,53 @@
+{
+ "verdict": "No bid",
+ "score": 15,
+ "one_line": "This is a single-provider event rental contract (steel shade structures, tents, about 10,000 chairs, fencing, barricades, staging), and portable restrooms, the only part that matches what we do, are a small share of the scope.",
+ "scope": "Cal State Fullerton wants one rental equipment firm to plan, manage, coordinate, and oversee all rental equipment operations for its annual Commencement ceremonies, including all labor, materials, set-up, and take-down. The equipment list covers four large steel shade structures with lighting, fans, and power cables; a stage dressing package; 1,008 ft of chain-link fence plus 385 bike-rack barricades; 10,000 white Samsonite chairs; dozens of canopies, tables, drapes, umbrellas, and banners; and 25 wheelchairs. It also covers 52 regular and 24 ADA portable restrooms and 24 hand-wash stations, with restroom attendants at each ceremony and daily pumping and cleaning.",
+ "fit": [
+  "Place of performance is Fullerton, CA, in the same Southern California region as our Marina del Rey headquarters.",
+  "No set-aside (Set-aside: NONE), so our SBE/MBE status does not keep us out.",
+  "PSC W099 is one of our listed PSC codes.",
+  "Portable sanitation is one of our core competencies (Facility Support & Utilities). We have restroom servicing experience: the Denver contract SC-00011558 includes cleaning, pump-outs, waste disposal, and supplies for shelter populations of up to 500 people.",
+  "Our operations already include servicing, a dedicated service coordinator, and uniformed staff. These map to the 'restroom attendant services' and 'daily pumping and cleaning' requirements."
+ ],
+ "red_flags": [
+  "Most of the scope is outside our core competencies and fleet: steel shade structures (30 m x 70 m x 4 m and 50 m x 50 m x 4 m) with LED high-bay lighting, fans, beam clamps, and 180A power cables, plus tents/canopies, 10,000+ chairs, chain-link fencing, bike-rack barricades, pipe-and-drape, podiums, linens, and wheelchairs.",
+  "The University will 'select a single service provider' for all rental operations, so we cannot bid only the restroom portion as prime.",
+  "NAICS 532310 is not one of our NAICS codes (we list 532490, among others).",
+  "Our price list has no pricing for portable restrooms, hand-wash stations, tents, chairs, fencing, or shade structures. It covers only trailers and containers, so we have no basis to price this work.",
+  "The bid pack has 0 attachments. We have not seen the RFP package, the Schedule of Events, or the evaluation criteria.",
+  "The notice says the 'End Date is not the RFP Due Date', so the 2027-01-04 date may not be the real proposal deadline.",
+  "To prime, we would have to subcontract most of the value to an event rental firm. That weakens price and control, and whether the RFP allows it is unknown.",
+  "Our past performance is all temporary housing, sanitation, and basecamp work, with no commencement or large-event rentals."
+ ],
+ "competition": "Incumbent: unknown. No past awards by this agency under NAICS 532310. Nationally, the NAICS 532310 + PSC W099 benchmarks were won mostly by event and equipment rental firms, including Party Palace Rentals, Peachtree Tents And Events, Accel Events, Staging Dimensions, Kmmd Consulting Group, Sunbelt Rentals, Herc Rentals, and Arcus Group (fencing). The portable latrine awards went to Cumberland Septic Services, Iris Enterprise Solutions, and Wabash Consultants. Offers per award ran from 1 to 9. Expect established Southern California tent and event rental companies to compete.",
+ "price_signal": "HigherGov estimates this contract at $350,000 to $1,200,000. The term and number of years are not stated. No past awards by this agency to compare against. Most benchmarks are small federal one-off event rentals: change-of-command tent, chair, and stage rentals ran $4,744 to $32,500, and a bike-rack barricade job (8,000 linear ft) went for $24,600. Portable latrine and hand-wash jobs ran $4,013 to $14,637 (one listed at $0). The largest comparable is Arcus Group's fencing and protective barrier lease at $370,782. None of these match a full commencement package of this size, and our price list cannot price this scope.",
+ "must_have": [
+  "Submit through Cal eProcure event 0000040972 (bid pack, Source: caleprocure.ca.gov/event/6710/0000040972).",
+  "Follow the Schedule of Events in the RFP package for the actual due date (bid pack description: 'End Date is not the RFP Due Date').",
+  "Act as the single service provider that plans, manages, coordinates, and oversees all rental equipment operations for Commencement (bid pack description).",
+  "Include all set-up and take-down costs (bid pack description).",
+  "Provide restroom attendant services for each ceremony (bid pack description).",
+  "Provide daily pumping and cleaning of portable restroom facilities, with supplies (bid pack description and summary).",
+  "Provide on-site event support (bid pack description).",
+  "Supply the full equipment list in the bid pack summary: shade structures and electrical, perimeter fencing and barricades, 1,000 graduate and 9,000 guest chairs, canopies, tables, drapes, banners, 52 regular and 24 ADA portable restrooms, 24 hand-wash stations, and 25 wheelchairs (bid pack HigherGov summary)."
+ ],
+ "gaps": [
+  "[CONFIRM: full RFP package and Schedule of Events; none are in the bid pack (0 attachments)]",
+  "[CONFIRM: actual proposal due date, time, and time zone]",
+  "[CONFIRM: ceremony dates, number of ceremonies, and contract term/option years]",
+  "[CONFIRM: any pre-proposal conference or mandatory site visit]",
+  "[CONFIRM: bonding and insurance requirements]",
+  "[CONFIRM: any license required for erecting steel shade structures and electrical work]",
+  "[CONFIRM: whether subcontracting is allowed and any limits on it]",
+  "[CONFIRM: whether we own portable restrooms and hand-wash stations (not trailers), and how many; our fleet and price list show restroom trailers only]",
+  "[CONFIRM: our pricing for portable restrooms, hand-wash stations, and attendant service; not on the price list]",
+  "[CONFIRM: whether local event rental primes would take us on as restroom subcontractor]",
+  "[CONFIRM: which proposal email to use, sales@temporarykitchens123.com or contract@temporary123.com]"
+ ],
+ "deadline": "2027-01-04 per HigherGov, with no time or time zone stated. The notice warns the End Date is not the RFP due date, so check the Schedule of Events in the RFP package for the actual due date.",
+ "checked": "2026-11-19T22:20",
+ "ai": "claude-code",
+ "requested_ai": "claude-code",
+ "fallback": false
+}

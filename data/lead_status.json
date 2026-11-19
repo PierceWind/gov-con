@@ -270,10 +270,15 @@
     "status": "New",
     "at": "2026-11-18T00:31",
     "auto": false
+   },
+   {
+    "status": "No bid",
+    "at": "2026-11-19T21:59",
+    "auto": false
    }
   ],
-  "status": "New",
-  "updated": "2026-11-18T00:31"
+  "status": "No bid",
+  "updated": "2026-11-19T21:59"
  },
  "4719931a15f153f3b9159c4e69f07759": {
   "history": [
@@ -1616,5 +1621,16 @@
   ],
   "status": "New",
   "updated": "2026-11-18T00:31"
+ },
+ "e9a5801d44745765a9a84c401771f57b": {
+  "history": [
+   {
+    "status": "Sent",
+    "at": "2026-11-19T22:33",
+    "auto": true
+   }
+  ],
+  "status": "Sent",
+  "updated": "2026-11-19T22:33"
  }
 }
